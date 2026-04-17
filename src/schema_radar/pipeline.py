@@ -12,7 +12,7 @@ from .audit import audit_lead
 from .dashboard import render_dashboard
 from .fetch import fetch_source, get_session
 from .matcher import match_offer
-from .models import Lead, RawItem
+from .models import Lead
 from .sales import build_sales_fields
 from .scoring import score_item
 from .utils import slug_id, utc_now_iso
@@ -41,6 +41,8 @@ class SchemaRadarPipeline:
     def run(self) -> dict[str, Any]:
         self.out_dir.mkdir(parents=True, exist_ok=True)
         self.docs_dir.mkdir(parents=True, exist_ok=True)
+
+        existing_queue = self._load_existing_queue(self.out_dir / 'sales_queue.json')
         leads: list[Lead] = []
         discovered_at = utc_now_iso()
 
@@ -49,10 +51,12 @@ class SchemaRadarPipeline:
                 raw_items = fetch_source(source, self.session)
             except Exception:
                 continue
+
             for item in raw_items:
                 scored = score_item(item, self.keyword_config)
                 if not scored:
                     continue
+
                 lead = Lead(
                     item_id=slug_id(item.source_id, item.url, item.title),
                     source=item.source_name,
@@ -71,27 +75,49 @@ class SchemaRadarPipeline:
                     issue_types=scored['issue_types'],
                     intent_flags=scored['intent_flags'],
                 )
+
                 lead.offer_fit, lead.offer_reason = match_offer(lead, self.offer_config)
+
                 if self.audit_sites:
                     lead.audit = audit_lead(lead.title, lead.summary, self.audit_session)
                     lead.business_site = lead.audit.get('business_site')
+
                 sales_fields = build_sales_fields(lead, self.offer_config)
                 for key, value in sales_fields.items():
                     setattr(lead, key, value)
+
+                existing = existing_queue.get(lead.item_id)
+                if existing:
+                    lead.status = existing.status or lead.status
+                    lead.contact_method = existing.contact_method or lead.contact_method
+                    lead.contact_target = existing.contact_target or lead.contact_target
+                    lead.sent_at = existing.sent_at
+                    if existing.subject_draft:
+                        lead.subject_draft = existing.subject_draft
+                    if existing.message_draft:
+                        lead.message_draft = existing.message_draft
+                    if existing.follow_up_draft:
+                        lead.follow_up_draft = existing.follow_up_draft
+
                 leads.append(lead)
 
-        # Deduplicate by item id, keep highest score.
         deduped: dict[str, Lead] = {}
         for lead in leads:
             current = deduped.get(lead.item_id)
             if current is None or lead.score > current.score:
                 deduped[lead.item_id] = lead
-        leads = sorted(deduped.values(), key=lambda x: (-{'hot': 3, 'warm': 2, 'watch': 1}[x.stage], -x.score, x.title.lower()))
+
+        leads = sorted(
+            deduped.values(),
+            key=lambda x: (-{'hot': 3, 'warm': 2, 'watch': 1}[x.stage], -x.score, x.title.lower())
+        )
 
         summary = self._build_summary(leads, discovered_at)
-        self._write_json(self.out_dir / 'leads.json', [lead.to_dict() for lead in leads])
+        payload = [lead.to_dict() for lead in leads]
+
+        self._write_json(self.out_dir / 'leads.json', payload)
         self._write_csv(self.out_dir / 'leads.csv', leads)
-        self._write_json(self.out_dir / 'sales_queue.json', [lead.to_dict() for lead in leads])
+        self._write_json(self.out_dir / 'sales_queue.json', payload)
         self._write_csv(self.out_dir / 'sales_queue.csv', leads)
         self._write_json(self.out_dir / 'summary.json', summary)
         render_dashboard(leads, summary, self.docs_dir / 'index.html')
@@ -101,13 +127,43 @@ class SchemaRadarPipeline:
         by_stage = Counter(lead.stage for lead in leads)
         by_offer = Counter(lead.offer_fit for lead in leads)
         by_source = Counter(lead.source for lead in leads)
+        by_status = Counter(lead.status for lead in leads)
         return {
             'generated_at': generated_at,
             'total': len(leads),
             'by_stage': dict(by_stage),
             'by_offer': dict(by_offer),
             'by_source': dict(by_source),
+            'by_status': dict(by_status),
         }
+
+    @staticmethod
+    def _load_existing_queue(path: Path) -> dict[str, Lead]:
+        if not path.exists():
+            return {}
+
+        try:
+            raw = json.loads(path.read_text(encoding='utf-8'))
+        except Exception:
+            return {}
+
+        if not isinstance(raw, list):
+            return {}
+
+        leads: dict[str, Lead] = {}
+        valid_fields = set(Lead.__dataclass_fields__.keys())
+
+        for item in raw:
+            if not isinstance(item, dict):
+                continue
+            filtered = {k: v for k, v in item.items() if k in valid_fields}
+            try:
+                lead = Lead(**filtered)
+            except Exception:
+                continue
+            leads[lead.item_id] = lead
+
+        return leads
 
     @staticmethod
     def _write_json(path: Path, data: Any) -> None:
@@ -117,13 +173,16 @@ class SchemaRadarPipeline:
     def _write_csv(path: Path, leads: list[Lead]) -> None:
         if not leads:
             headers = [
-                'item_id', 'source', 'source_id', 'source_type', 'title', 'source_item_url', 'stage', 'score',
-                'offer_fit', 'offer_reason', 'sales_route', 'cta_label', 'cta_destination', 'business_site',
+                'item_id', 'source', 'source_id', 'source_type', 'title', 'source_item_url',
+                'stage', 'score', 'offer_fit', 'offer_reason', 'sales_route', 'cta_label',
+                'cta_destination', 'business_site', 'status', 'contact_method',
+                'contact_target', 'sent_at',
             ]
             with path.open('w', encoding='utf-8', newline='') as handle:
                 writer = csv.DictWriter(handle, fieldnames=headers)
                 writer.writeheader()
             return
+
         with path.open('w', encoding='utf-8', newline='') as handle:
             writer = csv.DictWriter(handle, fieldnames=list(leads[0].to_dict().keys()))
             writer.writeheader()
