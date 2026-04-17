@@ -61,7 +61,7 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
 
         if lead.cta_destination:
             cta_html = (
-                f"<a href='{html.escape(lead.cta_destination)}'>"
+              f"<a href='{html.escape(lead.cta_destination)}' target='_blank' rel='noopener noreferrer'>"
                 f"{html.escape(lead.cta_label or 'Open')}</a>"
             )
         else:
