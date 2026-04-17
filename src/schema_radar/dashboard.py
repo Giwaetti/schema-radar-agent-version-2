@@ -32,35 +32,79 @@ a { color:#7fc1ff; }
 
 def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path) -> None:
     leads = list(leads)
-    rows = []
+    rows: list[str] = []
+
     for lead in leads:
         badge_class = html.escape(lead.stage)
-        rows.append(
-            f"<tr>"
-            f"<td><a href='{html.escape(lead.source_item_url)}'>{html.escape(lead.title)}</a><div class='small'>{html.escape(lead.summary[:180])}</div></td>"
+
+        if lead.cta_destination:
+            cta_html = (
+                f"<a href='{html.escape(lead.cta_destination)}'>"
+                f"{html.escape(lead.cta_label or 'Open')}</a>"
+            )
+        else:
+            cta_html = "—"
+
+        business_site = lead.audit.get("business_site") if getattr(lead, "audit", None) else None
+        if business_site:
+            audit_html = f"<a href='{html.escape(business_site)}'>Business site</a>"
+        else:
+            audit_html = "—"
+
+        summary_text = html.escape((lead.summary or "")[:180])
+
+        row = (
+            "<tr>"
+            f"<td><a href='{html.escape(lead.source_item_url)}'>{html.escape(lead.title)}</a>"
+            f"<div class='small'>{summary_text}</div></td>"
             f"<td>{html.escape(lead.source)}</td>"
             f"<td><span class='badge {badge_class}'>{html.escape(lead.stage)} · {lead.score}</span></td>"
             f"<td>{html.escape(lead.offer_fit)}<div class='small'>{html.escape(lead.offer_reason)}</div></td>"
             f"<td>{html.escape(lead.sales_route or '—')}</td>"
-            f"<td>{('<a href=\"%s\">%s</a>' % (html.escape(lead.cta_destination), html.escape(lead.cta_label))) if lead.cta_destination else '—'}</td>"
-            f"<td>{('<a href=\"%s\">Business site</a>' % html.escape(lead.audit.get('business_site'))) if lead.audit.get('business_site') else '—'}</td>"
-            f"</tr>"
+            f"<td>{cta_html}</td>"
+            f"<td>{audit_html}</td>"
+            "</tr>"
         )
+        rows.append(row)
 
     html_doc = f"""<!doctype html>
-<html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
-<title>Schema Radar</title><style>{STYLE}</style></head><body>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Schema Radar</title>
+<style>{STYLE}</style>
+</head>
+<body>
 <div class='container'>
 <h1>Schema Radar</h1>
-<div class='sub'>Generated {html.escape(summary.get('generated_at',''))}</div>
+<div class='sub'>Generated {html.escape(summary.get('generated_at', ''))}</div>
+
 <div class='cards'>
-  <div class='card'><div class='label'>Total leads</div><div class='value'>{summary.get('total',0)}</div></div>
-  <div class='card'><div class='label'>Hot</div><div class='value'>{summary.get('by_stage',{}).get('hot',0)}</div></div>
-  <div class='card'><div class='label'>Warm</div><div class='value'>{summary.get('by_stage',{}).get('warm',0)}</div></div>
-  <div class='card'><div class='label'>Watch</div><div class='value'>{summary.get('by_stage',{}).get('watch',0)}</div></div>
+  <div class='card'><div class='label'>Total leads</div><div class='value'>{summary.get('total', 0)}</div></div>
+  <div class='card'><div class='label'>Hot</div><div class='value'>{summary.get('by_stage', {}).get('hot', 0)}</div></div>
+  <div class='card'><div class='label'>Warm</div><div class='value'>{summary.get('by_stage', {}).get('warm', 0)}</div></div>
+  <div class='card'><div class='label'>Watch</div><div class='value'>{summary.get('by_stage', {}).get('watch', 0)}</div></div>
 </div>
+
 <table>
-<thead><tr><th>Lead</th><th>Source</th><th>Stage</th><th>Offer fit</th><th>Route</th><th>CTA</th><th>Audit</th></tr></thead>
-<tbody>{''.join(rows)}</tbody></table>
-</div></body></html>"""
-    Path(out_path).write_text(html_doc, encoding='utf-8')
+<thead>
+<tr>
+  <th>Lead</th>
+  <th>Source</th>
+  <th>Stage</th>
+  <th>Offer fit</th>
+  <th>Route</th>
+  <th>CTA</th>
+  <th>Audit</th>
+</tr>
+</thead>
+<tbody>
+{''.join(rows)}
+</tbody>
+</table>
+</div>
+</body>
+</html>"""
+
+    Path(out_path).write_text(html_doc, encoding="utf-8")
