@@ -50,10 +50,10 @@
     "subject_draft": "AI Visibility Kit could help with: Missing field ‘mainEntity’ in FAQ schema",
     "message_draft": "I saw your post about 'Missing field ‘mainEntity’ in FAQ schema'. It looks like a faq schema, missing field problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
     "follow_up_draft": "Quick follow-up on Missing field ‘mainEntity’ in FAQ schema: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
-    "status": "ready",
+    "status": "contacted",
     "contact_method": "forum_reply",
     "contact_target": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
-    "sent_at": null
+    "sent_at": "2026-04-17T12:30:00+00:00"
   },
   {
     "item_id": "5a00cc0f07e487b6",
