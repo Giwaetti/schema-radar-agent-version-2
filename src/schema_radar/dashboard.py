@@ -69,7 +69,7 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
 
         business_site = lead.audit.get("business_site") if getattr(lead, "audit", None) else None
         if business_site:
-            audit_html = f"<a href='{html.escape(business_site)}'>Business site</a>"
+            audit_html = f"<a href='{html.escape(business_site)}' target='_blank' rel='noopener noreferrer'>Business site</a>"
         else:
             audit_html = "—"
 
