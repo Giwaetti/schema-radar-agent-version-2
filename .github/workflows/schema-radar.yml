@@ -25,9 +25,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run schema radar
-        run: |
-          python run.py --sources sources.yaml --keywords keywords.yaml --offers offers.yaml --out-dir data --docs-dir docs
+          - name: Run schema radar
+  env:
+    STATUS_API_URL: ${{ secrets.STATUS_API_URL }}
+    STATUS_API_SECRET: ${{ secrets.STATUS_API_SECRET }}
+  run: |
+    python run.py --sources sources.yaml --keywords keywords.yaml --offers offers.yaml --out-dir data --docs-dir docs
 
       - name: Commit dashboard + data updates
         run: |
