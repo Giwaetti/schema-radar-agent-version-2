@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-17T10:39:32+00:00",
+    "discovered_at": "2026-04-17T11:04:45+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -49,7 +49,11 @@
     "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
     "subject_draft": "AI Visibility Kit could help with: Missing field ‘mainEntity’ in FAQ schema",
     "message_draft": "I saw your post about 'Missing field ‘mainEntity’ in FAQ schema'. It looks like a faq schema, missing field problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Missing field ‘mainEntity’ in FAQ schema: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com."
+    "follow_up_draft": "Quick follow-up on Missing field ‘mainEntity’ in FAQ schema: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
+    "sent_at": null
   },
   {
     "item_id": "5a00cc0f07e487b6",
@@ -61,7 +65,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1slysin/zero_brand_llms_visibility_after_trying/",
     "summary": "I run a Woocommerce store and spent the last 8 months doing all the SEO basics including, optimized product pages, built backlinks, improved site speed, added structured data, started a blog. Google traffic is up 30% but here's the problem- when I test ChatGPT or Claude asking 'best x products' or 'top solutions for x', my brand never gets mentioned. These AI tools keep recommending the big brands while completely ignoring smaller players like mine, even though we have 4.8 star reviews and good products. It's frustrating because I know customers are now asking ai for recommendations. Anyone else seeing this gap between traditional SEO success and ai visibility? /u/Snaddyxd",
     "published_at": "2026-04-15T07:13:51+00:00",
-    "discovered_at": "2026-04-17T10:39:32+00:00",
+    "discovered_at": "2026-04-17T11:04:45+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -101,6 +105,10 @@
     "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
     "subject_draft": "AI Generator could help with: Zero brand LLMs visibility after trying everything for SEO",
     "message_draft": "I saw your post about 'Zero brand LLMs visibility after trying everything for SEO'. It looks related to woocommerce schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Zero brand LLMs visibility after trying everything for SEO: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com."
+    "follow_up_draft": "Quick follow-up on Zero brand LLMs visibility after trying everything for SEO: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1slysin/zero_brand_llms_visibility_after_trying/",
+    "sent_at": null
   }
 ]
