@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-17T11:24:11+00:00",
+    "discovered_at": "2026-04-17T11:31:26+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -65,7 +65,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1slysin/zero_brand_llms_visibility_after_trying/",
     "summary": "I run a Woocommerce store and spent the last 8 months doing all the SEO basics including, optimized product pages, built backlinks, improved site speed, added structured data, started a blog. Google traffic is up 30% but here's the problem- when I test ChatGPT or Claude asking 'best x products' or 'top solutions for x', my brand never gets mentioned. These AI tools keep recommending the big brands while completely ignoring smaller players like mine, even though we have 4.8 star reviews and good products. It's frustrating because I know customers are now asking ai for recommendations. Anyone else seeing this gap between traditional SEO success and ai visibility? /u/Snaddyxd",
     "published_at": "2026-04-15T07:13:51+00:00",
-    "discovered_at": "2026-04-17T11:24:11+00:00",
+    "discovered_at": "2026-04-17T11:31:26+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
