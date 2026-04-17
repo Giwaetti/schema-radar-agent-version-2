@@ -9,16 +9,19 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-17T09:53:54+00:00",
+    "discovered_at": "2026-04-17T09:57:23+00:00",
     "stage": "hot",
-    "score": 12,
+    "score": 16,
     "score_breakdown": {
       "schema_hits": [
         "faq schema"
       ],
-      "intent_hits": [],
+      "intent_hits": [
+        "missing"
+      ],
       "platform_hits": [],
       "issue_hits": [
+        "faq schema",
         "missing field"
       ],
       "negative_hits": [],
@@ -26,9 +29,12 @@
     },
     "platforms": [],
     "issue_types": [
+      "faq schema",
       "missing field"
     ],
-    "intent_flags": [],
+    "intent_flags": [
+      "missing"
+    ],
     "business_name": null,
     "business_site": null,
     "offer_fit": "AI Visibility Kit",
@@ -42,51 +48,8 @@
     "cta_label": "Get the AI Visibility Kit",
     "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
     "subject_draft": "AI Visibility Kit could help with: Missing field ‘mainEntity’ in FAQ schema",
-    "message_draft": "I saw your post about 'Missing field ‘mainEntity’ in FAQ schema'. It looks like a missing field problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "message_draft": "I saw your post about 'Missing field ‘mainEntity’ in FAQ schema'. It looks like a faq schema, missing field problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
     "follow_up_draft": "Quick follow-up on Missing field ‘mainEntity’ in FAQ schema: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com."
-  },
-  {
-    "item_id": "7cb11ec65f96665f",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Structured Data Test Validate JSON-LD, Microdata, RDFa, Open Graph & Twitter Cards.",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sn6zkj/structured_data_test_validate_jsonld_microdata/",
-    "summary": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/anish2good\"> /u/anish2good </a> <br /> <span><a href=\"https://8gwifi.org/seo/structured-data.jsp\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/TechSEO/comments/1sn6zkj/structured_data_test_validate_jsonld_microdata/\">[comments]</a></span>",
-    "published_at": "2026-04-16T15:32:39+00:00",
-    "discovered_at": "2026-04-17T09:53:54+00:00",
-    "stage": "warm",
-    "score": 10,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld",
-        "structured data"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "negative_hits": [],
-      "schema_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": "https://8gwifi.org/seo/structured-data.jsp",
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": "https://8gwifi.org/seo/structured-data.jsp",
-      "schema_present": null,
-      "notes": "Audit skipped: HTTPError"
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Structured Data Test Validate JSON-LD, Microdata, RDFa, Open Graph & T",
-    "message_draft": "I saw your post about 'Structured Data Test Validate JSON-LD, Microdata, RDFa, Open Graph & Twitter Cards.'. It looks like a schema implementation issue. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Structured Data Test Validate JSON-LD, Microdata, RDFa, Open Graph & Twitter Cards.: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com."
   },
   {
     "item_id": "5a00cc0f07e487b6",
@@ -98,14 +61,16 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1slysin/zero_brand_llms_visibility_after_trying/",
     "summary": "<!-- SC_OFF --><div class=\"md\"><p>I run a Woocommerce store and spent the last 8 months doing all the SEO basics including, optimized product pages, built backlinks, improved site speed, added structured data, started a blog. </p> <p>Google traffic is up 30% but here's the problem- when I test ChatGPT or Claude asking 'best x products' or 'top solutions for x', my brand never gets mentioned. These AI tools keep recommending the big brands while completely ignoring smaller players like mine, even though we have 4.8 star reviews and good products.</p> <p>It's frustrating because I know customers are now asking ai for recommendations. Anyone else seeing this gap between traditional SEO success and ai visibility?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Snaddyxd\"> /u/Snaddyxd </a> <br /> <span><a href=\"https://www.reddit.com/r/woocommerce/comments/1slysin/zero_brand_llms_visibility_after_trying/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/woocommerce/comments/1slysin/zero_brand_llms_visibility_after_trying/\">[comments]</a></span>",
     "published_at": "2026-04-15T07:13:51+00:00",
-    "discovered_at": "2026-04-17T09:53:54+00:00",
+    "discovered_at": "2026-04-17T09:57:23+00:00",
     "stage": "watch",
-    "score": 5,
+    "score": 7,
     "score_breakdown": {
       "schema_hits": [
         "structured data"
       ],
-      "intent_hits": [],
+      "intent_hits": [
+        "problem"
+      ],
       "platform_hits": [
         "woocommerce"
       ],
@@ -119,7 +84,9 @@
       "woocommerce"
     ],
     "issue_types": [],
-    "intent_flags": [],
+    "intent_flags": [
+      "problem"
+    ],
     "business_name": null,
     "business_site": null,
     "offer_fit": "AI Generator",
