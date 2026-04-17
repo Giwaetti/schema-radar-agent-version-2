@@ -44,6 +44,8 @@ class SchemaRadarPipeline:
         self.docs_dir.mkdir(parents=True, exist_ok=True)
 
         existing_queue = self._load_existing_queue(self.out_dir / 'sales_queue.json')
+        remote_status_overrides = self._load_remote_status_overrides()
+
         leads: list[Lead] = []
         discovered_at = utc_now_iso()
 
@@ -99,6 +101,17 @@ class SchemaRadarPipeline:
                         lead.message_draft = existing.message_draft
                     if existing.follow_up_draft:
                         lead.follow_up_draft = existing.follow_up_draft
+
+                remote = remote_status_overrides.get(lead.item_id)
+                if remote:
+                    if remote.get('status'):
+                        lead.status = remote['status']
+                    if remote.get('contact_method'):
+                        lead.contact_method = remote['contact_method']
+                    if remote.get('contact_target'):
+                        lead.contact_target = remote['contact_target']
+                    if remote.get('sent_at'):
+                        lead.sent_at = remote['sent_at']
 
                 leads.append(lead)
 
@@ -165,6 +178,82 @@ class SchemaRadarPipeline:
             leads[lead.item_id] = lead
 
         return leads
+
+    @staticmethod
+    def _extract_remote_override_items(payload: Any) -> list[dict[str, Any]]:
+        if isinstance(payload, list):
+            return [item for item in payload if isinstance(item, dict)]
+
+        if not isinstance(payload, dict):
+            return []
+
+        if 'item_id' in payload:
+            return [payload]
+
+        for key in ('items', 'overrides', 'data', 'results', 'statuses'):
+            value = payload.get(key)
+            if isinstance(value, list):
+                return [item for item in value if isinstance(item, dict)]
+            if isinstance(value, dict):
+                items: list[dict[str, Any]] = []
+                for item_id, item_value in value.items():
+                    if isinstance(item_value, dict):
+                        items.append({'item_id': item_id, **item_value})
+                    else:
+                        items.append({'item_id': item_id, 'status': item_value})
+                return items
+
+        items: list[dict[str, Any]] = []
+        for item_id, item_value in payload.items():
+            if isinstance(item_value, dict):
+                items.append({'item_id': item_id, **item_value})
+        return items
+
+    def _load_remote_status_overrides(self) -> dict[str, dict[str, str]]:
+        api_url = os.getenv('STATUS_API_URL', '').strip()
+        api_secret = os.getenv('STATUS_API_SECRET', '').strip()
+
+        if not api_url or not api_secret:
+            return {}
+
+        try:
+            response = requests.get(
+                api_url,
+                params={
+                    'mode': 'get',
+                    'secret': api_secret,
+                },
+                timeout=20,
+            )
+            response.raise_for_status()
+            payload = response.json()
+        except Exception:
+            return {}
+
+        overrides: dict[str, dict[str, str]] = {}
+
+        for item in self._extract_remote_override_items(payload):
+            if not isinstance(item, dict):
+                continue
+
+            item_id = str(item.get('item_id', '')).strip()
+            if not item_id:
+                continue
+
+            override: dict[str, str] = {}
+
+            for field in ('status', 'contact_method', 'contact_target', 'sent_at'):
+                value = item.get(field)
+                if value is None:
+                    continue
+                text = str(value).strip()
+                if text:
+                    override[field] = text
+
+            if override:
+                overrides[item_id] = override
+
+        return overrides
 
     @staticmethod
     def _write_json(path: Path, data: Any) -> None:
