@@ -88,7 +88,7 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
 
         row = (
             "<tr>"
-            f"<td><a href='{html.escape(lead.source_item_url)}'>{html.escape(lead.title)}</a>"
+            f"<td><a href='{html.escape(lead.source_item_url)}' target='_blank' rel='noopener noreferrer'>{html.escape(lead.title)}</a>"
             f"<div class='small'>{summary_text}</div></td>"
             f"<td>{html.escape(lead.source)}</td>"
             f"<td><span class='badge {badge_class}'>{html.escape(lead.stage)} · {lead.score}</span></td>"
