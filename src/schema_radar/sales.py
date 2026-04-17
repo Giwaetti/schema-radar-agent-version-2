@@ -114,7 +114,7 @@ def _follow_up_message(lead: Lead, destination: str, contact_email: str) -> str:
     )
 
 
-def build_sales_fields(lead: Lead, offer_config: dict[str, Any]) -> dict[str, str]:
+def build_sales_fields(lead: Lead, offer_config: dict[str, Any]) -> dict[str, str | None]:
     entry = _offer_entry(offer_config, lead.offer_fit)
     contact_email = offer_config.get("contact_email", "")
 
@@ -125,6 +125,7 @@ def build_sales_fields(lead: Lead, offer_config: dict[str, Any]) -> dict[str, st
         subject = f"Direct schema help for: {lead.title[:70]}"
         message = _forum_message(lead, destination, contact_email)
         follow_up = _follow_up_message(lead, destination, contact_email)
+
         return {
             "sales_route": route,
             "cta_label": cta_label,
@@ -132,6 +133,10 @@ def build_sales_fields(lead: Lead, offer_config: dict[str, Any]) -> dict[str, st
             "subject_draft": subject,
             "message_draft": message,
             "follow_up_draft": follow_up,
+            "status": "ready",
+            "contact_method": "email",
+            "contact_target": contact_email,
+            "sent_at": None,
         }
 
     destination = entry.get("gumroad_url", "")
@@ -140,12 +145,18 @@ def build_sales_fields(lead: Lead, offer_config: dict[str, Any]) -> dict[str, st
     if lead.source_type == "forum":
         route = "forum_reply"
         message = _forum_message(lead, destination, contact_email)
+        contact_method = "forum_reply"
+        contact_target = lead.source_item_url
     elif lead.source_type == "job":
         route = "proposal_draft"
         message = _proposal_message(lead, destination, contact_email)
+        contact_method = "job_proposal"
+        contact_target = lead.source_item_url
     else:
         route = "email_contact"
         message = _proposal_message(lead, destination, contact_email)
+        contact_method = "email"
+        contact_target = contact_email or lead.business_site or lead.source_item_url
 
     subject = f"{lead.offer_fit} could help with: {lead.title[:70]}"
     follow_up = _follow_up_message(lead, destination, contact_email)
@@ -157,4 +168,8 @@ def build_sales_fields(lead: Lead, offer_config: dict[str, Any]) -> dict[str, st
         "subject_draft": subject,
         "message_draft": message,
         "follow_up_draft": follow_up,
+        "status": "ready",
+        "contact_method": contact_method,
+        "contact_target": contact_target,
+        "sent_at": None,
     }
