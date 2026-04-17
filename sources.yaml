@@ -1,0 +1,37 @@
+sources:
+  - id: reddit-techseo
+    name: Reddit r/TechSEO
+    kind: rss
+    source_type: forum
+    url: https://www.reddit.com/r/TechSEO/.rss
+    limit: 15
+
+  - id: reddit-seo
+    name: Reddit r/SEO
+    kind: rss
+    source_type: forum
+    url: https://www.reddit.com/r/SEO/.rss
+    limit: 15
+
+  - id: reddit-woocommerce
+    name: Reddit r/woocommerce
+    kind: rss
+    source_type: forum
+    url: https://www.reddit.com/r/woocommerce/.rss
+    limit: 15
+
+  - id: wordpress-schema-support
+    name: WordPress Support - Schema & Structured Data for WP & AMP
+    kind: html_links
+    source_type: forum
+    url: https://wordpress.org/support/plugin/schema-and-structured-data-for-wp/
+    item_selector: 'main li, .topic-list li, .bbp-topic-title'
+    limit: 12
+
+  - id: google-structured-data
+    name: Google Search Central Community - Structured Data
+    kind: html_links
+    source_type: forum
+    url: https://support.google.com/webmasters/community?hl=en
+    item_selector: 'a'
+    limit: 20

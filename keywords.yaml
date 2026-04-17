@@ -1,0 +1,51 @@
+schema_terms:
+  - schema markup
+  - structured data
+  - json-ld
+  - rich results
+  - rich result
+  - merchant listings
+  - product schema
+  - faq schema
+  - breadcrumb schema
+  - review schema
+  - aggregate rating
+  - schema.org
+intent_terms:
+  - need help
+  - developer
+  - implement
+  - setup
+  - fix
+  - issue
+  - error
+  - not showing
+  - not appearing
+  - search console
+  - can we do this ourselves
+  - do we need a developer
+platform_terms:
+  - shopify
+  - woocommerce
+  - wordpress
+  - wix
+  - squarespace
+  - webflow
+issue_terms:
+  - missing field
+  - invalid item
+  - not eligible for rich results
+  - product_schema
+  - faq_schema
+  - local business schema
+negative_terms:
+  - canonical
+  - backlinks
+  - keyword research
+  - traffic drop
+  - sitemap
+suppress_title_terms:
+  - guide
+  - tutorial
+  - documentation
+  - docs
