@@ -9,7 +9,7 @@ from .models import Lead
 
 STYLE = """
 body { background:#020d2b; color:#e8efff; font-family:Arial,sans-serif; margin:0; }
-.container { max-width:1200px; margin:0 auto; padding:28px; }
+.container { max-width:1400px; margin:0 auto; padding:28px; }
 h1 { margin:0 0 6px 0; font-size:28px; }
 .sub { color:#b9c8ff; margin-bottom:24px; }
 .cards { display:grid; grid-template-columns:repeat(4, 1fr); gap:12px; margin-bottom:24px; }
@@ -24,9 +24,21 @@ a { color:#7fc1ff; }
 .hot { background:#7b1631; }
 .warm { background:#7a5a16; }
 .watch { background:#0f5276; }
-.small { color:#d4dcff; font-size:13px; line-height:1.35; }
-@media (max-width: 1000px) { .cards { grid-template-columns:repeat(2,1fr);} }
-@media (max-width: 640px) { .cards { grid-template-columns:1fr;} th:nth-child(5),td:nth-child(5),th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){display:none;} }
+.small { color:#d4dcff; font-size:13px; line-height:1.4; }
+.copybox {
+  white-space:pre-wrap;
+  background:#0a153c;
+  border:1px solid #29407f;
+  border-radius:10px;
+  padding:10px;
+  font-size:13px;
+  line-height:1.45;
+  color:#eef3ff;
+  min-width:260px;
+}
+@media (max-width: 1200px) {
+  .cards { grid-template-columns:repeat(2,1fr); }
+}
 """
 
 
@@ -52,6 +64,8 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
             audit_html = "—"
 
         summary_text = html.escape((lead.summary or "")[:180])
+        message_draft = html.escape(getattr(lead, "message_draft", "") or "")
+        follow_up_draft = html.escape(getattr(lead, "follow_up_draft", "") or "")
 
         row = (
             "<tr>"
@@ -62,6 +76,8 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
             f"<td>{html.escape(lead.offer_fit)}<div class='small'>{html.escape(lead.offer_reason)}</div></td>"
             f"<td>{html.escape(lead.sales_route or '—')}</td>"
             f"<td>{cta_html}</td>"
+            f"<td><div class='copybox'>{message_draft or '—'}</div></td>"
+            f"<td><div class='copybox'>{follow_up_draft or '—'}</div></td>"
             f"<td>{audit_html}</td>"
             "</tr>"
         )
@@ -96,6 +112,8 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
   <th>Offer fit</th>
   <th>Route</th>
   <th>CTA</th>
+  <th>Message draft</th>
+  <th>Follow-up draft</th>
   <th>Audit</th>
 </tr>
 </thead>
