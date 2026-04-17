@@ -82,7 +82,7 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
         sent_at = html.escape(getattr(lead, "sent_at", "") or "—")
 
         if contact_target:
-            contact_html = f"<a href='{html.escape(contact_target)}'>{contact_method}</a>"
+         contact_html = f"<a href='{html.escape(contact_target)}' target='_blank' rel='noopener noreferrer'>{contact_method}</a>"   
         else:
             contact_html = contact_method
 
