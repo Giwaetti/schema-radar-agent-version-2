@@ -33,67 +33,29 @@ def _format_issue_types(lead: Lead) -> str:
     return ", ".join(lead.issue_types)
 
 
-def _lead_context_line(lead: Lead) -> str:
-    parts: list[str] = []
-
-    platforms = _format_platforms(lead)
-    issues = _format_issue_types(lead)
-
-    if platforms:
-        parts.append(f"platform: {platforms}")
-    if issues:
-        parts.append(f"issue: {issues}")
-    if lead.stage:
-        parts.append(f"stage: {lead.stage}")
-
-    if not parts:
-        return ""
-
-    return " | ".join(parts)
-
-
-def _smart_offer_reason(lead: Lead) -> str:
-    issues = set(lead.issue_types or [])
-    platforms = set(lead.platforms or [])
-
-    if lead.offer_fit == "AI Visibility Kit":
-        if "missing field" in issues:
-            return "This looks like a straightforward schema fix, so the kit is the fastest low-friction option."
-        if "faq schema" in issues or "product schema" in issues:
-            return "This looks like a templated schema use case, which makes the kit a strong fit."
-        return "This looks like a simpler schema setup or fix, so the kit is the easiest next step."
-
-    if lead.offer_fit == "AI Generator":
-        if "woocommerce" in platforms or "shopify" in platforms:
-            return "This looks better suited to repeat schema generation, especially for store or page-level implementation."
-        return "This looks better suited to faster repeat schema output than a static template."
-
-    return "This looks more hands-on than a template-only fix."
-
-
 def _forum_message(lead: Lead, destination: str, contact_email: str) -> str:
     title = lead.title.strip()
     issues = _format_issue_types(lead)
     platforms = _format_platforms(lead)
 
-    opener = f"I saw your post about **{title}**."
+    opener = f"I saw your post about '{title}'."
     if issues and platforms:
-        context = f"It looks like a **{issues}** problem on **{platforms}**."
+        context = f"It looks like a {issues} problem on {platforms}."
     elif issues:
-        context = f"It looks like a **{issues}** problem."
+        context = f"It looks like a {issues} problem."
     elif platforms:
-        context = f"It looks related to **{platforms}** schema setup."
+        context = f"It looks related to {platforms} schema setup."
     else:
         context = "It looks like a schema implementation issue."
 
     if lead.offer_fit == "AI Visibility Kit":
         solution = (
-            f"The simplest next step is the **AI Visibility Kit** here: {destination}. "
+            f"The simplest next step is the AI Visibility Kit here: {destination}. "
             f"It’s better for quick implementation without building everything from scratch."
         )
     elif lead.offer_fit == "AI Generator":
         solution = (
-            f"The better fit is the **AI Generator** here: {destination}. "
+            f"The better fit is the AI Generator here: {destination}. "
             f"It’s stronger when you need faster repeat schema output instead of filling templates manually."
         )
     else:
@@ -122,16 +84,14 @@ def _proposal_message(lead: Lead, destination: str, contact_email: str) -> str:
         lines.append(f"Platform context: {platforms}.")
 
     if lead.offer_fit == "AI Visibility Kit":
-        lines.append(
-            f"The fastest route is the AI Visibility Kit: {destination}."
-        )
+        lines.append(f"The fastest route is the AI Visibility Kit: {destination}.")
     elif lead.offer_fit == "AI Generator":
         lines.append(
             f"The stronger fit is the AI Generator for faster repeat schema output: {destination}."
         )
     else:
         lines.append(
-            f"This looks like a direct support case rather than a simple product-only fix."
+            "This looks like a direct support case rather than a simple product-only fix."
         )
 
     if contact_email:
