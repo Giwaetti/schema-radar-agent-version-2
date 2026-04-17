@@ -9,7 +9,7 @@ from .models import Lead
 
 STYLE = """
 body { background:#020d2b; color:#e8efff; font-family:Arial,sans-serif; margin:0; }
-.container { max-width:1400px; margin:0 auto; padding:28px; }
+.container { max-width:1500px; margin:0 auto; padding:28px; }
 h1 { margin:0 0 6px 0; font-size:28px; }
 .sub { color:#b9c8ff; margin-bottom:24px; }
 .cards { display:grid; grid-template-columns:repeat(4, 1fr); gap:12px; margin-bottom:24px; }
@@ -36,11 +36,18 @@ a { color:#7fc1ff; }
   color:#eef3ff;
   min-width:260px;
 }
+.statusbox {
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:bold;
+  background:#1b2a60;
+}
 @media (max-width: 1200px) {
   .cards { grid-template-columns:repeat(2,1fr); }
 }
 """
-
 
 def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path) -> None:
     leads = list(leads)
@@ -66,6 +73,15 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
         summary_text = html.escape((lead.summary or "")[:180])
         message_draft = html.escape(getattr(lead, "message_draft", "") or "")
         follow_up_draft = html.escape(getattr(lead, "follow_up_draft", "") or "")
+        contact_method = html.escape(getattr(lead, "contact_method", "") or "—")
+        contact_target = getattr(lead, "contact_target", "") or ""
+        status = html.escape(getattr(lead, "status", "") or "—")
+        sent_at = html.escape(getattr(lead, "sent_at", "") or "—")
+
+        if contact_target:
+            contact_html = f"<a href='{html.escape(contact_target)}'>{contact_method}</a>"
+        else:
+            contact_html = contact_method
 
         row = (
             "<tr>"
@@ -74,7 +90,8 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
             f"<td>{html.escape(lead.source)}</td>"
             f"<td><span class='badge {badge_class}'>{html.escape(lead.stage)} · {lead.score}</span></td>"
             f"<td>{html.escape(lead.offer_fit)}<div class='small'>{html.escape(lead.offer_reason)}</div></td>"
-            f"<td>{html.escape(lead.sales_route or '—')}</td>"
+            f"<td><span class='statusbox'>{status}</span></td>"
+            f"<td>{contact_html}<div class='small'>{sent_at}</div></td>"
             f"<td>{cta_html}</td>"
             f"<td><div class='copybox'>{message_draft or '—'}</div></td>"
             f"<td><div class='copybox'>{follow_up_draft or '—'}</div></td>"
@@ -110,7 +127,8 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
   <th>Source</th>
   <th>Stage</th>
   <th>Offer fit</th>
-  <th>Route</th>
+  <th>Status</th>
+  <th>Contact</th>
   <th>CTA</th>
   <th>Message draft</th>
   <th>Follow-up draft</th>
