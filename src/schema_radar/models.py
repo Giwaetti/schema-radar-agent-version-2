@@ -45,6 +45,10 @@ class Lead:
     subject_draft: str = ''
     message_draft: str = ''
     follow_up_draft: str = ''
+    status: str = 'new'
+    contact_method: str = ''
+    contact_target: str = ''
+    sent_at: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
