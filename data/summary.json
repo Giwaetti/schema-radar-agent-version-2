@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T11:08:54+00:00",
+  "generated_at": "2026-04-17T11:24:11+00:00",
   "total": 2,
   "by_stage": {
     "hot": 1,
@@ -12,5 +12,9 @@
   "by_source": {
     "WordPress Support - Schema & Structured Data for WP & AMP": 1,
     "Reddit r/woocommerce": 1
+  },
+  "by_status": {
+    "contacted": 1,
+    "ready": 1
   }
 }
