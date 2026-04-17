@@ -11,6 +11,7 @@ schema_terms:
   - review schema
   - aggregate rating
   - schema.org
+
 intent_terms:
   - need help
   - developer
@@ -24,6 +25,13 @@ intent_terms:
   - search console
   - can we do this ourselves
   - do we need a developer
+  - problem
+  - broken
+  - troubleshooting
+  - warning
+  - support
+  - missing
+
 platform_terms:
   - shopify
   - woocommerce
@@ -31,21 +39,33 @@ platform_terms:
   - wix
   - squarespace
   - webflow
+
 issue_terms:
   - missing field
   - invalid item
   - not eligible for rich results
-  - product_schema
-  - faq_schema
+  - product schema
+  - faq schema
   - local business schema
+
 negative_terms:
   - canonical
   - backlinks
   - keyword research
   - traffic drop
   - sitemap
+
 suppress_title_terms:
   - guide
   - tutorial
   - documentation
   - docs
+  - test
+  - validate
+  - validator
+  - tool
+  - generator
+  - open graph
+  - twitter cards
+  - microdata
+  - rdfa
