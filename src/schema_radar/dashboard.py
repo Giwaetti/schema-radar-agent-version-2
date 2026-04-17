@@ -42,8 +42,8 @@ def render_dashboard(leads: Iterable[Lead], summary: dict, out_path: str | Path)
             f"<td><span class='badge {badge_class}'>{html.escape(lead.stage)} · {lead.score}</span></td>"
             f"<td>{html.escape(lead.offer_fit)}<div class='small'>{html.escape(lead.offer_reason)}</div></td>"
             f"<td>{html.escape(lead.sales_route or '—')}</td>"
-            f"<td>{('<a href="%s">%s</a>' % (html.escape(lead.cta_destination), html.escape(lead.cta_label))) if lead.cta_destination else '—'}</td>"
-            f"<td>{('<a href="%s">Business site</a>' % html.escape(lead.audit.get('business_site'))) if lead.audit.get('business_site') else '—'}</td>"
+            f"<td>{('<a href=\"%s\">%s</a>' % (html.escape(lead.cta_destination), html.escape(lead.cta_label))) if lead.cta_destination else '—'}</td>"
+            f"<td>{('<a href=\"%s\">Business site</a>' % html.escape(lead.audit.get('business_site'))) if lead.audit.get('business_site') else '—'}</td>"
             f"</tr>"
         )
 
