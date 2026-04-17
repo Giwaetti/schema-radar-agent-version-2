@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 import time
 from typing import Any
 from urllib.parse import urljoin
@@ -20,6 +21,25 @@ def get_session() -> requests.Session:
     return session
 
 
+def clean_summary_text(value: str) -> str:
+    if not value:
+        return ''
+    text = html.unescape(value)
+    soup = BeautifulSoup(text, 'html.parser')
+    text = soup.get_text(' ', strip=True)
+    text = normalize_whitespace(text)
+    junk_bits = [
+        '[link]',
+        '[comments]',
+        'submitted by',
+        'SC_OFF',
+        'SC_ON',
+    ]
+    for bit in junk_bits:
+        text = text.replace(bit, ' ')
+    return normalize_whitespace(text)
+
+
 def fetch_source(source: dict[str, Any], session: requests.Session | None = None) -> list[RawItem]:
     kind = source.get('kind', 'rss')
     session = session or get_session()
@@ -36,7 +56,8 @@ def fetch_rss(source: dict[str, Any], session: requests.Session) -> list[RawItem
     parsed = feedparser.parse(response.content)
     items: list[RawItem] = []
     for entry in parsed.entries[: source.get('limit', 25)]:
-        summary = normalize_whitespace(getattr(entry, 'summary', '') or getattr(entry, 'description', ''))
+        raw_summary = getattr(entry, 'summary', '') or getattr(entry, 'description', '')
+        summary = clean_summary_text(raw_summary)
         title = normalize_whitespace(getattr(entry, 'title', ''))
         link = getattr(entry, 'link', source['url'])
         published = None
@@ -83,7 +104,7 @@ def fetch_html_links(source: dict[str, Any], session: requests.Session) -> list[
         if summary_selector:
             summary_node = node.select_one(summary_selector)
             if summary_node:
-                summary = normalize_whitespace(summary_node.get_text(' ', strip=True))
+                summary = clean_summary_text(summary_node.get_text(' ', strip=True))
         published = None
         if date_selector:
             date_node = node.select_one(date_selector)
