@@ -1,26 +1,193 @@
 {
-  "generated_at": "2026-04-18T19:17:40+00:00",
-  "total": 2,
+  "generated_at": "2026-04-18T19:49:58+00:00",
+  "total": 7,
   "by_stage": {
-    "hot": 2
+    "hot": 2,
+    "warm": 4,
+    "watch": 1
   },
   "by_offer": {
-    "AI Visibility Kit": 1,
+    "AI Visibility Kit": 6,
     "Done-for-you / service": 1
   },
   "by_source": {
     "WordPress Support - Schema & Structured Data for WP & AMP": 1,
-    "Reddit r/SEO": 1
+    "Reddit r/SEO": 1,
+    "Search WordPress Support": 5
   },
   "by_status": {
     "contacted": 1,
-    "ready": 1
+    "ready": 6
   },
   "diagnostics": {
-    "source_raw_count": 79,
-    "search_raw_count": 0,
+    "source_raw_count": 94,
+    "search_raw_count": 5,
     "source_scored_count": 3,
-    "search_scored_count": 0,
-    "final_lead_count": 2
+    "search_scored_count": 5,
+    "final_lead_count": 7,
+    "search_queries": [
+      {
+        "group": "wordpress",
+        "query": "site:wordpress.org/support/ \"schema\" \"how do i fix\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "wordpress",
+        "query": "site:wordpress.org/support/ \"faq schema\"",
+        "result_count": 5,
+        "error": ""
+      },
+      {
+        "group": "wordpress",
+        "query": "site:wordpress.org/support/ \"json-ld\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "wordpress",
+        "query": "site:wordpress.org/support/ \"structured data\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "wordpress",
+        "query": "site:wordpress.org/support/ \"rich results\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "shopify",
+        "query": "site:community.shopify.com \"schema\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "shopify",
+        "query": "site:community.shopify.com \"json-ld\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "shopify",
+        "query": "site:community.shopify.com \"structured data\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "shopify",
+        "query": "site:community.shopify.com \"rich results\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "shopify",
+        "query": "site:community.shopify.com \"merchant listings\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_techseo",
+        "query": "site:reddit.com/r/TechSEO \"schema\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_techseo",
+        "query": "site:reddit.com/r/TechSEO \"structured data\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_techseo",
+        "query": "site:reddit.com/r/TechSEO \"json-ld\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_techseo",
+        "query": "site:reddit.com/r/TechSEO \"rich results\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_seo",
+        "query": "site:reddit.com/r/SEO \"schema\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_seo",
+        "query": "site:reddit.com/r/SEO \"structured data\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_seo",
+        "query": "site:reddit.com/r/SEO \"json-ld\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_seo",
+        "query": "site:reddit.com/r/SEO \"rich results\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_woocommerce",
+        "query": "site:reddit.com/r/woocommerce \"schema\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_woocommerce",
+        "query": "site:reddit.com/r/woocommerce \"structured data\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_woocommerce",
+        "query": "site:reddit.com/r/woocommerce \"json-ld\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_woocommerce",
+        "query": "site:reddit.com/r/woocommerce \"rich results\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "reddit_woocommerce",
+        "query": "site:reddit.com/r/woocommerce \"ChatGPT\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "google_search_central",
+        "query": "site:support.google.com/webmasters/thread \"structured data\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "google_search_central",
+        "query": "site:support.google.com/webmasters/thread \"rich results\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "google_search_central",
+        "query": "site:support.google.com/webmasters/thread \"schema\"",
+        "result_count": 0,
+        "error": ""
+      },
+      {
+        "group": "google_search_central",
+        "query": "site:support.google.com/webmasters/thread \"merchant listings\"",
+        "result_count": 0,
+        "error": ""
+      }
+    ]
   }
 }
