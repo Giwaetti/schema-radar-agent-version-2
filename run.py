@@ -10,13 +10,14 @@ SRC = ROOT / 'src'
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from schema_radar.config import load_keywords, load_offers, load_sources
+from schema_radar.config import load_keywords, load_offers, load_search_queries, load_sources
 from schema_radar.pipeline import SchemaRadarPipeline
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description='Run the Schema Radar pipeline.')
     parser.add_argument('--sources', default='sources.yaml')
+    parser.add_argument('--search-queries', default='search_queries.yaml')
     parser.add_argument('--keywords', default='keywords.yaml')
     parser.add_argument('--offers', default='offers.yaml')
     parser.add_argument('--out-dir', default='data')
