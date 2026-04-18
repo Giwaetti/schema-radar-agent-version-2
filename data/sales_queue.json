@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-18T11:47:04+00:00",
+    "discovered_at": "2026-04-18T12:40:24+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -65,7 +65,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1soi6e9/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Some of these sites are 2yrs old. Fwiw, most of my projects are SvelteKit+Vite based. Still have same issue with React+Next projects. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
     "published_at": "2026-04-18T00:11:58+00:00",
-    "discovered_at": "2026-04-18T11:47:04+00:00",
+    "discovered_at": "2026-04-18T12:40:24+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -108,59 +108,6 @@
     "status": "ready",
     "contact_method": "email",
     "contact_target": "schemaagent@gmail.com",
-    "sent_at": null
-  },
-  {
-    "item_id": "eace5e792a5116d4",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Bing Icons",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1soiimi/bing_icons/",
-    "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Fwiw, most of my projects are SvelteKit+Vite based. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
-    "published_at": "2026-04-18T00:27:40+00:00",
-    "discovered_at": "2026-04-18T11:47:04+00:00",
-    "stage": "warm",
-    "score": 10,
-    "score_breakdown": {
-      "schema_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "intent_hits": [
-        "fix"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "negative_hits": [
-        "sitemap"
-      ],
-      "schema_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "fix"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Bing Icons",
-    "message_draft": "I saw your post about 'Bing Icons'. It looks like a schema implementation issue. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Bing Icons: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1soiimi/bing_icons/",
     "sent_at": null
   }
 ]
