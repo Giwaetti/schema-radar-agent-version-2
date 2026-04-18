@@ -3,7 +3,7 @@ from __future__ import annotations
 import html
 import time
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import parse_qs, unquote, urljoin, urlparse
 
 import feedparser
 import requests
@@ -13,6 +13,7 @@ from .models import RawItem
 from .utils import normalize_whitespace, parse_relative_date
 
 USER_AGENT = 'SchemaRadar/1.0 (+https://github.com/)'
+DUCKDUCKGO_HTML_URL = 'https://html.duckduckgo.com/html/'
 
 
 def get_session() -> requests.Session:
@@ -88,28 +89,36 @@ def fetch_html_links(source: dict[str, Any], session: requests.Session) -> list[
     date_selector = source.get('date_selector')
     items: list[RawItem] = []
     seen: set[str] = set()
+
     for node in soup.select(selector)[: source.get('limit', 25)]:
         anchor = node if getattr(node, 'name', '') == 'a' else node.find('a', href=True)
         if not anchor or not anchor.get('href'):
             continue
+
         link = urljoin(source['url'], anchor['href'])
         if link in seen:
             continue
         seen.add(link)
+
         title_node = node.select_one(title_selector) if title_selector else anchor
-        title = normalize_whitespace(title_node.get_text(' ', strip=True) if title_node else anchor.get_text(' ', strip=True))
+        title = normalize_whitespace(
+            title_node.get_text(' ', strip=True) if title_node else anchor.get_text(' ', strip=True)
+        )
         if not title:
             continue
+
         summary = ''
         if summary_selector:
             summary_node = node.select_one(summary_selector)
             if summary_node:
                 summary = clean_summary_text(summary_node.get_text(' ', strip=True))
+
         published = None
         if date_selector:
             date_node = node.select_one(date_selector)
             if date_node:
                 published = parse_relative_date(date_node.get_text(' ', strip=True))
+
         items.append(
             RawItem(
                 source_id=source['id'],
@@ -122,4 +131,112 @@ def fetch_html_links(source: dict[str, Any], session: requests.Session) -> list[
                 published_at=published,
             )
         )
+
     return items
+
+
+def fetch_search_results(
+    search_queries: dict[str, list[str]],
+    session: requests.Session | None = None,
+    limit_per_query: int = 5,
+) -> list[RawItem]:
+    session = session or get_session()
+    items: list[RawItem] = []
+    seen_urls: set[str] = set()
+
+    for group, queries in search_queries.items():
+        for query in queries:
+            try:
+                found = _search_duckduckgo(query, group, session, limit_per_query)
+            except Exception:
+                continue
+
+            for item in found:
+                if item.url in seen_urls:
+                    continue
+                seen_urls.add(item.url)
+                items.append(item)
+
+    return items
+
+
+def _search_duckduckgo(
+    query: str,
+    group: str,
+    session: requests.Session,
+    limit: int,
+) -> list[RawItem]:
+    response = session.post(
+        DUCKDUCKGO_HTML_URL,
+        data={'q': query},
+        timeout=25,
+        headers={'Referer': 'https://duckduckgo.com/'},
+    )
+    response.raise_for_status()
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+    results: list[RawItem] = []
+
+    for node in soup.select('.result')[:limit]:
+        anchor = node.select_one('.result__title a') or node.select_one('a.result__a')
+        if not anchor or not anchor.get('href'):
+            continue
+
+        link = _extract_result_url(anchor.get('href', ''))
+        if not link or not link.startswith(('http://', 'https://')):
+            continue
+
+        title = normalize_whitespace(anchor.get_text(' ', strip=True))
+        if not title:
+            continue
+
+        snippet_node = (
+            node.select_one('.result__snippet')
+            or node.select_one('.result__body')
+            or node.select_one('.result__extras')
+        )
+        summary = clean_summary_text(snippet_node.get_text(' ', strip=True) if snippet_node else '')
+
+        results.append(
+            RawItem(
+                source_id=f'search-{group}',
+                source_name=_search_source_name(group),
+                source_type='forum',
+                source_url=f'search:{query}',
+                title=title,
+                url=link,
+                summary=summary,
+                published_at=None,
+            )
+        )
+
+    return results
+
+
+def _extract_result_url(href: str) -> str:
+    href = (href or '').strip()
+    if not href:
+        return ''
+
+    if href.startswith('//'):
+        return f'https:{href}'
+
+    if href.startswith('/l/?') or href.startswith('https://duckduckgo.com/l/?'):
+        parsed = urlparse(href)
+        query = parse_qs(parsed.query)
+        target = query.get('uddg', [''])[0]
+        return unquote(target) if target else ''
+
+    return href
+
+
+def _search_source_name(group: str) -> str:
+    mapping = {
+        'wordpress': 'Search WordPress Support',
+        'shopify': 'Search Shopify Community',
+        'reddit_techseo': 'Search Reddit r/TechSEO',
+        'reddit_seo': 'Search Reddit r/SEO',
+        'reddit_woocommerce': 'Search Reddit r/woocommerce',
+        'google_search_central': 'Search Google Search Central Community',
+    }
+    return mapping.get(group, f'Search {group}')
