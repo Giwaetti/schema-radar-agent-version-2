@@ -140,15 +140,45 @@ def fetch_search_results(
     session: requests.Session | None = None,
     limit_per_query: int = 5,
 ) -> list[RawItem]:
+    items, _ = fetch_search_results_with_diagnostics(
+        search_queries=search_queries,
+        session=session,
+        limit_per_query=limit_per_query,
+    )
+    return items
+
+
+def fetch_search_results_with_diagnostics(
+    search_queries: dict[str, list[str]],
+    session: requests.Session | None = None,
+    limit_per_query: int = 5,
+) -> tuple[list[RawItem], list[dict[str, Any]]]:
     session = session or get_session()
     items: list[RawItem] = []
+    diagnostics: list[dict[str, Any]] = []
     seen_urls: set[str] = set()
 
     for group, queries in search_queries.items():
         for query in queries:
             try:
                 found = _search_duckduckgo(query, group, session, limit_per_query)
-            except Exception:
+                diagnostics.append(
+                    {
+                        'group': group,
+                        'query': query,
+                        'result_count': len(found),
+                        'error': '',
+                    }
+                )
+            except Exception as err:
+                diagnostics.append(
+                    {
+                        'group': group,
+                        'query': query,
+                        'result_count': 0,
+                        'error': f'{type(err).__name__}: {err}',
+                    }
+                )
                 continue
 
             for item in found:
@@ -157,7 +187,7 @@ def fetch_search_results(
                 seen_urls.add(item.url)
                 items.append(item)
 
-    return items
+    return items, diagnostics
 
 
 def _search_duckduckgo(
@@ -177,8 +207,23 @@ def _search_duckduckgo(
     soup = BeautifulSoup(response.text, 'html.parser')
     results: list[RawItem] = []
 
-    for node in soup.select('.result')[:limit]:
-        anchor = node.select_one('.result__title a') or node.select_one('a.result__a')
+    nodes = soup.select('.result')
+    if not nodes:
+        nodes = soup.select('.web-result')
+    if not nodes:
+        nodes = soup.select('div.result.results_links')
+    if not nodes:
+        nodes = soup.select('a.result__a')
+
+    count = 0
+    for node in nodes:
+        if getattr(node, 'name', '') == 'a':
+            anchor = node
+            container = node.parent if node.parent else node
+        else:
+            anchor = node.select_one('.result__title a') or node.select_one('a.result__a')
+            container = node
+
         if not anchor or not anchor.get('href'):
             continue
 
@@ -191,9 +236,9 @@ def _search_duckduckgo(
             continue
 
         snippet_node = (
-            node.select_one('.result__snippet')
-            or node.select_one('.result__body')
-            or node.select_one('.result__extras')
+            container.select_one('.result__snippet')
+            or container.select_one('.result__body')
+            or container.select_one('.result__extras')
         )
         summary = clean_summary_text(snippet_node.get_text(' ', strip=True) if snippet_node else '')
 
@@ -209,6 +254,10 @@ def _search_duckduckgo(
                 published_at=None,
             )
         )
+
+        count += 1
+        if count >= limit:
+            break
 
     return results
 
