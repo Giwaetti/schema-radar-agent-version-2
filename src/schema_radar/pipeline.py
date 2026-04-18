@@ -12,7 +12,7 @@ import requests
 
 from .audit import audit_lead
 from .dashboard import render_dashboard
-from .fetch import fetch_search_results, fetch_source, get_session
+from .fetch import fetch_search_results_with_diagnostics, fetch_source, get_session
 from .matcher import match_offer
 from .models import Lead
 from .sales import build_sales_fields
@@ -56,6 +56,7 @@ class SchemaRadarPipeline:
         search_raw_count = 0
         source_scored_count = 0
         search_scored_count = 0
+        search_diagnostics: list[dict[str, Any]] = []
 
         raw_items: list[tuple[str, Any]] = []
 
@@ -69,9 +70,21 @@ class SchemaRadarPipeline:
 
         if self.search_queries:
             try:
-                fetched_search = fetch_search_results(self.search_queries, self.session, limit_per_query=5)
-            except Exception:
+                fetched_search, search_diagnostics = fetch_search_results_with_diagnostics(
+                    self.search_queries,
+                    self.session,
+                    limit_per_query=5,
+                )
+            except Exception as err:
                 fetched_search = []
+                search_diagnostics = [
+                    {
+                        'group': 'search',
+                        'query': '',
+                        'result_count': 0,
+                        'error': f'{type(err).__name__}: {err}',
+                    }
+                ]
             search_raw_count += len(fetched_search)
             raw_items.extend([('search', item) for item in fetched_search])
 
@@ -153,6 +166,7 @@ class SchemaRadarPipeline:
             'source_scored_count': source_scored_count,
             'search_scored_count': search_scored_count,
             'final_lead_count': len(leads),
+            'search_queries': search_diagnostics,
         }
 
         summary = self._build_summary(leads, discovered_at, diagnostics)
@@ -195,7 +209,7 @@ class SchemaRadarPipeline:
         reply_bonus = 1 if (lead.contact_method or '').strip() else 0
         return (self._stage_rank(lead.stage), lead.score, reply_bonus)
 
-    def _build_summary(self, leads: list[Lead], generated_at: str, diagnostics: dict[str, int]) -> dict[str, Any]:
+    def _build_summary(self, leads: list[Lead], generated_at: str, diagnostics: dict[str, Any]) -> dict[str, Any]:
         by_stage = Counter(lead.stage for lead in leads)
         by_offer = Counter(lead.offer_fit for lead in leads)
         by_source = Counter(lead.source for lead in leads)
