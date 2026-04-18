@@ -1,39 +1,41 @@
 queries:
   wordpress:
-    - 'site:wordpress.org/support/ "schema" "how do i fix"'
-    - 'site:wordpress.org/support/ "faq schema"'
-    - 'site:wordpress.org/support/ "json-ld"'
-    - 'site:wordpress.org/support/ "structured data"'
-    - 'site:wordpress.org/support/ "rich results"'
+    - 'site:wordpress.org/support/topic schema issue'
+    - 'site:wordpress.org/support/topic faq schema'
+    - 'site:wordpress.org/support/topic json ld'
+    - 'site:wordpress.org/support/topic structured data error'
+    - 'site:wordpress.org/support/topic rich results'
 
   shopify:
-    - 'site:community.shopify.com "schema"'
-    - 'site:community.shopify.com "json-ld"'
-    - 'site:community.shopify.com "structured data"'
-    - 'site:community.shopify.com "rich results"'
-    - 'site:community.shopify.com "merchant listings"'
+    - 'site:community.shopify.com/t schema shopify'
+    - 'site:community.shopify.com/t json ld shopify'
+    - 'site:community.shopify.com/t structured data shopify'
+    - 'site:community.shopify.com/t rich results shopify'
+    - 'site:community.shopify.com/t merchant listings shopify'
 
   reddit_techseo:
-    - 'site:reddit.com/r/TechSEO "schema"'
-    - 'site:reddit.com/r/TechSEO "structured data"'
-    - 'site:reddit.com/r/TechSEO "json-ld"'
-    - 'site:reddit.com/r/TechSEO "rich results"'
+    - 'site:reddit.com/r/TechSEO schema issue'
+    - 'site:reddit.com/r/TechSEO structured data'
+    - 'site:reddit.com/r/TechSEO json ld'
+    - 'site:reddit.com/r/TechSEO rich results'
+    - 'site:reddit.com/r/TechSEO schema help'
 
   reddit_seo:
-    - 'site:reddit.com/r/SEO "schema"'
-    - 'site:reddit.com/r/SEO "structured data"'
-    - 'site:reddit.com/r/SEO "json-ld"'
-    - 'site:reddit.com/r/SEO "rich results"'
+    - 'site:reddit.com/r/SEO schema issue'
+    - 'site:reddit.com/r/SEO structured data'
+    - 'site:reddit.com/r/SEO json ld'
+    - 'site:reddit.com/r/SEO rich results'
+    - 'site:reddit.com/r/SEO schema help'
 
   reddit_woocommerce:
-    - 'site:reddit.com/r/woocommerce "schema"'
-    - 'site:reddit.com/r/woocommerce "structured data"'
-    - 'site:reddit.com/r/woocommerce "json-ld"'
-    - 'site:reddit.com/r/woocommerce "rich results"'
-    - 'site:reddit.com/r/woocommerce "ChatGPT"'
+    - 'site:reddit.com/r/woocommerce schema issue'
+    - 'site:reddit.com/r/woocommerce structured data'
+    - 'site:reddit.com/r/woocommerce json ld'
+    - 'site:reddit.com/r/woocommerce rich results'
+    - 'site:reddit.com/r/woocommerce ai visibility'
 
   google_search_central:
-    - 'site:support.google.com/webmasters/thread "structured data"'
-    - 'site:support.google.com/webmasters/thread "rich results"'
-    - 'site:support.google.com/webmasters/thread "schema"'
-    - 'site:support.google.com/webmasters/thread "merchant listings"'
+    - 'site:support.google.com/webmasters/thread structured data error'
+    - 'site:support.google.com/webmasters/thread rich results problem'
+    - 'site:support.google.com/webmasters/thread schema issue'
+    - 'site:support.google.com/webmasters/thread merchant listings issue'
