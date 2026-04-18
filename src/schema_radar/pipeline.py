@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import json
 import os
+import re
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -115,15 +116,11 @@ class SchemaRadarPipeline:
 
                 leads.append(lead)
 
-        deduped: dict[str, Lead] = {}
-        for lead in leads:
-            current = deduped.get(lead.item_id)
-            if current is None or lead.score > current.score:
-                deduped[lead.item_id] = lead
+        leads = self._dedupe_leads(leads)
 
         leads = sorted(
-            deduped.values(),
-            key=lambda x: (-{'hot': 3, 'warm': 2, 'watch': 1}[x.stage], -x.score, x.title.lower())
+            leads,
+            key=lambda x: (-self._stage_rank(x.stage), -x.score, x.title.lower())
         )
 
         summary = self._build_summary(leads, discovered_at)
@@ -136,6 +133,35 @@ class SchemaRadarPipeline:
         self._write_json(self.out_dir / 'summary.json', summary)
         render_dashboard(leads, summary, self.docs_dir / 'index.html')
         return summary
+
+    def _dedupe_leads(self, leads: list[Lead]) -> list[Lead]:
+        deduped_by_item: dict[str, Lead] = {}
+        for lead in leads:
+            current = deduped_by_item.get(lead.item_id)
+            if current is None or self._lead_rank(lead) > self._lead_rank(current):
+                deduped_by_item[lead.item_id] = lead
+
+        deduped_by_title: dict[str, Lead] = {}
+        for lead in deduped_by_item.values():
+            title_key = self._title_key(lead.title)
+            current = deduped_by_title.get(title_key)
+            if current is None or self._lead_rank(lead) > self._lead_rank(current):
+                deduped_by_title[title_key] = lead
+
+        return list(deduped_by_title.values())
+
+    @staticmethod
+    def _title_key(title: str) -> str:
+        cleaned = re.sub(r'[^a-z0-9]+', ' ', (title or '').lower()).strip()
+        return re.sub(r'\s+', ' ', cleaned)
+
+    @staticmethod
+    def _stage_rank(stage: str) -> int:
+        return {'hot': 3, 'warm': 2, 'watch': 1}.get(stage, 0)
+
+    def _lead_rank(self, lead: Lead) -> tuple[int, int, int]:
+        reply_bonus = 1 if (lead.contact_method or '').strip() else 0
+        return (self._stage_rank(lead.stage), lead.score, reply_bonus)
 
     def _build_summary(self, leads: list[Lead], generated_at: str) -> dict[str, Any]:
         by_stage = Counter(lead.stage for lead in leads)
