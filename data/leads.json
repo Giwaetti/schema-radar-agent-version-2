@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-18T09:05:44+00:00",
+    "discovered_at": "2026-04-18T11:13:16+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -65,7 +65,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1soi6e9/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Some of these sites are 2yrs old. Fwiw, most of my projects are SvelteKit+Vite based. Still have same issue with React+Next projects. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
     "published_at": "2026-04-18T00:11:58+00:00",
-    "discovered_at": "2026-04-18T09:05:44+00:00",
+    "discovered_at": "2026-04-18T11:13:16+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -120,7 +120,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1soiimi/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Fwiw, most of my projects are SvelteKit+Vite based. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
     "published_at": "2026-04-18T00:27:40+00:00",
-    "discovered_at": "2026-04-18T09:05:44+00:00",
+    "discovered_at": "2026-04-18T11:13:16+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -161,62 +161,6 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://www.reddit.com/r/TechSEO/comments/1soiimi/bing_icons/",
-    "sent_at": null
-  },
-  {
-    "item_id": "5a00cc0f07e487b6",
-    "source": "Reddit r/woocommerce",
-    "source_id": "reddit-woocommerce",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
-    "title": "Zero brand LLMs visibility after trying everything for SEO",
-    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1slysin/zero_brand_llms_visibility_after_trying/",
-    "summary": "I run a Woocommerce store and spent the last 8 months doing all the SEO basics including, optimized product pages, built backlinks, improved site speed, added structured data, started a blog. Google traffic is up 30% but here's the problem- when I test ChatGPT or Claude asking 'best x products' or 'top solutions for x', my brand never gets mentioned. These AI tools keep recommending the big brands while completely ignoring smaller players like mine, even though we have 4.8 star reviews and good products. It's frustrating because I know customers are now asking ai for recommendations. Anyone else seeing this gap between traditional SEO success and ai visibility? /u/Snaddyxd",
-    "published_at": "2026-04-15T07:13:51+00:00",
-    "discovered_at": "2026-04-18T09:05:44+00:00",
-    "stage": "watch",
-    "score": 7,
-    "score_breakdown": {
-      "schema_hits": [
-        "structured data"
-      ],
-      "intent_hits": [
-        "problem"
-      ],
-      "platform_hits": [
-        "woocommerce"
-      ],
-      "issue_hits": [],
-      "negative_hits": [
-        "backlinks"
-      ],
-      "schema_source": false
-    },
-    "platforms": [
-      "woocommerce"
-    ],
-    "issue_types": [],
-    "intent_flags": [
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: Zero brand LLMs visibility after trying everything for SEO",
-    "message_draft": "I saw your post about 'Zero brand LLMs visibility after trying everything for SEO'. It looks related to woocommerce schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Zero brand LLMs visibility after trying everything for SEO: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1slysin/zero_brand_llms_visibility_after_trying/",
     "sent_at": null
   }
 ]
