@@ -26,6 +26,7 @@ class SchemaRadarPipeline:
         sources: list[dict[str, Any]],
         keyword_config: dict[str, Any],
         offer_config: dict[str, Any],
+        search_queries: dict[str, list[str]],
         out_dir: str | Path,
         docs_dir: str | Path,
         audit_sites: bool = True,
@@ -33,6 +34,7 @@ class SchemaRadarPipeline:
         self.sources = sources
         self.keyword_config = keyword_config
         self.offer_config = offer_config
+        self.search_queries = search_queries
         self.out_dir = Path(out_dir)
         self.docs_dir = Path(docs_dir)
         self.audit_sites = audit_sites
