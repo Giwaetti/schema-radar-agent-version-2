@@ -1,0 +1,39 @@
+queries:
+  wordpress:
+    - 'site:wordpress.org/support/ "schema" "how do i fix"'
+    - 'site:wordpress.org/support/ "faq schema"'
+    - 'site:wordpress.org/support/ "json-ld"'
+    - 'site:wordpress.org/support/ "structured data"'
+    - 'site:wordpress.org/support/ "rich results"'
+
+  shopify:
+    - 'site:community.shopify.com "schema"'
+    - 'site:community.shopify.com "json-ld"'
+    - 'site:community.shopify.com "structured data"'
+    - 'site:community.shopify.com "rich results"'
+    - 'site:community.shopify.com "merchant listings"'
+
+  reddit_techseo:
+    - 'site:reddit.com/r/TechSEO "schema"'
+    - 'site:reddit.com/r/TechSEO "structured data"'
+    - 'site:reddit.com/r/TechSEO "json-ld"'
+    - 'site:reddit.com/r/TechSEO "rich results"'
+
+  reddit_seo:
+    - 'site:reddit.com/r/SEO "schema"'
+    - 'site:reddit.com/r/SEO "structured data"'
+    - 'site:reddit.com/r/SEO "json-ld"'
+    - 'site:reddit.com/r/SEO "rich results"'
+
+  reddit_woocommerce:
+    - 'site:reddit.com/r/woocommerce "schema"'
+    - 'site:reddit.com/r/woocommerce "structured data"'
+    - 'site:reddit.com/r/woocommerce "json-ld"'
+    - 'site:reddit.com/r/woocommerce "rich results"'
+    - 'site:reddit.com/r/woocommerce "ChatGPT"'
+
+  google_search_central:
+    - 'site:support.google.com/webmasters/thread "structured data"'
+    - 'site:support.google.com/webmasters/thread "rich results"'
+    - 'site:support.google.com/webmasters/thread "schema"'
+    - 'site:support.google.com/webmasters/thread "merchant listings"'
