@@ -52,24 +52,38 @@ class SchemaRadarPipeline:
         leads: list[Lead] = []
         discovered_at = utc_now_iso()
 
-        raw_items = []
+        source_raw_count = 0
+        search_raw_count = 0
+        source_scored_count = 0
+        search_scored_count = 0
+
+        raw_items: list[tuple[str, Any]] = []
 
         for source in self.sources:
             try:
-                raw_items.extend(fetch_source(source, self.session))
+                fetched = fetch_source(source, self.session)
             except Exception:
                 continue
+            source_raw_count += len(fetched)
+            raw_items.extend([('source', item) for item in fetched])
 
         if self.search_queries:
             try:
-                raw_items.extend(fetch_search_results(self.search_queries, self.session, limit_per_query=5))
+                fetched_search = fetch_search_results(self.search_queries, self.session, limit_per_query=5)
             except Exception:
-                pass
+                fetched_search = []
+            search_raw_count += len(fetched_search)
+            raw_items.extend([('search', item) for item in fetched_search])
 
-        for item in raw_items:
+        for origin, item in raw_items:
             scored = score_item(item, self.keyword_config)
             if not scored:
                 continue
+
+            if origin == 'search':
+                search_scored_count += 1
+            else:
+                source_scored_count += 1
 
             lead = Lead(
                 item_id=slug_id(item.source_id, item.url, item.title),
@@ -133,7 +147,15 @@ class SchemaRadarPipeline:
             key=lambda x: (-self._stage_rank(x.stage), -x.score, x.title.lower())
         )
 
-        summary = self._build_summary(leads, discovered_at)
+        diagnostics = {
+            'source_raw_count': source_raw_count,
+            'search_raw_count': search_raw_count,
+            'source_scored_count': source_scored_count,
+            'search_scored_count': search_scored_count,
+            'final_lead_count': len(leads),
+        }
+
+        summary = self._build_summary(leads, discovered_at, diagnostics)
         payload = [lead.to_dict() for lead in leads]
 
         self._write_json(self.out_dir / 'leads.json', payload)
@@ -173,7 +195,7 @@ class SchemaRadarPipeline:
         reply_bonus = 1 if (lead.contact_method or '').strip() else 0
         return (self._stage_rank(lead.stage), lead.score, reply_bonus)
 
-    def _build_summary(self, leads: list[Lead], generated_at: str) -> dict[str, Any]:
+    def _build_summary(self, leads: list[Lead], generated_at: str, diagnostics: dict[str, int]) -> dict[str, Any]:
         by_stage = Counter(lead.stage for lead in leads)
         by_offer = Counter(lead.offer_fit for lead in leads)
         by_source = Counter(lead.source for lead in leads)
@@ -185,6 +207,7 @@ class SchemaRadarPipeline:
             'by_offer': dict(by_offer),
             'by_source': dict(by_source),
             'by_status': dict(by_status),
+            'diagnostics': diagnostics,
         }
 
     @staticmethod
