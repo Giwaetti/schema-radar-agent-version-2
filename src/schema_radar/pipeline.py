@@ -12,7 +12,7 @@ import requests
 
 from .audit import audit_lead
 from .dashboard import render_dashboard
-from .fetch import fetch_source, get_session
+from .fetch import fetch_search_results, fetch_source, get_session
 from .matcher import match_offer
 from .models import Lead
 from .sales import build_sales_fields
@@ -52,71 +52,79 @@ class SchemaRadarPipeline:
         leads: list[Lead] = []
         discovered_at = utc_now_iso()
 
+        raw_items = []
+
         for source in self.sources:
             try:
-                raw_items = fetch_source(source, self.session)
+                raw_items.extend(fetch_source(source, self.session))
             except Exception:
                 continue
 
-            for item in raw_items:
-                scored = score_item(item, self.keyword_config)
-                if not scored:
-                    continue
+        if self.search_queries:
+            try:
+                raw_items.extend(fetch_search_results(self.search_queries, self.session, limit_per_query=5))
+            except Exception:
+                pass
 
-                lead = Lead(
-                    item_id=slug_id(item.source_id, item.url, item.title),
-                    source=item.source_name,
-                    source_id=item.source_id,
-                    source_type=item.source_type,
-                    source_url=item.source_url,
-                    title=item.title,
-                    source_item_url=item.url,
-                    summary=item.summary,
-                    published_at=item.published_at,
-                    discovered_at=discovered_at,
-                    stage=scored['stage'],
-                    score=scored['score'],
-                    score_breakdown=scored['score_breakdown'],
-                    platforms=scored['platforms'],
-                    issue_types=scored['issue_types'],
-                    intent_flags=scored['intent_flags'],
-                )
+        for item in raw_items:
+            scored = score_item(item, self.keyword_config)
+            if not scored:
+                continue
 
-                lead.offer_fit, lead.offer_reason = match_offer(lead, self.offer_config)
+            lead = Lead(
+                item_id=slug_id(item.source_id, item.url, item.title),
+                source=item.source_name,
+                source_id=item.source_id,
+                source_type=item.source_type,
+                source_url=item.source_url,
+                title=item.title,
+                source_item_url=item.url,
+                summary=item.summary,
+                published_at=item.published_at,
+                discovered_at=discovered_at,
+                stage=scored['stage'],
+                score=scored['score'],
+                score_breakdown=scored['score_breakdown'],
+                platforms=scored['platforms'],
+                issue_types=scored['issue_types'],
+                intent_flags=scored['intent_flags'],
+            )
 
-                if self.audit_sites:
-                    lead.audit = audit_lead(lead.title, lead.summary, self.audit_session)
-                    lead.business_site = lead.audit.get('business_site')
+            lead.offer_fit, lead.offer_reason = match_offer(lead, self.offer_config)
 
-                sales_fields = build_sales_fields(lead, self.offer_config)
-                for key, value in sales_fields.items():
-                    setattr(lead, key, value)
+            if self.audit_sites:
+                lead.audit = audit_lead(lead.title, lead.summary, self.audit_session)
+                lead.business_site = lead.audit.get('business_site')
 
-                existing = existing_queue.get(lead.item_id)
-                if existing:
-                    lead.status = existing.status or lead.status
-                    lead.contact_method = existing.contact_method or lead.contact_method
-                    lead.contact_target = existing.contact_target or lead.contact_target
-                    lead.sent_at = existing.sent_at
-                    if existing.subject_draft:
-                        lead.subject_draft = existing.subject_draft
-                    if existing.message_draft:
-                        lead.message_draft = existing.message_draft
-                    if existing.follow_up_draft:
-                        lead.follow_up_draft = existing.follow_up_draft
+            sales_fields = build_sales_fields(lead, self.offer_config)
+            for key, value in sales_fields.items():
+                setattr(lead, key, value)
 
-                remote = remote_status_overrides.get(lead.item_id)
-                if remote:
-                    if remote.get('status'):
-                        lead.status = remote['status']
-                    if remote.get('contact_method'):
-                        lead.contact_method = remote['contact_method']
-                    if remote.get('contact_target'):
-                        lead.contact_target = remote['contact_target']
-                    if remote.get('sent_at'):
-                        lead.sent_at = remote['sent_at']
+            existing = existing_queue.get(lead.item_id)
+            if existing:
+                lead.status = existing.status or lead.status
+                lead.contact_method = existing.contact_method or lead.contact_method
+                lead.contact_target = existing.contact_target or lead.contact_target
+                lead.sent_at = existing.sent_at
+                if existing.subject_draft:
+                    lead.subject_draft = existing.subject_draft
+                if existing.message_draft:
+                    lead.message_draft = existing.message_draft
+                if existing.follow_up_draft:
+                    lead.follow_up_draft = existing.follow_up_draft
 
-                leads.append(lead)
+            remote = remote_status_overrides.get(lead.item_id)
+            if remote:
+                if remote.get('status'):
+                    lead.status = remote['status']
+                if remote.get('contact_method'):
+                    lead.contact_method = remote['contact_method']
+                if remote.get('contact_target'):
+                    lead.contact_target = remote['contact_target']
+                if remote.get('sent_at'):
+                    lead.sent_at = remote['sent_at']
+
+            leads.append(lead)
 
         leads = self._dedupe_leads(leads)
 
