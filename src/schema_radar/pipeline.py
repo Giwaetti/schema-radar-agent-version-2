@@ -7,6 +7,7 @@ import re
 from collections import Counter
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 import requests
 
@@ -187,14 +188,30 @@ class SchemaRadarPipeline:
             if current is None or self._lead_rank(lead) > self._lead_rank(current):
                 deduped_by_item[lead.item_id] = lead
 
-        deduped_by_title: dict[str, Lead] = {}
+        deduped_by_url: dict[str, Lead] = {}
         for lead in deduped_by_item.values():
+            url_key = self._normalize_thread_url(lead.source_item_url)
+            current = deduped_by_url.get(url_key)
+            if current is None or self._lead_rank(lead) > self._lead_rank(current):
+                deduped_by_url[url_key] = lead
+
+        deduped_by_title: dict[str, Lead] = {}
+        for lead in deduped_by_url.values():
             title_key = self._title_key(lead.title)
             current = deduped_by_title.get(title_key)
             if current is None or self._lead_rank(lead) > self._lead_rank(current):
                 deduped_by_title[title_key] = lead
 
         return list(deduped_by_title.values())
+
+    @staticmethod
+    def _normalize_thread_url(url: str) -> str:
+        parsed = urlparse((url or '').strip())
+        netloc = parsed.netloc.lower()
+        path = parsed.path.rstrip('/')
+        if not netloc and not path:
+            return (url or '').strip().lower()
+        return f'{netloc}{path}'.lower()
 
     @staticmethod
     def _title_key(title: str) -> str:
@@ -205,9 +222,22 @@ class SchemaRadarPipeline:
     def _stage_rank(stage: str) -> int:
         return {'hot': 3, 'warm': 2, 'watch': 1}.get(stage, 0)
 
-    def _lead_rank(self, lead: Lead) -> tuple[int, int, int]:
+    @staticmethod
+    def _source_preference(lead: Lead) -> int:
+        source_id = (lead.source_id or '').strip().lower()
+        source_name = (lead.source or '').strip().lower()
+        if source_id.startswith('search-') or source_name.startswith('search '):
+            return 0
+        return 1
+
+    def _lead_rank(self, lead: Lead) -> tuple[int, int, int, int]:
         reply_bonus = 1 if (lead.contact_method or '').strip() else 0
-        return (self._stage_rank(lead.stage), lead.score, reply_bonus)
+        return (
+            self._source_preference(lead),
+            self._stage_rank(lead.stage),
+            lead.score,
+            reply_bonus,
+        )
 
     def _build_summary(self, leads: list[Lead], generated_at: str, diagnostics: dict[str, Any]) -> dict[str, Any]:
         by_stage = Counter(lead.stage for lead in leads)
