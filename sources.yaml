@@ -4,21 +4,42 @@ sources:
     kind: rss
     source_type: forum
     url: https://www.reddit.com/r/TechSEO/.rss
-    limit: 15
+    limit: 20
 
   - id: reddit-seo
     name: Reddit r/SEO
     kind: rss
     source_type: forum
     url: https://www.reddit.com/r/SEO/.rss
-    limit: 15
+    limit: 20
 
   - id: reddit-woocommerce
     name: Reddit r/woocommerce
     kind: rss
     source_type: forum
     url: https://www.reddit.com/r/woocommerce/.rss
-    limit: 15
+    limit: 20
+
+  - id: reddit-shopify
+    name: Reddit r/shopify
+    kind: rss
+    source_type: forum
+    url: https://www.reddit.com/r/shopify/.rss
+    limit: 20
+
+  - id: reddit-bigseo
+    name: Reddit r/bigseo
+    kind: rss
+    source_type: forum
+    url: https://www.reddit.com/r/bigseo/.rss
+    limit: 20
+
+  - id: reddit-wordpress
+    name: Reddit r/Wordpress
+    kind: rss
+    source_type: forum
+    url: https://www.reddit.com/r/Wordpress/.rss
+    limit: 20
 
   - id: wordpress-schema-support
     name: WordPress Support - Schema & Structured Data for WP & AMP
@@ -26,7 +47,7 @@ sources:
     source_type: forum
     url: https://wordpress.org/support/plugin/schema-and-structured-data-for-wp/
     item_selector: 'main li, .topic-list li, .bbp-topic-title'
-    limit: 12
+    limit: 15
 
   - id: wordpress-yoast-support
     name: WordPress Support - Yoast SEO
@@ -34,7 +55,7 @@ sources:
     source_type: forum
     url: https://wordpress.org/support/plugin/wordpress-seo/
     item_selector: 'main li, .topic-list li, .bbp-topic-title'
-    limit: 12
+    limit: 15
 
   - id: wordpress-rankmath-support
     name: WordPress Support - Rank Math SEO
@@ -42,30 +63,11 @@ sources:
     source_type: forum
     url: https://wordpress.org/support/plugin/seo-by-rank-math/
     item_selector: 'main li, .topic-list li, .bbp-topic-title'
-    limit: 12
-
-  - id: shopify-seo
-    name: Shopify Community - SEO
-    kind: html_links
-    source_type: forum
-    url: https://community.shopify.com/c/seo/288
-    item_selector: 'table.topic-list tbody tr, .topic-list-item, tr.topic-list-item'
-    title_selector: 'a.title, .main-link a'
     limit: 15
 
-  - id: shopify-technical-qa
+  - id: shopify-technical-qa-rss
     name: Shopify Community - Technical Q&A
-    kind: html_links
+    kind: rss
     source_type: forum
-    url: https://community.shopify.com/c/technical-qa/211
-    item_selector: 'table.topic-list tbody tr, .topic-list-item, tr.topic-list-item'
-    title_selector: 'a.title, .main-link a'
-    limit: 15
-
-  - id: google-structured-data
-    name: Google Search Central Community - Structured Data
-    kind: html_links
-    source_type: forum
-    url: https://support.google.com/webmasters/community?hl=en
-    item_selector: 'a'
+    url: https://community.shopify.com/rss/board?board.id=technical-qa
     limit: 20
