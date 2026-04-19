@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-04-19T03:50:30+00:00",
+  "generated_at": "2026-04-19T09:07:33+00:00",
   "total": 5,
   "by_stage": {
     "hot": 2,
-    "warm": 2,
-    "watch": 1
+    "warm": 3
   },
   "by_offer": {
     "AI Visibility Kit": 4,

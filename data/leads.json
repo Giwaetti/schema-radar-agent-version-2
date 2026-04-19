@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-19T03:50:30+00:00",
+    "discovered_at": "2026-04-19T09:07:33+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -65,7 +65,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1soi6e9/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Some of these sites are 2yrs old. Fwiw, most of my projects are SvelteKit+Vite based. Still have same issue with React+Next projects. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
     "published_at": "2026-04-18T00:11:58+00:00",
-    "discovered_at": "2026-04-19T03:50:30+00:00",
+    "discovered_at": "2026-04-19T09:07:33+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -120,7 +120,7 @@
     "source_item_url": "https://wordpress.org/support/topic/simple-but-effective-faq-schema-solution/",
     "summary": "The FAQ Schema Shortcode plugin is straightforward and does exactly what it promises—adds FAQ structured data to your WordPress site with ease. It's a great alternative to removed plugins like Structured Data if you only need FAQ functionality.",
     "published_at": null,
-    "discovered_at": "2026-04-19T03:50:30+00:00",
+    "discovered_at": "2026-04-19T09:07:33+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -175,7 +175,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-faq/",
     "summary": "Issue with schema FAQ Resolved cathrp (@cathrp) 6 days, 7 hours ago With version 1.57, the FAQ schema no longer allows me to add questions, either on new posts or on existing ones. However, the exi…",
     "published_at": null,
-    "discovered_at": "2026-04-19T03:50:30+00:00",
+    "discovered_at": "2026-04-19T09:07:33+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
@@ -224,28 +224,28 @@
     "sent_at": null
   },
   {
-    "item_id": "1600efc4d7ca70ca",
+    "item_id": "b285f05e66fe085d",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
     "source_url": "search:site:wordpress.org/support/topic faq schema",
-    "title": "How to add HowTo and FAQ schema in posts with Yoast",
-    "source_item_url": "https://wordpress.org/support/topic/how-to-add-howto-and-faq-schema-in-posts-with-yoast/",
-    "summary": "How to add HowTo and FAQ schema in posts with Yoast Resolved wpmhweb (@wppit) 10 months, 3 weeks ago Hello, I'm using the latest version of Yoast on a self hosted version of WordPress, and it…",
+    "title": "Missing field \"mainEntity\" on FAQ page - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-on-faq-page/",
+    "summary": "On my FAQ page, I added my custom accordion blocks for FAQs instead of using the Yoast FAQ block. In the Yoast Schema settings, I selected 'FAQ page' as Page Type.",
     "published_at": null,
-    "discovered_at": "2026-04-19T03:50:30+00:00",
-    "stage": "watch",
-    "score": 7,
+    "discovered_at": "2026-04-19T09:07:33+00:00",
+    "stage": "warm",
+    "score": 9,
     "score_breakdown": {
-      "schema_hits": [
-        "faq schema"
+      "schema_hits": [],
+      "intent_hits": [
+        "missing"
       ],
-      "intent_hits": [],
       "platform_hits": [
         "wordpress"
       ],
       "issue_hits": [
-        "faq schema"
+        "missing field"
       ],
       "negative_hits": [],
       "schema_source": false
@@ -254,13 +254,15 @@
       "wordpress"
     ],
     "issue_types": [
-      "faq schema"
+      "missing field"
     ],
-    "intent_flags": [],
+    "intent_flags": [
+      "missing"
+    ],
     "business_name": null,
     "business_site": null,
     "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "offer_reason": "Lead with a lightweight, lower-friction offer.",
     "audit": {
       "business_site": null,
       "schema_present": null,
@@ -269,12 +271,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Get the AI Visibility Kit",
     "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: How to add HowTo and FAQ schema in posts with Yoast",
-    "message_draft": "I saw your post about 'How to add HowTo and FAQ schema in posts with Yoast'. It looks like a faq schema problem on wordpress. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on How to add HowTo and FAQ schema in posts with Yoast: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "subject_draft": "AI Visibility Kit could help with: Missing field \"mainEntity\" on FAQ page - WordPress.org",
+    "message_draft": "I saw your post about 'Missing field \"mainEntity\" on FAQ page - WordPress.org'. It looks like a missing field problem on wordpress. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Missing field \"mainEntity\" on FAQ page - WordPress.org: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/how-to-add-howto-and-faq-schema-in-posts-with-yoast/",
+    "contact_target": "https://wordpress.org/support/topic/missing-field-mainentity-on-faq-page/",
     "sent_at": null
   }
 ]
