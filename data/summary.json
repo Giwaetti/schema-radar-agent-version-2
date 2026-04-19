@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-19T09:25:32+00:00",
-  "total": 12,
+  "generated_at": "2026-04-19T14:28:59+00:00",
+  "total": 11,
   "by_stage": {
-    "hot": 6,
+    "hot": 5,
     "warm": 4,
     "watch": 2
   },
   "by_offer": {
-    "Done-for-you / service": 5,
+    "Done-for-you / service": 4,
     "AI Visibility Kit": 7
   },
   "by_source": {
-    "Search WordPress Support": 10,
+    "Search WordPress Support": 9,
     "WordPress Support - Schema & Structured Data for WP & AMP": 1,
     "Reddit r/SEO": 1
   },
   "by_status": {
-    "ready": 11,
+    "ready": 10,
     "contacted": 1
   },
   "diagnostics": {
-    "source_raw_count": 94,
+    "source_raw_count": 131,
     "search_raw_count": 10,
-    "source_scored_count": 3,
-    "search_scored_count": 10,
-    "final_lead_count": 12,
+    "source_scored_count": 4,
+    "search_scored_count": 9,
+    "final_lead_count": 11,
     "search_queries": [
       {
         "group": "wordpress",
@@ -59,180 +59,6 @@
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic review schema",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "shopify",
-        "query": "site:community.shopify.com/t schema issue shopify",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "shopify",
-        "query": "site:community.shopify.com/t structured data shopify",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "shopify",
-        "query": "site:community.shopify.com/t product schema shopify",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "shopify",
-        "query": "site:community.shopify.com/t merchant listing shopify",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "shopify",
-        "query": "site:community.shopify.com/t rich results shopify",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "shopify",
-        "query": "site:community.shopify.com/t google search console schema shopify",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_techseo",
-        "query": "site:reddit.com/r/TechSEO schema issue",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_techseo",
-        "query": "site:reddit.com/r/TechSEO faq schema",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_techseo",
-        "query": "site:reddit.com/r/TechSEO product schema",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_techseo",
-        "query": "site:reddit.com/r/TechSEO structured data problem",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_techseo",
-        "query": "site:reddit.com/r/TechSEO rich results",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_techseo",
-        "query": "site:reddit.com/r/TechSEO merchant listings",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_seo",
-        "query": "site:reddit.com/r/SEO schema issue",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_seo",
-        "query": "site:reddit.com/r/SEO faq schema",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_seo",
-        "query": "site:reddit.com/r/SEO product schema",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_seo",
-        "query": "site:reddit.com/r/SEO structured data problem",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_seo",
-        "query": "site:reddit.com/r/SEO rich results",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_seo",
-        "query": "site:reddit.com/r/SEO merchant listings",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_woocommerce",
-        "query": "site:reddit.com/r/woocommerce schema issue",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_woocommerce",
-        "query": "site:reddit.com/r/woocommerce product schema",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_woocommerce",
-        "query": "site:reddit.com/r/woocommerce structured data problem",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_woocommerce",
-        "query": "site:reddit.com/r/woocommerce rich results",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_woocommerce",
-        "query": "site:reddit.com/r/woocommerce merchant listing",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "reddit_woocommerce",
-        "query": "site:reddit.com/r/woocommerce chatgpt product feed",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "google_search_central",
-        "query": "site:support.google.com/webmasters/thread schema issue",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "google_search_central",
-        "query": "site:support.google.com/webmasters/thread structured data error",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "google_search_central",
-        "query": "site:support.google.com/webmasters/thread rich results invalid",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "google_search_central",
-        "query": "site:support.google.com/webmasters/thread product snippets",
-        "result_count": 0,
-        "error": ""
-      },
-      {
-        "group": "google_search_central",
-        "query": "site:support.google.com/webmasters/thread review snippets",
         "result_count": 0,
         "error": ""
       }
