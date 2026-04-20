@@ -18,6 +18,22 @@ SEARCH_SCHEMA_SOURCE_PREFIXES = {
     'search-wordpress',
 }
 
+GENERAL_REDDIT_SOURCE_IDS = {
+    'reddit-seo',
+    'reddit-techseo',
+    'reddit-bigseo',
+}
+
+ECOM_PLATFORM_SOURCE_IDS = {
+    'reddit-shopify',
+    'reddit-woocommerce',
+    'reddit-wordpress',
+    'shopify-technical-qa-rss',
+    'wordpress-schema-support',
+    'wordpress-yoast-support',
+    'wordpress-rankmath-support',
+}
+
 PROBLEM_INTENT_TERMS = {
     'need help',
     'developer',
@@ -109,6 +125,15 @@ def _source_is_native_action_source(item: RawItem) -> bool:
     )
 
 
+def _source_is_general_reddit(item: RawItem) -> bool:
+    return (item.source_id or '').strip().lower() in GENERAL_REDDIT_SOURCE_IDS
+
+
+def _source_is_ecom_platform(item: RawItem) -> bool:
+    source_id = (item.source_id or '').strip().lower()
+    return source_id in ECOM_PLATFORM_SOURCE_IDS
+
+
 def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] | None:
     title = normalize_whitespace(item.title)
     summary = normalize_whitespace(item.summary)
@@ -133,12 +158,15 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
 
     schema_source = _source_is_schema_friendly(item)
     native_action_source = _source_is_native_action_source(item)
+    general_reddit_source = _source_is_general_reddit(item)
+    ecom_platform_source = _source_is_ecom_platform(item)
 
     schema_signal_count = len(set(schema_hits + issue_hits))
     intent_signal_count = len(set(intent_hits))
     platform_signal_count = len(set(platform_hits))
     issue_signal_count = len(set(issue_hits))
     visibility_signal_count = len(set(visibility_hits))
+    hard_schema_visibility_count = len(set(schema_hits + visibility_hits + issue_hits))
     problem_signal_count = len(
         {
             hit for hit in intent_hits if hit.lower() in PROBLEM_INTENT_TERMS
@@ -160,23 +188,36 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
 
     allow = False
 
-    # Search WordPress and schema support sources
+    # Search WordPress and schema-oriented support sources.
     if schema_source:
         if schema_signal_count >= 1 or visibility_signal_count >= 1:
             allow = True
 
-    # Native sources must have a real schema/visibility angle
-    if not allow and native_action_source:
+    # General SEO subreddits must contain a hard schema/visibility angle.
+    if not allow and general_reddit_source:
+        if hard_schema_visibility_count >= 1 and problem_signal_count >= 1:
+            allow = True
+        elif hard_schema_visibility_count >= 2:
+            allow = True
+
+    # Ecommerce/platform-native sources can be slightly looser, but still need
+    # some schema/visibility relevance.
+    if not allow and ecom_platform_source:
         if schema_signal_count >= 1 and problem_signal_count >= 1:
             allow = True
         elif visibility_signal_count >= 1 and problem_signal_count >= 1:
             allow = True
-        elif schema_signal_count >= 2:
-            allow = True
-        elif issue_signal_count >= 1 and (schema_signal_count >= 1 or visibility_signal_count >= 1):
+        elif issue_signal_count >= 1 and hard_schema_visibility_count >= 1:
             allow = True
 
-    # General fallback
+    # Other native sources still need real schema/visibility evidence.
+    if not allow and native_action_source:
+        if hard_schema_visibility_count >= 1 and problem_signal_count >= 1:
+            allow = True
+        elif hard_schema_visibility_count >= 2:
+            allow = True
+
+    # General fallback.
     if not allow:
         if schema_signal_count >= 2:
             allow = True
@@ -199,6 +240,8 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
     if schema_source:
         score += 2
     if native_action_source:
+        score += 1
+    if general_reddit_source and hard_schema_visibility_count >= 2:
         score += 1
     if item.published_at:
         score += 1
@@ -224,6 +267,8 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
             'title_signal_hits': sorted(set(title_signal_hits)),
             'schema_source': schema_source,
             'native_action_source': native_action_source,
+            'general_reddit_source': general_reddit_source,
+            'ecom_platform_source': ecom_platform_source,
         },
         'platforms': sorted(set(platform_hits)),
         'issue_types': sorted(set(issue_hits + visibility_hits)),
