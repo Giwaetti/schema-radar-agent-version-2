@@ -57,6 +57,7 @@ class SchemaRadarPipeline:
         search_raw_count = 0
         source_scored_count = 0
         search_scored_count = 0
+        stale_search_dropped_count = 0
         search_diagnostics: list[dict[str, Any]] = []
 
         raw_items: list[tuple[str, Any]] = []
@@ -90,6 +91,10 @@ class SchemaRadarPipeline:
             raw_items.extend([('search', item) for item in fetched_search])
 
         for origin, item in raw_items:
+            if origin == 'search' and self._is_stale_or_resolved_search_item(item.title, item.summary):
+                stale_search_dropped_count += 1
+                continue
+
             scored = score_item(item, self.keyword_config)
             if not scored:
                 continue
@@ -166,6 +171,7 @@ class SchemaRadarPipeline:
             'search_raw_count': search_raw_count,
             'source_scored_count': source_scored_count,
             'search_scored_count': search_scored_count,
+            'stale_search_dropped_count': stale_search_dropped_count,
             'final_lead_count': len(leads),
             'search_queries': search_diagnostics,
         }
@@ -238,6 +244,33 @@ class SchemaRadarPipeline:
             lead.score,
             reply_bonus,
         )
+
+    @staticmethod
+    def _is_stale_or_resolved_search_item(title: str, summary: str) -> bool:
+        text = f'{title or ""} {summary or ""}'.lower()
+
+        resolved_markers = [
+            'resolved',
+            'solved',
+            'fixed',
+            'marked resolved',
+        ]
+        if any(marker in text for marker in resolved_markers):
+            return True
+
+        stale_patterns = [
+            r'\b\d+\s+week\b',
+            r'\b\d+\s+weeks\b',
+            r'\b\d+\s+month\b',
+            r'\b\d+\s+months\b',
+            r'\b\d+\s+year\b',
+            r'\b\d+\s+years\b',
+        ]
+        for pattern in stale_patterns:
+            if re.search(pattern, text):
+                return True
+
+        return False
 
     def _build_summary(self, leads: list[Lead], generated_at: str, diagnostics: dict[str, Any]) -> dict[str, Any]:
         by_stage = Counter(lead.stage for lead in leads)
