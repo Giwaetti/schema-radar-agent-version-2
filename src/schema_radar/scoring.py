@@ -58,16 +58,11 @@ PROBLEM_INTENT_TERMS = {
     'anyone else',
     'ignored',
     'not picked up',
-    'visibility',
 }
 
+# Broad visibility terms are still useful, but they should not be enough on
+# their own for general SEO communities.
 VISIBILITY_TERMS = {
-    'visibility',
-    'ignored',
-    'not picked up',
-    'not showing',
-    'not appearing',
-    'search console',
     'merchant listings',
     'merchant listing',
     'product snippets',
@@ -75,11 +70,44 @@ VISIBILITY_TERMS = {
     'rich results',
     'rich result',
     'product feed',
-    'product data',
-    'search results',
-    'not rendering properly in search results',
-    'google search',
-    'bing',
+    'search console',
+    'google search console',
+    'search appearance',
+}
+
+# These are the hard schema/search-markup signals.
+HARD_SCHEMA_TERMS = {
+    'schema',
+    'schema markup',
+    'structured data',
+    'json ld',
+    'json-ld',
+    'schema.org',
+    'product schema',
+    'review schema',
+    'faq schema',
+    'breadcrumb schema',
+    'aggregate rating',
+    'merchant listings',
+    'merchant listing',
+    'rich results',
+    'rich result',
+    'product snippets',
+    'review snippets',
+    'search console',
+    'google search console',
+}
+
+ECOM_SEARCH_TERMS = {
+    'merchant listings',
+    'merchant listing',
+    'product snippets',
+    'review snippets',
+    'rich results',
+    'rich result',
+    'product feed',
+    'google search console',
+    'search console',
 }
 
 HARD_REJECT_TITLE_TERMS = {
@@ -97,6 +125,7 @@ HARD_REJECT_TITLE_TERMS = {
     'resources and faqs',
     'core team lead',
     'public feedback',
+    'start here',
 }
 
 
@@ -154,6 +183,8 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
     negative_hits = _contains_any(haystack, negative_terms)
     suppress_hits = _contains_any(title_lower, suppress_title_terms)
     visibility_hits = _contains_any(haystack, list(VISIBILITY_TERMS))
+    hard_schema_hits = _contains_any(haystack, list(HARD_SCHEMA_TERMS))
+    ecom_search_hits = _contains_any(haystack, list(ECOM_SEARCH_TERMS))
     hard_reject_hits = [term for term in HARD_REJECT_TITLE_TERMS if term in title_lower]
 
     schema_source = _source_is_schema_friendly(item)
@@ -166,11 +197,13 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
     platform_signal_count = len(set(platform_hits))
     issue_signal_count = len(set(issue_hits))
     visibility_signal_count = len(set(visibility_hits))
-    hard_schema_visibility_count = len(set(schema_hits + visibility_hits + issue_hits))
+    hard_schema_count = len(set(hard_schema_hits))
+    ecom_search_count = len(set(ecom_search_hits))
+
     problem_signal_count = len(
         {
             hit for hit in intent_hits if hit.lower() in PROBLEM_INTENT_TERMS
-        } | set(issue_hits) | set(visibility_hits)
+        } | set(issue_hits)
     )
 
     title_signal_hits = _contains_any(
@@ -183,55 +216,57 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
     if suppress_hits or hard_reject_hits:
         return None
 
-    if negative_hits and schema_signal_count == 0 and visibility_signal_count == 0:
+    # Strong negative-only content should not pass.
+    if negative_hits and hard_schema_count == 0 and ecom_search_count == 0:
         return None
 
     allow = False
 
     # Search WordPress and schema-oriented support sources.
     if schema_source:
-        if schema_signal_count >= 1 or visibility_signal_count >= 1:
+        if hard_schema_count >= 1 or schema_signal_count >= 1:
             allow = True
 
-    # General SEO subreddits must contain a hard schema/visibility angle.
+    # General SEO/TechSEO/BigSEO Reddit sources must contain an explicit schema/search-markup signal.
     if not allow and general_reddit_source:
-        if hard_schema_visibility_count >= 1 and problem_signal_count >= 1:
+        if hard_schema_count >= 1 and (problem_signal_count >= 1 or visibility_signal_count >= 1):
             allow = True
-        elif hard_schema_visibility_count >= 2:
+        elif hard_schema_count >= 2:
             allow = True
 
-    # Ecommerce/platform-native sources can be slightly looser, but still need
-    # some schema/visibility relevance.
+    # Ecommerce/platform-native sources can pass on schema OR strong commerce-search terms.
     if not allow and ecom_platform_source:
-        if schema_signal_count >= 1 and problem_signal_count >= 1:
+        if hard_schema_count >= 1 and (problem_signal_count >= 1 or visibility_signal_count >= 1):
             allow = True
-        elif visibility_signal_count >= 1 and problem_signal_count >= 1:
+        elif ecom_search_count >= 1 and platform_signal_count >= 1 and problem_signal_count >= 1:
             allow = True
-        elif issue_signal_count >= 1 and hard_schema_visibility_count >= 1:
+        elif schema_signal_count >= 1 and platform_signal_count >= 1 and problem_signal_count >= 1:
             allow = True
 
-    # Other native sources still need real schema/visibility evidence.
+    # Other native sources still need explicit schema/search-markup relevance.
     if not allow and native_action_source:
-        if hard_schema_visibility_count >= 1 and problem_signal_count >= 1:
+        if hard_schema_count >= 1 and (problem_signal_count >= 1 or visibility_signal_count >= 1):
             allow = True
-        elif hard_schema_visibility_count >= 2:
+        elif hard_schema_count >= 2:
             allow = True
 
     # General fallback.
     if not allow:
-        if schema_signal_count >= 2:
+        if hard_schema_count >= 2:
             allow = True
-        elif schema_signal_count >= 1 and visibility_signal_count >= 1:
+        elif hard_schema_count >= 1 and problem_signal_count >= 1:
             allow = True
 
     if not allow:
         return None
 
     score = 0
-    score += min(schema_signal_count * 3, 12)
+    score += min(hard_schema_count * 4, 12)
+    score += min(schema_signal_count * 2, 6)
     score += min(problem_signal_count * 2, 6)
     score += min(platform_signal_count * 1, 3)
-    score += min(visibility_signal_count * 3, 9)
+    score += min(visibility_signal_count * 2, 4)
+    score += min(ecom_search_count * 2, 4)
     score += min(issue_signal_count * 2, 6)
     score += min(title_signal_count * 2, 4)
     score += 1 if question_title else 0
@@ -240,8 +275,6 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
     if schema_source:
         score += 2
     if native_action_source:
-        score += 1
-    if general_reddit_source and hard_schema_visibility_count >= 2:
         score += 1
     if item.published_at:
         score += 1
@@ -258,10 +291,12 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
         'score': score,
         'score_breakdown': {
             'schema_hits': sorted(set(schema_hits)),
+            'hard_schema_hits': sorted(set(hard_schema_hits)),
             'intent_hits': sorted(set(intent_hits)),
             'platform_hits': sorted(set(platform_hits)),
             'issue_hits': sorted(set(issue_hits)),
             'visibility_hits': sorted(set(visibility_hits)),
+            'ecom_search_hits': sorted(set(ecom_search_hits)),
             'negative_hits': sorted(set(negative_hits)),
             'hard_reject_hits': sorted(set(hard_reject_hits)),
             'title_signal_hits': sorted(set(title_signal_hits)),
