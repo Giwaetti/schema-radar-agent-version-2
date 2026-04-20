@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -63,7 +63,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -119,7 +119,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -182,7 +182,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1soi6e9/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Some of these sites are 2yrs old. Fwiw, most of my projects are SvelteKit+Vite based. Still have same issue with React+Next projects. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
     "published_at": "2026-04-18T00:11:58+00:00",
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -237,7 +237,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -290,7 +290,7 @@
     "source_item_url": "https://wordpress.org/support/topic/disable-schema-markup-in-elementor/",
     "summary": "Disable Schema Markup in Elementor Resolved Nik Cirkle (@nikulv) 2 months, 2 weeks ago Hello Team, I am currently facing an issue with duplicate schema markup on my website, and it appears that Elementor is adding schema data in addition to my SEO plugin, which is causing validation errors in Google Search Console.",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -339,39 +339,38 @@
     "sent_at": null
   },
   {
-    "item_id": "e3db6271af982e27",
+    "item_id": "d214198645e6c277",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
     "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema Markup WP JOb Manager - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-wp-job-manager/",
-    "summary": "Schema Markup WP JOb Manager Resolved braehler (@braehler) 1 month, 1 week ago Hey there, we are getting some E-Mails from the google search console regarding schema markup for google structured data. By default, WP Job Manger sends the correct fields, but in some way, it seems, Yoast is overriding the schema markup .",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "warm",
-    "score": 11,
+    "score": 10,
     "score_breakdown": {
       "schema_hits": [
-        "schema markup",
-        "structured data"
+        "schema markup"
       ],
       "intent_hits": [
-        "search console"
+        "error",
+        "issue",
+        "support"
       ],
-      "platform_hits": [
-        "wordpress"
-      ],
+      "platform_hits": [],
       "issue_hits": [],
       "negative_hits": [],
       "schema_source": false
     },
-    "platforms": [
-      "wordpress"
-    ],
+    "platforms": [],
     "issue_types": [],
     "intent_flags": [
-      "search console"
+      "error",
+      "issue",
+      "support"
     ],
     "business_name": null,
     "business_site": null,
@@ -385,12 +384,70 @@
     "sales_route": "forum_reply",
     "cta_label": "Get the AI Visibility Kit",
     "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Schema Markup WP JOb Manager - WordPress.org",
-    "message_draft": "I saw your post about 'Schema Markup WP JOb Manager - WordPress.org'. It looks related to wordpress schema setup. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Schema Markup WP JOb Manager - WordPress.org: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "subject_draft": "AI Visibility Kit could help with: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "I saw your post about 'LD Json Schema syntax Error causing issues on website'. It looks like a schema implementation issue. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on LD Json Schema syntax Error causing issues on website: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-wp-job-manager/",
+    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "sent_at": null
+  },
+  {
+    "item_id": "88c912bd884b2ae9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "FAQ Schema not working on Accordion - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/faq-schema-not-working-on-accordion/",
+    "summary": "FAQ Schema not working on Accordion Resolved anphira (@anphira) 5 months, 3 weeks ago I'm seeing this problem across many different sites , the link above is one example. I have already made s…",
+    "published_at": null,
+    "discovered_at": "2026-04-20T10:10:22+00:00",
+    "stage": "warm",
+    "score": 9,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema"
+      ],
+      "intent_hits": [
+        "problem"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "negative_hits": [],
+      "schema_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: FAQ Schema not working on Accordion - WordPress.org",
+    "message_draft": "I saw your post about 'FAQ Schema not working on Accordion - WordPress.org'. It looks like a faq schema problem on wordpress. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on FAQ Schema not working on Accordion - WordPress.org: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/faq-schema-not-working-on-accordion/",
     "sent_at": null
   },
   {
@@ -403,7 +460,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-faq/",
     "summary": "Issue with schema FAQ Resolved cathrp (@cathrp) 6 days, 7 hours ago With version 1.57, the FAQ schema no longer allows me to add questions, either on new posts or on existing ones. However, the exi…",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
@@ -452,60 +509,6 @@
     "sent_at": null
   },
   {
-    "item_id": "c16cda2d8e0c7232",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "FAQ schema disappeard from every post - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/faq-schema-disappeard-from-every-post/",
-    "summary": "FAQ schema disappeard from every post Resolved strictlydata (@strictlydata) 4 months ago The FAQ schema just disappeared from every post where it was previously enabled. Tried to revert to ver 1.50…",
-    "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
-    "stage": "watch",
-    "score": 7,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [
-        "wordpress"
-      ],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "negative_hits": [],
-      "schema_source": false
-    },
-    "platforms": [
-      "wordpress"
-    ],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: FAQ schema disappeard from every post - WordPress.org",
-    "message_draft": "I saw your post about 'FAQ schema disappeard from every post - WordPress.org'. It looks like a faq schema problem on wordpress. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on FAQ schema disappeard from every post - WordPress.org: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/faq-schema-disappeard-from-every-post/",
-    "sent_at": null
-  },
-  {
     "item_id": "da20c01c762faf00",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -515,7 +518,7 @@
     "source_item_url": "https://wordpress.org/support/topic/found-issue-in-schema-markup-from-yoast/",
     "summary": "Found issue in schema markup from yoast Resolved devlopteam20 (@devlopteam20) 1 year, 4 months ago We have followed all the guidelines from Google to display our brand name in the SERPs; however, o…",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -569,7 +572,7 @@
     "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-04-20T03:52:54+00:00",
+    "discovered_at": "2026-04-20T10:10:22+00:00",
     "stage": "watch",
     "score": 6,
     "score_breakdown": {

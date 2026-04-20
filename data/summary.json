@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-20T03:52:54+00:00",
+  "generated_at": "2026-04-20T10:10:22+00:00",
   "total": 11,
   "by_stage": {
     "hot": 5,
-    "warm": 3,
-    "watch": 3
+    "warm": 4,
+    "watch": 2
   },
   "by_offer": {
     "Done-for-you / service": 4,
@@ -20,10 +20,10 @@
     "contacted": 1
   },
   "diagnostics": {
-    "source_raw_count": 132,
+    "source_raw_count": 131,
     "search_raw_count": 10,
     "source_scored_count": 4,
-    "search_scored_count": 10,
+    "search_scored_count": 9,
     "final_lead_count": 11,
     "search_queries": [
       {
