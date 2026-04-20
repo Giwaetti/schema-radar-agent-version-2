@@ -60,6 +60,27 @@ VISIBILITY_TERMS = {
     'rich result',
     'product feed',
     'product data',
+    'search results',
+    'not rendering properly in search results',
+    'google search',
+    'bing',
+}
+
+HARD_REJECT_TITLE_TERMS = {
+    'security',
+    'scanner',
+    'mailing',
+    'zip+4',
+    'zip 4',
+    'bot attack',
+    'malicious code',
+    'iphone',
+    'browser',
+    'backup payment',
+    'resources & faqs',
+    'resources and faqs',
+    'core team lead',
+    'public feedback',
 }
 
 
@@ -108,6 +129,7 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
     negative_hits = _contains_any(haystack, negative_terms)
     suppress_hits = _contains_any(title_lower, suppress_title_terms)
     visibility_hits = _contains_any(haystack, list(VISIBILITY_TERMS))
+    hard_reject_hits = [term for term in HARD_REJECT_TITLE_TERMS if term in title_lower]
 
     schema_source = _source_is_schema_friendly(item)
     native_action_source = _source_is_native_action_source(item)
@@ -130,39 +152,35 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
     title_signal_count = len(set(title_signal_hits))
     question_title = '?' in title
 
-    if suppress_hits:
+    if suppress_hits or hard_reject_hits:
         return None
 
-    # Strong negative-only content should not pass.
-    if negative_hits and schema_signal_count == 0 and problem_signal_count == 0:
+    if negative_hits and schema_signal_count == 0 and visibility_signal_count == 0:
         return None
 
     allow = False
 
-    # Schema-friendly environments should pass with one clear schema/problem signal.
+    # Search WordPress and schema support sources
     if schema_source:
-        if schema_signal_count >= 1 or problem_signal_count >= 1:
+        if schema_signal_count >= 1 or visibility_signal_count >= 1:
             allow = True
 
-    # Native actionable environments can pass on platform + problem, even if
-    # the post does not explicitly say "schema".
+    # Native sources must have a real schema/visibility angle
     if not allow and native_action_source:
-        if schema_signal_count >= 2:
+        if schema_signal_count >= 1 and problem_signal_count >= 1:
             allow = True
-        elif schema_signal_count >= 1 and problem_signal_count >= 1:
+        elif visibility_signal_count >= 1 and problem_signal_count >= 1:
             allow = True
-        elif platform_signal_count >= 1 and problem_signal_count >= 2:
+        elif schema_signal_count >= 2:
             allow = True
-        elif platform_signal_count >= 1 and visibility_signal_count >= 1:
-            allow = True
-        elif title_signal_count >= 2 and platform_signal_count >= 1:
+        elif issue_signal_count >= 1 and (schema_signal_count >= 1 or visibility_signal_count >= 1):
             allow = True
 
-    # General fallback for anything else.
+    # General fallback
     if not allow:
         if schema_signal_count >= 2:
             allow = True
-        elif schema_signal_count >= 1 and (problem_signal_count >= 1 or platform_signal_count >= 1):
+        elif schema_signal_count >= 1 and visibility_signal_count >= 1:
             allow = True
 
     if not allow:
@@ -170,9 +188,10 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
 
     score = 0
     score += min(schema_signal_count * 3, 12)
-    score += min(problem_signal_count * 3, 9)
-    score += min(platform_signal_count * 2, 4)
-    score += min(visibility_signal_count * 2, 4)
+    score += min(problem_signal_count * 2, 6)
+    score += min(platform_signal_count * 1, 3)
+    score += min(visibility_signal_count * 3, 9)
+    score += min(issue_signal_count * 2, 6)
     score += min(title_signal_count * 2, 4)
     score += 1 if question_title else 0
     score -= min(len(set(negative_hits)) * 2, 6)
@@ -201,6 +220,7 @@ def score_item(item: RawItem, keyword_config: dict[str, Any]) -> dict[str, Any] 
             'issue_hits': sorted(set(issue_hits)),
             'visibility_hits': sorted(set(visibility_hits)),
             'negative_hits': sorted(set(negative_hits)),
+            'hard_reject_hits': sorted(set(hard_reject_hits)),
             'title_signal_hits': sorted(set(title_signal_hits)),
             'schema_source': schema_source,
             'native_action_source': native_action_source,
