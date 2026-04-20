@@ -139,12 +139,6 @@ class SchemaRadarPipeline:
                 lead.contact_method = existing.contact_method or lead.contact_method
                 lead.contact_target = existing.contact_target or lead.contact_target
                 lead.sent_at = existing.sent_at
-                if existing.subject_draft:
-                    lead.subject_draft = existing.subject_draft
-                if existing.message_draft:
-                    lead.message_draft = existing.message_draft
-                if existing.follow_up_draft:
-                    lead.follow_up_draft = existing.follow_up_draft
 
             remote = remote_status_overrides.get(lead.item_id)
             if remote:
