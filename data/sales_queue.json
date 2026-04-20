@@ -9,9 +9,9 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-04-20T17:36:36+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
     "stage": "hot",
-    "score": 16,
+    "score": 23,
     "score_breakdown": {
       "schema_hits": [
         "json-ld",
@@ -24,11 +24,21 @@
       ],
       "platform_hits": [],
       "issue_hits": [],
+      "visibility_hits": [
+        "search console"
+      ],
       "negative_hits": [],
-      "schema_source": false
+      "title_signal_hits": [
+        "issue",
+        "schema markup"
+      ],
+      "schema_source": true,
+      "native_action_source": false
     },
     "platforms": [],
-    "issue_types": [],
+    "issue_types": [
+      "search console"
+    ],
     "intent_flags": [
       "issue",
       "search console"
@@ -63,9 +73,9 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-20T17:36:36+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
     "stage": "hot",
-    "score": 16,
+    "score": 22,
     "score_breakdown": {
       "schema_hits": [
         "faq schema"
@@ -78,8 +88,15 @@
         "faq schema",
         "missing field"
       ],
+      "visibility_hits": [],
       "negative_hits": [],
-      "schema_source": true
+      "title_signal_hits": [
+        "faq schema",
+        "missing",
+        "missing field"
+      ],
+      "schema_source": true,
+      "native_action_source": true
     },
     "platforms": [],
     "issue_types": [
@@ -119,9 +136,9 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-04-20T17:36:36+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
     "stage": "hot",
-    "score": 15,
+    "score": 21,
     "score_breakdown": {
       "schema_hits": [
         "json-ld",
@@ -138,13 +155,20 @@
         "wordpress"
       ],
       "issue_hits": [],
+      "visibility_hits": [
+        "search console"
+      ],
       "negative_hits": [],
-      "schema_source": false
+      "title_signal_hits": [],
+      "schema_source": true,
+      "native_action_source": false
     },
     "platforms": [
       "wordpress"
     ],
-    "issue_types": [],
+    "issue_types": [
+      "search console"
+    ],
     "intent_flags": [
       "error",
       "issue",
@@ -173,39 +197,46 @@
     "sent_at": null
   },
   {
-    "item_id": "c41eeb5527e4650d",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
+    "item_id": "eace5e792a5116d4",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
     "title": "Bing Icons",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1soi6e9/bing_icons/",
-    "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Some of these sites are 2yrs old. Fwiw, most of my projects are SvelteKit+Vite based. Still have same issue with React+Next projects. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
-    "published_at": "2026-04-18T00:11:58+00:00",
-    "discovered_at": "2026-04-20T17:36:36+00:00",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1soiimi/bing_icons/",
+    "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Fwiw, most of my projects are SvelteKit+Vite based. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
+    "published_at": "2026-04-18T00:27:40+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
     "stage": "hot",
-    "score": 12,
+    "score": 19,
     "score_breakdown": {
       "schema_hits": [
         "rich result",
         "rich results"
       ],
       "intent_hits": [
-        "fix",
-        "issue"
+        "fix"
       ],
       "platform_hits": [],
       "issue_hits": [],
+      "visibility_hits": [
+        "rich result",
+        "rich results"
+      ],
       "negative_hits": [
         "sitemap"
       ],
-      "schema_source": false
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
     },
     "platforms": [],
-    "issue_types": [],
+    "issue_types": [
+      "rich result",
+      "rich results"
+    ],
     "intent_flags": [
-      "fix",
-      "issue"
+      "fix"
     ],
     "business_name": null,
     "business_site": null,
@@ -220,8 +251,68 @@
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
     "subject_draft": "Direct schema help for: Bing Icons",
-    "message_draft": "I saw your post about 'Bing Icons'. It looks like a schema implementation issue. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "message_draft": "I saw your post about 'Bing Icons'. It looks like a rich result, rich results problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
     "follow_up_draft": "Quick follow-up on Bing Icons: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
+    "item_id": "d214198645e6c277",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
+    "published_at": null,
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 18,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [
+        "error",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "I saw your post about 'LD Json Schema syntax Error causing issues on website'. It looks like a schema implementation issue. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on LD Json Schema syntax Error causing issues on website: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "email",
     "contact_target": "schemaagent@gmail.com",
@@ -237,9 +328,9 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-04-20T17:36:36+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
     "stage": "hot",
-    "score": 12,
+    "score": 18,
     "score_breakdown": {
       "schema_hits": [
         "schema markup",
@@ -251,8 +342,15 @@
       ],
       "platform_hits": [],
       "issue_hits": [],
+      "visibility_hits": [],
       "negative_hits": [],
-      "schema_source": false
+      "title_signal_hits": [
+        "issue",
+        "schema markup",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false
     },
     "platforms": [],
     "issue_types": [],
@@ -281,6 +379,631 @@
     "sent_at": null
   },
   {
+    "item_id": "62256d3ec7448946",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Fix for Duplicate FAQs error due to Yotpo in Shopify",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1so11pz/fix_for_duplicate_faqs_error_due_to_yotpo_in/",
+    "summary": "I was getting multiple errors on product pages saying \"Main Entity Missing\" and error field was generating dynamic ID yotpo .com/id/#FAQs. I tried disabling the addon and changed the settings but nothing worked so I added following code in themes.liquid and it fixed it immediately. sharing this for everyone facing similar problems. /u/shaitanmunda",
+    "published_at": "2026-04-17T13:29:35+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 17,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "error",
+        "fix",
+        "missing",
+        "problem"
+      ],
+      "platform_hits": [
+        "shopify"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [
+        "error",
+        "fix"
+      ],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "shopify"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "fix",
+      "missing",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Fix for Duplicate FAQs error due to Yotpo in Shopify",
+    "message_draft": "I saw your post about 'Fix for Duplicate FAQs error due to Yotpo in Shopify'. It looks related to shopify schema setup. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Fix for Duplicate FAQs error due to Yotpo in Shopify: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
+    "item_id": "a0d9b0d6fb240bd9",
+    "source": "Reddit r/shopify",
+    "source_id": "reddit-shopify",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/shopify/.rss",
+    "title": "Regretting starting my store with Shopify",
+    "source_item_url": "https://www.reddit.com/r/shopify/comments/1sqllx0/regretting_starting_my_store_with_shopify/",
+    "summary": "I’ve been dealing with a really frustrating issue beyond the additional subscription costs for apps on the Shopify store. The product feeds from Shopify to Google Merchant Center and Pinterest appear to be completely broken. I’ve already tried multiple fixes including resetting everything, deleting the apps, and reinstalling them but nothing has worked. The core problem is that Shopify is sending incorrect and outdated product data to these platforms. It’s pulling in product listings that were only created as test entries while I was setting up my store, as well as listings that were never published and remained in draft. All of these products have already been deleted from Shopify. Despite that, Google Merchant Center is still trying to sync these non-existent products and, of course, failing. The issue is that I can’t remove them from Google Merchant Center either, because it says they must first be removed from Shopify but they no longer exist there. On top of that, there are two specific products in Google Merchant Center (in English) that are marked as unapproved because the page supposedly “can’t be found.” However, the links are clearly working without any issues. My store is available in three languages, and the English version is active and fully functional, so this error doesn’t make sense. Pinterest is also affected. The product feed ingestion keeps failing and showing errors, so syncing isn’t working there either. I’ve contacted Google Merchant Center support several times, but I only receive generic, unhelpful responses. At this point, I’m stuck the system feels broken, and I have no clear way to fix it. Any advice on how to resolve this would be really appreciated. /u/Confusedmind75",
+    "published_at": "2026-04-20T10:41:29+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 17,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "broken",
+        "error",
+        "fix",
+        "issue",
+        "problem",
+        "support"
+      ],
+      "platform_hits": [
+        "shopify"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [
+        "product data",
+        "product feed"
+      ],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "shopify"
+    ],
+    "issue_types": [
+      "product data",
+      "product feed"
+    ],
+    "intent_flags": [
+      "broken",
+      "error",
+      "fix",
+      "issue",
+      "problem",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Regretting starting my store with Shopify",
+    "message_draft": "I saw your post about 'Regretting starting my store with Shopify'. It looks like a product data, product feed problem on shopify. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Regretting starting my store with Shopify: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
+    "item_id": "43e20804e9a354ca",
+    "source": "Reddit r/Wordpress",
+    "source_id": "reddit-wordpress",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/Wordpress/.rss",
+    "title": "Building a WP Security Scanner Plugin – What Issues Are You Facing?",
+    "source_item_url": "https://www.reddit.com/r/Wordpress/comments/1sqomqb/building_a_wp_security_scanner_plugin_what_issues/",
+    "summary": "I’m currently working on a WordPress security scanner plugin for an agency, and honestly, the problems we’re seeing are kind of alarming. They manage multiple client sites, and two major issues keep coming up again and again: Mass spam/bulk commenting attacks that slip through and flood sites overnight Remote code execution vulnerabilities where injected scripts end up wiping or corrupting entire website data In a few cases, sites were completely broken before anyone even noticed something was wrong. So I started building a plugin that actively scans for these risks instead of just reacting after damage is done. What I’m planning to include: Detection of suspicious file changes (especially in core WP files) Monitoring for injected scripts or unknown PHP files Comment spam pattern detection + auto blocking Vulnerability checks for outdated plugins/themes Alerts when critical files are modified or deleted Basic firewall-like rules for common attack patterns But I feel like I might still be missing real-world edge cases. Would love to hear from you: What security issues have you faced on WordPress sites recently? Any attacks that are hard to detect but cause serious damage? Features you wish security plugins had but don’t? Any pain points while managing multiple WP sites (especially for agencies)? Not trying to build “just another plugin” — more like something practical that actually solves problems we keep seeing in production. Appreciate any insights, even small ones. /u/MudasirItoo",
+    "published_at": "2026-04-20T13:00:27+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 16,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "broken",
+        "issue",
+        "missing",
+        "problem"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [
+        "issue"
+      ],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "broken",
+      "issue",
+      "missing",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Building a WP Security Scanner Plugin – What Issues Are You Facing?",
+    "message_draft": "I saw your post about 'Building a WP Security Scanner Plugin – What Issues Are You Facing?'. It looks related to wordpress schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Building a WP Security Scanner Plugin – What Issues Are You Facing?: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/Wordpress/comments/1sqomqb/building_a_wp_security_scanner_plugin_what_issues/",
+    "sent_at": null
+  },
+  {
+    "item_id": "580fd76719f4e29f",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "Best WooCommerce plugin for backup payment options if checkout goes down?",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1sqlq0j/best_woocommerce_plugin_for_backup_payment/",
+    "summary": "Running a WooCommerce store and trying to make checkout a bit more resilient. We had a short issue recently where our main payment method started failing for some customers. Nothing huge, but enough abandoned carts to make me realize relying on one gateway is risky. Now I’m looking for a WooCommerce plugin or payment gateway setup that makes it easier to: Add backup payment methods Switch gateways without rebuilding checkout Support cards + wallets Use payment links if checkout acts up Keep the checkout fast on mobile Reduce failed payments / cart abandonment Not looking for the “best payment gateway” in general because I know that depends on country, business model, risk level, etc. More interested in what WooCommerce store owners are actually using in real life when they want redundancy and smoother payment processing. I’ve seen a few mentions of Allpays.co as an extra option for WooCommerce, especially for stores that want another route available if the main processor has issues, but I haven’t tested it myself yet. Do you keep one main gateway only, or run multiple options as a safety net? /u/FairDot29",
+    "published_at": "2026-04-20T10:47:32+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 14,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "issue",
+        "setup",
+        "support"
+      ],
+      "platform_hits": [
+        "woocommerce"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "woocommerce"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "setup",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Best WooCommerce plugin for backup payment options if checkout goes do",
+    "message_draft": "I saw your post about 'Best WooCommerce plugin for backup payment options if checkout goes down?'. It looks related to woocommerce schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Best WooCommerce plugin for backup payment options if checkout goes down?: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1sqlq0j/best_woocommerce_plugin_for_backup_payment/",
+    "sent_at": null
+  },
+  {
+    "item_id": "9cd51b5fa50c5ef3",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "Here are some scripts to enforce ZIP+4 mailing addresses",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1sqtdst/here_are_some_scripts_to_enforce_zip4_mailing/",
+    "summary": "Every three months, I bring hundreds, if not thousands, of envelopes to be mailed by the USPS as part of a quarterly magazine I sell through WooCommerce Subscriptions. The majority of my readers are in the USA, and at that scale, I thought it'd help with delivery efficiency to ensure every postal address uses not just a five-digit ZIP code, but the full ZIP+4 format. I put together some PHP scripts to make that happen: https://github.com/gamebits/wc-sub-zip4-updater wc-sub-zip4-updater.php is run from an SSH session and will update all existing subscriptions to ZIP+4 format. It offers both dry run and live modes, and it can target active, inactive, or all subscriptions. The script requires a free USPS API client key and secret. (Note that the USPS retired their old API in January 2026; this script works with the new API.) standardize-zip4.php or standardize-zip4.json can be added to a plugin like Code Snippets to automatically update all new orders as they are received. It too uses the USPS API. secondary-address-scan.php is run from an SSH session and scans for subscriptions that use only the \"Address 1\" field but which should be broken out into \"Address 1\" and \"Address 2\" — important to determine accurate ZIP+4 codes. This script does not use the API and does not update the database. There are customer-facing plugins and services that help validate or autocomplete mailing addresses; I preferred these scripts for being quieter, simpler, and free. However, it's possible these tools have such limited utility that they solved a \"me\" problem, and no one else will find them useful. That's okay! They served my purpose. :) I'm a publisher, not a developer, so I make no secret that these scripts were entirely vibe-coded with Google Gemini; I imagine more talented and knowledgeable individuals will see many opportunities to critique, improve, optimize, and adapt these tools, if desired. (The documentation, however, I wrote. I'm not ready to outsource that just yet!) /u/GamebitsTV",
+    "published_at": "2026-04-20T15:55:20+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 13,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "broken",
+        "developer",
+        "problem"
+      ],
+      "platform_hits": [
+        "woocommerce"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "woocommerce"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "broken",
+      "developer",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": "https://github.com/gamebits/wc-sub-zip4-updater",
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": "https://github.com/gamebits/wc-sub-zip4-updater",
+      "schema_present": true,
+      "notes": "Business site detected"
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Here are some scripts to enforce ZIP+4 mailing addresses",
+    "message_draft": "I saw your post about 'Here are some scripts to enforce ZIP+4 mailing addresses'. It looks related to woocommerce schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Here are some scripts to enforce ZIP+4 mailing addresses: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1sqtdst/here_are_some_scripts_to_enforce_zip4_mailing/",
+    "sent_at": null
+  },
+  {
+    "item_id": "b7c867499eae1706",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "How do i make modern Woocommerce stores?",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1sospbt/how_do_i_make_modern_woocommerce_stores/",
+    "summary": "Am I the only one who finds WooCommerce kinda painful? I’ve been using WordPress for like 5 years, I’m solid with Elementor and Bricks, but every time I touch WooCommerce it just feels… annoying. Like no matter what theme I install, it still looks kinda ugly out of the box. Then I end up digging through a million settings just to make it look halfway decent. The default design feels old, product pages look weird (especially the image layout), and the emails look like they haven’t been updated in 15 years. I’m not even trying to do anything crazy. I just want a clean, modern store that doesn’t feel outdated from the start. Is there any theme or setup that actually looks good right away without having to rebuild everything from scratch, and configurating a ton of settings? Or is this just how WooCommerce is? Like i mean something like this: https://se.pinterest.com/pin/11540542794737431/ Where its possible to change it, but without any problems. I tried using Woodmart, but I found it too complicated and time-consuming to make things look good. I expected to be able to choose between different styles without having to import an entire site with content, but instead I felt i had to build everything from scratch. Also, when I try to import a site and then customize it myself, it just becomes much more difficult and confusing. /u/Marci450",
+    "published_at": "2026-04-18T09:12:59+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 13,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "problem",
+        "setup"
+      ],
+      "platform_hits": [
+        "woocommerce",
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "woocommerce",
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "problem",
+      "setup"
+    ],
+    "business_name": null,
+    "business_site": "https://se.pinterest.com/pin/11540542794737431/",
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": "https://se.pinterest.com/pin/11540542794737431/",
+      "schema_present": false,
+      "notes": "Business site detected"
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: How do i make modern Woocommerce stores?",
+    "message_draft": "I saw your post about 'How do i make modern Woocommerce stores?'. It looks related to woocommerce, wordpress schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on How do i make modern Woocommerce stores?: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1sospbt/how_do_i_make_modern_woocommerce_stores/",
+    "sent_at": null
+  },
+  {
+    "item_id": "30c156261202e744",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "I am a WooCommerce Core team lead, advocating for listening more to public feedback",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1sqom3t/i_am_a_woocommerce_core_team_lead_advocating_for/",
+    "summary": "Hello all, I work in WooCommerce and lead a dev team within the Core codebase. I am trying to advocate taking roadmap decisions by taking more and more into account public feedback. As someone who is on Reddit quite a bit, I thought this would be an obvious place to start. I'm not writing in any official capacity right now, so don't treat this post as such. I am just curious what people think: what's the best way for your feedback to reach to us and become actionable? Whenever I browse this sub for common problems, I often see a very clear, but vague, signal: Plugin fatigue: people mention WooCommerce not working out of the box for their usecase, or having to install 30+ plugins and then when something goes wrong, troubleshooting becomes a nightmare. Fear of updating: people are scared that updating might break something basically. It also seems to me from various threads I scanned, that most often people don't even know what's being updated. Performance: people mentioning the store becoming sluggish. These are a few examples, but they are the clearest themes to me. However, I feel that these kind of things are often frustrating for me as a dev: Ok, you have to install too many plugins, but why? What were the missing features that plugins made up for, would you rather have WooCommerce come with these features in Core, or would you rather have more vetting in plugins or even a step further with “recommended/supported configurations”? How and when did your site become sluggish? Was it a plugin conflict, was it Core, was it too many orders or users? I need something actionable, and I am trying to fetch it. I really want to get more direct and clean feedback, I often have 1:1 calls with agency developers and such. Help me help you! /u/sunyatasattva",
+    "published_at": "2026-04-20T12:59:52+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 13,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "developer",
+        "missing",
+        "problem",
+        "support",
+        "troubleshooting"
+      ],
+      "platform_hits": [
+        "woocommerce"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "woocommerce"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "developer",
+      "missing",
+      "problem",
+      "support",
+      "troubleshooting"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: I am a WooCommerce Core team lead, advocating for listening more to pu",
+    "message_draft": "I saw your post about 'I am a WooCommerce Core team lead, advocating for listening more to public feedback'. It looks related to woocommerce schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on I am a WooCommerce Core team lead, advocating for listening more to public feedback: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1sqom3t/i_am_a_woocommerce_core_team_lead_advocating_for/",
+    "sent_at": null
+  },
+  {
+    "item_id": "118daa5c43f4a8cf",
+    "source": "Reddit r/bigseo",
+    "source_id": "reddit-bigseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/bigseo/.rss",
+    "title": "Persistent technical suppression on Google.dk: Ranking #1 for \"Brand\" and \"Brand + Buy\", but invisible for \"Brand + Category\" for months",
+    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1smtnxj/persistent_technical_suppression_on_googledk/",
+    "summary": "Hi r/SEO , I am looking for technical insights into a persistent ranking suppression on Google.dk. This has been ongoing for several months with zero movement, regardless of typical optimizations. The Ranking Pattern (Static for months): \"Brand\" (ZAO): Consistent #1. \"Brand + Transactional\" (ZAO makeup køb): Consistent #1. \"Brand + Category\" (ZAO makeup): Completely invisible. Not in the top 100 on either Mobile or Desktop. The Setup (Denmark / Google.dk): • Main Brand Hub: /brand/zao/ (The page ranking for the terms above). • Category Pages: Standard WooCommerce category paths (e.g., /kategori/makeup/ansigt/mascara/). The Recurring \"Glitch\": Every time we make a change or an update, the page for \"Brand + Category\" briefly hits the #1 spot for a short period (a few hours to a day). Then, it immediately vanishes again and drops out of the search. This pattern repeats every time we try to \"fix\" it. The Problem: Despite having clear authority for the brand and the transactional \"buy\" intent, the domain is being filtered/suppressed for the primary \"Brand + Category\" term. This is not a \"Google Dance\" or a temporary crawl issue; it is a long-term, static suppression across all devices. I am looking for experienced views on why Google.dk would award #1 positions for the head term and high-intent transactional terms, yet completely filter the domain for the mid-level category term. Has anyone dealt with this specific type of intent-conflict or host-clustering filter on a smaller ccTLD like Denmark? /u/Annual_Ad1815",
+    "published_at": "2026-04-16T04:49:30+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 13,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "fix",
+        "issue",
+        "problem",
+        "setup"
+      ],
+      "platform_hits": [
+        "woocommerce"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "woocommerce"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "fix",
+      "issue",
+      "problem",
+      "setup"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Persistent technical suppression on Google.dk: Ranking #1 for \"Brand\" ",
+    "message_draft": "I saw your post about 'Persistent technical suppression on Google.dk: Ranking #1 for \"Brand\" and \"Brand + Buy\", but invisible for \"Brand + Category\" for months'. It looks related to woocommerce schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Persistent technical suppression on Google.dk: Ranking #1 for \"Brand\" and \"Brand + Buy\", but invisible for \"Brand + Category\" for months: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/bigseo/comments/1smtnxj/persistent_technical_suppression_on_googledk/",
+    "sent_at": null
+  },
+  {
+    "item_id": "74393913ed608365",
+    "source": "Reddit r/Wordpress",
+    "source_id": "reddit-wordpress",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/Wordpress/.rss",
+    "title": "Start Here: Essential Resources & FAQs",
+    "source_item_url": "https://www.reddit.com/r/Wordpress/comments/1cqlvod/start_here_essential_resources_faqs/",
+    "summary": "The idea for this post came up in this thread by wiz to avoid the number of similar questions we get around here and to serve as a megathread for any/all questions of a similar nature. I will collate any and all valuable information by other users and update this thread as we go. Seasoned users please pitch in with anything that should be included. Many thanks to u/BlueSix for assisting in putting this together. What's covered: The .COM vs .ORG Issue Hosting - Where should I host? Performance - Why is my site slow / Pagespeed score appalling? Building Your WordPress Site: Is X builder better than Y? What is the best theme? Etc. Updates Backups Security Combating spam comments, contact form submissions & bot registrations Hacks/Malware: Err guys help, there’s some weird stuff on my front end Resources to learn WordPress Where to find plugins/add feature X? I found a plugin that costs $50 for $5 on a “GPLDL” source, is it safe to use? How much should I charge? Is a site using WordPress? The .COM vs .ORG issue This one is probably the single most asked question in this sub. Why can’t I do x,y,z?, Why do I have to pay more to install a plugin or edit a theme? Etc.etc. There are literally 100’s of threads about this. If you want more info please search the sub for wordpress.com or read this resource for a comparison. To summarise: WordPress is free, open source software which can be found at wordpress.org . Think of wordpress.com as a host that is using .org’s software and has various functionality locked behind pricing tiers. What you want to do is get your own cheaper hosting and self install and manage WordPress so you don’t have any restrictions at base software level. Hosting - Where should I host? The next big question is who is a good host? This is better suited for r/webhosting . Having said that, there are plenty of different hosts to choose from. Shared web hosting is the cheapest but comes with the caveat that performance is shared with others on your same server. Dedicated, VPS and Cloud solutions are faster but more expensive. The thing to remember here is performance is directly tied to price and you get what you pay for. The most recommended hosts around here that I’ve seen are Digital Ocean, Cloudways and Siteground. Again, for specific hosting questions you will get better support at r/webhosting Performance - Why is my site slow / Pagespeed score apalling? Hosting Most of the time it's just bad hosting. As mentioned earlier, cheap shared hosting is notorious for bad performance. If your host is slow then nothing else will matter much, so this is your first port of call. Properly optimise images This is a relatively simple one. Don’t use images that are 6000 x 4000px. Figure out the max display size for your use case and resize. Secondly ditch PNG and JPG and use WEBP. The recommendation is to convert before you upload. Most image editors will let you save in webp and 75-80% compression works well for a balance. To bulk convert, use XnConvert or Photoshop Batch process . For existing media you can use a plugin. There are many Smush, Optimole etc. Converter For Media is a free option. Some servers like Siteground and/or other optimisation plugins may have this feature inbuilt so always check so you don’t end up doubling up. Since 6.3, WordPress can also convert to WEBP on upload. You can use the Performance Lab plugin by the WordPress team themselves to manage this. If, like me, you don’t want your server getting clogged up with multiple image types and you only want to have the WEBP files OR you don’t want to use a plugin use this snippet . Lazy load Lazy loading images, videos and iframes will speed up things significantly since 5.3 this has been a feature in core WordPress and should work out of the box for most cases. Some themes/page builders will have an option for this as well. Some hosts and caching plugins like WP Rocket will also have this option. If you find that it is not working on your site for some reason you can use a plugin such as Lazy Load by WP Rocket or A3 Lazy Load for more control. Caching, CDNs. Minification Etc. You should be using caching on your website if you care about performance. WARNING: Using minification and/or combining files and scripts can cause your website to break so always test, test and test again! There are many, many free and paid plugins for this. Some hosts will have their own caching plugin, this should be preferred over others. If you have a Litespeed enabled server use Litespeed. The general recommendation here is to use Cloudflare free with Super Page Cache For CF . Here is a guide on how to set up your domain, after that follow the plugin instructions. Common question #1: Should I keep my hosts caching on with CF? Yes. Your server is the origin server and having your own files cached means it is less taxing on your server resources and CF fetches files faster. Common Question #2: I’m getting an SSL error or redirect loop. Make sure you have a valid SSL certificate server on your origin server and make sure to set Cloudflare > SSL/TLS > Overview to Full. Cloudflare also has its own minification settings under : Speed > Optimisation. Discontinued from 2024-08-05. Other popular recommended options: WP Rocket (Subscription) Perfmatters (Subscription) Autoptimize (Free) Advanced optimisation If you really want to get under the hood and squeeze every last bit out of your setup then: Use a plugin like Debloat for a quick clean up. Use Asset Clean Up to go through each page and disable unused crap. (Time consuming but potentially massive gains). Use Query Monitor to inspect what is going on under the hood and find unnecessary scripts etc. If that is still not enough here is a 73 203 bazillion page guide by u/jazir5 Building Your WordPress Site: Is X builder better than Y? What is the best theme? Etc. There are many conflicting opinions on this because there is no one way to do things on WordPress. Each camp will tell you the other one is inferior and purists dislike all of them. You can build your site with: A page builder : Bricks , Elementor , Divi etc. Using prebuilt themes. Each theme will have its own settings that’s exclusive to it. A completely custom coded setup, written with a combination of html, css and php using WordPress actions, filters and hooks. My two cents on the matter: Budget, experience and skill all come into play here. Thus, what works for you to achieve your end goal is the best. If you like a WYSIWYG approach then page builders will more likely be your thing. Play around with the demos, watch some tutorials and if one of them looks more likely to work for you, then take it for a spin. The Twenty Twenty Four theme along with the block builder is a solid place to start. There are many tutorials on how to get started with 2024 including the official WordPress documentation . A CSS editor such as Yellow Pencil or Microthemer will assist you to fix a lot of front end annoyances and supplements any workflow. Updates Stay up to date with all plugins and core software at all times if you don’t want to have security holes and get hacked. Backups Taking/having backups of your website are essential. Servers can crash and data can be lost and you will cry if you end up without a backup in this scenario. The stress and grief of not having a backup and having to rebuild your site from scratch is not worth it. There's a few ways you can go about taking backups. You can: Use a recommended plugin like UpdraftPlus to schedule for daily, weekly or monthly backups. Send backups to remote servers (AWS S3, Dropbox, Google Drive) or your local machine. Remember having them stored on the same server as the website is not going to help. Include this in your hosting requirements and find a host that automatically provides a scheduled backup process. In the very least, take a manual backup using your hosts control panel whenever you make a significant change to your website,. Security Keep everything up to date at all times. Run updates at least once a month. Fortnightly is better. More frequently is better Use plugins and themes that are well supported, frequently updated, high install counts, well ranked, well established. Use Wordfence - it’ll alert you when any plugins that you’re using have a known vulnerability or haven’t been updated (by the developer) for 2 or more years. It will also protect you from known attack vectors for vulnerable plugins (for the free version, this protection is only available after the vulnerability is 30 days old, but there’s nothing stopping you updating your plugins, assuming a patch is available). Don’t use hosting where multiple sites sit in the one account (common on shared hosting). Each website should have its own owner. Combating spam comments, fontact form submissions & bot registrations Disable comments and user sign ups sitewide if you don't use them. Use a captcha on login, register and all contact/comment forms. Google Recaptcha , Cloudflare Turnstile (Free) Cleantalk for a non captcha based solution (paid but very cheap) Honeypot for a simple non captcha based solution. Hacks/Malware: Err guys help, there’s some weird stuff on my front end. Congratulations you got hacked. Most of us have dealt with this in one way or another at some point so you aren’t alone. Do you have a backup? Easy, wipe everything and restore. Run a scan with Wordfence and/or GOTMLS to be doubly sure you are clean. Harden your security to avoid repeat issues. No backup? (Get the tissues) Install Wordfence and run scan. Alternatively my first port of call for this has always been GOTMLS . Update definitions and run a root scan the plugin should find any code that shouldn’t be there and you should be good to go. Resources to learn WordPress If you are serious about your WordPress journey then you must equip yourself with some coding knowledge. Some skills in PHP, Javascript, CSS & HTML will help you immensely. Learn WordPress W3Schools (HTML, CSS) WordPress Developer WordPress Hooks, Actions & Functions (Quick Start) Where to find plugins/add feature X? The WordPress plugin repository should be your first stop. You can access this library via your Dashboard > Plugins > Add New Plugin Codecanyon is a decent marketplace to get premium plugins for a one off buy without ongoing subscription costs. For code snippets and help with your own code StackOverflow or r/prowordpress is your best bet. Warning: Remember to always double check the source and reputability of a source before installing third-party plugins and/or scripts. I found a plugin that costs $50 for $5 on a “GPLDL” source, is it safe to use? The simple answer here is NO. No you shouldn’t and that should be the end of that. But alas, we still have many more questions: Will the plugin still work? Probably. Are there any guarantees that it will work and demo content will be provided? Absolutely not. Will there be links to turn one’s junk into a cyborg on my site? Most likely. Will Google blacklist you? If you have malware. Most definitely. Will your host shut you down? If detected, any reputable one will. Is rebuilding an entire site and losing the trust of your audience worth all this? Not to me, but only you can answer this for yourself. How much should I charge? We unfortunately can't provide specific answers to pricing questions as everyone's experience and locations vary widely. For guidance on pricing strategies, we recommend searching 'your country + web developer/designer rates'. Standard hourly rates for your locality can offer insights into various pricing approaches that may be applicable to you. Please also read this article on Pricing Strategies on how to tackle this sort of question. Is a site using WordPress? Check the Page Source : Right-click on the page and select \"View Page Source\" (or use Ctrl+U). Search for typical WordPress identifiers like /wp-content/ , /wp-includes/ , or wp-json . If you see these, the site is likely WordPress. Online Tools : Websites like IsItWP , Wappalyzer or BuiltWith can analyze a website's technology stack. These tools should be able to identify if the site is using WordPress in most cases. That’s it, hopefully this gets you started on your WordPress journey. If you have any further questions feel free to leave a comment and someone should be able to assist. Changelog 09/11/24 - Added how to check if a site is using WordPress 04/07/2024 - Added Pricing Strategies 29/05/2024 - Fixed typos - Removed Cloudflare Minification (EOL) - Added Combating Spam section. /u/Acephaliax",
+    "published_at": "2024-05-13T00:06:34+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 13,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "developer",
+        "error",
+        "fix",
+        "issue",
+        "setup",
+        "support",
+        "warning"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "developer",
+      "error",
+      "fix",
+      "issue",
+      "setup",
+      "support",
+      "warning"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Start Here: Essential Resources & FAQs",
+    "message_draft": "I saw your post about 'Start Here: Essential Resources & FAQs'. It looks related to wordpress schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Start Here: Essential Resources & FAQs: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/Wordpress/comments/1cqlvod/start_here_essential_resources_faqs/",
+    "sent_at": null
+  },
+  {
+    "item_id": "87dcf6274224c2e5",
+    "source": "Reddit r/shopify",
+    "source_id": "reddit-shopify",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/shopify/.rss",
+    "title": "Syncing eBay listings to Shopify for use on a WordPress site – best approach?",
+    "source_item_url": "https://www.reddit.com/r/shopify/comments/1sq6j3y/syncing_ebay_listings_to_shopify_for_use_on_a/",
+    "summary": "I’ve built a WordPress site and I’m considering using Shopify to officially embed products, as described here: shopify.com/sell-on-wordpress. Currently, my entire inventory items is on eBay. Has anyone successfully synced their existing eBay listings into Shopify while keeping the inventory updated across both platforms? From what I’ve gathered online, this usually requires apps from apps.shopify.com, but I’m not sure how those integrations handle things in practice. Ideally, I want a two-way sync: if an item sells on eBay, Shopify updates, and vice-versa. If you’ve managed this setup, which app did you use? Also, did you run into any issues with images or descriptions not importing correctly? I'd love to hear about your experience. /u/Chronicle420",
+    "published_at": "2026-04-19T22:01:37+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 13,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "issue",
+        "setup"
+      ],
+      "platform_hits": [
+        "shopify",
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "shopify",
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "setup"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Syncing eBay listings to Shopify for use on a WordPress site – best ap",
+    "message_draft": "I saw your post about 'Syncing eBay listings to Shopify for use on a WordPress site – best approach?'. It looks related to shopify, wordpress schema setup. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Syncing eBay listings to Shopify for use on a WordPress site – best approach?: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
     "item_id": "0009f86135aebd37",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -290,9 +1013,9 @@
     "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-04-20T17:36:36+00:00",
-    "stage": "watch",
-    "score": 6,
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 12,
     "score_breakdown": {
       "schema_hits": [
         "json-ld"
@@ -302,13 +1025,194 @@
       ],
       "platform_hits": [],
       "issue_hits": [],
+      "visibility_hits": [],
       "negative_hits": [],
-      "schema_source": false
+      "title_signal_hits": [
+        "json-ld",
+        "missing"
+      ],
+      "schema_source": true,
+      "native_action_source": false
     },
     "platforms": [],
     "issue_types": [],
     "intent_flags": [
       "missing"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "AI Visibility Kit could help with: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "message_draft": "I saw your post about 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...'. It looks like a schema implementation issue. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "sent_at": null
+  },
+  {
+    "item_id": "e12b072eac1d2ec5",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "Double-tap issue on iPhone across browsers (Shoptimizer / WooCommerce)",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1spk5we/doubletap_issue_on_iphone_across_browsers/",
+    "summary": "Hi, I have a WooCommerce store running the Shoptimizer theme, and on iPhones I am seeing what I would describe as a double-tap issue on some pages. It happens regardless of which browser I use, so it seems to be iOS-specific rather than browser-specific. It is especially easy to reproduce on product pages . For example, on this product page: https://healthyhead.dk/vare/zao-biobaseret-neglelak-8-ml/ For example, if you open this product page and tap the site logo in the header or one of the breadcrumbs , the first tap often does nothing and only the second tap actually triggers the link. So in practice, links that should work on the first tap sometimes require two taps on iPhone. Has anyone seen this before in Shoptimizer, WooCommerce, or iOS Safari-related setups? I would be very interested in knowing what typically causes this — for example CSS hover states, JavaScript event handlers, overlays, or something theme-related. /u/Annual_Ad1815",
+    "published_at": "2026-04-19T05:32:47+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 12,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "issue",
+        "setup"
+      ],
+      "platform_hits": [
+        "woocommerce"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [
+        "issue"
+      ],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "woocommerce"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "setup"
+    ],
+    "business_name": null,
+    "business_site": "https://healthyhead.dk/vare/zao-biobaseret-neglelak-8-ml/",
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": "https://healthyhead.dk/vare/zao-biobaseret-neglelak-8-ml/",
+      "schema_present": true,
+      "notes": "Business site detected"
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Double-tap issue on iPhone across browsers (Shoptimizer / WooCommerce)",
+    "message_draft": "I saw your post about 'Double-tap issue on iPhone across browsers (Shoptimizer / WooCommerce)'. It looks related to woocommerce schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Double-tap issue on iPhone across browsers (Shoptimizer / WooCommerce): if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1spk5we/doubletap_issue_on_iphone_across_browsers/",
+    "sent_at": null
+  },
+  {
+    "item_id": "4493031686b08b11",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "Woo commerce issue with removed items persisting.",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1sp94nc/woo_commerce_issue_with_removed_items_persisting/",
+    "summary": "After clearing the cache customers are able to make purchases but there is a lingering issues for some where if you click the red X to remove a item in the cart, another item pops up and instead of clearing, each click of the X replaces the item with the one you just removed Has anyone experienced this? Or can point me to the right troubleshooting steps, clearing cache seems to be a bandaid on a actual woocommerce cart issue, i saw a few post about ajax /u/I_hav_aQuestnio",
+    "published_at": "2026-04-18T20:53:41+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "hot",
+    "score": 12,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "issue",
+        "troubleshooting"
+      ],
+      "platform_hits": [
+        "woocommerce"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [
+        "issue"
+      ],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "woocommerce"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "troubleshooting"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Woo commerce issue with removed items persisting.",
+    "message_draft": "I saw your post about 'Woo commerce issue with removed items persisting.'. It looks related to woocommerce schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Woo commerce issue with removed items persisting.: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1sp94nc/woo_commerce_issue_with_removed_items_persisting/",
+    "sent_at": null
+  },
+  {
+    "item_id": "557a8e8113ee3b12",
+    "source": "Reddit r/shopify",
+    "source_id": "reddit-shopify",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/shopify/.rss",
+    "title": "BEWARE: Shopupup (Shopify Partner) injected malicious code into my store!",
+    "source_item_url": "https://www.reddit.com/r/shopify/comments/1soydr5/beware_shopupup_shopify_partner_injected/",
+    "summary": "Hi everyone, I’m writing this to warn fellow Shopify store owners about a \"Service Partner\" called Shopupup . I hired this person to customize my site (fix some minor issues), but I discovered this person injected malicious code into my site, which caused significant financial losses and security issues. Specifically, stay away from their app called \"Shopupup Disable Toolbox\" . It claims to \"protect\" your store, but it’s actually a Trojan horse used to plant malicious links and backdoors into your theme. Don't make the same mistake I did. Stay safe! /u/Clean_Survey_8047",
+    "published_at": "2026-04-18T13:59:13+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "warm",
+    "score": 10,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "fix",
+        "issue"
+      ],
+      "platform_hits": [
+        "shopify"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "shopify"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "fix",
+      "issue"
     ],
     "business_name": null,
     "business_site": null,
@@ -322,12 +1226,181 @@
     "sales_route": "forum_reply",
     "cta_label": "Get the AI Visibility Kit",
     "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "message_draft": "I saw your post about 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...'. It looks like a schema implementation issue. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "subject_draft": "AI Visibility Kit could help with: BEWARE: Shopupup (Shopify Partner) injected malicious code into my sto",
+    "message_draft": "I saw your post about 'BEWARE: Shopupup (Shopify Partner) injected malicious code into my store!'. It looks related to shopify schema setup. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on BEWARE: Shopupup (Shopify Partner) injected malicious code into my store!: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "contact_target": "https://www.reddit.com/r/shopify/comments/1soydr5/beware_shopupup_shopify_partner_injected/",
+    "sent_at": null
+  },
+  {
+    "item_id": "78e66f0dbd5ad173",
+    "source": "Reddit r/shopify",
+    "source_id": "reddit-shopify",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/shopify/.rss",
+    "title": "UPDATE: Massive Bot Attack on our Client Shopify Store (500+ Fake Carts/Hour) We found the root cause...",
+    "source_item_url": "https://www.reddit.com/r/shopify/comments/1sqmar4/update_massive_bot_attack_on_our_client_shopify/",
+    "summary": "First off, We want to say a huge thank you to everyone who commented on my previous post. Your recommendations were incredibly helpful and gave us the exact roadmap we needed to diagnose what was actually happening. However, we uncovered a massive blind spot in Shopify’s architecture. Based on the community’s advice, we locked down the site. We implemented every standard defense: Added strict hCaptcha/reCAPTCHA specifically on the add-to-cart and checkout flows (not just forms). Installed premium Shopify bot protection apps that block based on user behavior, not just IP addresses. Configured aggressive rate-limiting on add-to-cart requests via our own Cloudflare (using Challenge Mode, not just basic WAF rules). Temporarily blocked all traffic from suspicious countries and ASNs. Fully disabled and hid all Out of Stock (OOS) products, since those were clearly being targeted by the bots. Despite all of this, the bots were still getting through. We finally dug into the logs and realized why: The bots were not hitting our main domain. they were entirely bypassing our front-end and sending traffic directly to the shopify.clientwebsite.com subdomain. Because that subdomain is hard-routed and managed entirely under Shopify’s Enterprise Cloudflare, every single custom WAF rule, rate limit, and IP block we built in our Cloudflare Pro account was rendered completely useless. We had zero control over the traffic hitting that subdomain. We immediately escalated this to Shopify Support, explaining that malicious traffic was bypassing our security by exploiting their subdomain routing. Their response? They essentially told us they couldn't help us. Even though the vulnerability is on a domain managed by their infrastructure, they offered no backend block or custom WAF rule to stop it. This is the ONLY one helped we went into the settings and forced Customer Accounts Required for Checkout . (Settings > Checkout > Require customers to log in to their account before checkout). /u/DiscoverMyBusiness",
+    "published_at": "2026-04-20T11:16:24+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "warm",
+    "score": 10,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "implement",
+        "support"
+      ],
+      "platform_hits": [
+        "shopify"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "shopify"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "implement",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: UPDATE: Massive Bot Attack on our Client Shopify Store (500+ Fake Cart",
+    "message_draft": "I saw your post about 'UPDATE: Massive Bot Attack on our Client Shopify Store (500+ Fake Carts/Hour) We found the root cause...'. It looks related to shopify schema setup. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on UPDATE: Massive Bot Attack on our Client Shopify Store (500+ Fake Carts/Hour) We found the root cause...: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/shopify/comments/1sqmar4/update_massive_bot_attack_on_our_client_shopify/",
+    "sent_at": null
+  },
+  {
+    "item_id": "72edc900ba0df018",
+    "source": "WordPress Support - Rank Math SEO",
+    "source_id": "wordpress-rankmath-support",
+    "source_type": "forum",
+    "source_url": "https://wordpress.org/support/plugin/seo-by-rank-math/",
+    "title": "Rank Math still showing “No Index” error after unchecking WP settings",
+    "source_item_url": "https://wordpress.org/support/topic/rank-math-still-showing-no-index-error-after-unchecking-wp-settings/",
+    "summary": "",
+    "published_at": null,
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "warm",
+    "score": 8,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "error"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [],
+      "title_signal_hits": [
+        "error"
+      ],
+      "schema_source": true,
+      "native_action_source": true
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: Rank Math still showing “No Index” error after unchecking WP settings",
+    "message_draft": "I saw your post about 'Rank Math still showing “No Index” error after unchecking WP settings'. It looks like a schema implementation issue. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Rank Math still showing “No Index” error after unchecking WP settings: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/rank-math-still-showing-no-index-error-after-unchecking-wp-settings/",
+    "sent_at": null
+  },
+  {
+    "item_id": "4b9aac5dc6589bd0",
+    "source": "Reddit r/bigseo",
+    "source_id": "reddit-bigseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/bigseo/.rss",
+    "title": "Stuck on Page 2 for Mid Range Keywords Despite Perfect Core Web Vitals and Quality Backlinks",
+    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1sn6k3l/stuck_on_page_2_for_mid_range_keywords_despite/",
+    "summary": "Hi everyone, I’ve been working on a fashion/jewelry e-commerce site for about three months, and I’ve hit a plateau that I can’t seem to break through. The site is built on WordPress and partially falls under the YMYL category. Technically and content-wise, everything looks perfect on paper; our Core Web Vitals are all green, and we have zero issues with site speed or mobile usability. On the content side, we’ve developed high-quality, unique copy for every category and product, strictly optimized for user intent. Our off page strategy includes backlinks from .edu and .gov domains, as well as authoritative fashion blogs and news outlets. We also maintain a strict anchor text balance between branded terms and target keywords. The problem is that while we’ve successfully ranked on the first page for a few low-volume keywords, our main product categories with a keyword difficulty between 15 and 30 simply won’t budge. Despite three months of consistent effort, these mid-range keywords are stuck on page 2 or 3, and some aren't even ranking at all. It feels like we’ve hit a glass ceiling. Do you think this could be a lack of E-E-A-T signals due to the YMYL nature of the niche, or is a 3 month window simply too short for this difficulty level in the fashion industry? If there are any technical details or specific strategies I might be overlooking, I’d love to hear your insights. Thanks in advance /u/Efficient_Friend6852",
+    "published_at": "2026-04-16T15:17:19+00:00",
+    "discovered_at": "2026-04-20T17:44:20+00:00",
+    "stage": "warm",
+    "score": 8,
+    "score_breakdown": {
+      "schema_hits": [],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "negative_hits": [
+        "backlinks"
+      ],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: Stuck on Page 2 for Mid Range Keywords Despite Perfect Core Web Vitals",
+    "message_draft": "I saw your post about 'Stuck on Page 2 for Mid Range Keywords Despite Perfect Core Web Vitals and Quality Backlinks'. It looks related to wordpress schema setup. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Stuck on Page 2 for Mid Range Keywords Despite Perfect Core Web Vitals and Quality Backlinks: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/bigseo/comments/1sn6k3l/stuck_on_page_2_for_mid_range_keywords_despite/",
     "sent_at": null
   }
 ]
