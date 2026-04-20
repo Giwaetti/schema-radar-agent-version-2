@@ -1,56 +1,69 @@
 [
   {
-    "item_id": "c75603b854713000",
+    "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Issue with Schema Markup Not Rendering Properly in Search Results",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
-    "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Elementor FAQPage Schema Bug - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "hot",
-    "score": 30,
+    "score": 33,
     "score_breakdown": {
       "schema_hits": [
         "json-ld",
-        "schema markup",
-        "structured data"
+        "schema markup"
       ],
-      "intent_hits": [
-        "issue",
+      "hard_schema_hits": [
+        "google search console",
+        "json-ld",
+        "schema",
+        "schema markup",
         "search console"
       ],
-      "platform_hits": [],
+      "intent_hits": [
+        "error",
+        "issue",
+        "missing",
+        "search console",
+        "support"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
       "issue_hits": [],
       "visibility_hits": [
-        "google search",
-        "not rendering properly in search results",
-        "search console",
-        "search results"
+        "google search console",
+        "search console"
+      ],
+      "ecom_search_hits": [
+        "google search console",
+        "search console"
       ],
       "negative_hits": [],
       "hard_reject_hits": [],
-      "title_signal_hits": [
-        "issue",
-        "schema markup"
-      ],
+      "title_signal_hits": [],
       "schema_source": true,
       "native_action_source": false,
       "general_reddit_source": false,
       "ecom_platform_source": false
     },
-    "platforms": [],
+    "platforms": [
+      "wordpress"
+    ],
     "issue_types": [
-      "google search",
-      "not rendering properly in search results",
-      "search console",
-      "search results"
+      "google search console",
+      "search console"
     ],
     "intent_flags": [
+      "error",
       "issue",
-      "search console"
+      "missing",
+      "search console",
+      "support"
     ],
     "business_name": null,
     "business_site": null,
@@ -64,9 +77,9 @@
     "sales_route": "email_contact",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with Schema Markup Not Rendering Properly in Search Results",
-    "message_draft": "I saw your post about 'Issue with Schema Markup Not Rendering Properly in Search Results'. It looks like a schema implementation issue. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Issue with Schema Markup Not Rendering Properly in Search Results: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "subject_draft": "Direct schema help for: Elementor FAQPage Schema Bug - WordPress.org",
+    "message_draft": "I saw your post about 'Elementor FAQPage Schema Bug - WordPress.org'. It looks related to wordpress schema setup. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Elementor FAQPage Schema Bug - WordPress.org: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "email",
     "contact_target": "schemaagent@gmail.com",
@@ -82,12 +95,16 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "hot",
-    "score": 23,
+    "score": 29,
     "score_breakdown": {
       "schema_hits": [
         "faq schema"
+      ],
+      "hard_schema_hits": [
+        "faq schema",
+        "schema"
       ],
       "intent_hits": [
         "missing"
@@ -98,6 +115,7 @@
         "missing field"
       ],
       "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "title_signal_hits": [
@@ -139,30 +157,39 @@
     "sent_at": "2026-04-17T12:30:00+00:00"
   },
   {
-    "item_id": "eace5e792a5116d4",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
+    "item_id": "c41eeb5527e4650d",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
     "title": "Bing Icons",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1soiimi/bing_icons/",
-    "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Fwiw, most of my projects are SvelteKit+Vite based. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
-    "published_at": "2026-04-18T00:27:40+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1soi6e9/bing_icons/",
+    "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Some of these sites are 2yrs old. Fwiw, most of my projects are SvelteKit+Vite based. Still have same issue with React+Next projects. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
+    "published_at": "2026-04-18T00:11:58+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "hot",
-    "score": 22,
+    "score": 28,
     "score_breakdown": {
       "schema_hits": [
         "rich result",
         "rich results"
       ],
+      "hard_schema_hits": [
+        "rich result",
+        "rich results",
+        "schema"
+      ],
       "intent_hits": [
-        "fix"
+        "fix",
+        "issue"
       ],
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [
-        "bing",
+        "rich result",
+        "rich results"
+      ],
+      "ecom_search_hits": [
         "rich result",
         "rich results"
       ],
@@ -178,12 +205,12 @@
     },
     "platforms": [],
     "issue_types": [
-      "bing",
       "rich result",
       "rich results"
     ],
     "intent_flags": [
-      "fix"
+      "fix",
+      "issue"
     ],
     "business_name": null,
     "business_site": null,
@@ -206,270 +233,6 @@
     "sent_at": null
   },
   {
-    "item_id": "ed1458b922432690",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Elementor FAQPage Schema Bug - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
-    "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
-    "published_at": null,
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "hot",
-    "score": 21,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld",
-        "schema markup"
-      ],
-      "intent_hits": [
-        "error",
-        "issue",
-        "missing",
-        "search console",
-        "support"
-      ],
-      "platform_hits": [
-        "wordpress"
-      ],
-      "issue_hits": [],
-      "visibility_hits": [
-        "google search",
-        "search console"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [
-      "wordpress"
-    ],
-    "issue_types": [
-      "google search",
-      "search console"
-    ],
-    "intent_flags": [
-      "error",
-      "issue",
-      "missing",
-      "search console",
-      "support"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "email_contact",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Elementor FAQPage Schema Bug - WordPress.org",
-    "message_draft": "I saw your post about 'Elementor FAQPage Schema Bug - WordPress.org'. It looks related to wordpress schema setup. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Elementor FAQPage Schema Bug - WordPress.org: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "email",
-    "contact_target": "schemaagent@gmail.com",
-    "sent_at": null
-  },
-  {
-    "item_id": "531eee5f23034cb1",
-    "source": "Reddit r/bigseo",
-    "source_id": "reddit-bigseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/bigseo/.rss",
-    "title": "I’m seeking some technical guidance regarding a sudden de-indexing issue on my site. Shortly after the recent Google Core Update, a significant number of previously indexed pages were removed from the index.",
-    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1sqhdb1/im_seeking_some_technical_guidance_regarding_a/",
-    "summary": "The Situation: Status: Pages that were previously ranking have been moved to the \"Crawled - currently not indexed\" category in Google Search Console. Manual Actions: No manual actions or security issues are reported in GSC. Technical Check: robots.txt and noindex tags have been verified; there are no blocks or technical directives preventing indexing. Context: The site focuses on Cryptocurrency news and technical blockchain security analysis. /u/digitaljamesoliver",
-    "published_at": "2026-04-20T06:32:51+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "hot",
-    "score": 17,
-    "score_breakdown": {
-      "schema_hits": [],
-      "intent_hits": [
-        "issue",
-        "search console"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "google search",
-        "search console"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "title_signal_hits": [
-        "issue"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "google search",
-      "search console"
-    ],
-    "intent_flags": [
-      "issue",
-      "search console"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "email_contact",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: I’m seeking some technical guidance regarding a sudden de-indexing iss",
-    "message_draft": "I saw your post about 'I’m seeking some technical guidance regarding a sudden de-indexing issue on my site. Shortly after the recent Google Core Update, a significant number of previously indexed pages were removed from the index.'. It looks like a google search, search console problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on I’m seeking some technical guidance regarding a sudden de-indexing issue on my site. Shortly after the recent Google Core Update, a significant number of previously indexed pages were removed from the index.: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "email",
-    "contact_target": "schemaagent@gmail.com",
-    "sent_at": null
-  },
-  {
-    "item_id": "0009f86135aebd37",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
-    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
-    "published_at": null,
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "hot",
-    "score": 16,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
-      "intent_hits": [
-        "missing"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "search results"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "title_signal_hits": [
-        "json-ld",
-        "missing"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "search results"
-    ],
-    "intent_flags": [
-      "missing"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "email_contact",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "AI Visibility Kit could help with: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "message_draft": "I saw your post about 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...'. It looks like a schema implementation issue. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
-    "sent_at": null
-  },
-  {
-    "item_id": "6905f49a70f930ce",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Indexed pages dropped suddenly in GSC – anyone else facing this?",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sqh7v2/indexed_pages_dropped_suddenly_in_gsc_anyone_else/",
-    "summary": "Hey guys, I’m seeing a sudden drop in my Google Search Console indexing. Earlier: Indexed: 448 Not Indexed: 181 Now: Indexed: 240 Not Indexed: 416 Almost half my pages got deindexed suddenly. No major changes from my side. Site is active and content is getting published regularly. Most pages are showing under “Crawled – currently not indexed”. Is this normal? Is it due to a Google update or content issue? Anyone faced this and recovered? /u/Realistic_Factor409",
-    "published_at": "2026-04-20T06:24:19+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "hot",
-    "score": 16,
-    "score_breakdown": {
-      "schema_hits": [],
-      "intent_hits": [
-        "issue",
-        "search console"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "google search",
-        "search console"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "google search",
-      "search console"
-    ],
-    "intent_flags": [
-      "issue",
-      "search console"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "email_contact",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Indexed pages dropped suddenly in GSC – anyone else facing this?",
-    "message_draft": "I saw your post about 'Indexed pages dropped suddenly in GSC – anyone else facing this?'. It looks like a google search, search console problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Indexed pages dropped suddenly in GSC – anyone else facing this?: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "email",
-    "contact_target": "schemaagent@gmail.com",
-    "sent_at": null
-  },
-  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -479,11 +242,16 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "hot",
-    "score": 16,
+    "score": 26,
     "score_breakdown": {
       "schema_hits": [
+        "schema markup",
+        "structured data"
+      ],
+      "hard_schema_hits": [
+        "schema",
         "schema markup",
         "structured data"
       ],
@@ -494,6 +262,7 @@
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "title_signal_hits": [
@@ -533,6 +302,224 @@
     "sent_at": null
   },
   {
+    "item_id": "531eee5f23034cb1",
+    "source": "Reddit r/bigseo",
+    "source_id": "reddit-bigseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/bigseo/.rss",
+    "title": "I’m seeking some technical guidance regarding a sudden de-indexing issue on my site. Shortly after the recent Google Core Update, a significant number of previously indexed pages were removed from the index.",
+    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1sqhdb1/im_seeking_some_technical_guidance_regarding_a/",
+    "summary": "The Situation: Status: Pages that were previously ranking have been moved to the \"Crawled - currently not indexed\" category in Google Search Console. Manual Actions: No manual actions or security issues are reported in GSC. Technical Check: robots.txt and noindex tags have been verified; there are no blocks or technical directives preventing indexing. Context: The site focuses on Cryptocurrency news and technical blockchain security analysis. /u/digitaljamesoliver",
+    "published_at": "2026-04-20T06:32:51+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
+    "stage": "hot",
+    "score": 24,
+    "score_breakdown": {
+      "schema_hits": [],
+      "hard_schema_hits": [
+        "google search console",
+        "search console"
+      ],
+      "intent_hits": [
+        "issue",
+        "search console"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "google search console",
+        "search console"
+      ],
+      "ecom_search_hits": [
+        "google search console",
+        "search console"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "title_signal_hits": [
+        "issue"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "google search console",
+      "search console"
+    ],
+    "intent_flags": [
+      "issue",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: I’m seeking some technical guidance regarding a sudden de-indexing iss",
+    "message_draft": "I saw your post about 'I’m seeking some technical guidance regarding a sudden de-indexing issue on my site. Shortly after the recent Google Core Update, a significant number of previously indexed pages were removed from the index.'. It looks like a google search, search console problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on I’m seeking some technical guidance regarding a sudden de-indexing issue on my site. Shortly after the recent Google Core Update, a significant number of previously indexed pages were removed from the index.: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
+    "item_id": "6905f49a70f930ce",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Indexed pages dropped suddenly in GSC – anyone else facing this?",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sqh7v2/indexed_pages_dropped_suddenly_in_gsc_anyone_else/",
+    "summary": "Hey guys, I’m seeing a sudden drop in my Google Search Console indexing. Earlier: Indexed: 448 Not Indexed: 181 Now: Indexed: 240 Not Indexed: 416 Almost half my pages got deindexed suddenly. No major changes from my side. Site is active and content is getting published regularly. Most pages are showing under “Crawled – currently not indexed”. Is this normal? Is it due to a Google update or content issue? Anyone faced this and recovered? /u/Realistic_Factor409",
+    "published_at": "2026-04-20T06:24:19+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
+    "stage": "hot",
+    "score": 23,
+    "score_breakdown": {
+      "schema_hits": [],
+      "hard_schema_hits": [
+        "google search console",
+        "search console"
+      ],
+      "intent_hits": [
+        "issue",
+        "search console"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "google search console",
+        "search console"
+      ],
+      "ecom_search_hits": [
+        "google search console",
+        "search console"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "google search console",
+      "search console"
+    ],
+    "intent_flags": [
+      "issue",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Indexed pages dropped suddenly in GSC – anyone else facing this?",
+    "message_draft": "I saw your post about 'Indexed pages dropped suddenly in GSC – anyone else facing this?'. It looks like a google search, search console problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Indexed pages dropped suddenly in GSC – anyone else facing this?: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
+    "item_id": "1b23eaf0b585ef21",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Started a project site on March 8 50k+ impressions but only ~40 clicks/day after 40 days. What should I focus on?",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1sq96ph/started_a_project_site_on_march_8_50k_impressions/",
+    "summary": "Hey everyone. I launched a B2B SaaS website on March 8, 2026 about 40 days ago), It's a location intelligence platform for the Brazilian market helps entrepreneurs analyze commercial locations before opening a business. Here are my current Google Search Console numbers: Overall stats (March 8 — April 19): Total impressions: ~57,000 Total clicks: ~1,270 Average CTR: 2.2% Average position: 8.6 Daily trend: Week 1 (March 19-23): 13-60 impressions/day, 0-5 clicks Week 2 (March 24-30): 230-1,533 impressions/day, 14-119 clicks Week 3 (March 31 - April 6): 1,185-4,153 impressions/day, 35-81 clicks Week 4+ (April 7-15): 2,800-3,900 impressions/day, 31-57 clicks Indexing: ~50,000 currently indexed Recently fixed sitemap issues (middleware was blocking Googlebot, now resolved) 540 blog articles (mix of programmatic + editorial with real data) What I notice: Impressions grew fast (0 → 4,000/day in 3 weeks) but plateaued Clicks are stuck at ~40/day despite high impressions CTR dropped from ~14% (brand queries only) to ~1.2% as non-brand impressions grew Average position is 8-9 (bottom of page 1) Brand queries (site name) have 75-85% CTR and position 1 Traffic sources context: Had 2 viral TikTok videos (97k and 78k views) that drove signups but didn't affect SEO directly 14 paying customers acquired 100% organically (no ads) Domain is 40 days old My questions: Are ~40 clicks/day from ~3,500 impressions too low for a 40-day-old site? What's a realistic benchmark? Average position is 8-9. How long does it typically take for a new domain to move into positions 3-5? Months? A year? My programmatic pages get impressions but almost zero clicks. Are these worth keeping or are they hurting my SEO as thin content? Should I focus on improving existing pages (better titles, meta descriptions, content depth) or keep creating new editorial content? CTR is 1.2% is this purely a position problem or should I also optimize title tags? For those who've grown a new site from zero what was the turning point that actually started bringing real organic traffic? What should I focus on in months 2-6? Any advice from people who've been through this growth phase would be really appreciated. Happy to share more data if helpful. /u/Big_University_6035",
+    "published_at": "2026-04-19T23:56:33+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
+    "stage": "hot",
+    "score": 23,
+    "score_breakdown": {
+      "schema_hits": [],
+      "hard_schema_hits": [
+        "google search console",
+        "search console"
+      ],
+      "intent_hits": [
+        "fix",
+        "issue",
+        "problem",
+        "search console"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "google search console",
+        "search console"
+      ],
+      "ecom_search_hits": [
+        "google search console",
+        "search console"
+      ],
+      "negative_hits": [
+        "sitemap"
+      ],
+      "hard_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "google search console",
+      "search console"
+    ],
+    "intent_flags": [
+      "fix",
+      "issue",
+      "problem",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Started a project site on March 8 50k+ impressions but only ~40 clicks",
+    "message_draft": "I saw your post about 'Started a project site on March 8 50k+ impressions but only ~40 clicks/day after 40 days. What should I focus on?'. It looks like a google search, search console problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Started a project site on March 8 50k+ impressions but only ~40 clicks/day after 40 days. What should I focus on?: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
     "item_id": "88c4d3ba240e4597",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -542,18 +529,26 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sm89oo/what_does_normal_google_search_console_stats_look/",
     "summary": "I just recently took a look at my GSC results for the first time in a long time as my associate handles all my SEO work, and these numbers shocked me. Why would there be 47.8k non indexed pages vs. 7.4k indexed? This tells me GSC doesn't think my pages are worth showing, even though I try to make my pages unique. How does your GSC page indexing look like? For context, we're a small cosmetic shop that has thousands of different small products with different shades of the same products, hence lots of pages. /u/Just_girly_things97",
     "published_at": "2026-04-15T14:49:37+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "hot",
-    "score": 16,
+    "score": 23,
     "score_breakdown": {
       "schema_hits": [],
+      "hard_schema_hits": [
+        "google search console",
+        "search console"
+      ],
       "intent_hits": [
         "search console"
       ],
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [
-        "google search",
+        "google search console",
+        "search console"
+      ],
+      "ecom_search_hits": [
+        "google search console",
         "search console"
       ],
       "negative_hits": [],
@@ -568,7 +563,7 @@
     },
     "platforms": [],
     "issue_types": [
-      "google search",
+      "google search console",
       "search console"
     ],
     "intent_flags": [
@@ -604,11 +599,15 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "hot",
-    "score": 15,
+    "score": 22,
     "score_breakdown": {
       "schema_hits": [
+        "schema markup"
+      ],
+      "hard_schema_hits": [
+        "schema",
         "schema markup"
       ],
       "intent_hits": [
@@ -619,6 +618,7 @@
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "title_signal_hits": [
@@ -658,6 +658,138 @@
     "sent_at": null
   },
   {
+    "item_id": "bf46d59f4e7d3349",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Looking for SEO Advice.",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1spom5m/looking_for_seo_advice/",
+    "summary": "I need some SEO help. I have set up my website (if I am allowed to, I will post the URL or the name) and I had some PDF files there. So, I went to the Google Search Console and did all I could think of. I remember adding a custom file suggested by the website listed steps. I remember setting up some sort of DNS setting. Here is the deal, though. It is a next.js project and the hosting provider is Vercel. Maybe that has something to do with its poor performance. is there some way I can check on this? Anyway. I went through the process of adding links, but the graphs on the Google Search Console shows almost no progress. Please advise. I can post more stuff, like the emails I have been getting. But I guess this is a good start. /u/Proof-Acanthaceae8",
+    "published_at": "2026-04-19T09:48:38+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
+    "stage": "hot",
+    "score": 20,
+    "score_breakdown": {
+      "schema_hits": [],
+      "hard_schema_hits": [
+        "google search console",
+        "search console"
+      ],
+      "intent_hits": [
+        "search console"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "google search console",
+        "search console"
+      ],
+      "ecom_search_hits": [
+        "google search console",
+        "search console"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "google search console",
+      "search console"
+    ],
+    "intent_flags": [
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Looking for SEO Advice.",
+    "message_draft": "I saw your post about 'Looking for SEO Advice.'. It looks like a google search, search console problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Looking for SEO Advice.: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
+    "item_id": "0009f86135aebd37",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
+    "published_at": null,
+    "discovered_at": "2026-04-20T18:17:02+00:00",
+    "stage": "hot",
+    "score": 18,
+    "score_breakdown": {
+      "schema_hits": [
+        "json-ld"
+      ],
+      "hard_schema_hits": [
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "missing"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "title_signal_hits": [
+        "json-ld",
+        "missing"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "missing"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "AI Visibility Kit could help with: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "message_draft": "I saw your post about 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...'. It looks like a schema implementation issue. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "sent_at": null
+  },
+  {
     "item_id": "a0d9b0d6fb240bd9",
     "source": "Reddit r/shopify",
     "source_id": "reddit-shopify",
@@ -667,11 +799,12 @@
     "source_item_url": "https://www.reddit.com/r/shopify/comments/1sqllx0/regretting_starting_my_store_with_shopify/",
     "summary": "I’ve been dealing with a really frustrating issue beyond the additional subscription costs for apps on the Shopify store. The product feeds from Shopify to Google Merchant Center and Pinterest appear to be completely broken. I’ve already tried multiple fixes including resetting everything, deleting the apps, and reinstalling them but nothing has worked. The core problem is that Shopify is sending incorrect and outdated product data to these platforms. It’s pulling in product listings that were only created as test entries while I was setting up my store, as well as listings that were never published and remained in draft. All of these products have already been deleted from Shopify. Despite that, Google Merchant Center is still trying to sync these non-existent products and, of course, failing. The issue is that I can’t remove them from Google Merchant Center either, because it says they must first be removed from Shopify but they no longer exist there. On top of that, there are two specific products in Google Merchant Center (in English) that are marked as unapproved because the page supposedly “can’t be found.” However, the links are clearly working without any issues. My store is available in three languages, and the English version is active and fully functional, so this error doesn’t make sense. Pinterest is also affected. The product feed ingestion keeps failing and showing errors, so syncing isn’t working there either. I’ve contacted Google Merchant Center support several times, but I only receive generic, unhelpful responses. At this point, I’m stuck the system feels broken, and I have no clear way to fix it. Any advice on how to resolve this would be really appreciated. /u/Confusedmind75",
     "published_at": "2026-04-20T10:41:29+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "hot",
-    "score": 15,
+    "score": 13,
     "score_breakdown": {
       "schema_hits": [],
+      "hard_schema_hits": [],
       "intent_hits": [
         "broken",
         "error",
@@ -685,7 +818,9 @@
       ],
       "issue_hits": [],
       "visibility_hits": [
-        "product data",
+        "product feed"
+      ],
+      "ecom_search_hits": [
         "product feed"
       ],
       "negative_hits": [],
@@ -700,7 +835,6 @@
       "shopify"
     ],
     "issue_types": [
-      "product data",
       "product feed"
     ],
     "intent_flags": [
@@ -732,95 +866,89 @@
     "sent_at": null
   },
   {
-    "item_id": "1b23eaf0b585ef21",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
+    "item_id": "1bf6d9bfed3bf851",
+    "source": "Reddit r/bigseo",
+    "source_id": "reddit-bigseo",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "Started a project site on March 8 50k+ impressions but only ~40 clicks/day after 40 days. What should I focus on?",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1sq96ph/started_a_project_site_on_march_8_50k_impressions/",
-    "summary": "Hey everyone. I launched a B2B SaaS website on March 8, 2026 about 40 days ago), It's a location intelligence platform for the Brazilian market helps entrepreneurs analyze commercial locations before opening a business. Here are my current Google Search Console numbers: Overall stats (March 8 — April 19): Total impressions: ~57,000 Total clicks: ~1,270 Average CTR: 2.2% Average position: 8.6 Daily trend: Week 1 (March 19-23): 13-60 impressions/day, 0-5 clicks Week 2 (March 24-30): 230-1,533 impressions/day, 14-119 clicks Week 3 (March 31 - April 6): 1,185-4,153 impressions/day, 35-81 clicks Week 4+ (April 7-15): 2,800-3,900 impressions/day, 31-57 clicks Indexing: ~50,000 currently indexed Recently fixed sitemap issues (middleware was blocking Googlebot, now resolved) 540 blog articles (mix of programmatic + editorial with real data) What I notice: Impressions grew fast (0 → 4,000/day in 3 weeks) but plateaued Clicks are stuck at ~40/day despite high impressions CTR dropped from ~14% (brand queries only) to ~1.2% as non-brand impressions grew Average position is 8-9 (bottom of page 1) Brand queries (site name) have 75-85% CTR and position 1 Traffic sources context: Had 2 viral TikTok videos (97k and 78k views) that drove signups but didn't affect SEO directly 14 paying customers acquired 100% organically (no ads) Domain is 40 days old My questions: Are ~40 clicks/day from ~3,500 impressions too low for a 40-day-old site? What's a realistic benchmark? Average position is 8-9. How long does it typically take for a new domain to move into positions 3-5? Months? A year? My programmatic pages get impressions but almost zero clicks. Are these worth keeping or are they hurting my SEO as thin content? Should I focus on improving existing pages (better titles, meta descriptions, content depth) or keep creating new editorial content? CTR is 1.2% is this purely a position problem or should I also optimize title tags? For those who've grown a new site from zero what was the turning point that actually started bringing real organic traffic? What should I focus on in months 2-6? Any advice from people who've been through this growth phase would be really appreciated. Happy to share more data if helpful. /u/Big_University_6035",
-    "published_at": "2026-04-19T23:56:33+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "hot",
-    "score": 14,
-    "score_breakdown": {
-      "schema_hits": [],
-      "intent_hits": [
-        "fix",
-        "issue",
-        "problem",
-        "search console"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "google search",
-        "search console"
-      ],
-      "negative_hits": [
-        "sitemap"
-      ],
-      "hard_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "google search",
-      "search console"
-    ],
-    "intent_flags": [
-      "fix",
-      "issue",
-      "problem",
-      "search console"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "email_contact",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Started a project site on March 8 50k+ impressions but only ~40 clicks",
-    "message_draft": "I saw your post about 'Started a project site on March 8 50k+ impressions but only ~40 clicks/day after 40 days. What should I focus on?'. It looks like a google search, search console problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Started a project site on March 8 50k+ impressions but only ~40 clicks/day after 40 days. What should I focus on?: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "email",
-    "contact_target": "schemaagent@gmail.com",
-    "sent_at": null
-  },
-  {
-    "item_id": "bf46d59f4e7d3349",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "Looking for SEO Advice.",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1spom5m/looking_for_seo_advice/",
-    "summary": "I need some SEO help. I have set up my website (if I am allowed to, I will post the URL or the name) and I had some PDF files there. So, I went to the Google Search Console and did all I could think of. I remember adding a custom file suggested by the website listed steps. I remember setting up some sort of DNS setting. Here is the deal, though. It is a next.js project and the hosting provider is Vercel. Maybe that has something to do with its poor performance. is there some way I can check on this? Anyway. I went through the process of adding links, but the graphs on the Google Search Console shows almost no progress. Please advise. I can post more stuff, like the emails I have been getting. But I guess this is a good start. /u/Proof-Acanthaceae8",
-    "published_at": "2026-04-19T09:48:38+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "source_url": "https://www.reddit.com/r/bigseo/.rss",
+    "title": "SEO tips for vacation rental websites, anything work besides patience?",
+    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1smuup7/seo_tips_for_vacation_rental_websites_anything/",
+    "summary": "Been working on SEO for 4 months and barely seeing results. Getting like 50 organic visits/month which is basically nothing. Done all the standard stuff. Unique property descriptions, location pages, schema markup, fast site speed, mobile optimization, internal linking. But it's not moving the needle. Still basically 100% dependent on Google Ads for traffic. Is there anything that actually speeds up SEO or is it just \"wait 6-12 months and hope\"? Getting impatient burning $600/month on ads while SEO slowly builds. /u/ssunflow3rr",
+    "published_at": "2026-04-16T05:53:16+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "hot",
     "score": 13,
     "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "hard_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "email_contact",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: SEO tips for vacation rental websites, anything work besides patience?",
+    "message_draft": "I saw your post about 'SEO tips for vacation rental websites, anything work besides patience?'. It looks like a schema implementation issue. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on SEO tips for vacation rental websites, anything work besides patience?: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "email",
+    "contact_target": "schemaagent@gmail.com",
+    "sent_at": null
+  },
+  {
+    "item_id": "b5f2d2c3c6a84bb0",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Understanding GSC & co more",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1sqo8tu/understanding_gsc_co_more/",
+    "summary": "Hey, beginner SEO consultant here. I'd like to learn more about Google's platforms and what they can do (eg. Search Console). I want to learn to know GSC, I want to understand the impact of the Spam- and Core-updates, ... I want to understand Google a bit more, with a practical understanding of how they are used, not just based on their official statements ... Are there any YouTube videos you can recommend? People I need to follow on LinkedIn? Other things I can do? Thank you very much! /u/Careful-Weakness4685",
+    "published_at": "2026-04-20T12:44:17+00:00",
+    "discovered_at": "2026-04-20T18:17:02+00:00",
+    "stage": "hot",
+    "score": 12,
+    "score_breakdown": {
       "schema_hits": [],
+      "hard_schema_hits": [
+        "search console"
+      ],
       "intent_hits": [
         "search console"
       ],
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [
-        "google search",
+        "search console"
+      ],
+      "ecom_search_hits": [
         "search console"
       ],
       "negative_hits": [],
@@ -833,7 +961,6 @@
     },
     "platforms": [],
     "issue_types": [
-      "google search",
       "search console"
     ],
     "intent_flags": [
@@ -851,235 +978,51 @@
     "sales_route": "email_contact",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Looking for SEO Advice.",
-    "message_draft": "I saw your post about 'Looking for SEO Advice.'. It looks like a google search, search console problem. This looks like a more hands-on case. Best route is to email schemaagent@gmail.com with the page URL and the exact issue. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Looking for SEO Advice.: if you still want direct schema help, send the page URL and issue details to schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "email",
-    "contact_target": "schemaagent@gmail.com",
-    "sent_at": null
-  },
-  {
-    "item_id": "a1331084649d8b7e",
-    "source": "Reddit r/bigseo",
-    "source_id": "reddit-bigseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/bigseo/.rss",
-    "title": "Site suddenly got indexed, but still no stable rankings at all",
-    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1spvxha/site_suddenly_got_indexed_but_still_no_stable/",
-    "summary": "Maybe someone here has seen a situation like this before. Quick background: We originally had a different domain that was doing okay at some point, around 1k visits/month. Then it completely dropped out of the index. We tried a lot back then, but nothing really worked. Around 1.5 years ago we decided to move on: - launched a completely new domain - took the old one offline The weird part is that the new domain had basically the same issue in the beginning. For about the first year, indexing was very poor again. We kept working on it here and there, but not in a super aggressive way anymore, because it felt like nothing changed anyway. Then suddenly, around December last year, Google seemed to fully pick it up. From one day to the next, almost the whole site got indexed. Since then: - pages get indexed very fast - updated pages also get reindexed almost instantly - I get some impressions (usually between 0 and 20 a day) - very occasional clicks But the actual problem is: -no stable rankings at all - keywords pop up and disappear again - pages seem to get tested, but nothing really sticks - Ahrefs still shows basically 0 visibility/rankings externally So indexing itself doesn’t seem to be the issue anymore. Google clearly knows the pages, crawls them, and indexes them quickly. But rankings just don’t stabilize. I also had a SEO consultant who in my opinion knew his stuff but didn't find anything and adviced more content etc. Context: - YMYL niche - content is not thin and I would say helpful (but who doesn't think so from their own page :-)) - structure is not the problem, with hubs/clusters/internal linking/breadcrumbs - backlink profile is now also ok in my opinion, at least enough that the site should rank for something It almost feels like some kind of trust/sandbox issue, but at the same time it’s weird because nothing really changes. Google gives little signs of life, tests stuff, reindexes fast, sometimes throws pages in, but nothing becomes stable. Also, whenever a page isn’t indexed, I rework it, and that usually gets it indexed again fast. But still no real traction after that. If anybody had the same problem before, I would be thankful for any advice. /u/DisPater123",
-    "published_at": "2026-04-19T15:23:39+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "warm",
-    "score": 11,
-    "score_breakdown": {
-      "schema_hits": [],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "visibility"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "visibility"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Site suddenly got indexed, but still no stable rankings at all",
-    "message_draft": "I saw your post about 'Site suddenly got indexed, but still no stable rankings at all'. It looks like a visibility problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Site suddenly got indexed, but still no stable rankings at all: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "subject_draft": "AI Visibility Kit could help with: Understanding GSC & co more",
+    "message_draft": "I saw your post about 'Understanding GSC & co more'. It looks like a search console problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Understanding GSC & co more: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/bigseo/comments/1spvxha/site_suddenly_got_indexed_but_still_no_stable/",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1sqo8tu/understanding_gsc_co_more/",
     "sent_at": null
   },
   {
-    "item_id": "d2704acb6933f0a9",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
+    "item_id": "8792c7c3a1a16f83",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "What actually moved rankings for me: fixing crawl inefficiencies (not backlinks)",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1snx1my/what_actually_moved_rankings_for_me_fixing_crawl/",
-    "summary": "I’ve been working on a few SEO projects recently, and I noticed something interesting: In multiple cases, rankings didn’t improve after publishing content or even building links — until crawl issues were fixed. Here’s what I found and what actually worked: 1. “Crawled – currently not indexed” problem A lot of pages were getting crawled but never indexed. Fix: Improved internal linking to those pages Reduced thin/duplicate content Ensured each page had a clear keyword focus Result: indexing rate improved within a few weeks. 2. Wasted crawl budget on dead pages Googlebot was repeatedly hitting old URLs returning 404. Fix: Converted important ones to 301 (where relevant) Set proper 410 for permanently removed pages Cleaned internal links pointing to dead URLs 3. Weak internal linking structure Important pages were 3–4 clicks deep. Fix: Created contextual internal links from high-authority pages Built simple topic clusters 4. Over-optimized but low-value pages Some pages were keyword-heavy but didn’t actually answer user intent. Fix: Rewrote content to match search intent Removed unnecessary sections and fluff Outcome (after ~6–8 weeks): Better crawl frequency on important pages Faster indexing Rankings improved without aggressive link building Takeaway: Technical SEO is often ignored until something breaks, but in my experience, it’s what unlocks growth — especially in early stages. Curious if others here have seen similar results with crawl optimization? /u/Mediardx007",
-    "published_at": "2026-04-17T10:28:01+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "warm",
-    "score": 11,
-    "score_breakdown": {
-      "schema_hits": [],
-      "intent_hits": [
-        "fix",
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "ignored"
-      ],
-      "negative_hits": [
-        "backlinks"
-      ],
-      "hard_reject_hits": [],
-      "title_signal_hits": [
-        "fix"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "ignored"
-    ],
-    "intent_flags": [
-      "fix",
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: What actually moved rankings for me: fixing crawl inefficiencies (not ",
-    "message_draft": "I saw your post about 'What actually moved rankings for me: fixing crawl inefficiencies (not backlinks)'. It looks like a ignored problem. The better fit is the AI Generator here: https://schemaagent.gumroad.com/l/wikuuu. It’s stronger when you need faster repeat schema output instead of filling templates manually. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on What actually moved rankings for me: fixing crawl inefficiencies (not backlinks): if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/wikuuu. For questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1snx1my/what_actually_moved_rankings_for_me_fixing_crawl/",
-    "sent_at": null
-  },
-  {
-    "item_id": "f17bb37979c18785",
-    "source": "Reddit r/bigseo",
-    "source_id": "reddit-bigseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/bigseo/.rss",
-    "title": "Improved rankings but lost impressions in local SEO — what am I missing?",
-    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1sqf8mp/improved_rankings_but_lost_impressions_in_local/",
-    "summary": "Working on local SEO for a service-based business in a competitive US city and could use some outside perspective. Over the past 3 months: - Consistent Google Business Profile posting (2x/week) - Some content (Medium + “top companies” style posts) - Basic on-page SEO improvements What I’m seeing: - Average position improved (closer to page 1) - CTR improved - But impressions dropped significantly So I’m ranking better, but showing up less. I feel like I’m missing something core about local SEO — especially around map pack visibility. A few questions: - Are citations (chambers, directories, etc.) still a major ranking factor? - Do GBP posts actually influence rankings in any meaningful way? - What kind of backlinks help for local (if at all)?How important are location/service pages nowadays? - Are keyword/location mentions in reviews still impactful? Would really appreciate input from anyone actively working on local campaigns. Trying to figure out what actually moves the needle vs what’s just busy work. /u/InterestingTie77",
-    "published_at": "2026-04-20T04:38:05+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "warm",
-    "score": 10,
-    "score_breakdown": {
-      "schema_hits": [],
-      "intent_hits": [
-        "missing"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "visibility"
-      ],
-      "negative_hits": [
-        "backlinks"
-      ],
-      "hard_reject_hits": [],
-      "title_signal_hits": [
-        "missing"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "visibility"
-    ],
-    "intent_flags": [
-      "missing"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Improved rankings but lost impressions in local SEO — what am I missin",
-    "message_draft": "I saw your post about 'Improved rankings but lost impressions in local SEO — what am I missing?'. It looks like a visibility problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Improved rankings but lost impressions in local SEO — what am I missing?: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/bigseo/comments/1sqf8mp/improved_rankings_but_lost_impressions_in_local/",
-    "sent_at": null
-  },
-  {
-    "item_id": "26c6364e74bc9093",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "New South Wales SEO Question",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1spigb4/new_south_wales_seo_question/",
-    "summary": "Helping a friend....anyone recommend a credible company to help me get a business appear on page 1 on google searches, in New South Wales, Australia please? Thanks :) /u/Few_Low7383",
-    "published_at": "2026-04-19T04:01:31+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Yoast FAQ block - only getting schema for last block on page",
+    "source_item_url": "https://wordpress.org/support/topic/yoast-faq-block-only-getting-schema-for-last-block-on-page/",
+    "summary": "Yoast FAQ block - only getting schema for last block on page cheddarcreative (@cheddarcreative) 26 minutes ago I have a WordPress page that uses the Yoast FAQ block - The page contains 4 separate …",
+    "published_at": null,
+    "discovered_at": "2026-04-20T18:17:02+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
       "schema_hits": [],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "google search"
+      "hard_schema_hits": [
+        "schema"
       ],
+      "intent_hits": [],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
       "ecom_platform_source": false
     },
-    "platforms": [],
-    "issue_types": [
-      "google search"
+    "platforms": [
+      "wordpress"
     ],
+    "issue_types": [],
     "intent_flags": [],
     "business_name": null,
     "business_site": null,
@@ -1093,130 +1036,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Get the AI Visibility Kit",
     "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: New South Wales SEO Question",
-    "message_draft": "I saw your post about 'New South Wales SEO Question'. It looks like a google search problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on New South Wales SEO Question: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
+    "subject_draft": "AI Visibility Kit could help with: Yoast FAQ block - only getting schema for last block on page",
+    "message_draft": "I saw your post about 'Yoast FAQ block - only getting schema for last block on page'. It looks related to wordpress schema setup. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on Yoast FAQ block - only getting schema for last block on page: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1spigb4/new_south_wales_seo_question/",
-    "sent_at": null
-  },
-  {
-    "item_id": "877ebf4d2c0b126b",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "OpenSEO Update: I Added Rank Tracking",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sniem8/openseo_update_i_added_rank_tracking/",
-    "summary": "First off, thanks for the continued support! It's been really cool seeing people start to build on top of OpenSEO. I was poking around the forks and saw that someone had integrated with Google Ads. Another person from this reddit built their own AI Citation dashboard. Rank Tracking Besides AI Citations / LLM Visibility (up next), Rank Tracking has been the most highly requested feature. In the most recent release, you can now track unlimited domains and keywords in as many countries as you'd like. You can also customize the following values to tune information versus cost: Country Desktop / Mobile / Both Page Depth Cadence: Weekly, Daily, Manual Only $2/month example (cost is dependent on your settings): 50 keywords 1 device (Mobile or Desktop) Search 5 pages deep. Searching ten pages deep costs 8x more than one page. Tracking both devices costs 2x more. Here's another link to the repo: https://github.com/every-app/open-seo Quick Questions How many keywords / domains do you want to track? Anyone know how to handle fluctuations across SERP results from Google testing? Would adding a sample / average option be helpful to smooth that out? Managed OpenSEO If you or your friends want to try OpenSEO, but don't want to self host, the managed version is now ready to go. It's $10/month with included credits, then pay by usage if you need more usage credits. This also gives you access to Backlinks data without the $100/month commitment to DataForSEO. Try it out: https://openseo.so /u/theben9999",
-    "published_at": "2026-04-16T22:20:57+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "watch",
-    "score": 7,
-    "score_breakdown": {
-      "schema_hits": [],
-      "intent_hits": [
-        "support"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "visibility"
-      ],
-      "negative_hits": [
-        "backlinks"
-      ],
-      "hard_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "visibility"
-    ],
-    "intent_flags": [
-      "support"
-    ],
-    "business_name": null,
-    "business_site": "https://github.com/every-app/open-seo",
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": "https://github.com/every-app/open-seo",
-      "schema_present": true,
-      "notes": "Business site detected"
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: OpenSEO Update: I Added Rank Tracking",
-    "message_draft": "I saw your post about 'OpenSEO Update: I Added Rank Tracking'. It looks like a visibility problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on OpenSEO Update: I Added Rank Tracking: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1sniem8/openseo_update_i_added_rank_tracking/",
-    "sent_at": null
-  },
-  {
-    "item_id": "b5f2d2c3c6a84bb0",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "Understanding GSC & co more",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1sqo8tu/understanding_gsc_co_more/",
-    "summary": "Hey, beginner SEO consultant here. I'd like to learn more about Google's platforms and what they can do (eg. Search Console). I want to learn to know GSC, I want to understand the impact of the Spam- and Core-updates, ... I want to understand Google a bit more, with a practical understanding of how they are used, not just based on their official statements ... Are there any YouTube videos you can recommend? People I need to follow on LinkedIn? Other things I can do? Thank you very much! /u/Careful-Weakness4685",
-    "published_at": "2026-04-20T12:44:17+00:00",
-    "discovered_at": "2026-04-20T18:09:51+00:00",
-    "stage": "watch",
-    "score": 7,
-    "score_breakdown": {
-      "schema_hits": [],
-      "intent_hits": [
-        "search console"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "search console"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "search console"
-    ],
-    "intent_flags": [
-      "search console"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Understanding GSC & co more",
-    "message_draft": "I saw your post about 'Understanding GSC & co more'. It looks like a search console problem. The simplest next step is the AI Visibility Kit here: https://schemaagent.gumroad.com/l/rfces. It’s better for quick implementation without building everything from scratch. If you want help choosing the fastest route first, email schemaagent@gmail.com.",
-    "follow_up_draft": "Quick follow-up on Understanding GSC & co more: if you still need a faster schema path, the best fit is here: https://schemaagent.gumroad.com/l/rfces. For questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1sqo8tu/understanding_gsc_co_more/",
+    "contact_target": "https://wordpress.org/support/topic/yoast-faq-block-only-getting-schema-for-last-block-on-page/",
     "sent_at": null
   }
 ]
