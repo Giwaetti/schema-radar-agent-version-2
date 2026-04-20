@@ -52,132 +52,111 @@ def _diagnosis_line(lead: Lead) -> str:
     text = _lead_text(lead)
 
     if _has_any(text, {"faq schema", "faqpage", "mainentity", "acceptedanswer"}):
-        return (
-            "This sounds like the FAQPage JSON-LD is being generated in the wrong shape, "
-            "or a required field is missing from the final live markup."
-        )
-
-    if _has_any(text, {"json-ld", "ld json", "schema markup", "structured data"}):
-        return (
-            "This sounds more like a markup-generation or duplicate-output problem than a generic SEO issue."
-        )
+        return "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup."
 
     if _has_any(text, {"merchant center", "merchant listing", "merchant listings", "product feed", "shopping feed", "pinterest feed"}):
-        return (
-            "This sounds more like a feed-sync / product-data mismatch than a basic store setup problem."
-        )
+        return "This looks more like a feed-sync / product-data mismatch than a basic store setup issue."
+
+    if _has_any(text, {"json-ld", "ld json", "schema markup", "structured data"}):
+        return "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue."
 
     if _has_any(text, {"rich results", "rich result", "product snippets", "review snippets", "snippets"}):
-        return (
-            "This sounds like an eligibility or output-quality problem, not just a ranking problem."
-        )
+        return "This looks like a rich-results eligibility/output issue rather than a plain ranking problem."
 
     if _has_any(text, {"search console", "google search console"}):
-        return (
-            "I’d separate the indexing side from the markup side first, because coverage issues and structured-data eligibility are not the same thing."
-        )
+        return "I’d separate the indexing side from the markup side first, because coverage issues and structured-data issues often get mixed together."
 
     if _has_any(text, {"shopify"}):
-        return (
-            "This sounds like a platform-output issue where the live product data and the expected search/feed signals are not lining up cleanly."
-        )
+        return "This looks like a platform-output issue where the live product/feed data is not lining up with what Google or the feed consumer expects."
 
     if _has_any(text, {"woocommerce", "wordpress"}):
-        return (
-            "This usually comes down to the live output on the page not matching what the plugin or editor looks like it is generating."
-        )
+        return "This usually comes down to the live output on the page not matching what the plugin/editor looks like it is generating."
 
-    return "This looks like a genuine structured-data / search-visibility implementation issue."
+    return "This looks like a real structured-data / search-visibility implementation issue."
 
 
 def _checklist(lead: Lead) -> list[str]:
     text = _lead_text(lead)
-    checks: list[str] = []
 
     if _has_any(text, {"faq schema", "faqpage", "mainentity", "acceptedanswer"}):
-        checks.extend(
-            [
-                "Inspect the live page source or rendered DOM and confirm the FAQPage block actually includes mainEntity at page level.",
-                "Make sure every Question has an acceptedAnswer object and that acceptedAnswer contains a text field in the final JSON-LD.",
-                "Check whether another plugin, theme, or duplicate FAQ block is outputting a second conflicting schema block.",
-            ]
-        )
-    elif _has_any(text, {"merchant center", "merchant listing", "merchant listings", "product feed", "shopping feed", "pinterest feed"}):
-        checks.extend(
-            [
-                "Confirm the feed source Google or Pinterest is reading is the same source you think the store is publishing.",
-                "Check for stale product IDs, deleted variants, draft products, or unpublished items still living in the feed layer or app cache.",
-                "Compare the product URL, language/version, availability, and identifiers in the feed against the live product page.",
-            ]
-        )
-    elif _has_any(text, {"json-ld", "ld json", "schema markup", "structured data"}):
-        checks.extend(
-            [
-                "Validate the final live JSON-LD, not just what the plugin UI says it is generating.",
-                "Check whether a second plugin/theme block is outputting duplicate or conflicting schema on the same page.",
-                "Make sure the entity type and required properties match the actual page intent rather than a generic template.",
-            ]
-        )
-    elif _has_any(text, {"rich results", "rich result", "product snippets", "review snippets", "snippets"}):
-        checks.extend(
-            [
-                "Validate the live page and make sure the markup is tied to the canonical URL Google is actually using.",
-                "Check whether the required properties are present consistently across the page type, not just on one example URL.",
-                "Remember that valid markup is only eligibility — Google can still suppress the feature if the page/entity signals are weak or inconsistent.",
-            ]
-        )
-    elif _has_any(text, {"search console", "google search console"}):
-        checks.extend(
-            [
-                "Separate indexing / crawling symptoms from schema symptoms before changing anything, otherwise it is easy to fix the wrong layer.",
-                "Check whether the affected URLs have clean canonical targets and whether the markup on the canonical page is actually present in the live HTML.",
-                "Pick one representative URL and test that end-to-end before trying to fix the whole site.",
-            ]
-        )
-    else:
-        checks.extend(
-            [
-                "Check the final rendered HTML/JSON-LD on the live URL rather than relying on what the CMS/plugin editor shows.",
-                "Look for duplicate output from theme + plugin combinations, because that causes more schema issues than people expect.",
-                "Test one clean representative page first and confirm the entity type, required properties, and canonical URL all line up.",
-            ]
+        return [
+            "Check the final live JSON-LD and confirm mainEntity exists at page level.",
+            "Make sure each Question has acceptedAnswer.text in the final output.",
+            "Check for duplicate schema coming from another plugin or theme.",
+        ]
+
+    if _has_any(text, {"merchant center", "merchant listing", "merchant listings", "product feed", "shopping feed", "pinterest feed"}):
+        return [
+            "Confirm the feed source Google/Pinterest is reading is the same one the store is publishing.",
+            "Check for stale IDs, deleted variants, draft products, or cached feed data.",
+            "Compare the feed values against one live product URL end-to-end.",
+        ]
+
+    if _has_any(text, {"json-ld", "ld json", "schema markup", "structured data"}):
+        return [
+            "Validate the final live JSON-LD, not just the plugin UI output.",
+            "Check for duplicate/conflicting schema from theme + plugin combinations.",
+            "Make sure the entity type and required properties match the actual page intent.",
+        ]
+
+    if _has_any(text, {"rich results", "rich result", "product snippets", "review snippets", "snippets"}):
+        return [
+            "Validate the live page against the canonical URL Google is actually using.",
+            "Check that required properties are present consistently across that page type.",
+            "Remember valid markup only gives eligibility — Google can still suppress the feature.",
+        ]
+
+    if _has_any(text, {"search console", "google search console"}):
+        return [
+            "Separate indexing/crawling symptoms from markup symptoms first.",
+            "Test one representative URL end-to-end before changing the whole site.",
+            "Confirm the canonical page is the same page that actually contains the live markup.",
+        ]
+
+    return [
+        "Check the final rendered HTML/JSON-LD on the live URL.",
+        "Look for duplicate output from theme + plugin combinations.",
+        "Test one clean representative page first before changing the whole setup.",
+    ]
+
+
+def _soft_close(lead: Lead, destination: str, contact_email: str) -> str:
+    if lead.offer_fit == "Done-for-you / service" and contact_email:
+        return (
+            f"If you want, send the live URL and current markup/feed source to {contact_email} "
+            f"and I’ll tell you where I’d look first."
         )
 
-    return checks[:3]
+    if lead.offer_fit == "AI Generator" and destination:
+        return f"If you need a faster repeatable workflow for this type of markup, the better fit is here: {destination}"
+
+    if lead.offer_fit == "AI Visibility Kit" and destination:
+        return f"If you want the faster DIY route after checking that, the closest fit is here: {destination}"
+
+    if contact_email:
+        return f"If you want a second pair of eyes on it, send the live URL to {contact_email}."
+
+    return ""
 
 
 def _expert_forum_reply(lead: Lead, destination: str, contact_email: str) -> str:
     diagnosis = _diagnosis_line(lead)
     checks = _checklist(lead)
+    close = _soft_close(lead, destination, contact_email)
 
-    lines = [
+    parts = [
         diagnosis,
         "",
-        "Based on what you described, I’d check these first:",
+        "I’d check these first:",
+        f"- {checks[0]}",
+        f"- {checks[1]}",
+        f"- {checks[2]}",
     ]
-    lines.extend([f"- {item}" for item in checks])
 
-    lines.extend(
-        [
-            "",
-            "If the page looks fine in the editor but the warning/error still shows up in Google, Merchant Center, or the validator, the mismatch is usually in the final live output or feed source — not the visual layout.",
-        ]
-    )
+    if close:
+        parts.extend(["", close])
 
-    if lead.offer_fit == "AI Visibility Kit" and destination:
-        lines.append(
-            f"If you want a faster DIY route after checking that, the closest fit is the AI Visibility Kit: {destination}"
-        )
-    elif lead.offer_fit == "AI Generator" and destination:
-        lines.append(
-            f"If you need to generate or clean up this type of markup repeatedly, the better fit is the AI Generator: {destination}"
-        )
-    elif contact_email:
-        lines.append(
-            f"If you want hands-on help, send the live URL and the exact markup/feed source to {contact_email} and I’ll tell you where I’d start."
-        )
-
-    return "\n".join(lines).strip()
+    return "\n".join(parts).strip()
 
 
 def _expert_email_or_proposal(lead: Lead, destination: str, contact_email: str) -> str:
@@ -185,6 +164,7 @@ def _expert_email_or_proposal(lead: Lead, destination: str, contact_email: str) 
     checks = _checklist(lead)
     platform_text = _format_platforms(lead)
     issue_text = _format_issue_types(lead)
+    close = _soft_close(lead, destination, contact_email)
 
     lines = [f"Hi — I reviewed this issue: {lead.title}."]
     if platform_text:
@@ -195,12 +175,12 @@ def _expert_email_or_proposal(lead: Lead, destination: str, contact_email: str) 
     lines.append("The first things I would check are:")
     lines.extend([f"- {item}" for item in checks])
 
-    if lead.offer_fit == "AI Visibility Kit" and destination:
-        lines.append(f"If you want a faster DIY route, the closest fit is: {destination}")
-    elif lead.offer_fit == "AI Generator" and destination:
-        lines.append(f"If you need faster repeated schema output, the better fit is: {destination}")
-    elif contact_email:
-        lines.append(f"For direct hands-on help: {contact_email}")
+    lines.append(
+        "If the page looks fine in the editor but the warning or feed error is still showing, the mismatch is usually in the final live output or feed source — not the visual layout."
+    )
+
+    if close:
+        lines.append(close)
 
     return "\n".join(lines).strip()
 
@@ -208,14 +188,13 @@ def _expert_email_or_proposal(lead: Lead, destination: str, contact_email: str) 
 def _follow_up_message(lead: Lead, destination: str, contact_email: str) -> str:
     if lead.offer_fit == "Done-for-you / service":
         return (
-            f"Quick follow-up on '{lead.title}': if you still want hands-on help, send over the live URL "
-            f"and the current markup/feed source to {contact_email} and I’ll point you to the layer I’d test first."
+            f"Quick follow-up on '{lead.title}': if you still want hands-on help, send the live URL "
+            f"and the current markup/feed source to {contact_email} and I’ll point you to the first layer I’d test."
         )
 
     if lead.offer_fit == "AI Generator" and destination:
         return (
-            f"Quick follow-up on '{lead.title}': if you’re still fixing this, the AI Generator is the better fit "
-            f"for repeated schema output work: {destination}"
+            f"Quick follow-up on '{lead.title}': if you’re still fixing this, the stronger fit for repeated schema work is here: {destination}"
         )
 
     return (
