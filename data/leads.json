@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:24:48+00:00",
+    "discovered_at": "2026-04-20T18:41:22+00:00",
     "stage": "hot",
     "score": 29,
     "score_breakdown": {
@@ -81,7 +81,7 @@
     "source_item_url": "https://www.reddit.com/r/shopify/comments/1sqllx0/regretting_starting_my_store_with_shopify/",
     "summary": "I’ve been dealing with a really frustrating issue beyond the additional subscription costs for apps on the Shopify store. The product feeds from Shopify to Google Merchant Center and Pinterest appear to be completely broken. I’ve already tried multiple fixes including resetting everything, deleting the apps, and reinstalling them but nothing has worked. The core problem is that Shopify is sending incorrect and outdated product data to these platforms. It’s pulling in product listings that were only created as test entries while I was setting up my store, as well as listings that were never published and remained in draft. All of these products have already been deleted from Shopify. Despite that, Google Merchant Center is still trying to sync these non-existent products and, of course, failing. The issue is that I can’t remove them from Google Merchant Center either, because it says they must first be removed from Shopify but they no longer exist there. On top of that, there are two specific products in Google Merchant Center (in English) that are marked as unapproved because the page supposedly “can’t be found.” However, the links are clearly working without any issues. My store is available in three languages, and the English version is active and fully functional, so this error doesn’t make sense. Pinterest is also affected. The product feed ingestion keeps failing and showing errors, so syncing isn’t working there either. I’ve contacted Google Merchant Center support several times, but I only receive generic, unhelpful responses. At this point, I’m stuck the system feels broken, and I have no clear way to fix it. Any advice on how to resolve this would be really appreciated. /u/Confusedmind75",
     "published_at": "2026-04-20T10:41:29+00:00",
-    "discovered_at": "2026-04-20T18:24:48+00:00",
+    "discovered_at": "2026-04-20T18:41:22+00:00",
     "stage": "hot",
     "score": 29,
     "score_breakdown": {
@@ -154,7 +154,7 @@
       "schema_present": null,
       "notes": ""
     },
-    "sales_route": "email_contact",
+    "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
     "subject_draft": "Direct schema help for: Regretting starting my store with Shopify",
@@ -175,7 +175,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1soi6e9/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Some of these sites are 2yrs old. Fwiw, most of my projects are SvelteKit+Vite based. Still have same issue with React+Next projects. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
     "published_at": "2026-04-18T00:11:58+00:00",
-    "discovered_at": "2026-04-20T18:24:48+00:00",
+    "discovered_at": "2026-04-20T18:41:22+00:00",
     "stage": "hot",
     "score": 28,
     "score_breakdown": {
@@ -231,7 +231,7 @@
       "schema_present": null,
       "notes": ""
     },
-    "sales_route": "email_contact",
+    "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
     "subject_draft": "Direct schema help for: Bing Icons",
@@ -252,7 +252,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:24:48+00:00",
+    "discovered_at": "2026-04-20T18:41:22+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -302,7 +302,7 @@
       "schema_present": null,
       "notes": ""
     },
-    "sales_route": "email_contact",
+    "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
     "subject_draft": "Direct schema help for: Issue with Schema Markup Not Rendering Properly in Search Results",
@@ -323,7 +323,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:24:48+00:00",
+    "discovered_at": "2026-04-20T18:41:22+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -372,7 +372,7 @@
       "schema_present": null,
       "notes": ""
     },
-    "sales_route": "email_contact",
+    "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
     "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
@@ -393,7 +393,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:24:48+00:00",
+    "discovered_at": "2026-04-20T18:41:22+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -448,7 +448,7 @@
       "schema_present": null,
       "notes": ""
     },
-    "sales_route": "email_contact",
+    "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
     "subject_draft": "Direct schema help for: Elementor FAQPage Schema Bug - WordPress.org",
@@ -469,7 +469,7 @@
     "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:24:48+00:00",
+    "discovered_at": "2026-04-20T18:41:22+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -513,7 +513,7 @@
       "schema_present": null,
       "notes": ""
     },
-    "sales_route": "email_contact",
+    "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
     "subject_draft": "AI Visibility Kit could help with: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
@@ -534,7 +534,7 @@
     "source_item_url": "https://wordpress.org/support/topic/yoast-faq-block-only-getting-schema-for-last-block-on-page/",
     "summary": "Yoast FAQ block - only getting schema for last block on page cheddarcreative (@cheddarcreative) 26 minutes ago I have a WordPress page that uses the Yoast FAQ block - The page contains 4 separate …",
     "published_at": null,
-    "discovered_at": "2026-04-20T18:24:48+00:00",
+    "discovered_at": "2026-04-20T18:41:22+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
