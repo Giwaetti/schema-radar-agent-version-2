@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-20T19:29:56+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
     "stage": "hot",
     "score": 29,
     "score_breakdown": {
@@ -81,7 +81,7 @@
     "source_item_url": "https://www.reddit.com/r/shopify/comments/1sqllx0/regretting_starting_my_store_with_shopify/",
     "summary": "I’ve been dealing with a really frustrating issue beyond the additional subscription costs for apps on the Shopify store. The product feeds from Shopify to Google Merchant Center and Pinterest appear to be completely broken. I’ve already tried multiple fixes including resetting everything, deleting the apps, and reinstalling them but nothing has worked. The core problem is that Shopify is sending incorrect and outdated product data to these platforms. It’s pulling in product listings that were only created as test entries while I was setting up my store, as well as listings that were never published and remained in draft. All of these products have already been deleted from Shopify. Despite that, Google Merchant Center is still trying to sync these non-existent products and, of course, failing. The issue is that I can’t remove them from Google Merchant Center either, because it says they must first be removed from Shopify but they no longer exist there. On top of that, there are two specific products in Google Merchant Center (in English) that are marked as unapproved because the page supposedly “can’t be found.” However, the links are clearly working without any issues. My store is available in three languages, and the English version is active and fully functional, so this error doesn’t make sense. Pinterest is also affected. The product feed ingestion keeps failing and showing errors, so syncing isn’t working there either. I’ve contacted Google Merchant Center support several times, but I only receive generic, unhelpful responses. At this point, I’m stuck the system feels broken, and I have no clear way to fix it. Any advice on how to resolve this would be really appreciated. /u/Confusedmind75",
     "published_at": "2026-04-20T10:41:29+00:00",
-    "discovered_at": "2026-04-20T19:29:56+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
     "stage": "hot",
     "score": 29,
     "score_breakdown": {
@@ -175,7 +175,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1soiimi/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Fwiw, most of my projects are SvelteKit+Vite based. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? /u/lesbiyond",
     "published_at": "2026-04-18T00:27:40+00:00",
-    "discovered_at": "2026-04-20T19:29:56+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -250,7 +250,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-04-20T19:29:56+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -321,7 +321,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-04-20T19:29:56+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -391,7 +391,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-04-20T19:29:56+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -458,6 +458,75 @@
     "sent_at": null
   },
   {
+    "item_id": "d214198645e6c277",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
+    "published_at": null,
+    "discovered_at": "2026-04-21T03:46:22+00:00",
+    "stage": "hot",
+    "score": 22,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'LD Json Schema syntax Error causing issues on website': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "sent_at": null
+  },
+  {
     "item_id": "0009f86135aebd37",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -467,7 +536,7 @@
     "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-04-20T19:29:56+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -523,6 +592,75 @@
     "sent_at": null
   },
   {
+    "item_id": "a6048e0f36e0f9b8",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Do you need a Google Review Feed for star ratings in SERPs?",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sr4okq/do_you_need_a_google_review_feed_for_star_ratings/",
+    "summary": "Noticed something weird while doing competitor research in the jewelry niche. About 80% of my competitors have zero star ratings showing in Google SERPs, including my own shop. Most of us are running Shopify with Judge me as the review widget, which supposedly supports structured data out of the box. But a handful of competitors DO have stars showing. And from what I can tell, the main difference seems to be that they're pulling in a Google Review Feed rather than (or in addition to) on-site reviews. So my question: Is Google now requiring a native Google review feed to display stars in SERPs for certain niches or product categories? Or is this just a structured data implementation issue? /u/iamwazor",
+    "published_at": "2026-04-20T22:07:48+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
+    "stage": "hot",
+    "score": 16,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "implement",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [
+        "shopify"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "shopify"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "implement",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Do you need a Google Review Feed for star ratings in SERPs?",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Do you need a Google Review Feed for star ratings in SERPs?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1sr4okq/do_you_need_a_google_review_feed_for_star_ratings/",
+    "sent_at": null
+  },
+  {
     "item_id": "8792c7c3a1a16f83",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -532,7 +670,7 @@
     "source_item_url": "https://wordpress.org/support/topic/yoast-faq-block-only-getting-schema-for-last-block-on-page/",
     "summary": "Yoast FAQ block - only getting schema for last block on page cheddarcreative (@cheddarcreative) 26 minutes ago I have a WordPress page that uses the Yoast FAQ block - The page contains 4 separate …",
     "published_at": null,
-    "discovered_at": "2026-04-20T19:29:56+00:00",
+    "discovered_at": "2026-04-21T03:46:22+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
