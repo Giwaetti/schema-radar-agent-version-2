@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-23T09:57:58+00:00",
+    "discovered_at": "2026-04-23T17:47:17+00:00",
     "stage": "hot",
     "score": 29,
     "score_breakdown": {
@@ -81,7 +81,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1soijo9/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Fwiw, most of my projects are SvelteKit+Vite based. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? Edit: Forgot to add: all of my files have been in the root (static in Svelte). I've tried having icons directly in the root; I've tried icons in folders in static and in the root. Nothing!! /u/lesbiyond",
     "published_at": "2026-04-18T00:28:58+00:00",
-    "discovered_at": "2026-04-23T09:57:58+00:00",
+    "discovered_at": "2026-04-23T17:47:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -156,7 +156,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-04-23T09:57:58+00:00",
+    "discovered_at": "2026-04-23T17:47:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -227,7 +227,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-04-23T09:57:58+00:00",
+    "discovered_at": "2026-04-23T17:47:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -297,7 +297,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-04-23T09:57:58+00:00",
+    "discovered_at": "2026-04-23T17:47:17+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -373,7 +373,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sr4okq/do_you_need_a_google_review_feed_for_star_ratings/",
     "summary": "Noticed something weird while doing competitor research in the jewelry niche. About 80% of my competitors have zero star ratings showing in Google SERPs, including my own shop. Most of us are running Shopify with Judge me as the review widget, which supposedly supports structured data out of the box. But a handful of competitors DO have stars showing. And from what I can tell, the main difference seems to be that they're pulling in a Google Review Feed rather than (or in addition to) on-site reviews. So my question: Is Google now requiring a native Google review feed to display stars in SERPs for certain niches or product categories? Or is this just a structured data implementation issue? /u/iamwazor",
     "published_at": "2026-04-20T22:07:48+00:00",
-    "discovered_at": "2026-04-23T09:57:58+00:00",
+    "discovered_at": "2026-04-23T17:47:17+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -442,7 +442,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-bug-numeric-values-output-as-strings-in-json-ld/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-23T09:57:58+00:00",
+    "discovered_at": "2026-04-23T17:47:17+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -493,69 +493,6 @@
     "sent_at": null
   },
   {
-    "item_id": "c3f603533000f31f",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "My one website is doing SEO for three brands, how do I schema this without it being a mess?",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1ssg1cl/my_one_website_is_doing_seo_for_three_brands_how/",
-    "summary": "Looking for a reality check before I commit to a schema decision. Situation: I run a small consultancy group with 3 brands: Parent brand: immigration / one-stop consultancy Brand A: real-estate (this is the site I'm asking about) Brand C: accounting/tax All same ownership, one-stop integrated services in-house. Problem: Only Brand A has a blog. The other two have GBPs and service pages but no content engine, and won't be getting blogs for the foreseeable future. Because of that, Brand A's blog publishes articles across all three verticals — property, immigration, accounting. This has worked fine for traffic. Now I'm upgrading Brand A's schema from generic Organization to something more specific for local pack eligibility. The dilemma: 1) If I type it as RealEstateAgent only → topically clean, but the immigration/accounting articles on the site are \"off-topic\" in schema terms 2) If I multi-type it as RealEstateAgent + ProfessionalService + AccountingService → matches what the site actually publishes, but dilutes topical focus and arguably cannibalises my own sister brands' queries 3) There's a third option I'm weighing: single-type as RealEstateAgent but add knowsAbout (covering all three expertise areas), makesOffer covering the full group service catalog, and keep the existing subOrganization/parentOrganization graph linking the 3 brands. The pitch is: express \"one-stop integrated group\" through relationships and service catalog, not through type multiplicity. My questions: - Has anyone shipped something like the third option and seen it actually work? - Is multi-typing as bad as I think for topical focus, or am I overweighting that risk? - For local pack specifically, does schema type matter as much as GBP + NAP consistency? (Open to \"fix the GBP side first, schema is secondary\") Am I missing any obvious option? /u/gambirsg",
-    "published_at": "2026-04-22T09:03:53+00:00",
-    "discovered_at": "2026-04-23T09:57:58+00:00",
-    "stage": "hot",
-    "score": 13,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "schema"
-      ],
-      "intent_hits": [
-        "fix",
-        "missing",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "fix",
-      "missing",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: My one website is doing SEO for three brands, how do I schema this wit",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'My one website is doing SEO for three brands, how do I schema this without it being a mess?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1ssg1cl/my_one_website_is_doing_seo_for_three_brands_how/",
-    "sent_at": null
-  },
-  {
     "item_id": "04cc207eb9743fb0",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -565,7 +502,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ssfy15/schema_strategy_dilemma_realestateagent_site/",
     "summary": "I'd appreciate sanity-checking from people who've actually architected schema for multi-brand groups. I want to pressure test the conclusion before shipping. Setup: Small integrated consultancy group, 3 brands: Parent brand = immigration / one-stop authority, has a GBP, service pages, no blog Site A (the one I'm asking about) = real-estate arm, has 250+ listings + deep blog (~600 posts), real-estate topical authority very established Sister brand = accounting/tax/corporate services, has a GBP, service pages, no blog Group USP is in-house one-stop service integration across all three — not a referral network. Same ownership, shared ops. The tension: Site A is the only site in the group with a working content engine. Because of that, it publishes content across all three verticals: property articles, immigration articles, accounting/tax articles. The other two sites are not going to get their own blogs for the foreseeable future. Current schema on Site A: generic Organization + clean org graph (parent + sister linked via subOrganization/parentOrganization) + two Person nodes for founders. E-E-A-T graph is solid. Three paths I'm weighing: 1) Single-type as RealEstateAgent — topically clean, accept that immigration/accounting content on Site A gets weaker rankings than it would on a topically-aligned site. Preserves brand architecture 2) Multi-type — [\"Organization\", \"RealEstateAgent\", \"ProfessionalService\", \"AccountingService\"]. Matches current content reality but (a) cannibalises the other two brands for their own queries, (b) dilutes topical focus, (c) blurs the E-E-A-T entity graph 3) Single-type as RealEstateAgent + expressive secondary nodes — add makesOffer/hasOfferCatalog covering the full group service list, knowsAbout on the organisation covering all three verticals' expertise areas, Person.knowsAbout on the founders reinforcing cross-domain expertise. Keep the subOrganization graph. The theory: express \"integrated group\" through relationships + service catalog + stated expertise, rather than through type multiplicity Why I'm leaning toward Path 3: - Keeps topical focus for ranking (RealEstateAgent, property site, coherent signal) - Expresses \"one-stop integrated group\" via the graph rather than type claims - Doesn't cannibalise the sister brands' own queries - Better for LLM/AI-search citation (clear entity graph: \"Site A is the property arm of the group\") Where I'm uncertain: - Is Google actually using knowsAbout as a topical-authority signal, or is it cosmetic? - Does makesOffer pointing to services the entity doesn't directly provide (e.g. accounting, which sister brand delivers) risk looking like schema spam? - Am I overweighting the \"topical dilution\" argument against multi-typing? Have people seen multi-typed orgs rank fine? - Is there a fourth option I'm not seeing? Appreciate any pushback on the Path 3 reasoning or war stories from similar architectures 🙏🏻 /u/gambirsg",
     "published_at": "2026-04-22T08:59:17+00:00",
-    "discovered_at": "2026-04-23T09:57:58+00:00",
+    "discovered_at": "2026-04-23T17:47:17+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
