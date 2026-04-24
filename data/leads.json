@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-23T17:47:17+00:00",
+    "discovered_at": "2026-04-24T03:51:56+00:00",
     "stage": "hot",
     "score": 29,
     "score_breakdown": {
@@ -81,7 +81,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1soijo9/bing_icons/",
     "summary": "Have launched a few websites, and never been able to get my icons to appear on bing/yahoo. They appear fine on Google, DDG (heavily relies on Bing), and all browsers. I have thorough (but not excessive) Metadata/schema/webmanifest, with multiple formats (ico, png, web and jpeg) and sizes (16x16, 32x32, 48x48, 180x180, 192x192, 512x512, 1200x630, etc). I do not link icons in my sitemap. I have bing webmasters set up (with actual search performance) + IndexNow, with verified rich results, and I have full menus in search (whatever it's called when your main page + 5 other pages show in one section). Bing displays one of my logo files below that. Fwiw, most of my projects are SvelteKit+Vite based. I notice that other top result sites on bing also don't have icons. Anybody else experience this? Anyone know a fix? Edit: Forgot to add: all of my files have been in the root (static in Svelte). I've tried having icons directly in the root; I've tried icons in folders in static and in the root. Nothing!! /u/lesbiyond",
     "published_at": "2026-04-18T00:28:58+00:00",
-    "discovered_at": "2026-04-23T17:47:17+00:00",
+    "discovered_at": "2026-04-24T03:51:56+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -156,7 +156,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-04-23T17:47:17+00:00",
+    "discovered_at": "2026-04-24T03:51:56+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -218,76 +218,6 @@
     "sent_at": null
   },
   {
-    "item_id": "f9d88b5c66a6d90b",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Structured Data Issue: Price Range in Schema Markup Not Accepted by ...",
-    "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
-    "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
-    "published_at": null,
-    "discovered_at": "2026-04-23T17:47:17+00:00",
-    "stage": "hot",
-    "score": 26,
-    "score_breakdown": {
-      "schema_hits": [
-        "schema markup",
-        "structured data"
-      ],
-      "strict_schema_hits": [
-        "schema",
-        "schema markup",
-        "structured data"
-      ],
-      "intent_hits": [
-        "issue",
-        "support"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "issue",
-        "schema markup",
-        "structured data"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "issue",
-      "support"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Structured Data Issue: Price Range in Schema Markup Not Accepted by ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "email",
-    "contact_target": "schemaagent@gmail.com",
-    "sent_at": null
-  },
-  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -297,7 +227,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-04-23T17:47:17+00:00",
+    "discovered_at": "2026-04-24T03:51:56+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -364,6 +294,68 @@
     "sent_at": null
   },
   {
+    "item_id": "6c1078a68dd893dc",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "no longer can save schema markup data in Custom Field",
+    "source_item_url": "https://wordpress.org/support/topic/no-longer-can-save-schema-markup-data-in-custom-field/",
+    "summary": "However, for the JSON-LD schema markup , it will no longer flash yellow and will not save anything. Why does the schema markup data imported into the head section of the document via the PHP snippet (see original post above) get moved into the body section? Only the comment line appears in the head.",
+    "published_at": null,
+    "discovered_at": "2026-04-24T03:51:56+00:00",
+    "stage": "hot",
+    "score": 20,
+    "score_breakdown": {
+      "schema_hits": [
+        "json-ld",
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "json-ld",
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "schema markup"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: no longer can save schema markup data in Custom Field",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'no longer can save schema markup data in Custom Field': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/no-longer-can-save-schema-markup-data-in-custom-field/",
+    "sent_at": null
+  },
+  {
     "item_id": "a6048e0f36e0f9b8",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -373,7 +365,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sr4okq/do_you_need_a_google_review_feed_for_star_ratings/",
     "summary": "Noticed something weird while doing competitor research in the jewelry niche. About 80% of my competitors have zero star ratings showing in Google SERPs, including my own shop. Most of us are running Shopify with Judge me as the review widget, which supposedly supports structured data out of the box. But a handful of competitors DO have stars showing. And from what I can tell, the main difference seems to be that they're pulling in a Google Review Feed rather than (or in addition to) on-site reviews. So my question: Is Google now requiring a native Google review feed to display stars in SERPs for certain niches or product categories? Or is this just a structured data implementation issue? /u/iamwazor",
     "published_at": "2026-04-20T22:07:48+00:00",
-    "discovered_at": "2026-04-23T17:47:17+00:00",
+    "discovered_at": "2026-04-24T03:51:56+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -433,27 +425,26 @@
     "sent_at": null
   },
   {
-    "item_id": "5632b080adc53f20",
-    "source": "WordPress Support - Rank Math SEO",
-    "source_id": "wordpress-rankmath-support",
+    "item_id": "c7c56951dda9df44",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
     "source_type": "forum",
-    "source_url": "https://wordpress.org/support/plugin/seo-by-rank-math/",
-    "title": "Schema bug – numeric values output as strings in JSON-LD",
-    "source_item_url": "https://wordpress.org/support/topic/schema-bug-numeric-values-output-as-strings-in-json-ld/",
-    "summary": "",
-    "published_at": null,
-    "discovered_at": "2026-04-23T17:47:17+00:00",
-    "stage": "hot",
-    "score": 15,
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "Shipping plugin stopped working but billed my credit card. Schema error. Anyone else experience this?",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1sttrfa/shipping_plugin_stopped_working_but_billed_my/",
+    "summary": "Going to have to shut the store down. Just started after working perfectly. /u/TCapz3454",
+    "published_at": "2026-04-23T20:03:44+00:00",
+    "discovered_at": "2026-04-24T03:51:56+00:00",
+    "stage": "warm",
+    "score": 11,
     "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
+      "schema_hits": [],
       "strict_schema_hits": [
-        "json-ld",
         "schema"
       ],
-      "intent_hits": [],
+      "intent_hits": [
+        "error"
+      ],
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
@@ -462,34 +453,36 @@
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
       "title_signal_hits": [
-        "json-ld"
+        "error"
       ],
-      "schema_source": true,
+      "schema_source": false,
       "native_action_source": true,
       "general_reddit_source": false,
       "ecom_platform_source": true
     },
     "platforms": [],
     "issue_types": [],
-    "intent_flags": [],
+    "intent_flags": [
+      "error"
+    ],
     "business_name": null,
     "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
     "audit": {
       "business_site": null,
       "schema_present": null,
       "notes": ""
     },
     "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema bug – numeric values output as strings in JSON-LD",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema bug – numeric values output as strings in JSON-LD': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: Shipping plugin stopped working but billed my credit card. Schema erro",
+    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'Shipping plugin stopped working but billed my credit card. Schema error. Anyone else experience this?': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-bug-numeric-values-output-as-strings-in-json-ld/",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1sttrfa/shipping_plugin_stopped_working_but_billed_my/",
     "sent_at": null
   },
   {
@@ -502,7 +495,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ssfy15/schema_strategy_dilemma_realestateagent_site/",
     "summary": "I'd appreciate sanity-checking from people who've actually architected schema for multi-brand groups. I want to pressure test the conclusion before shipping. Setup: Small integrated consultancy group, 3 brands: Parent brand = immigration / one-stop authority, has a GBP, service pages, no blog Site A (the one I'm asking about) = real-estate arm, has 250+ listings + deep blog (~600 posts), real-estate topical authority very established Sister brand = accounting/tax/corporate services, has a GBP, service pages, no blog Group USP is in-house one-stop service integration across all three — not a referral network. Same ownership, shared ops. The tension: Site A is the only site in the group with a working content engine. Because of that, it publishes content across all three verticals: property articles, immigration articles, accounting/tax articles. The other two sites are not going to get their own blogs for the foreseeable future. Current schema on Site A: generic Organization + clean org graph (parent + sister linked via subOrganization/parentOrganization) + two Person nodes for founders. E-E-A-T graph is solid. Three paths I'm weighing: 1) Single-type as RealEstateAgent — topically clean, accept that immigration/accounting content on Site A gets weaker rankings than it would on a topically-aligned site. Preserves brand architecture 2) Multi-type — [\"Organization\", \"RealEstateAgent\", \"ProfessionalService\", \"AccountingService\"]. Matches current content reality but (a) cannibalises the other two brands for their own queries, (b) dilutes topical focus, (c) blurs the E-E-A-T entity graph 3) Single-type as RealEstateAgent + expressive secondary nodes — add makesOffer/hasOfferCatalog covering the full group service list, knowsAbout on the organisation covering all three verticals' expertise areas, Person.knowsAbout on the founders reinforcing cross-domain expertise. Keep the subOrganization graph. The theory: express \"integrated group\" through relationships + service catalog + stated expertise, rather than through type multiplicity Why I'm leaning toward Path 3: - Keeps topical focus for ranking (RealEstateAgent, property site, coherent signal) - Expresses \"one-stop integrated group\" via the graph rather than type claims - Doesn't cannibalise the sister brands' own queries - Better for LLM/AI-search citation (clear entity graph: \"Site A is the property arm of the group\") Where I'm uncertain: - Is Google actually using knowsAbout as a topical-authority signal, or is it cosmetic? - Does makesOffer pointing to services the entity doesn't directly provide (e.g. accounting, which sister brand delivers) risk looking like schema spam? - Am I overweighting the \"topical dilution\" argument against multi-typing? Have people seen multi-typed orgs rank fine? - Is there a fourth option I'm not seeing? Appreciate any pushback on the Path 3 reasoning or war stories from similar architectures 🙏🏻 /u/gambirsg",
     "published_at": "2026-04-22T08:59:17+00:00",
-    "discovered_at": "2026-04-23T17:47:17+00:00",
+    "discovered_at": "2026-04-24T03:51:56+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
