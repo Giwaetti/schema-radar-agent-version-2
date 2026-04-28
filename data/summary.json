@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T17:42:36+00:00",
+  "generated_at": "2026-04-28T04:07:14+00:00",
   "total": 11,
   "by_stage": {
     "hot": 5,
@@ -7,13 +7,13 @@
     "watch": 2
   },
   "by_offer": {
-    "Done-for-you / service": 5,
-    "AI Visibility Kit": 4,
-    "AI Generator": 2
+    "AI Generator": 3,
+    "Done-for-you / service": 4,
+    "AI Visibility Kit": 4
   },
   "by_source": {
-    "Search WordPress Support": 4,
     "Reddit r/shopify": 1,
+    "Search WordPress Support": 4,
     "Reddit r/TechSEO": 2,
     "Reddit r/woocommerce": 2,
     "WordPress Support - Schema & Structured Data for WP & AMP": 1,
