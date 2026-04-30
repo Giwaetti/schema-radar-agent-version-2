@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-04-29T17:50:32+00:00",
+    "discovered_at": "2026-04-30T04:05:31+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -80,7 +80,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-04-29T17:50:32+00:00",
+    "discovered_at": "2026-04-30T04:05:31+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -150,7 +150,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-04-29T17:50:32+00:00",
+    "discovered_at": "2026-04-30T04:05:31+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -226,7 +226,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sx2u3a/can_technical_seo_actually_be_automated/",
     "summary": "A lot of websites look like they’re performing well on the surface content is live, rankings are moving, and traffic is coming in but underneath, technical SEO issues can silently block real growth. Problems like poor crawlability, weak internal linking, slow page speed, indexing errors, duplicate content, missing schema, or messy site structure often prevent search engines from fully understanding and ranking your pages properly. Most teams focus heavily on content and backlinks, but ignore the technical SEO foundation that actually decides how well that content gets discovered and ranked. So question is: Can we automate technical SEO end-to-end, or is human intervention still essential to keep websites truly search-ready? /u/SERPArchitect",
     "published_at": "2026-04-27T12:54:42+00:00",
-    "discovered_at": "2026-04-29T17:50:32+00:00",
+    "discovered_at": "2026-04-30T04:05:31+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -293,7 +293,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-setup-question/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-29T17:50:32+00:00",
+    "discovered_at": "2026-04-30T04:05:31+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -354,7 +354,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1suap1d/schema_strategy_dilemma_realestateagent_site/",
     "summary": "I'd appreciate sanity-checking from people who've actually architected schema for multi-brand groups. I want to pressure test the conclusion before shipping. Setup: Small integrated consultancy group, 3 brands: Parent brand = immigration / one-stop authority, has a GBP, service pages, no blog Site A (the one I'm asking about) = real-estate arm, has 250+ listings + deep blog (~600 posts), real-estate topical authority very established Sister brand = accounting/tax/corporate services, has a GBP, service pages, no blog Group USP is in-house one-stop service integration across all three — not a referral network. Same ownership, shared ops. The tension: Site A is the only site in the group with a working content engine. Because of that, it publishes content across all three verticals: property articles, immigration articles, accounting/tax articles. The other two sites are not going to get their own blogs for the foreseeable future. Current schema on Site A: generic Organization + clean org graph (parent + sister linked via subOrganization/parentOrganization) + two Person nodes for founders. E-E-A-T graph is solid. Three paths I'm weighing: Single-type as RealEstateAgent — topically clean, accept that immigration/accounting content on Site A gets weaker rankings than it would on a topically-aligned site. Preserves brand architecture Multi-type — [\"Organization\", \"RealEstateAgent\", \"ProfessionalService\", \"AccountingService\"]. Matches current content reality but (a) cannibalises the other two brands for their own queries, (b) dilutes topical focus, (c) blurs the E-E-A-T entity graph Single-type as RealEstateAgent + expressive secondary nodes — add makesOffer/hasOfferCatalog covering the full group service list, knowsAbout on the organisation covering all three verticals' expertise areas, Person.knowsAbout on the founders reinforcing cross-domain expertise. Keep the subOrganization graph. The theory: express \"integrated group\" through relationships + service catalog + stated expertise, rather than through type multiplicity Why I'm leaning toward Path 3: - Keeps topical focus for ranking (RealEstateAgent, property site, coherent signal) - Expresses \"one-stop integrated group\" via the graph rather than type claims - Doesn't cannibalise the sister brands' own queries - Better for LLM/AI-search citation (clear entity graph: \"Site A is the property arm of the group\") Where I'm uncertain: - Is Google actually using knowsAbout as a topical-authority signal, or is it cosmetic? - Does makesOffer pointing to services the entity doesn't directly provide (e.g. accounting, which sister brand delivers) risk looking like schema spam? - Am I overweighting the \"topical dilution\" argument against multi-typing? Have people seen multi-typed orgs rank fine? - Is there a fourth option I'm not seeing? Appreciate any pushback on the Path 3 reasoning or war stories from similar architectures 🙏🏻 /u/gambirsg",
     "published_at": "2026-04-24T09:24:05+00:00",
-    "discovered_at": "2026-04-29T17:50:32+00:00",
+    "discovered_at": "2026-04-30T04:05:31+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
@@ -413,7 +413,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-04-29T17:50:32+00:00",
+    "discovered_at": "2026-04-30T04:05:31+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -456,6 +456,67 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
+    "sent_at": null
+  },
+  {
+    "item_id": "682df1b39b806ad6",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "I’m convinced my subdomain is conflicting with my marketing site which is why nothing will index after crawl",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1szhonv/im_convinced_my_subdomain_is_conflicting_with_my/",
+    "summary": "It’s been 9 months. I still can’t get my webapp to index. I’m convinced it’s the marketing site and therefore the crawlers are confused. I’ve tried so much over the months: - tech issues - JSON schema - different sitemap versions - Added FAQ - added “pillars of content” for topical authority - added about us - my back links are still slim but a few are out there - added as much content as possible to make sure the crawler doesn’t think it’s “thin” - maybe it’s because of the “app” feature that it’s not a fan of but I know of 2 competitors that have content behind paywall and their website indexes. Should I scrap everything and just move the app as the marketing landing page ?” /u/lucksp",
+    "published_at": "2026-04-30T01:17:19+00:00",
+    "discovered_at": "2026-04-30T04:05:31+00:00",
+    "stage": "watch",
+    "score": 6,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "schema"
+      ],
+      "intent_hits": [
+        "issue"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [
+        "sitemap"
+      ],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "issue"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: I’m convinced my subdomain is conflicting with my marketing site which",
+    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'I’m convinced my subdomain is conflicting with my marketing site which is why nothing will index after crawl': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1szhonv/im_convinced_my_subdomain_is_conflicting_with_my/",
     "sent_at": null
   }
 ]
