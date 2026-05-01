@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -71,6 +71,76 @@
     "sent_at": null
   },
   {
+    "item_id": "f9d88b5c66a6d90b",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Structured Data Issue: Price Range in Schema Markup Not Accepted by ...",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
+    "published_at": null,
+    "discovered_at": "2026-05-01T09:58:16+00:00",
+    "stage": "hot",
+    "score": 26,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup",
+        "structured data"
+      ],
+      "intent_hits": [
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "schema markup",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Issue: Price Range in Schema Markup Not Accepted by ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "sent_at": null
+  },
+  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -80,7 +150,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -147,6 +217,146 @@
     "sent_at": null
   },
   {
+    "item_id": "852bdcf3357fb203",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "Google said my ROAS was 4x. My bank account disagreed. So I built a WooCommerce profit tracker.",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1t0jwe4/google_said_my_roas_was_4x_my_bank_account/",
+    "summary": "Hey r/woocommerce , Quick backstory: I’ve been running a WooCommerce store for a few years and Google Ads is my main channel. For the longest time I was operating on the ROAS numbers Google reported, scaling what looked like winners and pausing what looked like losers. Problem is, ROAS lies. Or rather, ROAS doesn’t tell you the full story. Once I actually sat down and did the math — subtracting cost of goods, shipping costs, Stripe fees, and refunds — I realized that some of my “best” campaigns were barely breaking even. Meanwhile a couple of campaigns I almost paused were actually my most profitable ones (high margin products, low return rate). I tried every plugin I could find. Most just calculate revenue minus ad spend and call it “profit.” None of them handled product variations correctly, which is a dealbreaker if you sell anything with sizes or colors. A few of them wanted to charge me per order which gets expensive fast. So I built my own. It’s called WooTrack and it does the boring stuff right: • Calculates real POAS (Profit on Ad Spend), not vanity ROAS • Auto-deducts COGS, shipping, payment fees, refunds • Handles variable products properly (variations + parent products) • Sets up Enhanced Conversions for you (no manual gtag.js work) • GCLID capture and deduplication so you don’t double-count • Syncs your product feed to Merchant Center (variations included) • Works with Performance Max and Smart Shopping • iOS + Android mobile app to check profit on the go Pricing is one flat plan: $14.99/month. Unlimited orders, unlimited products, no per-order fees, no upsells. 14-day trial, no credit card. Site: https://wootrackapp.com I’m not posting this just to promote — genuinely want honest feedback from people in the trenches with WooCommerce + paid ads. What’s your current tracking stack? What’s broken about it? What would make you switch? Happy to nerd out on the technical side too — Google Ads API, Enhanced Conversions, conversion deduplication, feed quirks with variations — anything you want to dig into.​​​​​​​​​​​​​​​​ /u/ZeroPointSoftware",
+    "published_at": "2026-05-01T05:11:32+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
+    "stage": "hot",
+    "score": 23,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "merchant center",
+        "product feed"
+      ],
+      "intent_hits": [
+        "broken",
+        "problem"
+      ],
+      "platform_hits": [
+        "woocommerce"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [
+        "merchant center",
+        "product feed"
+      ],
+      "ecom_search_hits": [
+        "merchant center",
+        "product feed"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": false,
+      "ecom_platform_source": true
+    },
+    "platforms": [
+      "woocommerce"
+    ],
+    "issue_types": [
+      "merchant center",
+      "product feed"
+    ],
+    "intent_flags": [
+      "broken",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": "https://wootrackapp.com",
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": "https://wootrackapp.com",
+      "schema_present": true,
+      "notes": "Business site detected"
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Google said my ROAS was 4x. My bank account disagreed. So I built a Wo",
+    "message_draft": "This looks more like a feed-sync / product-data mismatch than a basic store setup issue.\n\nI’d check these first:\n- Confirm the feed source Google/Pinterest is reading is the same one the store is publishing.\n- Check for stale IDs, deleted variants, draft products, or cached feed data.\n- Compare the feed values against one live product URL end-to-end.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "follow_up_draft": "Quick follow-up on 'Google said my ROAS was 4x. My bank account disagreed. So I built a WooCommerce profit tracker.': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1t0jwe4/google_said_my_roas_was_4x_my_bank_account/",
+    "sent_at": null
+  },
+  {
+    "item_id": "0009f86135aebd37",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
+    "published_at": null,
+    "discovered_at": "2026-05-01T09:58:16+00:00",
+    "stage": "hot",
+    "score": 18,
+    "score_breakdown": {
+      "schema_hits": [
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "missing"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "json-ld",
+        "missing"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "missing"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "sent_at": null
+  },
+  {
     "item_id": "76eefdf3af751d2b",
     "source": "Reddit r/Wordpress",
     "source_id": "reddit-wordpress",
@@ -156,7 +366,7 @@
     "source_item_url": "https://www.reddit.com/r/Wordpress/comments/1szw753/i_made_a_google_eeat_complaint_theme_it_took_me/",
     "summary": "Everything I added in the theme and 0 plugins required. Example of author page - https://preview.redd.it/557jdsrbybyg1.png?width=1650&format=png&auto=webp&s=40db2ec4296506d2276cc9ac63d5fae52f2a860c 6 homepage layouts and 6 single article formats Sticky header with configurable desktop and mobile action buttons (bookmark, like, comment, search) Design presets plus custom theme builder for colours, radius, fonts Body and heading font picker Reading progress bar, estimated reading time, table of contents Dark and light mode toggle with localStorage memory Lazy images, AVIF conversion, LCP image preload, preconnect hints, image dimension attributes Breadcrumbs, infinite scroll, sticky sidebar, font size controls Social share buttons for X, Facebook, LinkedIn, WhatsApp Author box, highlights box, related posts, time-ago byline, category colour coding Newsletter widget, search bar widget, custom footer with social icons E-E-A-T metabox with author, reviewer, fact-checker, sources, corrections, changelog, disclosures, entity tags Author profile fields for bio, photo, expertise, social links Reviewer fallback that uses your editor-in-chief when no per-post reviewer is set Human-written disclosure badge, freshness badge, last-updated line Sources and citations box, correction log, changelog box Entity schema for about and mentions Inline writer guides and examples right in the metabox for edit post section Reader \"report an error\" button Content Quality panel with word count vs target per article type (news, chapter, season, review, net worth, how-to, ranked, theory, character) Auto-detect article type from title keywords plus category fallback H2 / H3 / image counts, internal vs external link split, trusted vs untrusted domain check against a whitelist of Wikipedia, Reuters, BBC, IMDB, Variety and friends 0 to 100 EEAT quality score with specific warnings like \"add 2 more H2\" or \"1 untrusted domain: X\" Publish Schedule Guard with live 30 second timer, configurable minimum interval, red warning, confirm dialog on the publish button Internal link finder with same-category suggestions and one-click insert Setup wizard that pre-fills company info, organisation schema, privacy, terms, contact BreadcrumbList, Organization or NewsMediaOrganization, Speakable, FAQPage, HowTo, ClaimReview, Review, Article Series isPartOf Article schema with author, reviewer, wordCount, articleSection, keywords, comment count, interactionStatistic Multi-aspect image array in Article schema for 16:9, 4:3, 1:1 crops max-image-preview large robots meta for Google Discover eligibility Per-post Google Discover readiness checker for image 1200px or wider, headline 110 chars or less, author bio, schema enabled, news category Settings panel with full Discover eligibility checklist and best-practices guide Master schema kill switch for sites running Yoast or RankMath as primary Per-post schema type override and per-post schema disable Custom schema description and keywords overrides Canonical URL tags with per-post override News sitemap (last 48 hours), video sitemap, image sitemap, author sitemap, tag sitemap, category sitemap Configurable sitemap exclusions, posts per page, min tag count, cache hours, homepage priority IndexNow with bulk submission, WebSub, llms.txt, JSON feed, RSS media images Bing Webmaster API integration Sitemap engine ping Index status dashboard AMP pages with three URL format choices AI crawler robots.txt rules with allow or block toggle for GPTBot, ChatGPT, ClaudeBot, Perplexity, Google-Extended, Applebot-Extended, CCBot, Bytespider, FacebookBot, Amazonbot Built-in Cloudflare R2 CDN with offload-only mode and CDN URL rewriting Watermark module with logo, position, size, opacity Wiki / database custom post type covering anime, movies, manga, manhwa, light novels, webtoons, comics, TV shows, kdrama, games, voice actors, actors, directors, authors, kpop artists, anime studios Field manifests and presets per type Auto-linking of wiki entries inside post content with global disable Cascade stubs that auto-create related entries (shows, characters, cast) Cascade background queue with rate limit Database relations, custom permalinks, schema markup, bulk photo fetcher, duplicate detector, person index External ratings for IMDB, Rotten Tomatoes, Metacritic, OpenCritic, MyAnimeList, AniList, Crunchyroll, Amazon Custom logo per rating platform Image fetcher integration with TMDB, Google CSE, Fandom defaults Article DB card embedded inside posts Wiki staff audit tool, profession migrator, DB cleanup tools, bulk generate Header, above-post, inline-recurring, after-paragraph-3, below-post, sidebar-top, sidebar-bottom, between-posts ad slots Inline ad mode by paragraphs or words with skip-first and interval controls Per-category accent colour Per-post single layout override Redirect manager, social cleaner, ping services Custom logo height for header and footer Quick-action navigation buttons in header Comments threading Search results page styling 404 page styling Author archive, category archive, tag archive layouts Wiki taxonomy archive Multi-language ready, RTL ready, translation ready /u/mblaze111",
     "published_at": "2026-04-30T13:32:04+00:00",
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "hot",
     "score": 14,
     "score_breakdown": {
@@ -225,7 +435,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1t02tbk/new_to_seo_this_is_abt_schema/",
     "summary": "Hi! So I’m just new to SEO. I would like to ask how to create schema markup. And if i have a rankmath plugin and fill in the titles, etc. is that good already or i have to do other stuff to make it effective? Haha don’t know if u get what I’m saying /u/BraveJacket3136",
     "published_at": "2026-04-30T17:22:23+00:00",
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -283,7 +493,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sx2u3a/can_technical_seo_actually_be_automated/",
     "summary": "A lot of websites look like they’re performing well on the surface content is live, rankings are moving, and traffic is coming in but underneath, technical SEO issues can silently block real growth. Problems like poor crawlability, weak internal linking, slow page speed, indexing errors, duplicate content, missing schema, or messy site structure often prevent search engines from fully understanding and ranking your pages properly. Most teams focus heavily on content and backlinks, but ignore the technical SEO foundation that actually decides how well that content gets discovered and ranked. So question is: Can we automate technical SEO end-to-end, or is human intervention still essential to keep websites truly search-ready? /u/SERPArchitect",
     "published_at": "2026-04-27T12:54:42+00:00",
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -350,7 +560,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-setup-advice/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -413,7 +623,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1t0aloa/simple_post_or_news/",
     "summary": "Hi. I just started a new wordpress site similar to gsmarena , and realized the \"news\" category is missing on my site. I need to ask if , should i post update in news category with news schema/? Or simply standard blog post? Which type is suitable for seo and rankings? Fast indexing by Google? /u/Conscious_Collar_616",
     "published_at": "2026-04-30T22:07:22+00:00",
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -476,7 +686,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -531,7 +741,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1szhonv/im_convinced_my_subdomain_is_conflicting_with_my/",
     "summary": "It’s been 9 months. I still can’t get my webapp to index. I’m convinced it’s the marketing site and therefore the crawlers are confused. I’ve tried so much over the months: - tech issues - JSON schema - different sitemap versions - Added FAQ - added “pillars of content” for topical authority - added about us - my back links are still slim but a few are out there - added as much content as possible to make sure the crawler doesn’t think it’s “thin” - maybe it’s because of the “app” feature that it’s not a fan of but I know of 2 competitors that have content behind paywall and their website indexes. Should I scrap everything and just move the app as the marketing landing page ?” /u/lucksp",
     "published_at": "2026-04-30T01:17:19+00:00",
-    "discovered_at": "2026-05-01T04:18:38+00:00",
+    "discovered_at": "2026-05-01T09:58:16+00:00",
     "stage": "watch",
     "score": 6,
     "score_breakdown": {
