@@ -1,5 +1,83 @@
 [
   {
+    "item_id": "1b5cdd063293aace",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Missing field 'mainEntity' in FAQ schema - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
+    "summary": "Missing field 'mainEntity' in FAQ schema webrightnow (@webrightnow) 57 minutes ago I have assigned the FAQ schema to a page and requested indexing in the Search Console, it came back wi…",
+    "published_at": null,
+    "discovered_at": "2026-05-03T09:40:02+00:00",
+    "stage": "hot",
+    "score": 29,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "schema"
+      ],
+      "intent_hits": [
+        "missing",
+        "search console"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [
+        "faq schema",
+        "missing field"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "missing",
+        "missing field"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [
+      "faq schema",
+      "missing field"
+    ],
+    "intent_flags": [
+      "missing",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with a lightweight, lower-friction offer.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: Missing field 'mainEntity' in FAQ schema - WordPress.org",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'Missing field 'mainEntity' in FAQ schema - WordPress.org': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/missing-field-mainentity-in-faq-schema/",
+    "sent_at": null
+  },
+  {
     "item_id": "c75603b854713000",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -9,7 +87,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-05-03T04:12:15+00:00",
+    "discovered_at": "2026-05-03T09:40:02+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -80,7 +158,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-03T04:12:15+00:00",
+    "discovered_at": "2026-05-03T09:40:02+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -150,7 +228,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-03T04:12:15+00:00",
+    "discovered_at": "2026-05-03T09:40:02+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -217,71 +295,6 @@
     "sent_at": null
   },
   {
-    "item_id": "0009f86135aebd37",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
-    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
-    "published_at": null,
-    "discovered_at": "2026-05-03T04:12:15+00:00",
-    "stage": "hot",
-    "score": 18,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "missing"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "json-ld",
-        "missing"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "missing"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
-    "sent_at": null
-  },
-  {
     "item_id": "82ab41a29c64bb42",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -291,7 +304,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sx2u3a/can_technical_seo_actually_be_automated/",
     "summary": "A lot of websites look like they’re performing well on the surface content is live, rankings are moving, and traffic is coming in but underneath, technical SEO issues can silently block real growth. Problems like poor crawlability, weak internal linking, slow page speed, indexing errors, duplicate content, missing schema, or messy site structure often prevent search engines from fully understanding and ranking your pages properly. Most teams focus heavily on content and backlinks, but ignore the technical SEO foundation that actually decides how well that content gets discovered and ranked. So question is: Can we automate technical SEO end-to-end, or is human intervention still essential to keep websites truly search-ready? /u/SERPArchitect",
     "published_at": "2026-04-27T12:54:42+00:00",
-    "discovered_at": "2026-05-03T04:12:15+00:00",
+    "discovered_at": "2026-05-03T09:40:02+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -358,7 +371,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-setup-advice/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-03T04:12:15+00:00",
+    "discovered_at": "2026-05-03T09:40:02+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -421,7 +434,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1t0xwsy/ran_programmatic_seo_for_5_months_60_of_the_pages/",
     "summary": "so we tried the classic pSEO play earlier this year. take a template, plug in a database, generate ~800 pages overnight, wait for the long tail to roll in. very 2019 of us. results after 5 months: roughly 60% of pages got pulled from the index by month 4. a chunk of the rest are camped at position #80-something doing nothing. the survivors are real though, they cover their hosting + tool costs every month, so not a total bust. but god the cleanup was painful. what got nuked vs what survived had basically nothing to do with template polish. the pages still alive had three things in common: one piece of data that wasn't on any other page on the open web (proprietary product data in our case, not remixed public stuff) internal links from at least 2 hand-written editorial pages search intent that wasn't already a SERP full of 10 identical SaaS comparison pages the dead ones? almost all of them were too close to existing comparison content. google's threshold for \"this is the same shit that already ranks\" is way lower than people admit. if your programmatic play is remixing what's already there with slightly different formatting, you're getting deindexed in 90-120 days. what we do now before generating a single template page: pull the SERP for the head term + 5 long-tail variants. if 9/10 results look the same, kill the project before generation. find a unique data anchor. proprietary numbers, scraped niche data, manual annotations, whatever. no anchor = no project. build the editorial layer first. you need 5-10 hand-written pillar pages with real authority before pSEO indexes properly off them. caveat — this is one experiment in one niche (B2B SaaS). your mileage may vary, especially in lower-competition verticals. but the \"anchor + editorial layer first\" thing has held up across two clients I've seen since. anyone else seeing similar deindex rates this year, or did we just get unlucky with the topic? /u/zachchmael",
     "published_at": "2026-05-01T16:13:34+00:00",
-    "discovered_at": "2026-05-03T04:12:15+00:00",
+    "discovered_at": "2026-05-03T09:40:02+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -482,7 +495,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-03T04:12:15+00:00",
+    "discovered_at": "2026-05-03T09:40:02+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -537,7 +550,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1szhonv/im_convinced_my_subdomain_is_conflicting_with_my/",
     "summary": "It’s been 9 months. I still can’t get my webapp to index. I’m convinced it’s the marketing site and therefore the crawlers are confused. I’ve tried so much over the months: - tech issues - JSON schema - different sitemap versions - Added FAQ - added “pillars of content” for topical authority - added about us - my back links are still slim but a few are out there - added as much content as possible to make sure the crawler doesn’t think it’s “thin” - maybe it’s because of the “app” feature that it’s not a fan of but I know of 2 competitors that have content behind paywall and their website indexes. Should I scrap everything and just move the app as the marketing landing page ?” /u/lucksp",
     "published_at": "2026-04-30T01:17:19+00:00",
-    "discovered_at": "2026-05-03T04:12:15+00:00",
+    "discovered_at": "2026-05-03T09:40:02+00:00",
     "stage": "watch",
     "score": 6,
     "score_breakdown": {

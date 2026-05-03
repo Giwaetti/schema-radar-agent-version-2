@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T04:12:15+00:00",
+  "generated_at": "2026-05-03T09:40:02+00:00",
   "total": 9,
   "by_stage": {
     "hot": 4,
@@ -7,8 +7,8 @@
     "watch": 2
   },
   "by_offer": {
-    "Done-for-you / service": 4,
-    "AI Visibility Kit": 4,
+    "AI Visibility Kit": 5,
+    "Done-for-you / service": 3,
     "AI Generator": 1
   },
   "by_source": {
