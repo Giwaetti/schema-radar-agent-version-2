@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -153,7 +153,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -223,7 +223,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -299,7 +299,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1sx2u3a/can_technical_seo_actually_be_automated/",
     "summary": "A lot of websites look like they’re performing well on the surface content is live, rankings are moving, and traffic is coming in but underneath, technical SEO issues can silently block real growth. Problems like poor crawlability, weak internal linking, slow page speed, indexing errors, duplicate content, missing schema, or messy site structure often prevent search engines from fully understanding and ranking your pages properly. Most teams focus heavily on content and backlinks, but ignore the technical SEO foundation that actually decides how well that content gets discovered and ranked. So question is: Can we automate technical SEO end-to-end, or is human intervention still essential to keep websites truly search-ready? /u/SERPArchitect",
     "published_at": "2026-04-27T12:54:42+00:00",
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -366,7 +366,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-setup-advice/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -429,7 +429,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1t0xwsy/ran_programmatic_seo_for_5_months_60_of_the_pages/",
     "summary": "so we tried the classic pSEO play earlier this year. take a template, plug in a database, generate ~800 pages overnight, wait for the long tail to roll in. very 2019 of us. results after 5 months: roughly 60% of pages got pulled from the index by month 4. a chunk of the rest are camped at position #80-something doing nothing. the survivors are real though, they cover their hosting + tool costs every month, so not a total bust. but god the cleanup was painful. what got nuked vs what survived had basically nothing to do with template polish. the pages still alive had three things in common: one piece of data that wasn't on any other page on the open web (proprietary product data in our case, not remixed public stuff) internal links from at least 2 hand-written editorial pages search intent that wasn't already a SERP full of 10 identical SaaS comparison pages the dead ones? almost all of them were too close to existing comparison content. google's threshold for \"this is the same shit that already ranks\" is way lower than people admit. if your programmatic play is remixing what's already there with slightly different formatting, you're getting deindexed in 90-120 days. what we do now before generating a single template page: pull the SERP for the head term + 5 long-tail variants. if 9/10 results look the same, kill the project before generation. find a unique data anchor. proprietary numbers, scraped niche data, manual annotations, whatever. no anchor = no project. build the editorial layer first. you need 5-10 hand-written pillar pages with real authority before pSEO indexes properly off them. caveat — this is one experiment in one niche (B2B SaaS). your mileage may vary, especially in lower-competition verticals. but the \"anchor + editorial layer first\" thing has held up across two clients I've seen since. anyone else seeing similar deindex rates this year, or did we just get unlucky with the topic? /u/zachchmael",
     "published_at": "2026-05-01T16:13:34+00:00",
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -490,7 +490,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -545,7 +545,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1szhonv/im_convinced_my_subdomain_is_conflicting_with_my/",
     "summary": "It’s been 9 months. I still can’t get my webapp to index. I’m convinced it’s the marketing site and therefore the crawlers are confused. I’ve tried so much over the months: - tech issues - JSON schema - different sitemap versions - Added FAQ - added “pillars of content” for topical authority - added about us - my back links are still slim but a few are out there - added as much content as possible to make sure the crawler doesn’t think it’s “thin” - maybe it’s because of the “app” feature that it’s not a fan of but I know of 2 competitors that have content behind paywall and their website indexes. Should I scrap everything and just move the app as the marketing landing page ?” /u/lucksp",
     "published_at": "2026-04-30T01:17:19+00:00",
-    "discovered_at": "2026-05-03T17:08:58+00:00",
+    "discovered_at": "2026-05-04T04:10:04+00:00",
     "stage": "watch",
     "score": 6,
     "score_breakdown": {
