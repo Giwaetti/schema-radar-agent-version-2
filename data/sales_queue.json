@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t4zfli/schema_is_a_requirement_for_most_serp_features/",
     "summary": "This post is to counter WebLinkrs post titled “PSA stop parroting schema is needed for SERP features”. He deleted that post after I presented him with Google’s documentation on Rich Results (the most common type of SERP feature): “Google uses structured data to understand the content on the page and show that content in a richer appearance in search results, which is called a rich result . To make your site eligible for appearance as one of these rich results, follow the guide to learn how to implement structured data on your site. If you're just getting started, visit Understand how structured data works.” From a technical perspective he had no idea that schema is a requirement for Rich Results. So anyway, it is a fact that schema is a requirement for Rich Results, and in the future I’d be weary of taking SEO advice from someone that doesn’t have basic technical knowledge. /u/arejayismyname",
     "published_at": "2026-05-06T02:00:08+00:00",
-    "discovered_at": "2026-05-07T10:35:16+00:00",
+    "discovered_at": "2026-05-07T17:58:30+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-05-07T10:35:16+00:00",
+    "discovered_at": "2026-05-07T17:58:30+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -146,6 +146,76 @@
     "sent_at": null
   },
   {
+    "item_id": "f9d88b5c66a6d90b",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Structured Data Issue: Price Range in Schema Markup Not Accepted by ...",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
+    "published_at": null,
+    "discovered_at": "2026-05-07T17:58:30+00:00",
+    "stage": "hot",
+    "score": 26,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup",
+        "structured data"
+      ],
+      "intent_hits": [
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "schema markup",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Issue: Price Range in Schema Markup Not Accepted by ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "sent_at": null
+  },
+  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -155,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-07T10:35:16+00:00",
+    "discovered_at": "2026-05-07T17:58:30+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -222,6 +292,71 @@
     "sent_at": null
   },
   {
+    "item_id": "87cc18b81c61edcb",
+    "source": "Reddit r/Wordpress",
+    "source_id": "reddit-wordpress",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/Wordpress/.rss",
+    "title": "Building A Website With Large Database/Filtering Capability.",
+    "source_item_url": "https://www.reddit.com/r/Wordpress/comments/1t6c5jb/building_a_website_with_large_databasefiltering/",
+    "summary": "Question for everyone. I am looking to build a website with a large product database. How can I best find agencies with experience in this? Is WP the best solution? Our existing site was hand-coded and took over a year to build. Making changes is nasty. I am looking to redesign with another company and have had issues finding people with experience in this area. When I show them our filter, the honest ones tend to run scared. Are there groups or places online I would be wise to look at? One dev said our project was more like a SAS project. Loading times, making changes, etc., are all very important. Our current WP site has a plugin that imports the data for the filter. API access from other companies is also available. Any feedback is appreciated. Thanks. /u/dalbroker",
+    "published_at": "2026-05-07T14:27:28+00:00",
+    "discovered_at": "2026-05-07T17:58:30+00:00",
+    "stage": "hot",
+    "score": 12,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "product data"
+      ],
+      "intent_hits": [
+        "issue"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "product data"
+      ],
+      "ecom_search_hits": [
+        "product data"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": false,
+      "ecom_platform_source": true
+    },
+    "platforms": [],
+    "issue_types": [
+      "product data"
+    ],
+    "intent_flags": [
+      "issue"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Building A Website With Large Database/Filtering Capability.",
+    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Building A Website With Large Database/Filtering Capability.': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/Wordpress/comments/1t6c5jb/building_a_website_with_large_databasefiltering/",
+    "sent_at": null
+  },
+  {
     "item_id": "c4811db457863726",
     "source": "Reddit r/woocommerce",
     "source_id": "reddit-woocommerce",
@@ -231,7 +366,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1t39upb/advice_on_custom_product_data_tabs_plugins/",
     "summary": "Hi, folks! I run a sheet music website and am looking to offer potential customers music-specific information (i.e. grade level, instrumentation, etc.) in the product data tabs. I'm also looking to customize the list of products that feature this information (for example, a coffee mug wouldn't require info about instrumentation). Obviously, I'll need a custom product data tab plug-in of some kind, and I can see I'm spoiled for choice. As of 2026, does anybody have a recommendation for such a plug-in? The articles I've seen thus far are either out of date or biased (written by a plug-in's creator, for instance). /u/Bill_Miller2593",
     "published_at": "2026-05-04T06:41:19+00:00",
-    "discovered_at": "2026-05-07T10:35:16+00:00",
+    "discovered_at": "2026-05-07T17:58:30+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -294,7 +429,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1t0xwsy/ran_programmatic_seo_for_5_months_60_of_the_pages/",
     "summary": "so we tried the classic pSEO play earlier this year. take a template, plug in a database, generate ~800 pages overnight, wait for the long tail to roll in. very 2019 of us. results after 5 months: roughly 60% of pages got pulled from the index by month 4. a chunk of the rest are camped at position #80-something doing nothing. the survivors are real though, they cover their hosting + tool costs every month, so not a total bust. but god the cleanup was painful. what got nuked vs what survived had basically nothing to do with template polish. the pages still alive had three things in common: one piece of data that wasn't on any other page on the open web (proprietary product data in our case, not remixed public stuff) internal links from at least 2 hand-written editorial pages search intent that wasn't already a SERP full of 10 identical SaaS comparison pages the dead ones? almost all of them were too close to existing comparison content. google's threshold for \"this is the same shit that already ranks\" is way lower than people admit. if your programmatic play is remixing what's already there with slightly different formatting, you're getting deindexed in 90-120 days. what we do now before generating a single template page: pull the SERP for the head term + 5 long-tail variants. if 9/10 results look the same, kill the project before generation. find a unique data anchor. proprietary numbers, scraped niche data, manual annotations, whatever. no anchor = no project. build the editorial layer first. you need 5-10 hand-written pillar pages with real authority before pSEO indexes properly off them. caveat — this is one experiment in one niche (B2B SaaS). your mileage may vary, especially in lower-competition verticals. but the \"anchor + editorial layer first\" thing has held up across two clients I've seen since. anyone else seeing similar deindex rates this year, or did we just get unlucky with the topic? /u/zachchmael",
     "published_at": "2026-05-01T16:13:34+00:00",
-    "discovered_at": "2026-05-07T10:35:16+00:00",
+    "discovered_at": "2026-05-07T17:58:30+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -355,7 +490,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-07T10:35:16+00:00",
+    "discovered_at": "2026-05-07T17:58:30+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
