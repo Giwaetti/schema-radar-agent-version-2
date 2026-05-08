@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t4zfli/schema_is_a_requirement_for_most_serp_features/",
     "summary": "This post is to counter WebLinkrs post titled “PSA stop parroting schema is needed for SERP features”. He deleted that post after I presented him with Google’s documentation on Rich Results (the most common type of SERP feature): “Google uses structured data to understand the content on the page and show that content in a richer appearance in search results, which is called a rich result . To make your site eligible for appearance as one of these rich results, follow the guide to learn how to implement structured data on your site. If you're just getting started, visit Understand how structured data works.” From a technical perspective he had no idea that schema is a requirement for Rich Results. So anyway, it is a fact that schema is a requirement for Rich Results, and in the future I’d be weary of taking SEO advice from someone that doesn’t have basic technical knowledge. /u/arejayismyname",
     "published_at": "2026-05-06T02:00:08+00:00",
-    "discovered_at": "2026-05-08T03:54:20+00:00",
+    "discovered_at": "2026-05-08T09:54:34+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-08T03:54:20+00:00",
+    "discovered_at": "2026-05-08T09:54:34+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -154,7 +154,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-08T03:54:20+00:00",
+    "discovered_at": "2026-05-08T09:54:34+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -230,7 +230,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-05-08T03:54:20+00:00",
+    "discovered_at": "2026-05-08T09:54:34+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -299,7 +299,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1t6wils/indexing_issues_please_help/",
     "summary": "I’m facing a weird indexing issue with 2 pages on a client website and wanted some opinions from experienced SEOs here. When I got this project, the website was in a very poor SEO state. There were almost no internal links, barely any backlinks, no proper technical optimization, no schema, weak content structure, etc. The previous agency had apparently already been trying to get these pages indexed, but they never succeeded. After I took over the project, I completely reworked both pages: - Rewrote and restructured the content - Added FAQs - Implemented schema markup - Improved on-page SEO - Added internal linking - Worked on technical SEO improvements - Optimized metadata and page structure Basically, I did almost everything that would normally help with crawling and indexing. But even after all this, those 2 pages are still not getting indexed in Google. What’s confusing is that other pages on the website are indexing normally. It’s only these two pages that seem stuck. So I wanted to ask: - What are the possible hidden reasons for this? - Could it be because Google had already devalued or ignored these URLs before? - Could crawl quality/history of the site affect indexing this much? - Has anyone faced a similar situation where everything looked technically correct but pages still refused to index? Would really appreciate any advanced insights or troubleshooting ideas. /u/NightRaven_77",
     "published_at": "2026-05-08T03:41:37+00:00",
-    "discovered_at": "2026-05-08T03:54:20+00:00",
+    "discovered_at": "2026-05-08T09:54:34+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -369,7 +369,7 @@
     "source_item_url": "https://www.reddit.com/r/Wordpress/comments/1t6c5jb/building_a_website_with_large_databasefiltering/",
     "summary": "Question for everyone. I am looking to build a website with a large product database. How can I best find agencies with experience in this? Is WP the best solution? Our existing site was hand-coded and took over a year to build. Making changes is nasty. I am looking to redesign with another company and have had issues finding people with experience in this area. When I show them our filter, the honest ones tend to run scared. Are there groups or places online I would be wise to look at? One dev said our project was more like a SAS project. Loading times, making changes, etc., are all very important. Our current WP site has a plugin that imports the data for the filter. API access from other companies is also available. Any feedback is appreciated. Thanks. /u/dalbroker",
     "published_at": "2026-05-07T14:27:28+00:00",
-    "discovered_at": "2026-05-08T03:54:20+00:00",
+    "discovered_at": "2026-05-08T09:54:34+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -425,32 +425,31 @@
     "sent_at": null
   },
   {
-    "item_id": "8b6e9dcf1f6e8e29",
-    "source": "Reddit r/bigseo",
-    "source_id": "reddit-bigseo",
+    "item_id": "1e4d17e8542719c3",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/bigseo/.rss",
-    "title": "ran programmatic SEO for 5 months. 60% of the pages got deindexed. here's what actually survived.",
-    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1t0xwsy/ran_programmatic_seo_for_5_months_60_of_the_pages/",
-    "summary": "so we tried the classic pSEO play earlier this year. take a template, plug in a database, generate ~800 pages overnight, wait for the long tail to roll in. very 2019 of us. results after 5 months: roughly 60% of pages got pulled from the index by month 4. a chunk of the rest are camped at position #80-something doing nothing. the survivors are real though, they cover their hosting + tool costs every month, so not a total bust. but god the cleanup was painful. what got nuked vs what survived had basically nothing to do with template polish. the pages still alive had three things in common: one piece of data that wasn't on any other page on the open web (proprietary product data in our case, not remixed public stuff) internal links from at least 2 hand-written editorial pages search intent that wasn't already a SERP full of 10 identical SaaS comparison pages the dead ones? almost all of them were too close to existing comparison content. google's threshold for \"this is the same shit that already ranks\" is way lower than people admit. if your programmatic play is remixing what's already there with slightly different formatting, you're getting deindexed in 90-120 days. what we do now before generating a single template page: pull the SERP for the head term + 5 long-tail variants. if 9/10 results look the same, kill the project before generation. find a unique data anchor. proprietary numbers, scraped niche data, manual annotations, whatever. no anchor = no project. build the editorial layer first. you need 5-10 hand-written pillar pages with real authority before pSEO indexes properly off them. caveat — this is one experiment in one niche (B2B SaaS). your mileage may vary, especially in lower-competition verticals. but the \"anchor + editorial layer first\" thing has held up across two clients I've seen since. anyone else seeing similar deindex rates this year, or did we just get unlucky with the topic? /u/zachchmael",
-    "published_at": "2026-05-01T16:13:34+00:00",
-    "discovered_at": "2026-05-08T03:54:20+00:00",
-    "stage": "warm",
-    "score": 10,
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Voice search optimization in 2026 - are FAQs and schema still the move",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t6xtmx/voice_search_optimization_in_2026_are_faqs_and/",
+    "summary": "Been revisiting my voice search strategy lately and honestly still not sure how much has actually changed. The old advice of conversational long-tail keywords, FAQ structured content, and schema markup for featured snippets still seems solid, but, with AI overviews eating into click-through anyway, it's getting harder to tell if you're winning or just feeding the machine. The thing I keep coming back to is intent matching over keyword targeting. Like, optimizing for how someone would actually ask a question out loud versus how they'd type it. And local voice queries seem way more valuable than general ones since there's still a clear path to conversion there. Curious whether anyone's actually seeing measurable traffic from voice specifically, or whether it's just a zero-click citation game now and we should be thinking about it differently. /u/flatacthe",
+    "published_at": "2026-05-08T04:48:02+00:00",
+    "discovered_at": "2026-05-08T09:54:34+00:00",
+    "stage": "hot",
+    "score": 12,
     "score_breakdown": {
-      "schema_hits": [],
+      "schema_hits": [
+        "schema markup"
+      ],
       "strict_schema_hits": [
-        "product data"
+        "schema",
+        "schema markup"
       ],
       "intent_hits": [],
       "platform_hits": [],
       "issue_hits": [],
-      "visibility_hits": [
-        "product data"
-      ],
-      "ecom_search_hits": [
-        "product data"
-      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
@@ -461,28 +460,26 @@
       "ecom_platform_source": false
     },
     "platforms": [],
-    "issue_types": [
-      "product data"
-    ],
+    "issue_types": [],
     "intent_flags": [],
     "business_name": null,
     "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
     "audit": {
       "business_site": null,
       "schema_present": null,
       "notes": ""
     },
     "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: ran programmatic SEO for 5 months. 60% of the pages got deindexed. her",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on 'ran programmatic SEO for 5 months. 60% of the pages got deindexed. here's what actually survived.': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Voice search optimization in 2026 - are FAQs and schema still the move",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Voice search optimization in 2026 - are FAQs and schema still the move': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/bigseo/comments/1t0xwsy/ran_programmatic_seo_for_5_months_60_of_the_pages/",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1t6xtmx/voice_search_optimization_in_2026_are_faqs_and/",
     "sent_at": null
   },
   {
@@ -495,7 +492,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-08T03:54:20+00:00",
+    "discovered_at": "2026-05-08T09:54:34+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
