@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1t7di79/google_faq_rich_results_are_no_longer_appearing/",
     "summary": "From u/lilray on X (via GlennGabe) - thanks for sharing As of May 7, 2026, FAQ rich results are no longer appearing in Google Search. We will be dropping the FAQ search appearance, rich result report, and support in the Rich results test in June 2026. To allow time for adjusting your API calls, support for the FAQ rich result in the Search Console API will be removed in August 2026. As this sub and many of our related experts that we share, like u/jakehundley - Mod of r/agency - a great sister sub to r/SEO and r/SEO_Digital_Marketing - this isn't surprising. As we said - Google doesnt actually read FAQ Schema anyway - because less than 0.001% of site qualify /u/WebLinkr",
     "published_at": "2026-05-08T16:48:29+00:00",
-    "discovered_at": "2026-05-09T17:13:20+00:00",
+    "discovered_at": "2026-05-10T04:16:28+00:00",
     "stage": "hot",
     "score": 38,
     "score_breakdown": {
@@ -83,79 +83,6 @@
     "sent_at": null
   },
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-05-09T17:13:20+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "c75603b854713000",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -165,7 +92,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-05-09T17:13:20+00:00",
+    "discovered_at": "2026-05-10T04:16:28+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -236,7 +163,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-09T17:13:20+00:00",
+    "discovered_at": "2026-05-10T04:16:28+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -306,7 +233,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-09T17:13:20+00:00",
+    "discovered_at": "2026-05-10T04:16:28+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -382,7 +309,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-05-09T17:13:20+00:00",
+    "discovered_at": "2026-05-10T04:16:28+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -442,76 +369,6 @@
     "sent_at": null
   },
   {
-    "item_id": "50dce8a72797b65a",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "Indexing issues, Please Help!",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1t6wils/indexing_issues_please_help/",
-    "summary": "I’m facing a weird indexing issue with 2 pages on a client website and wanted some opinions from experienced SEOs here. When I got this project, the website was in a very poor SEO state. There were almost no internal links, barely any backlinks, no proper technical optimization, no schema, weak content structure, etc. The previous agency had apparently already been trying to get these pages indexed, but they never succeeded. After I took over the project, I completely reworked both pages: - Rewrote and restructured the content - Added FAQs - Implemented schema markup - Improved on-page SEO - Added internal linking - Worked on technical SEO improvements - Optimized metadata and page structure Basically, I did almost everything that would normally help with crawling and indexing. But even after all this, those 2 pages are still not getting indexed in Google. What’s confusing is that other pages on the website are indexing normally. It’s only these two pages that seem stuck. So I wanted to ask: - What are the possible hidden reasons for this? - Could it be because Google had already devalued or ignored these URLs before? - Could crawl quality/history of the site affect indexing this much? - Has anyone faced a similar situation where everything looked technically correct but pages still refused to index? Would really appreciate any advanced insights or troubleshooting ideas. /u/NightRaven_77",
-    "published_at": "2026-05-08T03:41:37+00:00",
-    "discovered_at": "2026-05-09T17:13:20+00:00",
-    "stage": "hot",
-    "score": 18,
-    "score_breakdown": {
-      "schema_hits": [
-        "schema markup"
-      ],
-      "strict_schema_hits": [
-        "schema",
-        "schema markup"
-      ],
-      "intent_hits": [
-        "implement",
-        "issue",
-        "troubleshooting"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [
-        "backlinks"
-      ],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "issue"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "implement",
-      "issue",
-      "troubleshooting"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: Indexing issues, Please Help!",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on 'Indexing issues, Please Help!': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1t6wils/indexing_issues_please_help/",
-    "sent_at": null
-  },
-  {
     "item_id": "1e4d17e8542719c3",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -521,7 +378,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t6xtmx/voice_search_optimization_in_2026_are_faqs_and/",
     "summary": "Been revisiting my voice search strategy lately and honestly still not sure how much has actually changed. The old advice of conversational long-tail keywords, FAQ structured content, and schema markup for featured snippets still seems solid, but, with AI overviews eating into click-through anyway, it's getting harder to tell if you're winning or just feeding the machine. The thing I keep coming back to is intent matching over keyword targeting. Like, optimizing for how someone would actually ask a question out loud versus how they'd type it. And local voice queries seem way more valuable than general ones since there's still a clear path to conversion there. Curious whether anyone's actually seeing measurable traffic from voice specifically, or whether it's just a zero-click citation game now and we should be thinking about it differently. /u/flatacthe",
     "published_at": "2026-05-08T04:48:02+00:00",
-    "discovered_at": "2026-05-09T17:13:20+00:00",
+    "discovered_at": "2026-05-10T04:16:28+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -579,7 +436,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1t7kfeo/does_a_separate_entity_site_actually_help_another/",
     "summary": "I’m trying to sanity-check a claim I’ve seen about SEO, entity authority, and AI search. The basic idea is this: Someone has two separate websites: A main business website focused on a specific local service A separate personal/entity website focused on the person behind the business, including blog posts, speaking/teaching credentials, unrelated work to the primary business (but still in the same niche), personal background, and links to social profiles. The claim is that the second site helps establish the person as a named, verifiable entity in Google’s Knowledge Graph or broader web ecosystem. The sites are connected through cross-linking, consistent name/location/social references, and schema markup like sameAs . The argument is that this separate “entity site” helps the main business site rank better and increases the chances that AI answer engines like Google AI Overviews, Gemini, ChatGPT, or Perplexity will recommend that person or business for relevant local/service queries. I understand the general idea that consistent entity information across the web can help clarify who someone is. That part makes sense to me. Where I’m skeptical is the stronger claim that a mostly unrelated personal site can meaningfully pass “entity authority” back to the main business site, especially when the two sites are targeting different audiences and topics. My current assumption is that the biggest factors for the business site would still be things like: Strong topical relevance on the main site Local SEO signals Google Business Profile strength Reviews Relevant backlinks Consistent citations High-quality service-specific content Real-world credibility and mentions from trusted sources So my question is: Is there actual evidence that a separate personal/entity website can help another separate business website rank or get surfaced in AI answers, beyond basic entity clarification? Or is this mostly an unproven theory being overstated? I’m especially interested in hearing from people who have tested this, seen measurable results, or have a strong understanding of how entity SEO and AI search visibility currently work. /u/qwik3r",
     "published_at": "2026-05-08T20:56:19+00:00",
-    "discovered_at": "2026-05-09T17:13:20+00:00",
+    "discovered_at": "2026-05-10T04:16:28+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -639,7 +496,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-09T17:13:20+00:00",
+    "discovered_at": "2026-05-10T04:16:28+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
