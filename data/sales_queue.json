@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1t7di79/google_faq_rich_results_are_no_longer_appearing/",
     "summary": "From u/lilray on X (via GlennGabe) - thanks for sharing As of May 7, 2026, FAQ rich results are no longer appearing in Google Search. We will be dropping the FAQ search appearance, rich result report, and support in the Rich results test in June 2026. To allow time for adjusting your API calls, support for the FAQ rich result in the Search Console API will be removed in August 2026. As this sub and many of our related experts that we share, like u/jakehundley - Mod of r/agency - a great sister sub to r/SEO and r/SEO_Digital_Marketing - this isn't surprising. As we said - Google doesnt actually read FAQ Schema anyway - because less than 0.001% of site qualify /u/WebLinkr",
     "published_at": "2026-05-08T16:48:29+00:00",
-    "discovered_at": "2026-05-11T11:36:58+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
     "stage": "hot",
     "score": 38,
     "score_breakdown": {
@@ -83,6 +83,89 @@
     "sent_at": null
   },
   {
+    "item_id": "33a0a1e6d573a313",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Mismatch: Google Search Result shows 2026, but Sitemap Lastmod is stuck in 2019. How much does this hurt?",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1ta1inq/mismatch_google_search_result_shows_2026_but/",
+    "summary": "I’m managing a Custom-built Static HTML site (no CMS) and I’ve run into a strange technical discrepancy that I suspect is causing a traffic drop. The Setup: I recently updated our high-traffic \"China Visa Guide\" page with fresh content for 2026 . The Issues: The Date Mismatch: Google has crawled the page, and the search snippet actually shows the updated date: \"27 Apr 2026\" . However, the sitemap.xml was never manually updated and still shows 2019-08-03 for this URL. Critical GSC Errors: Google Search Console is showing 8 Invalid Items under Review Snippets. The error is \"Multiple aggregate ratings detected\" (devs hardcoded conflicting ratings from FB and Trustpilot into the schema). The Performance: Our rankings for this keyword have started to slide, and organic traffic is on a steady decline. My Questions: Does having a 7-year-old lastmod date in the sitemap negatively affect the 'Crawl Priority' or 'Trust Score', even if Google can see the on-page content is new? Could the Multiple Aggregate Ratings error be triggering a quality penalty that overrides the fact that the content is updated and human-written? On a static site, is it absolutely necessary to keep the sitemap and schema perfectly synced with the on-page date to maintain rankings in 2026? I’m trying to prioritize our dev backlog and want to know if these are \"Critical Fixes\" or just \"Minor UI bugs\" in Google's eyes. Any insights or official Google documentation on this would be appreciated! /u/Global-Adventures",
+    "published_at": "2026-05-11T12:14:52+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
+    "stage": "hot",
+    "score": 27,
+    "score_breakdown": {
+      "schema_hits": [
+        "aggregate rating"
+      ],
+      "strict_schema_hits": [
+        "aggregate rating",
+        "review snippets",
+        "schema"
+      ],
+      "intent_hits": [
+        "error",
+        "fix",
+        "issue",
+        "search console",
+        "setup"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "invalid item"
+      ],
+      "visibility_hits": [
+        "review snippets"
+      ],
+      "ecom_search_hits": [
+        "review snippets"
+      ],
+      "negative_hits": [
+        "sitemap",
+        "traffic drop"
+      ],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "invalid item",
+      "review snippets"
+    ],
+    "intent_flags": [
+      "error",
+      "fix",
+      "issue",
+      "search console",
+      "setup"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Mismatch: Google Search Result shows 2026, but Sitemap Lastmod is stuc",
+    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Mismatch: Google Search Result shows 2026, but Sitemap Lastmod is stuck in 2019. How much does this hurt?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1ta1inq/mismatch_google_search_result_shows_2026_but/",
+    "sent_at": null
+  },
+  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -92,7 +175,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-11T11:36:58+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -162,7 +245,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-11T11:36:58+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -238,7 +321,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-05-11T11:36:58+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -307,7 +390,7 @@
     "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-05-11T11:36:58+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -363,6 +446,64 @@
     "sent_at": null
   },
   {
+    "item_id": "fedd26b7d211bd2f",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Adding schema didn’t boost citations on any platform [Ahrefs SEO Case Study]",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1taa1mj/adding_schema_didnt_boost_citations_on_any/",
+    "summary": "Yet another blow for the GEO Schema bros. marketing and Propaganda. Because no LLM OEMs actually said this - they felt they could parrot it for everyone and nobody would figure it out. If you've been parroting it - thats fine - thats up to - but do not come for anyone just because you dont like this. You're free to run your own peer-reviewed case study (which requires evidence of an actual study). Adding schema didn’t boost citations on any platform We tracked 1,885 web pages that added JSON-LD schema between August 2025 and March 2026, matched them against 4,000 control pages, and measured citation changes across Google AI Overviews, AI Mode, and ChatGPT. Adding schema produced no major uplift in citations on any platform. AI source Effect on citations Verdict Google AIO −4.6% Small but statistically significant decline relative to matched controls; (both groups were declining together, but treated pages fell slightly faster) Google AI Mode +2.4% Statistically indistinguishable from zero ChatGPT +2.2% Statistically indistinguishable from zero These percentages come from our most reliable analysis (a matched difference-in-differences [DiD] test). In this test, both AI Mode and ChatGPT treated pages performed slightly better than control pages on average, but the differences are small enough that they could easily be random noise across thousands of URLs. AI Overviews showed a 4.6% decline, which is small but statistically significant relative to matched control pages. But that isn’t quite the full story—we’ll get into that in the next section. So, overall, we can’t tell whether the schema did a tiny bit of good or nothing at all. What to do if you dont like this report Disprove it. Dont just put schema in a page and say \"it was the schema\" - test the corrollary. Test it across domains. Get peers to review your methodology like u/jakehundely . If you're emotionally tied into rejecting, downvoting this or getting angry - then stop and breathe. Its a software system that SEO reverse engineers through testing and observation - not how confidently you can discredit people A number of people - like PeterWhineFatClub, BoHumpus and MJMilian already went postal about this - its not going to get better. Rejecting it and attacking people won't help.Mods are not here to be abused or called names under the pretense of fair game or shooting-the-messenger in 2026 - this is irrational behavior and it wont be tolerated /u/WebLinkr",
+    "published_at": "2026-05-11T17:24:17+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
+    "stage": "hot",
+    "score": 12,
+    "score_breakdown": {
+      "schema_hits": [
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Adding schema didn’t boost citations on any platform [Ahrefs SEO Case ",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Adding schema didn’t boost citations on any platform [Ahrefs SEO Case Study]': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1taa1mj/adding_schema_didnt_boost_citations_on_any/",
+    "sent_at": null
+  },
+  {
     "item_id": "1e4d17e8542719c3",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -372,7 +513,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t6xtmx/voice_search_optimization_in_2026_are_faqs_and/",
     "summary": "Been revisiting my voice search strategy lately and honestly still not sure how much has actually changed. The old advice of conversational long-tail keywords, FAQ structured content, and schema markup for featured snippets still seems solid, but, with AI overviews eating into click-through anyway, it's getting harder to tell if you're winning or just feeding the machine. The thing I keep coming back to is intent matching over keyword targeting. Like, optimizing for how someone would actually ask a question out loud versus how they'd type it. And local voice queries seem way more valuable than general ones since there's still a clear path to conversion there. Curious whether anyone's actually seeing measurable traffic from voice specifically, or whether it's just a zero-click citation game now and we should be thinking about it differently. /u/flatacthe",
     "published_at": "2026-05-08T04:48:02+00:00",
-    "discovered_at": "2026-05-11T11:36:58+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -421,34 +562,32 @@
     "sent_at": null
   },
   {
-    "item_id": "6f3325179e1c8a8c",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
+    "item_id": "07652c951ac4b98a",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "Does a separate “entity site” actually help another unrelated site rank or appear in AI answers?",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1t7kfeo/does_a_separate_entity_site_actually_help_another/",
-    "summary": "I’m trying to sanity-check a claim I’ve seen about SEO, entity authority, and AI search. The basic idea is this: Someone has two separate websites: A main business website focused on a specific local service A separate personal/entity website focused on the person behind the business, including blog posts, speaking/teaching credentials, unrelated work to the primary business (but still in the same niche), personal background, and links to social profiles. The claim is that the second site helps establish the person as a named, verifiable entity in Google’s Knowledge Graph or broader web ecosystem. The sites are connected through cross-linking, consistent name/location/social references, and schema markup like sameAs . The argument is that this separate “entity site” helps the main business site rank better and increases the chances that AI answer engines like Google AI Overviews, Gemini, ChatGPT, or Perplexity will recommend that person or business for relevant local/service queries. I understand the general idea that consistent entity information across the web can help clarify who someone is. That part makes sense to me. Where I’m skeptical is the stronger claim that a mostly unrelated personal site can meaningfully pass “entity authority” back to the main business site, especially when the two sites are targeting different audiences and topics. My current assumption is that the biggest factors for the business site would still be things like: Strong topical relevance on the main site Local SEO signals Google Business Profile strength Reviews Relevant backlinks Consistent citations High-quality service-specific content Real-world credibility and mentions from trusted sources So my question is: Is there actual evidence that a separate personal/entity website can help another separate business website rank or get surfaced in AI answers, beyond basic entity clarification? Or is this mostly an unproven theory being overstated? I’m especially interested in hearing from people who have tested this, seen measurable results, or have a strong understanding of how entity SEO and AI search visibility currently work. /u/qwik3r",
-    "published_at": "2026-05-08T20:56:19+00:00",
-    "discovered_at": "2026-05-11T11:36:58+00:00",
-    "stage": "warm",
-    "score": 11,
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Wow!!! Ahrefs Tracked 1,885 Pages Adding Schema. AI Citations Barely Moved.",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
+    "summary": "I know small pen people are going to come at me again - I dont care. I'm just sharing testing from the SEO industry Adding schema didn’t boost citations on any platform We tracked 1,885 web pages that added JSON-LD schema between August 2025 and March 2026, matched them against 4,000 control pages, and measured citation changes across Google AI Overviews, AI Mode, and ChatGPT. Adding schema produced no major uplift in citations on any platform. AI source Effect on citations Verdict Google AIO −4.6% Small but statistically significant decline relative to matched controls; (both groups were declining together, but treated pages fell slightly faster) Google AI Mode +2.4% Statistically indistinguishable from zero ChatGPT +2.2% Statistically indistinguishable from zero These percentages come from our most reliable analysis (a matched difference-in-differences [DiD] test). In this test, both AI Mode and ChatGPT treated pages performed slightly better than control pages on average, but the differences are small enough that they could easily be random noise across thousands of URLs. AI Overviews showed a 4.6% decline, which is small but statistically significant relative to matched control pages. But that isn’t quite the full story—we’ll get into that in the next section. So, overall, we can’t tell whether the schema did a tiny bit of good or nothing at all. /u/WebLinkr",
+    "published_at": "2026-05-11T17:17:05+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
+    "stage": "hot",
+    "score": 12,
     "score_breakdown": {
       "schema_hits": [
-        "schema markup"
+        "json-ld"
       ],
       "strict_schema_hits": [
-        "schema",
-        "schema markup"
+        "json-ld",
+        "schema"
       ],
       "intent_hits": [],
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
-      "negative_hits": [
-        "backlinks"
-      ],
+      "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
       "title_signal_hits": [],
@@ -462,22 +601,22 @@
     "intent_flags": [],
     "business_name": null,
     "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
     "audit": {
       "business_site": null,
       "schema_present": null,
       "notes": ""
     },
     "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Does a separate “entity site” actually help another unrelated site ran",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'Does a separate “entity site” actually help another unrelated site rank or appear in AI answers?': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Wow!!! Ahrefs Tracked 1,885 Pages Adding Schema. AI Citations Barely M",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Wow!!! Ahrefs Tracked 1,885 Pages Adding Schema. AI Citations Barely Moved.': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1t7kfeo/does_a_separate_entity_site_actually_help_another/",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
     "sent_at": null
   },
   {
@@ -490,7 +629,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-11T11:36:58+00:00",
+    "discovered_at": "2026-05-11T18:05:37+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
