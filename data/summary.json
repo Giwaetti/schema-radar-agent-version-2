@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-05-12T10:42:09+00:00",
+  "generated_at": "2026-05-12T18:18:23+00:00",
   "total": 11,
   "by_stage": {
     "hot": 10,
     "watch": 1
   },
   "by_offer": {
-    "AI Generator": 2,
-    "Done-for-you / service": 8,
+    "AI Generator": 3,
+    "Done-for-you / service": 7,
     "AI Visibility Kit": 1
   },
   "by_source": {
-    "Reddit r/SEO": 4,
+    "Reddit r/SEO": 3,
     "Reddit r/shopify": 1,
     "Search WordPress Support": 3,
+    "Reddit r/Wordpress": 1,
     "Reddit r/TechSEO": 2,
     "WordPress Support - Schema & Structured Data for WP & AMP": 1
   },
