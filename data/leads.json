@@ -1,37 +1,29 @@
 [
   {
-    "item_id": "9ffb4cd200badd02",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
+    "item_id": "3c1ec4b89dc6bf28",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
     "title": "Google: FAQ rich results are no longer appearing in Google Search Result Appearances [Official]",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1t7di79/google_faq_rich_results_are_no_longer_appearing/",
-    "summary": "From u/lilray on X (via GlennGabe) - thanks for sharing As of May 7, 2026, FAQ rich results are no longer appearing in Google Search. We will be dropping the FAQ search appearance, rich result report, and support in the Rich results test in June 2026. To allow time for adjusting your API calls, support for the FAQ rich result in the Search Console API will be removed in August 2026. As this sub and many of our related experts that we share, like u/jakehundley - Mod of r/agency - a great sister sub to r/SEO and r/SEO_Digital_Marketing - this isn't surprising. As we said - Google doesnt actually read FAQ Schema anyway - because less than 0.001% of site qualify /u/WebLinkr",
-    "published_at": "2026-05-08T16:48:29+00:00",
-    "discovered_at": "2026-05-13T18:16:49+00:00",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t7dite/google_faq_rich_results_are_no_longer_appearing/",
+    "summary": "/u/WebLinkr",
+    "published_at": "2026-05-08T16:49:07+00:00",
+    "discovered_at": "2026-05-14T04:13:03+00:00",
     "stage": "hot",
-    "score": 38,
+    "score": 26,
     "score_breakdown": {
       "schema_hits": [
-        "faq schema",
         "rich result",
         "rich results"
       ],
       "strict_schema_hits": [
-        "faq schema",
         "rich result",
-        "rich results",
-        "schema"
+        "rich results"
       ],
-      "intent_hits": [
-        "search console",
-        "support"
-      ],
+      "intent_hits": [],
       "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
+      "issue_hits": [],
       "visibility_hits": [
         "rich result",
         "rich results"
@@ -54,32 +46,28 @@
     },
     "platforms": [],
     "issue_types": [
-      "faq schema",
       "rich result",
       "rich results"
     ],
-    "intent_flags": [
-      "search console",
-      "support"
-    ],
+    "intent_flags": [],
     "business_name": null,
     "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
     "audit": {
       "business_site": null,
       "schema_present": null,
       "notes": ""
     },
     "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: Google: FAQ rich results are no longer appearing in Google Search Resu",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on 'Google: FAQ rich results are no longer appearing in Google Search Result Appearances [Official]': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Google: FAQ rich results are no longer appearing in Google Search Resu",
+    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Google: FAQ rich results are no longer appearing in Google Search Result Appearances [Official]': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1t7di79/google_faq_rich_results_are_no_longer_appearing/",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1t7dite/google_faq_rich_results_are_no_longer_appearing/",
     "sent_at": null
   },
   {
@@ -92,7 +80,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-13T18:16:49+00:00",
+    "discovered_at": "2026-05-14T04:13:03+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -162,7 +150,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-13T18:16:49+00:00",
+    "discovered_at": "2026-05-14T04:13:03+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -238,7 +226,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-05-13T18:16:49+00:00",
+    "discovered_at": "2026-05-14T04:13:03+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -307,7 +295,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
     "summary": "Adding schema didn’t boost citations on any platform We tracked 1,885 web pages that added JSON-LD schema between August 2025 and March 2026, matched them against 4,000 control pages, and measured citation changes across Google AI Overviews, AI Mode, and ChatGPT. Adding schema produced no major uplift in citations on any platform. AI source Effect on citations Verdict Google AIO −4.6% Small but statistically significant decline relative to matched controls; (both groups were declining together, but treated pages fell slightly faster) Google AI Mode +2.4% Statistically indistinguishable from zero ChatGPT +2.2% Statistically indistinguishable from zero These percentages come from our most reliable analysis (a matched difference-in-differences [DiD] test). In this test, both AI Mode and ChatGPT treated pages performed slightly better than control pages on average, but the differences are small enough that they could easily be random noise across thousands of URLs. AI Overviews showed a 4.6% decline, which is small but statistically significant relative to matched control pages. But that isn’t quite the full story—we’ll get into that in the next section. So, overall, we can’t tell whether the schema did a tiny bit of good or nothing at all. /u/WebLinkr",
     "published_at": "2026-05-11T17:17:05+00:00",
-    "discovered_at": "2026-05-13T18:16:49+00:00",
+    "discovered_at": "2026-05-14T04:13:03+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -365,7 +353,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-13T18:16:49+00:00",
+    "discovered_at": "2026-05-14T04:13:03+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
