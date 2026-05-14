@@ -1,5 +1,148 @@
 [
   {
+    "item_id": "bf55c918f1d3d4f0",
+    "source": "Reddit r/bigseo",
+    "source_id": "reddit-bigseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/bigseo/.rss",
+    "title": "Google Has Removed FAQ Rich Results From Google SERPs, Now What Next Should I Do?",
+    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
+    "summary": "Everyone is talking about that google has removed FAQ rich results. now audit your web pages and check where schema is valuable to put. So, need your guidance on what should be the next strategy? /u/Brief-Evening2577",
+    "published_at": "2026-05-14T08:16:58+00:00",
+    "discovered_at": "2026-05-14T10:34:42+00:00",
+    "stage": "hot",
+    "score": 31,
+    "score_breakdown": {
+      "schema_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "strict_schema_hits": [
+        "rich result",
+        "rich results",
+        "schema"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "ecom_search_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "rich result",
+      "rich results"
+    ],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Google Has Removed FAQ Rich Results From Google SERPs, Now What Next S",
+    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Google Has Removed FAQ Rich Results From Google SERPs, Now What Next Should I Do?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
+    "sent_at": null
+  },
+  {
+    "item_id": "8b711cea2cdbc2e6",
+    "source": "WordPress Support - Rank Math SEO",
+    "source_id": "wordpress-rankmath-support",
+    "source_type": "forum",
+    "source_url": "https://wordpress.org/support/plugin/seo-by-rank-math/",
+    "title": "Google Is Removing FAQ Rich Results in 2026: What It Means for Your SEO",
+    "source_item_url": "https://wordpress.org/support/topic/google-is-removing-faq-rich-results-in-2026-what-it-means-for-your-seo/",
+    "summary": "",
+    "published_at": null,
+    "discovered_at": "2026-05-14T10:34:42+00:00",
+    "stage": "hot",
+    "score": 27,
+    "score_breakdown": {
+      "schema_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "strict_schema_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "ecom_search_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "schema_source": true,
+      "native_action_source": true,
+      "general_reddit_source": false,
+      "ecom_platform_source": true
+    },
+    "platforms": [],
+    "issue_types": [
+      "rich result",
+      "rich results"
+    ],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Google Is Removing FAQ Rich Results in 2026: What It Means for Your SE",
+    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Google Is Removing FAQ Rich Results in 2026: What It Means for Your SEO': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/google-is-removing-faq-rich-results-in-2026-what-it-means-for-your-seo/",
+    "sent_at": null
+  },
+  {
     "item_id": "3c1ec4b89dc6bf28",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -9,7 +152,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t7dite/google_faq_rich_results_are_no_longer_appearing/",
     "summary": "/u/WebLinkr",
     "published_at": "2026-05-08T16:49:07+00:00",
-    "discovered_at": "2026-05-14T04:13:03+00:00",
+    "discovered_at": "2026-05-14T10:34:42+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -80,7 +223,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-14T04:13:03+00:00",
+    "discovered_at": "2026-05-14T10:34:42+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -150,7 +293,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-14T04:13:03+00:00",
+    "discovered_at": "2026-05-14T10:34:42+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -226,7 +369,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-05-14T04:13:03+00:00",
+    "discovered_at": "2026-05-14T10:34:42+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -295,7 +438,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
     "summary": "Adding schema didn’t boost citations on any platform We tracked 1,885 web pages that added JSON-LD schema between August 2025 and March 2026, matched them against 4,000 control pages, and measured citation changes across Google AI Overviews, AI Mode, and ChatGPT. Adding schema produced no major uplift in citations on any platform. AI source Effect on citations Verdict Google AIO −4.6% Small but statistically significant decline relative to matched controls; (both groups were declining together, but treated pages fell slightly faster) Google AI Mode +2.4% Statistically indistinguishable from zero ChatGPT +2.2% Statistically indistinguishable from zero These percentages come from our most reliable analysis (a matched difference-in-differences [DiD] test). In this test, both AI Mode and ChatGPT treated pages performed slightly better than control pages on average, but the differences are small enough that they could easily be random noise across thousands of URLs. AI Overviews showed a 4.6% decline, which is small but statistically significant relative to matched control pages. But that isn’t quite the full story—we’ll get into that in the next section. So, overall, we can’t tell whether the schema did a tiny bit of good or nothing at all. /u/WebLinkr",
     "published_at": "2026-05-11T17:17:05+00:00",
-    "discovered_at": "2026-05-14T04:13:03+00:00",
+    "discovered_at": "2026-05-14T10:34:42+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -353,7 +496,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-14T04:13:03+00:00",
+    "discovered_at": "2026-05-14T10:34:42+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
