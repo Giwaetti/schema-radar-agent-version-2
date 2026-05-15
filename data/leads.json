@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
     "summary": "Everyone is talking about that google has removed FAQ rich results. now audit your web pages and check where schema is valuable to put. So, need your guidance on what should be the next strategy? /u/Brief-Evening2577",
     "published_at": "2026-05-14T08:16:58+00:00",
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "hot",
     "score": 31,
     "score_breakdown": {
@@ -72,79 +72,6 @@
     "sent_at": null
   },
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-05-15T04:18:45+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "8b711cea2cdbc2e6",
     "source": "WordPress Support - Rank Math SEO",
     "source_id": "wordpress-rankmath-support",
@@ -154,7 +81,7 @@
     "source_item_url": "https://wordpress.org/support/topic/google-is-removing-faq-rich-results-in-2026-what-it-means-for-your-seo/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "hot",
     "score": 27,
     "score_breakdown": {
@@ -225,7 +152,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t7dite/google_faq_rich_results_are_no_longer_appearing/",
     "summary": "/u/WebLinkr",
     "published_at": "2026-05-08T16:49:07+00:00",
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -296,7 +223,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -366,7 +293,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -442,7 +369,7 @@
     "source_item_url": "https://www.reddit.com/r/shopify/comments/1tcvee0/local_feed_partnership_automatically_added/",
     "summary": "I’m using Shopify with the Google & YouTube / Google Ads app to sync products to Google Merchant Center. In Merchant Center, under Product sources > Primary sources , I keep seeing this source added automatically: Local Feed Partnership I delete it, but it keeps coming back. Does anyone know what setting is creating this automatically? Is it coming from Shopify, the Google app, Merchant Center, local inventory ads, or something else? I only want my normal product feed to stay active(Shopify API). I don’t want this “Local Feed Partnership” source to be recreated every time. What should I disable to stop it without breaking my main Shopify product sync? /u/Holiday_Leg8427",
     "published_at": "2026-05-14T11:32:37+00:00",
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "hot",
     "score": 23,
     "score_breakdown": {
@@ -515,7 +442,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -584,7 +511,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
     "summary": "Adding schema didn’t boost citations on any platform We tracked 1,885 web pages that added JSON-LD schema between August 2025 and March 2026, matched them against 4,000 control pages, and measured citation changes across Google AI Overviews, AI Mode, and ChatGPT. Adding schema produced no major uplift in citations on any platform. AI source Effect on citations Verdict Google AIO −4.6% Small but statistically significant decline relative to matched controls; (both groups were declining together, but treated pages fell slightly faster) Google AI Mode +2.4% Statistically indistinguishable from zero ChatGPT +2.2% Statistically indistinguishable from zero These percentages come from our most reliable analysis (a matched difference-in-differences [DiD] test). In this test, both AI Mode and ChatGPT treated pages performed slightly better than control pages on average, but the differences are small enough that they could easily be random noise across thousands of URLs. AI Overviews showed a 4.6% decline, which is small but statistically significant relative to matched control pages. But that isn’t quite the full story—we’ll get into that in the next section. So, overall, we can’t tell whether the schema did a tiny bit of good or nothing at all. /u/WebLinkr",
     "published_at": "2026-05-11T17:17:05+00:00",
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -642,7 +569,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-15T04:18:45+00:00",
+    "discovered_at": "2026-05-15T10:38:14+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
