@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
     "summary": "Everyone is talking about that google has removed FAQ rich results. now audit your web pages and check where schema is valuable to put. So, need your guidance on what should be the next strategy? /u/Brief-Evening2577",
     "published_at": "2026-05-14T08:16:58+00:00",
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "hot",
     "score": 31,
     "score_breakdown": {
@@ -72,6 +72,83 @@
     "sent_at": null
   },
   {
+    "item_id": "8d1d580c95584291",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Here are a few things you can ignore for AEO/GEO (Source: Google)",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1te11kk/here_are_a_few_things_you_can_ignore_for_aeogeo/",
+    "summary": "LLMS.txt files and other \"special\" markup: You don't need to create new machine readable files, AI text files, markup, or Markdown to appear in generative AI search. Note that Google may discover, crawl, and index many kinds of files in addition to HTML on a website: this doesn't mean that the file is treated in a special way. \"Chunking\" content: There's no requirement to break your content into tiny pieces for AI to better understand it. Google systems are able to understand the nuance of multiple topics on a page and show the relevant piece to users. However, sometimes shorter (or longer!) pages can work well depending on your audience and subject matter. There's no ideal page length, and in the end, make pages for your audience, not just for generative AI search. Rewriting content just for AI systems: You don't need to write in a specific way just for generative AI search. AI systems can understand synonyms and general meanings of what someone is seeking, in order to connect them with content that might not use the same precise words. This means you don't have to worry that you don't have enough \"long-tail\" keywords or haven't captured every variation of how someone might seek content like yours. Seeking inauthentic \"mentions\": Just like the rest of Google Search, our generative AI features can show what's being said about products and services across the web, including in blogs, videos, and forum discussions. However, seeking inauthentic \"mentions\" across the web isn't as helpful as it might seem. Our core ranking systems focus on high-quality content while other systems block spam; our generative AI features depend on both. Overfocusing on structured data: Structured data isn't required for generative AI search, and there's no special schema.org markup you need to add. However, it's a good idea to continue using it as part of your overall SEO strategy, as it helps with being eligible for rich results on Google Search. Source: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide#mythbusting /u/Legitimate-Salary108",
+    "published_at": "2026-05-15T16:15:30+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "rich result",
+        "rich results",
+        "schema.org",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "rich result",
+        "rich results",
+        "schema",
+        "schema.org",
+        "structured data"
+      ],
+      "intent_hits": [
+        "developer"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "ecom_search_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "rich result",
+      "rich results"
+    ],
+    "intent_flags": [
+      "developer"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Here are a few things you can ignore for AEO/GEO (Source: Google)",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Here are a few things you can ignore for AEO/GEO (Source: Google)': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1te11kk/here_are_a_few_things_you_can_ignore_for_aeogeo/",
+    "sent_at": null
+  },
+  {
     "item_id": "8b711cea2cdbc2e6",
     "source": "WordPress Support - Rank Math SEO",
     "source_id": "wordpress-rankmath-support",
@@ -81,7 +158,7 @@
     "source_item_url": "https://wordpress.org/support/topic/google-is-removing-faq-rich-results-in-2026-what-it-means-for-your-seo/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "hot",
     "score": 27,
     "score_breakdown": {
@@ -143,77 +220,6 @@
     "sent_at": null
   },
   {
-    "item_id": "3c1ec4b89dc6bf28",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Google: FAQ rich results are no longer appearing in Google Search Result Appearances [Official]",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1t7dite/google_faq_rich_results_are_no_longer_appearing/",
-    "summary": "/u/WebLinkr",
-    "published_at": "2026-05-08T16:49:07+00:00",
-    "discovered_at": "2026-05-15T17:52:35+00:00",
-    "stage": "hot",
-    "score": 26,
-    "score_breakdown": {
-      "schema_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "strict_schema_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "ecom_search_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "rich result",
-      "rich results"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Google: FAQ rich results are no longer appearing in Google Search Resu",
-    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Google: FAQ rich results are no longer appearing in Google Search Result Appearances [Official]': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1t7dite/google_faq_rich_results_are_no_longer_appearing/",
-    "sent_at": null
-  },
-  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -223,7 +229,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -293,7 +299,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -369,7 +375,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tdqfx9/product_feed_plugin/",
     "summary": "I'm currently looking for a plugin than can create product feeds for platforms like Google Merchant Center. There are quite a few paid plugins that seem to cover everything I need, but I'm wondering if I might be missing something before spending more money. Specifically, I'm looking at AdTribes. It's significantly more expensive than most alternatives, yet from what I've seen od Reddit, it seems to be one of the most popular options. For those who chose AdTribes - what made you go with it over other plugins? For example, the Business plan costs around $400 USD in the second year, while many similar plugins with seemingly comparable features are closer to $80 USD. Is there something about AdTribes that really justifies the higher price, or is it mainly brand reputation/popularity? /u/Moon2616",
     "published_at": "2026-05-15T08:48:27+00:00",
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "hot",
     "score": 24,
     "score_breakdown": {
@@ -442,7 +448,7 @@
     "source_item_url": "https://www.reddit.com/r/shopify/comments/1tcvee0/local_feed_partnership_automatically_added/",
     "summary": "I’m using Shopify with the Google & YouTube / Google Ads app to sync products to Google Merchant Center. In Merchant Center, under Product sources > Primary sources , I keep seeing this source added automatically: Local Feed Partnership I delete it, but it keeps coming back. Does anyone know what setting is creating this automatically? Is it coming from Shopify, the Google app, Merchant Center, local inventory ads, or something else? I only want my normal product feed to stay active(Shopify API). I don’t want this “Local Feed Partnership” source to be recreated every time. What should I disable to stop it without breaking my main Shopify product sync? /u/Holiday_Leg8427",
     "published_at": "2026-05-14T11:32:37+00:00",
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "hot",
     "score": 23,
     "score_breakdown": {
@@ -515,7 +521,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -575,70 +581,6 @@
     "sent_at": null
   },
   {
-    "item_id": "1dcf6d1cbd58f619",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema.org lowPrice highPrice for variable product with same price ...",
-    "source_item_url": "https://wordpress.org/support/topic/schema-org-lowprice-highprice-for-variable-product-with-same-price-different-vat/",
-    "summary": "To resolve this issue , you may need to modify the way your product prices are being outputted to the schema .org markup . This will likely involve customizing the code that generates the markup , to ensure it's pulling the correct price (including VAT) for each product variation.",
-    "published_at": null,
-    "discovered_at": "2026-05-15T17:52:35+00:00",
-    "stage": "hot",
-    "score": 16,
-    "score_breakdown": {
-      "schema_hits": [
-        "schema.org"
-      ],
-      "strict_schema_hits": [
-        "schema",
-        "schema.org"
-      ],
-      "intent_hits": [
-        "issue"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "schema.org"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "issue"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema.org lowPrice highPrice for variable product with same price ...",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema.org lowPrice highPrice for variable product with same price ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-org-lowprice-highprice-for-variable-product-with-same-price-different-vat/",
-    "sent_at": null
-  },
-  {
     "item_id": "07652c951ac4b98a",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -648,7 +590,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
     "summary": "Adding schema didn’t boost citations on any platform We tracked 1,885 web pages that added JSON-LD schema between August 2025 and March 2026, matched them against 4,000 control pages, and measured citation changes across Google AI Overviews, AI Mode, and ChatGPT. Adding schema produced no major uplift in citations on any platform. AI source Effect on citations Verdict Google AIO −4.6% Small but statistically significant decline relative to matched controls; (both groups were declining together, but treated pages fell slightly faster) Google AI Mode +2.4% Statistically indistinguishable from zero ChatGPT +2.2% Statistically indistinguishable from zero These percentages come from our most reliable analysis (a matched difference-in-differences [DiD] test). In this test, both AI Mode and ChatGPT treated pages performed slightly better than control pages on average, but the differences are small enough that they could easily be random noise across thousands of URLs. AI Overviews showed a 4.6% decline, which is small but statistically significant relative to matched control pages. But that isn’t quite the full story—we’ll get into that in the next section. So, overall, we can’t tell whether the schema did a tiny bit of good or nothing at all. /u/WebLinkr",
     "published_at": "2026-05-11T17:17:05+00:00",
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -706,7 +648,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-15T17:52:35+00:00",
+    "discovered_at": "2026-05-16T04:03:29+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
