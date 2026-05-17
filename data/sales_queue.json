@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
     "summary": "Everyone is talking about that google has removed FAQ rich results. now audit your web pages and check where schema is valuable to put. So, need your guidance on what should be the next strategy? /u/Brief-Evening2577",
     "published_at": "2026-05-14T08:16:58+00:00",
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "hot",
     "score": 31,
     "score_breakdown": {
@@ -81,7 +81,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1te11kk/here_are_a_few_things_you_can_ignore_for_aeogeo/",
     "summary": "LLMS.txt files and other \"special\" markup: You don't need to create new machine readable files, AI text files, markup, or Markdown to appear in generative AI search. Note that Google may discover, crawl, and index many kinds of files in addition to HTML on a website: this doesn't mean that the file is treated in a special way. \"Chunking\" content: There's no requirement to break your content into tiny pieces for AI to better understand it. Google systems are able to understand the nuance of multiple topics on a page and show the relevant piece to users. However, sometimes shorter (or longer!) pages can work well depending on your audience and subject matter. There's no ideal page length, and in the end, make pages for your audience, not just for generative AI search. Rewriting content just for AI systems: You don't need to write in a specific way just for generative AI search. AI systems can understand synonyms and general meanings of what someone is seeking, in order to connect them with content that might not use the same precise words. This means you don't have to worry that you don't have enough \"long-tail\" keywords or haven't captured every variation of how someone might seek content like yours. Seeking inauthentic \"mentions\": Just like the rest of Google Search, our generative AI features can show what's being said about products and services across the web, including in blogs, videos, and forum discussions. However, seeking inauthentic \"mentions\" across the web isn't as helpful as it might seem. Our core ranking systems focus on high-quality content while other systems block spam; our generative AI features depend on both. Overfocusing on structured data: Structured data isn't required for generative AI search, and there's no special schema.org markup you need to add. However, it's a good idea to continue using it as part of your overall SEO strategy, as it helps with being eligible for rich results on Google Search. Source: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide#mythbusting /u/Legitimate-Salary108",
     "published_at": "2026-05-15T16:15:30+00:00",
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -158,7 +158,7 @@
     "source_item_url": "https://wordpress.org/support/topic/google-is-removing-faq-rich-results-in-2026-what-it-means-for-your-seo/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "hot",
     "score": 27,
     "score_breakdown": {
@@ -229,7 +229,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -299,7 +299,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -375,7 +375,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tdqfx9/product_feed_plugin/",
     "summary": "I'm currently looking for a plugin than can create product feeds for platforms like Google Merchant Center. There are quite a few paid plugins that seem to cover everything I need, but I'm wondering if I might be missing something before spending more money. Specifically, I'm looking at AdTribes. It's significantly more expensive than most alternatives, yet from what I've seen od Reddit, it seems to be one of the most popular options. For those who chose AdTribes - what made you go with it over other plugins? For example, the Business plan costs around $400 USD in the second year, while many similar plugins with seemingly comparable features are closer to $80 USD. Is there something about AdTribes that really justifies the higher price, or is it mainly brand reputation/popularity? /u/Moon2616",
     "published_at": "2026-05-15T08:48:27+00:00",
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "hot",
     "score": 24,
     "score_breakdown": {
@@ -439,51 +439,54 @@
     "sent_at": null
   },
   {
-    "item_id": "c3023a77baa4e17c",
-    "source": "Reddit r/Wordpress",
-    "source_id": "reddit-wordpress",
+    "item_id": "d214198645e6c277",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/Wordpress/.rss",
-    "title": "Nobody talks about this WordPress + Claude workflow… but it saves me HOURS.",
-    "source_item_url": "https://www.reddit.com/r/Wordpress/comments/1teugap/nobody_talks_about_this_wordpress_claude_workflow/",
-    "summary": "If you use Claude for writing blog posts, stop asking it: “Write me an article about X.” Instead, use this structure: --- You are a senior SEO editor and WordPress content formatter. TASK: Write a complete article about: [TOPIC] RULES: - Use short paragraphs (2-3 lines max) - Add H2 and H3 headings - Add a hook in the first 2 sentences - Add a “Key Takeaways” section - Add FAQ schema section - Add internal link suggestions - Add image placement suggestions - Format everything in clean WordPress Gutenberg style - Avoid AI-sounding phrases - Write with human rhythm and sentence variation - End with a strong CTA Before writing: Build a content outline first Check if any section feels repetitive Improve weak transitions Then generate the final article --- The crazy part? The “Gutenberg style formatting” line alone massively improves readability when pasting into WordPress. And adding: “avoid AI-sounding phrases” removes a LOT of robotic fluff instantly. Most people use Claude like a chatbot. It works much better when you treat it like: - an editor - formatter - SEO strategist - UX writer …all at the same time. /u/motivational_speech1",
-    "published_at": "2026-05-16T13:58:41+00:00",
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
+    "published_at": null,
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "hot",
-    "score": 17,
+    "score": 22,
     "score_breakdown": {
       "schema_hits": [
-        "faq schema"
+        "schema markup"
       ],
       "strict_schema_hits": [
-        "faq schema",
-        "schema"
+        "schema",
+        "schema markup"
       ],
-      "intent_hits": [],
-      "platform_hits": [
-        "wordpress"
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
       ],
-      "issue_hits": [
-        "faq schema"
-      ],
+      "platform_hits": [],
+      "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
+      "title_signal_hits": [
+        "error",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
       "general_reddit_source": false,
-      "ecom_platform_source": true
+      "ecom_platform_source": false
     },
-    "platforms": [
-      "wordpress"
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
     ],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -496,12 +499,97 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Nobody talks about this WordPress + Claude workflow… but it saves me H",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Nobody talks about this WordPress + Claude workflow… but it saves me HOURS.': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'LD Json Schema syntax Error causing issues on website': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/Wordpress/comments/1teugap/nobody_talks_about_this_wordpress_claude_workflow/",
+    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "sent_at": null
+  },
+  {
+    "item_id": "640befcc14ad8b31",
+    "source": "Reddit r/woocommerce",
+    "source_id": "reddit-woocommerce",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
+    "title": "I'm a WooCommerce dev and AI engineer — spent months fixing the broken WooCommerce MCP implementation and built the first Next.js app that actually makes it work.",
+    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tfj315/im_a_woocommerce_dev_and_ai_engineer_spent_months/",
+    "summary": "Hey everyone, I've been a WooCommerce developer for about 10 years. For the last couple of years I've also been deep in AI engineering, and about 8 months ago I started trying to connect the two properly — not with another plugin dashboard, but with a real agentic interface where you just talk to your store. The obvious starting point was WooCommerce's own MCP (Model Context Protocol) implementation. And it was... rough. The problem with WooCommerce MCP out of the box: The official WooCommerce MCP adapter had two distinct layers of failure — one on the server side, one on the client side. On the server side, the adapter was building MCP responses using hand-crafted arrays instead of typed protocol DTOs. This meant tools, resources, prompts, and JSON-RPC error responses weren't consistently spec-aligned, and protocol version negotiation was missing entirely. In practice this showed up as unpredictable tool behaviour depending on which MCP client version you were connecting with — the server and client were essentially speaking slightly different dialects of the same protocol. On the client side in my Next.js app, the AI SDK's MCP client was failing silently during tool execution in serverless environments. Tools would be discovered correctly — the schemas came back fine — but when the agent actually tried to call one, nothing happened. No error, no result. The execute handlers were closing over a transport connection that had already gone stale by the time the tool call fired in the Vercel edge runtime. How it got fixed: I worked directly with Galatan Ovidiu, the Lead AI Engineer at WooCommerce, to get the server side resolved. The result was the WordPress MCP Adapter v0.5.0, which was a substantial internal overhaul. The key changes that unblocked everything: Full adoption of wordpress/php-mcp-schema across the adapter, so all MCP responses now use typed protocol DTOs instead of hand-built arrays Typed DTO-based handling for tools, resources, prompts, initialisation, and JSON-RPC errors Protocol version negotiation support for 2025-11-25 , 2025-06-18 , and 2024-11-05 Security hardening with stricter input validation and fail-closed permission handling Reduced SessionManager write amplification to lower lock contention That gave us a consistent, spec-aligned foundation on the WordPress side. Once that landed, the protocol-level flakiness disappeared. On my end, I had to go into the AI SDK package internals to fix the client-side stream lifecycle. The issue was that the standard onFinish callback pattern wasn't sufficient — there are edge cases in how the HTTP connection progresses through its lifecycle stages in a serverless context where the callback fires at the wrong moment or not at all. I made nuanced changes to how the stream's callback hooks into the underlying transport to cover all lifecycle stages reliably. That was the foundation. Once it actually worked reliably, I built on top of it. What I added that didn't exist before: The standard WooCommerce MCP toolset covers the basics — orders, products, customers, coupons. That's fine, but it doesn't cover how store owners actually run their business day to day. So I extended the MCP with: Stock analytics — you can ask things like \"which products have sold more than 50 units this month but have less than 10 left in stock?\" and get a real answer from live data, not a filtered table you have to read yourself Purchase orders — create and manage POs directly through the agent, which is something WooCommerce has never had a conversational interface for Quotes — same thing for B2B quote workflows, which is a huge gap in the WooCommerce ecosystem The whole thing runs in a Next.js app using the Vercel AI SDK with streaming, intent-based tool routing, and explicit prompt caching on Claude to keep costs reasonable at scale. Where it is now: It's called CommerceBird. It's been running in beta for a month. Just over 1k subscribers on the list so far — still early, which is exactly why I want more real-world usage before I push it harder. I'm at the point where I want people outside my immediate circle to use it, break it, and tell me what's wrong. If you want to dig into the technical implementation I'm happy to go deep in the comments — the MCP client lifecycle issue alone is worth a thread if anyone else has hit it. /u/masteroffeast",
+    "published_at": "2026-05-17T07:58:44+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
+    "stage": "hot",
+    "score": 18,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "schema"
+      ],
+      "intent_hits": [
+        "broken",
+        "developer",
+        "error",
+        "fix",
+        "implement",
+        "issue",
+        "missing",
+        "problem",
+        "support"
+      ],
+      "platform_hits": [
+        "woocommerce",
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "broken",
+        "fix",
+        "implement"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": false,
+      "ecom_platform_source": true
+    },
+    "platforms": [
+      "woocommerce",
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "broken",
+      "developer",
+      "error",
+      "fix",
+      "implement",
+      "issue",
+      "missing",
+      "problem",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: I'm a WooCommerce dev and AI engineer — spent months fixing the broken",
+    "message_draft": "This usually comes down to the live output on the page not matching what the plugin/editor looks like it is generating.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "follow_up_draft": "Quick follow-up on 'I'm a WooCommerce dev and AI engineer — spent months fixing the broken WooCommerce MCP implementation and built the first Next.js app that actually makes it work.': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1tfj315/im_a_woocommerce_dev_and_ai_engineer_spent_months/",
     "sent_at": null
   },
   {
@@ -514,7 +602,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
     "summary": "Adding schema didn’t boost citations on any platform We tracked 1,885 web pages that added JSON-LD schema between August 2025 and March 2026, matched them against 4,000 control pages, and measured citation changes across Google AI Overviews, AI Mode, and ChatGPT. Adding schema produced no major uplift in citations on any platform. AI source Effect on citations Verdict Google AIO −4.6% Small but statistically significant decline relative to matched controls; (both groups were declining together, but treated pages fell slightly faster) Google AI Mode +2.4% Statistically indistinguishable from zero ChatGPT +2.2% Statistically indistinguishable from zero These percentages come from our most reliable analysis (a matched difference-in-differences [DiD] test). In this test, both AI Mode and ChatGPT treated pages performed slightly better than control pages on average, but the differences are small enough that they could easily be random noise across thousands of URLs. AI Overviews showed a 4.6% decline, which is small but statistically significant relative to matched control pages. But that isn’t quite the full story—we’ll get into that in the next section. So, overall, we can’t tell whether the schema did a tiny bit of good or nothing at all. /u/WebLinkr",
     "published_at": "2026-05-11T17:17:05+00:00",
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -572,7 +660,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-17T04:32:57+00:00",
+    "discovered_at": "2026-05-17T09:59:44+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
