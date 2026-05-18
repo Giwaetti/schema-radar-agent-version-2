@@ -1,234 +1,5 @@
 [
   {
-    "item_id": "d024fa8455019dd0",
-    "source": "Reddit r/woocommerce",
-    "source_id": "reddit-woocommerce",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
-    "title": "Problems with Rank Math - No Product Image for Google's",
-    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tfuagb/problems_with_rank_math_no_product_image_for/",
-    "summary": "Hello everyone! I'm having an issue I can't seem to solve. I have a WooCommerce product (Falcon Pro Gaming Lapdesk) with a product image set in WooCommerce. I'm using Rank Math SEO (free version) and it's generating a Product schema on my homepage, but the schema does NOT include the image field — so Google Merchant Center is flagging it as invalid. I've been trying to get Claude's help, but keep being told to add an html snippet in the webpage of just the product image, but that ends up generating two different schemas and the one is still coming up as invalid. Any insight is very much appreciated! Website: https://www.woodworksforgaming.com /u/Virgman",
-    "published_at": "2026-05-17T16:28:00+00:00",
-    "discovered_at": "2026-05-18T11:53:48+00:00",
-    "stage": "hot",
-    "score": 35,
-    "score_breakdown": {
-      "schema_hits": [
-        "product schema"
-      ],
-      "strict_schema_hits": [
-        "google merchant center",
-        "merchant center",
-        "product schema",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [
-        "woocommerce"
-      ],
-      "issue_hits": [
-        "product schema"
-      ],
-      "visibility_hits": [
-        "google merchant center",
-        "merchant center"
-      ],
-      "ecom_search_hits": [
-        "google merchant center",
-        "merchant center"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "problem"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": false,
-      "ecom_platform_source": true
-    },
-    "platforms": [
-      "woocommerce"
-    ],
-    "issue_types": [
-      "google merchant center",
-      "merchant center",
-      "product schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": "https://www.woodworksforgaming.com",
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
-    "audit": {
-      "business_site": "https://www.woodworksforgaming.com",
-      "schema_present": null,
-      "notes": "Audit skipped: HTTPError"
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: Problems with Rank Math - No Product Image for Google's",
-    "message_draft": "This looks more like a feed-sync / product-data mismatch than a basic store setup issue.\n\nI’d check these first:\n- Confirm the feed source Google/Pinterest is reading is the same one the store is publishing.\n- Check for stale IDs, deleted variants, draft products, or cached feed data.\n- Compare the feed values against one live product URL end-to-end.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on 'Problems with Rank Math - No Product Image for Google's': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1tfuagb/problems_with_rank_math_no_product_image_for/",
-    "sent_at": null
-  },
-  {
-    "item_id": "bf55c918f1d3d4f0",
-    "source": "Reddit r/bigseo",
-    "source_id": "reddit-bigseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/bigseo/.rss",
-    "title": "Google Has Removed FAQ Rich Results From Google SERPs, Now What Next Should I Do?",
-    "source_item_url": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
-    "summary": "Everyone is talking about that google has removed FAQ rich results. now audit your web pages and check where schema is valuable to put. So, need your guidance on what should be the next strategy? /u/Brief-Evening2577",
-    "published_at": "2026-05-14T08:16:58+00:00",
-    "discovered_at": "2026-05-18T11:53:48+00:00",
-    "stage": "hot",
-    "score": 31,
-    "score_breakdown": {
-      "schema_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "strict_schema_hits": [
-        "rich result",
-        "rich results",
-        "schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "ecom_search_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "rich result",
-      "rich results"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Google Has Removed FAQ Rich Results From Google SERPs, Now What Next S",
-    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Google Has Removed FAQ Rich Results From Google SERPs, Now What Next Should I Do?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
-    "sent_at": null
-  },
-  {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-05-18T11:53:48+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "8b711cea2cdbc2e6",
     "source": "WordPress Support - Rank Math SEO",
     "source_id": "wordpress-rankmath-support",
@@ -238,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/google-is-removing-faq-rich-results-in-2026-what-it-means-for-your-seo/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-18T11:53:48+00:00",
+    "discovered_at": "2026-05-18T18:11:08+00:00",
     "stage": "hot",
     "score": 27,
     "score_breakdown": {
@@ -309,7 +80,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-18T11:53:48+00:00",
+    "discovered_at": "2026-05-18T18:11:08+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -379,7 +150,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-18T11:53:48+00:00",
+    "discovered_at": "2026-05-18T18:11:08+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -446,55 +217,47 @@
     "sent_at": null
   },
   {
-    "item_id": "80ea08e8ace693c8",
-    "source": "Reddit r/woocommerce",
-    "source_id": "reddit-woocommerce",
+    "item_id": "0009f86135aebd37",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
-    "title": "Product Feed Plugin",
-    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tdqfx9/product_feed_plugin/",
-    "summary": "I'm currently looking for a plugin than can create product feeds for platforms like Google Merchant Center. There are quite a few paid plugins that seem to cover everything I need, but I'm wondering if I might be missing something before spending more money. Specifically, I'm looking at AdTribes. It's significantly more expensive than most alternatives, yet from what I've seen od Reddit, it seems to be one of the most popular options. For those who chose AdTribes - what made you go with it over other plugins? For example, the Business plan costs around $400 USD in the second year, while many similar plugins with seemingly comparable features are closer to $80 USD. Is there something about AdTribes that really justifies the higher price, or is it mainly brand reputation/popularity? /u/Moon2616",
-    "published_at": "2026-05-15T08:48:27+00:00",
-    "discovered_at": "2026-05-18T11:53:48+00:00",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
+    "published_at": null,
+    "discovered_at": "2026-05-18T18:11:08+00:00",
     "stage": "hot",
-    "score": 24,
+    "score": 18,
     "score_breakdown": {
-      "schema_hits": [],
+      "schema_hits": [
+        "json-ld"
+      ],
       "strict_schema_hits": [
-        "google merchant center",
-        "merchant center",
-        "product feed"
+        "json-ld",
+        "schema"
       ],
       "intent_hits": [
         "missing"
       ],
       "platform_hits": [],
       "issue_hits": [],
-      "visibility_hits": [
-        "google merchant center",
-        "merchant center",
-        "product feed"
-      ],
-      "ecom_search_hits": [
-        "google merchant center",
-        "merchant center",
-        "product feed"
-      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
+      "title_signal_hits": [
+        "json-ld",
+        "missing"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
       "general_reddit_source": false,
-      "ecom_platform_source": true
+      "ecom_platform_source": false
     },
     "platforms": [],
-    "issue_types": [
-      "google merchant center",
-      "merchant center",
-      "product feed"
-    ],
+    "issue_types": [],
     "intent_flags": [
       "missing"
     ],
@@ -510,268 +273,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Product Feed Plugin",
-    "message_draft": "This looks more like a feed-sync / product-data mismatch than a basic store setup issue.\n\nI’d check these first:\n- Confirm the feed source Google/Pinterest is reading is the same one the store is publishing.\n- Check for stale IDs, deleted variants, draft products, or cached feed data.\n- Compare the feed values against one live product URL end-to-end.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Product Feed Plugin': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1tdqfx9/product_feed_plugin/",
-    "sent_at": null
-  },
-  {
-    "item_id": "e22a45ed9b565e68",
-    "source": "Reddit r/woocommerce",
-    "source_id": "reddit-woocommerce",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
-    "title": "Anyone using WooCommerce for Claude on a production store yet?",
-    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tfxbdq/anyone_using_woocommerce_for_claude_on_a/",
-    "summary": "WooCommerce dropped two posts in the last week worth knowing about if you've been curious about hooking Claude up to a Woo store. May 7 : they shipped \"WooCommerce for Claude,\" an experimental plugin from their Radical Speed Month. It does two interesting things: analytics skills with pre-aggregated answers to merchant questions like \"how did my store do this week,\" \"what's driving sales,\" \"are my coupons working.\" a knowledge layer exposing store profile, catalog schema, policies, and enriched product data as MCP resources, so Claude has context before making a tool call. May 14 : they followed up with 18 prebuilt slash-command workflows on top of that, each built around a real merchant question and returning a readout with next actions. What I'm curious about: has anyone tried this against a production store, or are people still in test mostly? And for those who have, what's been useful in actually running a store? /u/kestrel-ian",
-    "published_at": "2026-05-17T18:18:59+00:00",
-    "discovered_at": "2026-05-18T11:53:48+00:00",
-    "stage": "hot",
-    "score": 16,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "product data",
-        "schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [
-        "woocommerce"
-      ],
-      "issue_hits": [],
-      "visibility_hits": [
-        "product data"
-      ],
-      "ecom_search_hits": [
-        "product data"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": false,
-      "ecom_platform_source": true
-    },
-    "platforms": [
-      "woocommerce"
-    ],
-    "issue_types": [
-      "product data"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: Anyone using WooCommerce for Claude on a production store yet?",
-    "message_draft": "This usually comes down to the live output on the page not matching what the plugin/editor looks like it is generating.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on 'Anyone using WooCommerce for Claude on a production store yet?': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1tfxbdq/anyone_using_woocommerce_for_claude_on_a/",
-    "sent_at": null
-  },
-  {
-    "item_id": "78e5afcdea2b821b",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "When should you re-request indexing on GSC?",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1tg06z6/when_should_you_rerequest_indexing_on_gsc/",
-    "summary": "Notice that for smaller sites trying to index on large topics, reindexing notably drops its position for at least the first ~24 hours. For smaller sites building authority, I imagine click through is vital for jumping in position. If your position is lower/next page, click through is probably less likely. I used to request indexing whenever I had the quota. Then I only requested indexing for notable page changes. Now considering not requesting indexing unless the page hasn't been crawled or has rich result issues. EOD, crawlers still notice the updates regardless if you request indexing again. Curious what your approach is. /u/lesbiyond",
-    "published_at": "2026-05-17T20:04:04+00:00",
-    "discovered_at": "2026-05-18T11:53:48+00:00",
-    "stage": "hot",
-    "score": 15,
-    "score_breakdown": {
-      "schema_hits": [
-        "rich result"
-      ],
-      "strict_schema_hits": [
-        "rich result"
-      ],
-      "intent_hits": [
-        "issue"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "rich result"
-      ],
-      "ecom_search_hits": [
-        "rich result"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "rich result"
-    ],
-    "intent_flags": [
-      "issue"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: When should you re-request indexing on GSC?",
-    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'When should you re-request indexing on GSC?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1tg06z6/when_should_you_rerequest_indexing_on_gsc/",
-    "sent_at": null
-  },
-  {
-    "item_id": "07652c951ac4b98a",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Wow!!! Ahrefs Tracked 1,885 Pages Adding Schema. AI Citations Barely Moved.",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
-    "summary": "Adding schema didn’t boost citations on any platform We tracked 1,885 web pages that added JSON-LD schema between August 2025 and March 2026, matched them against 4,000 control pages, and measured citation changes across Google AI Overviews, AI Mode, and ChatGPT. Adding schema produced no major uplift in citations on any platform. AI source Effect on citations Verdict Google AIO −4.6% Small but statistically significant decline relative to matched controls; (both groups were declining together, but treated pages fell slightly faster) Google AI Mode +2.4% Statistically indistinguishable from zero ChatGPT +2.2% Statistically indistinguishable from zero These percentages come from our most reliable analysis (a matched difference-in-differences [DiD] test). In this test, both AI Mode and ChatGPT treated pages performed slightly better than control pages on average, but the differences are small enough that they could easily be random noise across thousands of URLs. AI Overviews showed a 4.6% decline, which is small but statistically significant relative to matched control pages. But that isn’t quite the full story—we’ll get into that in the next section. So, overall, we can’t tell whether the schema did a tiny bit of good or nothing at all. /u/WebLinkr",
-    "published_at": "2026-05-11T17:17:05+00:00",
-    "discovered_at": "2026-05-18T11:53:48+00:00",
-    "stage": "hot",
-    "score": 12,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Wow!!! Ahrefs Tracked 1,885 Pages Adding Schema. AI Citations Barely M",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Wow!!! Ahrefs Tracked 1,885 Pages Adding Schema. AI Citations Barely Moved.': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1ta9tux/wow_ahrefs_tracked_1885_pages_adding_schema_ai/",
-    "sent_at": null
-  },
-  {
-    "item_id": "8f90fec9f7ccffb8",
-    "source": "Reddit r/woocommerce",
-    "source_id": "reddit-woocommerce",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/woocommerce/.rss",
-    "title": "💬 We are building a Google x WPML integration and need your input!",
-    "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tgfypr/we_are_building_a_google_x_wpml_integration_and/",
-    "summary": "Hey all! 👋 We are currently building an integration between Google for WooCommerce and WPML, which is one of the most requested features for the Google extension. This integration will allow you to create separate product feeds per country with different languages and currencies, so that shoppers see products in the correct language and currency in Google search results, based on their location. If you have been using Google for WooCommerce and have been waiting for a WPML integration for a while now, I'd love to hear from you! Join the WooCommerce Community Slack: https://woocommerce.com/community-slack/ , drop a message here and I will get in touch to discuss more about this! /u/independent-star-jas",
-    "published_at": "2026-05-18T08:09:17+00:00",
-    "discovered_at": "2026-05-18T11:53:48+00:00",
-    "stage": "warm",
-    "score": 11,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "product feed"
-      ],
-      "intent_hits": [],
-      "platform_hits": [
-        "woocommerce"
-      ],
-      "issue_hits": [],
-      "visibility_hits": [
-        "product feed"
-      ],
-      "ecom_search_hits": [
-        "product feed"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": false,
-      "ecom_platform_source": true
-    },
-    "platforms": [
-      "woocommerce"
-    ],
-    "issue_types": [
-      "product feed"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": "https://woocommerce.com/community-slack/",
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
-    "audit": {
-      "business_site": "https://woocommerce.com/community-slack/",
-      "schema_present": true,
-      "notes": "Business site detected"
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: 💬 We are building a Google x WPML integration and need your input!",
-    "message_draft": "This looks more like a feed-sync / product-data mismatch than a basic store setup issue.\n\nI’d check these first:\n- Confirm the feed source Google/Pinterest is reading is the same one the store is publishing.\n- Check for stale IDs, deleted variants, draft products, or cached feed data.\n- Compare the feed values against one live product URL end-to-end.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on '💬 We are building a Google x WPML integration and need your input!': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/woocommerce/comments/1tgfypr/we_are_building_a_google_x_wpml_integration_and/",
+    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "sent_at": null
   },
   {
@@ -784,7 +291,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-18T11:53:48+00:00",
+    "discovered_at": "2026-05-18T18:11:08+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
