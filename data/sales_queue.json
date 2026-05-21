@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tfuagb/problems_with_rank_math_no_product_image_for/",
     "summary": "Hello everyone! I'm having an issue I can't seem to solve. I have a WooCommerce product (Falcon Pro Gaming Lapdesk) with a product image set in WooCommerce. I'm using Rank Math SEO (free version) and it's generating a Product schema on my homepage, but the schema does NOT include the image field — so Google Merchant Center is flagging it as invalid. I've been trying to get Claude's help, but keep being told to add an html snippet in the webpage of just the product image, but that ends up generating two different schemas and the one is still coming up as invalid. Any insight is very much appreciated! Website: https://www.woodworksforgaming.com Edit: SOLVED - Under the Page Settings Tab in Elementor, I didn't have the image added as the \"Feature Image\". /u/Virgman",
     "published_at": "2026-05-17T16:28:00+00:00",
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 35,
     "score_breakdown": {
@@ -93,7 +93,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
     "summary": "Everyone is talking about that google has removed FAQ rich results. now audit your web pages and check where schema is valuable to put. So, need your guidance on what should be the next strategy? /u/Brief-Evening2577",
     "published_at": "2026-05-14T08:16:58+00:00",
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 31,
     "score_breakdown": {
@@ -156,79 +156,6 @@
     "sent_at": null
   },
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-05-20T18:32:38+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -238,7 +165,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -308,7 +235,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -384,7 +311,7 @@
     "source_item_url": "https://www.reddit.com/r/shopify/comments/1thtypg/has_google_merchant_center_ever_disapproved_your/",
     "summary": "Has anyone else experienced Google Merchant Center randomly disapproving products because the Shopify store was “unreachable”? This has happened to me twice over the past few months. My assumption is that Shopify’s bot protection may be blocking Google’s crawler randomly. Curious if anyone else has dealt with this... https://imgur.com/a/sacpRMp /u/curiiiious",
     "published_at": "2026-05-19T17:30:18+00:00",
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 20,
     "score_breakdown": {
@@ -453,7 +380,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1thfwpt/need_help_with_language_indexation_issues/",
     "summary": "Hello SEO'ers of Reddit For my company [can disclose on request] we have a long standing SEO issue that you can hopefully help me fix. The situation sounds simple, the solution appears difficult. We are a Dutch company with 80% Dutch speaking clients We have an English brandname If people search our brandname, >50% of the time (last 7d) our English page (/en) hows in the results This should not happen because maximum of 10-20% of the searchers are non-Dutch language searchers. We need the Dutch version of the site to show up 80-90% of the times because now Dutch natives get an English website and dont convert as well. Thanks a lot in advance. To show you we tried, here is our backlog of actions we took. What have we tried (in chronological order): - Shortening URL's - Removed Country codes from hreflang - Updated privacy statement - Removed X-default - Moved hreflang to top in >head? - Hide default collections/all from search - FAQ fixexs - Added x-default to hreflang tags - Buyback PDP tag hide-from-search - Removed extra (last) trailing for hreflang (example: (can share on request) - Added extra (last) trailing for x-default ((href=can Share on request) - X-default dynamic for all URLs - Added /en/ to x-default for EN homepage - Country code NL added to nl hreflang ((href=\"can share on request) - Enabled \"Language - Displays the language that matches a visitor’s browser, when available\" - EN site: point FAQ footer url to EN FAQ version (instead of NL) - Enriched json u/Product data: product name, description, price_valid_untill, organization/sameAs, etc. /u/gitise",
     "published_at": "2026-05-19T07:51:21+00:00",
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 20,
     "score_breakdown": {
@@ -525,7 +452,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tfxbdq/anyone_using_woocommerce_for_claude_on_a/",
     "summary": "WooCommerce dropped two posts in the last week worth knowing about if you've been curious about hooking Claude up to a Woo store. May 7 : they shipped \"WooCommerce for Claude,\" an experimental plugin from their Radical Speed Month. It does two interesting things: analytics skills with pre-aggregated answers to merchant questions like \"how did my store do this week,\" \"what's driving sales,\" \"are my coupons working.\" a knowledge layer exposing store profile, catalog schema, policies, and enriched product data as MCP resources, so Claude has context before making a tool call. May 14 : they followed up with 18 prebuilt slash-command workflows on top of that, each built around a real merchant question and returning a readout with next actions. What I'm curious about: has anyone tried this against a production store, or are people still in test mostly? And for those who have, what's been useful in actually running a store? /u/kestrel-ian",
     "published_at": "2026-05-17T18:18:59+00:00",
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -591,7 +518,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-org-lowprice-highprice-for-variable-product-with-same-price-different-vat/",
     "summary": "To resolve this issue , you may need to modify the way your product prices are being outputted to the schema .org markup . This will likely involve customizing the code that generates the markup , to ensure it's pulling the correct price (including VAT) for each product variation.",
     "published_at": null,
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -655,7 +582,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1thjg69/anyone_else_struggling_with/",
     "summary": "Hey all! 👋 I am a Product Manager at Woo and I am exploring new ways to involve users earlier in the implementation process of popular features. Listening to more use cases and getting feedback from real merchants can help us deliver more complete features that would be useful to more users. The first upcoming feature that we would like to try this community-led approach is an integration between the free Google for WooCommerce and WPML, as this is one of the most requested features for the Google extension. This integration will allow users to create separate product feeds per country with different languages and currencies, so that shoppers see products in the correct language and currency in Google search results, based on their location. If you have been using Google for WooCommerce and have been waiting for a WPML integration for a while now, I'd love to hear from you! Join the WooCommerce Community Slack: https://woocommerce.com/community-slack/ , drop a message here and I will get in touch to discuss more about this! /u/independent-star-jas",
     "published_at": "2026-05-19T11:00:57+00:00",
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 14,
     "score_breakdown": {
@@ -724,7 +651,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1thvqxl/how_are_you_getting_appsproducts_to_show_up_in/",
     "summary": "People are using AI chats as their new search engines. When someone asks “what’s a good app for X”, ChatGPT or Claude recommends something — and you want that something to be yours. Has anyone figured out how to optimize for this? Does mentioning your product on Reddit / Threads / blogs help? Does Schema markup on landing page matter? Is there any way to track if your product is being mentioned in AI responses? Curious how others approach this. /u/itrapachka",
     "published_at": "2026-05-19T18:28:37+00:00",
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "hot",
     "score": 13,
     "score_breakdown": {
@@ -773,6 +700,75 @@
     "sent_at": null
   },
   {
+    "item_id": "94b98183061d998e",
+    "source": "Reddit r/Wordpress",
+    "source_id": "reddit-wordpress",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/Wordpress/.rss",
+    "title": "WordPress 7.0 Explained: AI Connectors + Abilities API",
+    "source_item_url": "https://www.reddit.com/r/Wordpress/comments/1tj4cnr/wordpress_70_explained_ai_connectors_abilities_api/",
+    "summary": "TLDR: WP 7.0 lets you run an agent inside of WordPress. What's the big deal? I'm been working with WordPress 7.0 betas and RCs and I didn't understand what the new features were all about at first. The big new features is one new page for setting up AI connectors. But it was basically empty because there were no AI providers shipped with 7.0. You have to install them as separate plugins. It just shipped something much better: a PHP AI SDK that can be used by any plugin. Paired with the new Abilities API all kinds of new things are possible. How AI Connectors work Instead of every plugin bundling its own OpenAI/Anthropic/Google integration (with its own settings page, its own key storage, its own rate limiting), WordPress now has one canonical way to talk to AI providers. You call wp_ai_client_prompt() and the SDK handles: Provider selection Credentials Retries Model discovery Connector plugins (Anthropic, OpenAI, Google, local Ollama, etc.) register themselves once, and every AI-aware plugin on the site shares them. No more re-entering API keys in five plugins. No more \"which plugin is burning my tokens?\" No more provider lock-in. How the Abilities API fits The Abilities API lets any plugin register a capability — \"save a memory\", \"search products\", \"draft an email\", \"publish a post\" — as a structured, schema-described function. Each ability is just wp_register_ability() with an OpenAI-compatible JSON schema. The magic: AI models can discover and call these abilities as tools. Your LLM doesn't need a custom integration with WooCommerce, Yoast, or Gravity Forms. It asks WordPress \"what can I do here?\" and gets back a tool catalogue. What this unlocks This is the foundation for WordPress becoming an AI-native platform — not \"a CMS with an AI plugin bolted on\", but a substrate where agents can reason about and act on your entire site through standard interfaces. You don't need to setup several MCPs or any MCPs to start using AI agents with WordPress. The AI agent can run inside the admin. Why it makes SD AI Agent possible Once I realized all the building blocks were in place I implemented an Agent loop using the WP 7.0 AI client. It worked better than I expected. SD AI Agent is built entirely on these two APIs: Capability How it's built 30+ registered abilities (memory, skills, knowledge base, tool profiles, automations, benchmarking) wp_register_ability() Every model call wp_ai_client_prompt() Provider/model selection WordPress Connectors API We wrote: Zero provider integration code Zero API key management UI Zero tool-calling plumbing Just an agent loop and a the conversation UI on top. Takes advantage of any registered abilities from other plugins. The more plugins that add abilities the better it will become. /u/superdav42",
+    "published_at": "2026-05-21T00:32:32+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
+    "stage": "warm",
+    "score": 10,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "schema"
+      ],
+      "intent_hits": [
+        "implement",
+        "setup"
+      ],
+      "platform_hits": [
+        "woocommerce",
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [
+        "canonical"
+      ],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": false,
+      "ecom_platform_source": true
+    },
+    "platforms": [
+      "woocommerce",
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "implement",
+      "setup"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: WordPress 7.0 Explained: AI Connectors + Abilities API",
+    "message_draft": "This usually comes down to the live output on the page not matching what the plugin/editor looks like it is generating.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "follow_up_draft": "Quick follow-up on 'WordPress 7.0 Explained: AI Connectors + Abilities API': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/Wordpress/comments/1tj4cnr/wordpress_70_explained_ai_connectors_abilities_api/",
+    "sent_at": null
+  },
+  {
     "item_id": "dd192b5fc8c64c61",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -782,7 +778,7 @@
     "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-05-20T18:32:38+00:00",
+    "discovered_at": "2026-05-21T04:44:54+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
