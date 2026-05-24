@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
     "summary": "Everyone is talking about that google has removed FAQ rich results. now audit your web pages and check where schema is valuable to put. So, need your guidance on what should be the next strategy? /u/Brief-Evening2577",
     "published_at": "2026-05-14T08:16:58+00:00",
-    "discovered_at": "2026-05-24T04:39:30+00:00",
+    "discovered_at": "2026-05-24T10:12:19+00:00",
     "stage": "hot",
     "score": 31,
     "score_breakdown": {
@@ -81,7 +81,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-24T04:39:30+00:00",
+    "discovered_at": "2026-05-24T10:12:19+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -151,7 +151,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-24T04:39:30+00:00",
+    "discovered_at": "2026-05-24T10:12:19+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -227,7 +227,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1tklkbo/google_merchant_center_different_product_feed_for/",
     "summary": "Hello! I work in e-commerce and am currently working on optimising our products for the Shopping tab in Google Search. To do this, I’d like to optimise the product detail pages in Google Merchant Center: testing different titles and product descriptions, etc. The problem is: our product feed, which is imported into Google Merchant Centre, is our source for Google Ads. If we make changes there, it would affect our ad performance. There is a supplemental feed that can be provided, but that would override the main feed and lead to the same problem. I therefore had the idea of setting up a second feed within the same Merchant Center account. You can specify in the account that one feed is used solely for ads and the other for organic listings – does anyone have experience with this and could perhaps give me a few tips? Is this common practice, or are there better workarounds? /u/patpat_v1",
     "published_at": "2026-05-22T15:01:26+00:00",
-    "discovered_at": "2026-05-24T04:39:30+00:00",
+    "discovered_at": "2026-05-24T10:12:19+00:00",
     "stage": "hot",
     "score": 24,
     "score_breakdown": {
@@ -300,7 +300,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1tkwz68/google_merchant_center_different_product_feed_for/",
     "summary": "Hello! I work in e-commerce and am currently working on optimising our products for the Shopping tab in Google Search. To do this, I’d like to optimise the product detail pages in Google Merchant Center: testing different titles and product descriptions, etc. The problem is: our product feed, which is imported into Google Merchant Centre, is our source for Google Ads. If we make changes there, it would affect our ad performance. There is a supplemental feed that can be provided, but that would override the main feed and lead to the same problem. I therefore had the idea of setting up a second feed within the same Merchant Center account. You can specify in the account that one feed is used solely for ads and the other for organic listings – does anyone have experience with this and could perhaps give me a few tips? Is this common practice, or are there better workarounds? /u/Cultural_Cup_8733",
     "published_at": "2026-05-22T21:44:40+00:00",
-    "discovered_at": "2026-05-24T04:39:30+00:00",
+    "discovered_at": "2026-05-24T10:12:19+00:00",
     "stage": "hot",
     "score": 24,
     "score_breakdown": {
@@ -364,6 +364,76 @@
     "sent_at": null
   },
   {
+    "item_id": "873fddc962710a18",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "not experienced but want to be hired",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1tm7qa4/not_experienced_but_want_to_be_hired/",
+    "summary": "hi everyone, i've been working in software development for a while now, and i'm quite comfortable with html, css, js, and modern web frameworks. while building my own projects, i've dabbled in technical seo (robots.txt, meta tags, fixing crawl errors), but i've never held a professional \"seo specialist\" title. i just found a great job listing with very competitive pay and benefits, but the requirement is \"at least 1 year of experience in seo/geo.\" here are the main requirements of the role: developing strategies for search engines (google, chatgpt/ai-based search engines). technical seo, structured data (schema markup), and content optimization. proficiency in tools like ahrefs, semrush, and search console. vision for geo (generative engine optimization). here is my situation: i know i'm technically stronger (html, performance, schema) than the average seo specialist because i write the code myself. i have my own projects that show up on google when you search for them by name, but i lack \"organic traffic/ranking\" experience. even if i start working on seo today, i won't have a \"traffic report\" or a massive success story to show by the time i walk into an interview. i'd like to ask the experienced folks here: how do i break through this \"1 year experience\" barrier in an interview? should i admit i lack experience, or is there a way to frame it as an advantage? what are some technical/geo \"trump cards\" i can play as a developer to stand out against traditional seo candidates who don't know code? since i don't have significant traffic/click data yet, what can i present as \"proof\" or a portfolio in the interview? i really need this job and i'm confident i can adapt to the team environment. i would appreciate any advice you have on how you would handle this if you were in my shoes. thanks in advance. /u/sergeiproko",
+    "published_at": "2026-05-24T09:46:51+00:00",
+    "discovered_at": "2026-05-24T10:12:19+00:00",
+    "stage": "hot",
+    "score": 24,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup",
+        "structured data"
+      ],
+      "intent_hits": [
+        "developer",
+        "error",
+        "fix",
+        "search console"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "developer",
+      "error",
+      "fix",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: not experienced but want to be hired",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'not experienced but want to be hired': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1tm7qa4/not_experienced_but_want_to_be_hired/",
+    "sent_at": null
+  },
+  {
     "item_id": "18c5ddb7a3caae2b",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -373,7 +443,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1thfwpt/need_help_with_language_indexation_issues/",
     "summary": "Hello SEO'ers of Reddit For my company [can disclose on request] we have a long standing SEO issue that you can hopefully help me fix. The situation sounds simple, the solution appears difficult. We are a Dutch company with 80% Dutch speaking clients We have an English brandname If people search our brandname, >50% of the time (last 7d) our English page (/en) hows in the results This should not happen because maximum of 10-20% of the searchers are non-Dutch language searchers. We need the Dutch version of the site to show up 80-90% of the times because now Dutch natives get an English website and dont convert as well. Thanks a lot in advance. To show you we tried, here is our backlog of actions we took. What have we tried (in chronological order): - Shortening URL's - Removed Country codes from hreflang - Updated privacy statement - Removed X-default - Moved hreflang to top in >head? - Hide default collections/all from search - FAQ fixexs - Added x-default to hreflang tags - Buyback PDP tag hide-from-search - Removed extra (last) trailing for hreflang (example: (can share on request) - Added extra (last) trailing for x-default ((href=can Share on request) - X-default dynamic for all URLs - Added /en/ to x-default for EN homepage - Country code NL added to nl hreflang ((href=\"can share on request) - Enabled \"Language - Displays the language that matches a visitor’s browser, when available\" - EN site: point FAQ footer url to EN FAQ version (instead of NL) - Enriched json u/Product data: product name, description, price_valid_untill, organization/sameAs, etc. /u/gitise",
     "published_at": "2026-05-19T07:51:21+00:00",
-    "discovered_at": "2026-05-24T04:39:30+00:00",
+    "discovered_at": "2026-05-24T10:12:19+00:00",
     "stage": "hot",
     "score": 20,
     "score_breakdown": {
@@ -445,7 +515,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tlddt0/doubts_about_multilingual_woocommerce_setup/",
     "summary": "Hi, I’m about to build my first multilingual WooCommerce store. For translations, I usually rely on WPML or Bogo. Both create linked copies of posts for each language. Since WooCommerce stores product data like stock in post meta, I'm wondering how this is usually handled. For the same physical product/SKU, should stock be shared or synced across languages? I'd expect the stock quantity to stay current regardless of which language the customer buys from. What setup do you recommend for multilingual WooCommerce? /u/Admirable_Reality281",
     "published_at": "2026-05-23T11:01:00+00:00",
-    "discovered_at": "2026-05-24T04:39:30+00:00",
+    "discovered_at": "2026-05-24T10:12:19+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -504,61 +574,6 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://www.reddit.com/r/woocommerce/comments/1tlddt0/doubts_about_multilingual_woocommerce_setup/",
-    "sent_at": null
-  },
-  {
-    "item_id": "dd192b5fc8c64c61",
-    "source": "WordPress Support - Schema & Structured Data for WP & AMP",
-    "source_id": "wordpress-schema-support",
-    "source_type": "forum",
-    "source_url": "https://wordpress.org/support/plugin/schema-and-structured-data-for-wp/",
-    "title": "I could not find schema for yoga studio, only for sports.",
-    "source_item_url": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
-    "summary": "",
-    "published_at": null,
-    "discovered_at": "2026-05-24T04:39:30+00:00",
-    "stage": "watch",
-    "score": 7,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": true,
-      "native_action_source": true,
-      "general_reddit_source": false,
-      "ecom_platform_source": true
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: I could not find schema for yoga studio, only for sports.",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'I could not find schema for yoga studio, only for sports.': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/i-could-not-find-schema-for-yoga-studio-only-for-sports/",
     "sent_at": null
   }
 ]
