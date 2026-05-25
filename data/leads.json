@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/bigseo/comments/1tcrp0n/google_has_removed_faq_rich_results_from_google/",
     "summary": "Everyone is talking about that google has removed FAQ rich results. now audit your web pages and check where schema is valuable to put. So, need your guidance on what should be the next strategy? /u/Brief-Evening2577",
     "published_at": "2026-05-14T08:16:58+00:00",
-    "discovered_at": "2026-05-25T11:59:58+00:00",
+    "discovered_at": "2026-05-25T17:58:34+00:00",
     "stage": "hot",
     "score": 31,
     "score_breakdown": {
@@ -72,6 +72,79 @@
     "sent_at": null
   },
   {
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
+    "published_at": null,
+    "discovered_at": "2026-05-25T17:58:34+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -81,7 +154,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-25T11:59:58+00:00",
+    "discovered_at": "2026-05-25T17:58:34+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -151,7 +224,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-25T11:59:58+00:00",
+    "discovered_at": "2026-05-25T17:58:34+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -227,7 +300,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1tm7qa4/not_experienced_but_want_to_be_hired/",
     "summary": "hi everyone, i've been working in software development for a while now, and i'm quite comfortable with html, css, js, and modern web frameworks. while building my own projects, i've dabbled in technical seo (robots.txt, meta tags, fixing crawl errors), but i've never held a professional \"seo specialist\" title. i just found a great job listing with very competitive pay and benefits, but the requirement is \"at least 1 year of experience in seo/geo.\" here are the main requirements of the role: developing strategies for search engines (google, chatgpt/ai-based search engines). technical seo, structured data (schema markup), and content optimization. proficiency in tools like ahrefs, semrush, and search console. vision for geo (generative engine optimization). here is my situation: i know i'm technically stronger (html, performance, schema) than the average seo specialist because i write the code myself. i have my own projects that show up on google when you search for them by name, but i lack \"organic traffic/ranking\" experience. even if i start working on seo today, i won't have a \"traffic report\" or a massive success story to show by the time i walk into an interview. i'd like to ask the experienced folks here: how do i break through this \"1 year experience\" barrier in an interview? should i admit i lack experience, or is there a way to frame it as an advantage? what are some technical/geo \"trump cards\" i can play as a developer to stand out against traditional seo candidates who don't know code? since i don't have significant traffic/click data yet, what can i present as \"proof\" or a portfolio in the interview? i really need this job and i'm confident i can adapt to the team environment. i would appreciate any advice you have on how you would handle this if you were in my shoes. thanks in advance. /u/sergeiproko",
     "published_at": "2026-05-24T09:46:51+00:00",
-    "discovered_at": "2026-05-25T11:59:58+00:00",
+    "discovered_at": "2026-05-25T17:58:34+00:00",
     "stage": "hot",
     "score": 24,
     "score_breakdown": {
@@ -288,6 +361,75 @@
     "sent_at": null
   },
   {
+    "item_id": "d214198645e6c277",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
+    "published_at": null,
+    "discovered_at": "2026-05-25T17:58:34+00:00",
+    "stage": "hot",
+    "score": 22,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'LD Json Schema syntax Error causing issues on website': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "sent_at": null
+  },
+  {
     "item_id": "18c5ddb7a3caae2b",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -297,7 +439,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1thfwpt/need_help_with_language_indexation_issues/",
     "summary": "Hello SEO'ers of Reddit For my company [can disclose on request] we have a long standing SEO issue that you can hopefully help me fix. The situation sounds simple, the solution appears difficult. We are a Dutch company with 80% Dutch speaking clients We have an English brandname If people search our brandname, >50% of the time (last 7d) our English page (/en) hows in the results This should not happen because maximum of 10-20% of the searchers are non-Dutch language searchers. We need the Dutch version of the site to show up 80-90% of the times because now Dutch natives get an English website and dont convert as well. Thanks a lot in advance. To show you we tried, here is our backlog of actions we took. What have we tried (in chronological order): - Shortening URL's - Removed Country codes from hreflang - Updated privacy statement - Removed X-default - Moved hreflang to top in >head? - Hide default collections/all from search - FAQ fixexs - Added x-default to hreflang tags - Buyback PDP tag hide-from-search - Removed extra (last) trailing for hreflang (example: (can share on request) - Added extra (last) trailing for x-default ((href=can Share on request) - X-default dynamic for all URLs - Added /en/ to x-default for EN homepage - Country code NL added to nl hreflang ((href=\"can share on request) - Enabled \"Language - Displays the language that matches a visitor’s browser, when available\" - EN site: point FAQ footer url to EN FAQ version (instead of NL) - Enriched json u/Product data: product name, description, price_valid_untill, organization/sameAs, etc. /u/gitise",
     "published_at": "2026-05-19T07:51:21+00:00",
-    "discovered_at": "2026-05-25T11:59:58+00:00",
+    "discovered_at": "2026-05-25T17:58:34+00:00",
     "stage": "hot",
     "score": 20,
     "score_breakdown": {
@@ -369,7 +511,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tlddt0/doubts_about_multilingual_woocommerce_setup/",
     "summary": "Hi, I’m about to build my first multilingual WooCommerce store. For translations, I usually rely on WPML or Bogo. Both create linked copies of posts for each language. Since WooCommerce stores product data like stock in post meta, I'm wondering how this is usually handled. For the same physical product/SKU, should stock be shared or synced across languages? I'd expect the stock quantity to stay current regardless of which language the customer buys from. What setup do you recommend for multilingual WooCommerce? /u/Admirable_Reality281",
     "published_at": "2026-05-23T11:01:00+00:00",
-    "discovered_at": "2026-05-25T11:59:58+00:00",
+    "discovered_at": "2026-05-25T17:58:34+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -431,6 +573,70 @@
     "sent_at": null
   },
   {
+    "item_id": "28ef09bef5b7cdcc",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "90 days running 100% AI-generated content on a real SaaS. Public Search Console data and 5 things I didn't expect",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1tnbqhk/90_days_running_100_aigenerated_content_on_a_real/",
+    "summary": "Haven't seen many real datasets on this so sharing mine. Ran 100% AI content (full pipeline, zero human writing) on a real SaaS for 90 days. Public Search Console. Numbers: 4.6% Google CTR (vs ~1.5% industry avg) 33k impressions, 1,540 clicks 365 AI citations across ChatGPT, Perplexity, AI Mode Average position 7.4 What surprised me: AI Mode citation overlap with AI Overview citations is around 14% on same query. Same content, same query, different selection logic. I now optimize for both as separate targets. AI Mode citations decay fast. URLs cited week 1 often aren't cited week 4 on the same query. Google appears to rotate sources for diversity, meaning AI Mode SEO behaves more like news SEO than evergreen. The \"AI penalty\" panic didn't materialize. March 27 to April 8 core update, I gained not lost. Google explicitly reaffirmed post-I/O that AI-assisted content is fine if helpful and original. JSON-LD disclosure (declaring AI assistance in schema) correlates with higher ranking in my dataset, not lower. Counterintuitive but consistent across keyword sets. CTR on AI Mode-cited results is higher than non-cited results in the same SERP, likely because the citation link in the AI summary converts at unusual rates. Not sure if durable as AI Mode matures. Happy to compare data points if anyone has different findings. (Transparency: I run quibo[dot]cc, this is data from running it on my own site) /u/Objective_Law2034",
+    "published_at": "2026-05-25T15:01:05+00:00",
+    "discovered_at": "2026-05-25T17:58:34+00:00",
+    "stage": "hot",
+    "score": 14,
+    "score_breakdown": {
+      "schema_hits": [
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "search console"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "search console"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: 90 days running 100% AI-generated content on a real SaaS. Public Searc",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on '90 days running 100% AI-generated content on a real SaaS. Public Search Console data and 5 things I didn't expect': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1tnbqhk/90_days_running_100_aigenerated_content_on_a_real/",
+    "sent_at": null
+  },
+  {
     "item_id": "cadade9af1936eed",
     "source": "Reddit r/SEO",
     "source_id": "reddit-seo",
@@ -440,7 +646,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1tmg2jh/google_data_how_people_are_using_ai_mode_in/",
     "summary": "Thank you u/aleydas who share this post in LinkedIn : 📊 Google just shared a new report on how people are using AI Mode in the US. 👇 Useful directional insights, yes. Complete market picture, no: The keyword data comes from sampled Google Trends data for AI Mode. With that in mind, a few patterns worth paying attention to: 🔎 Searches are longer and more conversational. The average AI Mode query is 3x the length of a traditional Search query. Keyword research now needs to be complemented with prompt, task, constraint and scenario research. 💬 Follow-up behavior matters. Follow-up queries grew 40%+ on average per month. Brand visibility can't be analyzed only at the first prompt anymore: a brand might be mentioned, dropped, compared, misrepresented or never cited across the journey. This means the unit of analysis is the journey, not the query. 🛍️ AI Mode is being used to decide, not only to discover. * Which\" queries grew 40% faster than AI Mode queries overall in the past six months. * The top retail attributes people look for: price, location, color, brand, availability, size, material, style, type, quality. This means Ecommerce AI Search optimization shouldn't be only about \"more product content\": it's accurate, complete, fresh and consistent product data across pages, structured data, feeds, variants, reviews and attributes. 📍 Local and availability intent is very visible. Follow-up store queries include \"near me\", \"in stock\", \"replacement parts\", \"car dealerships with financing\". AI systems need to understand location, inventory, services and constraints to satisfy these. 🧭 AI Mode is becoming a task layer, not only an answer layer. Planning queries grew 80% faster than AI Mode queries overall. The opportunity is to be included in plans, shortlists, comparisons and workflows, not only ranked for individual queries. 👀 My takeaway: Don't confuse Google's usage narrative with independent performance data. There's a behavioral shift and Google has every incentive to frame it favorably for its own ecosystem. For SEOs and marketers, the practical next step isn't to replace SEO fundamentals. It's to expand how we research, optimize and measure: ✅ From keywords to prompts, tasks and constraints ✅ From rankings to presence, citations and representation accuracy ✅ From single queries to follow-up journeys ✅ From content-only optimization to entity, product, local and feed-level readiness ✅ From observed traffic to a more nuanced view of visibility and influence AI Mode makes it increasingly risky to measure search visibility only through traditional rankings and clicks. /u/WebLinkr",
     "published_at": "2026-05-24T15:58:50+00:00",
-    "discovered_at": "2026-05-25T11:59:58+00:00",
+    "discovered_at": "2026-05-25T17:58:34+00:00",
     "stage": "hot",
     "score": 14,
     "score_breakdown": {
@@ -494,69 +700,6 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://www.reddit.com/r/SEO/comments/1tmg2jh/google_data_how_people_are_using_ai_mode_in/",
-    "sent_at": null
-  },
-  {
-    "item_id": "c5b9c189a853938c",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Send me a URL and I’ll find 3 technical SEO / AI visibility issues",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1tn6xsr/send_me_a_url_and_ill_find_3_technical_seo_ai/",
-    "summary": "I’m testing a small SEO audit workflow for SaaS and content-heavy sites. Not looking to pitch anything here. I’m mainly trying to see if the audit output is actually useful for technical SEO people. Drop a URL and I’ll reply with 3 things I would check or improve, for example: crawlability / indexability issues missing or weak internal linking page titles and intent mismatch thin pages or duplicate page patterns schema opportunities pages that could be created from existing search intent content gaps for Google and AI search visibility I’ll try to keep each reply practical and specific instead of generic “write more content” advice. If anyone wants to make it harder, send a page that already gets some traffic but is not ranking as well as expected. /u/Dizonans",
-    "published_at": "2026-05-25T11:55:48+00:00",
-    "discovered_at": "2026-05-25T11:59:58+00:00",
-    "stage": "hot",
-    "score": 12,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "missing"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "issue"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "issue",
-      "missing"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Send me a URL and I’ll find 3 technical SEO / AI visibility issues",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Send me a URL and I’ll find 3 technical SEO / AI visibility issues': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1tn6xsr/send_me_a_url_and_ill_find_3_technical_seo_ai/",
     "sent_at": null
   }
 ]
