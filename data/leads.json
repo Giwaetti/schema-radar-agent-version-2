@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-27T04:49:31+00:00",
+    "discovered_at": "2026-05-27T18:35:02+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -79,7 +79,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-27T04:49:31+00:00",
+    "discovered_at": "2026-05-27T18:35:02+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1thfwpt/need_help_with_language_indexation_issues/",
     "summary": "Hello SEO'ers of Reddit For my company [can disclose on request] we have a long standing SEO issue that you can hopefully help me fix. The situation sounds simple, the solution appears difficult. We are a Dutch company with 80% Dutch speaking clients We have an English brandname If people search our brandname, >50% of the time (last 7d) our English page (/en) hows in the results This should not happen because maximum of 10-20% of the searchers are non-Dutch language searchers. We need the Dutch version of the site to show up 80-90% of the times because now Dutch natives get an English website and dont convert as well. Thanks a lot in advance. To show you we tried, here is our backlog of actions we took. What have we tried (in chronological order): - Shortening URL's - Removed Country codes from hreflang - Updated privacy statement - Removed X-default - Moved hreflang to top in >head? - Hide default collections/all from search - FAQ fixexs - Added x-default to hreflang tags - Buyback PDP tag hide-from-search - Removed extra (last) trailing for hreflang (example: (can share on request) - Added extra (last) trailing for x-default ((href=can Share on request) - X-default dynamic for all URLs - Added /en/ to x-default for EN homepage - Country code NL added to nl hreflang ((href=\"can share on request) - Enabled \"Language - Displays the language that matches a visitor’s browser, when available\" - EN site: point FAQ footer url to EN FAQ version (instead of NL) - Enriched json u/Product data: product name, description, price_valid_untill, organization/sameAs, etc. /u/gitise",
     "published_at": "2026-05-19T07:51:21+00:00",
-    "discovered_at": "2026-05-27T04:49:31+00:00",
+    "discovered_at": "2026-05-27T18:35:02+00:00",
     "stage": "hot",
     "score": 20,
     "score_breakdown": {
@@ -218,6 +218,71 @@
     "sent_at": null
   },
   {
+    "item_id": "2e44f77164fff97b",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Google Merchant Center 'Product Page Unavailable'.",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1tp3se7/google_merchant_center_product_page_unavailable/",
+    "summary": "/u/Healthy-Inspection20",
+    "published_at": "2026-05-27T12:15:39+00:00",
+    "discovered_at": "2026-05-27T18:35:02+00:00",
+    "stage": "hot",
+    "score": 18,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "google merchant center",
+        "merchant center"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "google merchant center",
+        "merchant center"
+      ],
+      "ecom_search_hits": [
+        "google merchant center",
+        "merchant center"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "google merchant center",
+      "merchant center"
+    ],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Google Merchant Center 'Product Page Unavailable'.",
+    "message_draft": "This looks more like a feed-sync / product-data mismatch than a basic store setup issue.\n\nI’d check these first:\n- Confirm the feed source Google/Pinterest is reading is the same one the store is publishing.\n- Check for stale IDs, deleted variants, draft products, or cached feed data.\n- Compare the feed values against one live product URL end-to-end.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Google Merchant Center 'Product Page Unavailable'.': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1tp3se7/google_merchant_center_product_page_unavailable/",
+    "sent_at": null
+  },
+  {
     "item_id": "298b3aa5d3b956f9",
     "source": "Reddit r/woocommerce",
     "source_id": "reddit-woocommerce",
@@ -227,7 +292,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tlddt0/doubts_about_multilingual_woocommerce_setup/",
     "summary": "Hi, I’m about to build my first multilingual WooCommerce store. For translations, I usually rely on WPML or Bogo. Both create linked copies of posts for each language. Since WooCommerce stores product data like stock in post meta, I'm wondering how this is usually handled. For the same physical product/SKU, should stock be shared or synced across languages? I'd expect the stock quantity to stay current regardless of which language the customer buys from. What setup do you recommend for multilingual WooCommerce? /u/Admirable_Reality281",
     "published_at": "2026-05-23T11:01:00+00:00",
-    "discovered_at": "2026-05-27T04:49:31+00:00",
+    "discovered_at": "2026-05-27T18:35:02+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -289,30 +354,91 @@
     "sent_at": null
   },
   {
-    "item_id": "a2e5044c90f57884",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
+    "item_id": "63bd05776c720a4e",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "Post-Netlify migration SEO audit on a Next.js site. Here's what we actually found",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1tofrwn/postnetlify_migration_seo_audit_on_a_nextjs_site/",
-    "summary": "Rankings dropped after moving to Netlify. Wasn't sure if it was the migration or the May core update so we ran a full audit. Sharing because I've seen a few people asking about this lately. The crawl access stuff was fine. GPTBot, PerplexityBot, ClaudeBot all getting through, SSR confirmed, no content hiding behind client-only JS. That wasn't the problem. The actual gaps were smaller than expected. One nested service page had zero schema while every other page had FAQ and breadcrumb markup. Easy to miss on a sub-route. The llms.txt existed but had no author bio and was missing a whole service page. Took 20 minutes to fix. The harder problem is separating migration damage from core update volatility. The May update is still rolling and a lot of sites are seeing movement that has nothing to do with their setup. Before you start tearing apart your redirects, pull 90 days in GSC and compare impressions week over week. If you dropped on May 21 specifically, that's the update not your migration. Anyone else dealing with this right now? Curious what others are seeing post-update. /u/Smart-Good7540",
-    "published_at": "2026-05-26T18:31:32+00:00",
-    "discovered_at": "2026-05-27T04:49:31+00:00",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Organization schema not detected - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/organization-schema-not-detected/",
+    "summary": "You can validate your schema using the Schema .org validator (the body responsible for the Schema data standard) I've checked your site in the Schema Markup Validator, and it's generating the necessary schema \"WebPage\" type and \"Organization\" schema .",
+    "published_at": null,
+    "discovered_at": "2026-05-27T18:35:02+00:00",
     "stage": "hot",
-    "score": 12,
+    "score": 13,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Organization schema not detected - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Organization schema not detected - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/organization-schema-not-detected/",
+    "sent_at": null
+  },
+  {
+    "item_id": "ac486ffb3ca6b412",
+    "source": "Reddit r/Wordpress",
+    "source_id": "reddit-wordpress",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/Wordpress/.rss",
+    "title": "Help modifying my wordpress site",
+    "source_item_url": "https://www.reddit.com/r/Wordpress/comments/1tp1zlv/help_modifying_my_wordpress_site/",
+    "summary": "Hello everyone, I need help changing the language on my homepage and making it simpler and more marketing friendly for both parents and so I get found and cited on Ai. Also need new pages and schema for Ai scraping. I need someone proficient in Arabic and marketing also, if possible. Thanks /u/Forsaken-Shirt-8556",
+    "published_at": "2026-05-27T10:52:01+00:00",
+    "discovered_at": "2026-05-27T18:35:02+00:00",
+    "stage": "warm",
+    "score": 9,
     "score_breakdown": {
       "schema_hits": [],
       "strict_schema_hits": [
         "schema"
       ],
       "intent_hits": [
-        "fix",
-        "missing",
-        "problem",
-        "setup"
+        "need help"
       ],
-      "platform_hits": [],
+      "platform_hits": [
+        "wordpress"
+      ],
       "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
@@ -322,35 +448,34 @@
       "title_signal_hits": [],
       "schema_source": false,
       "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
+      "general_reddit_source": false,
+      "ecom_platform_source": true
     },
-    "platforms": [],
+    "platforms": [
+      "wordpress"
+    ],
     "issue_types": [],
     "intent_flags": [
-      "fix",
-      "missing",
-      "problem",
-      "setup"
+      "need help"
     ],
     "business_name": null,
     "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
     "audit": {
       "business_site": null,
       "schema_present": null,
       "notes": ""
     },
     "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: Post-Netlify migration SEO audit on a Next.js site. Here's what we act",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on 'Post-Netlify migration SEO audit on a Next.js site. Here's what we actually found': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: Help modifying my wordpress site",
+    "message_draft": "This usually comes down to the live output on the page not matching what the plugin/editor looks like it is generating.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'Help modifying my wordpress site': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1tofrwn/postnetlify_migration_seo_audit_on_a_nextjs_site/",
+    "contact_target": "https://www.reddit.com/r/Wordpress/comments/1tp1zlv/help_modifying_my_wordpress_site/",
     "sent_at": null
   }
 ]
