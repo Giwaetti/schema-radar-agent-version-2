@@ -1,78 +1,5 @@
 [
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-05-28T11:50:36+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -82,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-05-28T11:50:36+00:00",
+    "discovered_at": "2026-05-28T18:43:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -152,7 +79,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-05-28T11:50:36+00:00",
+    "discovered_at": "2026-05-28T18:43:17+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -219,6 +146,70 @@
     "sent_at": null
   },
   {
+    "item_id": "26bf84d31606e75d",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Schema-markup on the author's page - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
+    "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
+    "published_at": null,
+    "discovered_at": "2026-05-28T18:43:17+00:00",
+    "stage": "hot",
+    "score": 19,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup",
+        "structured data"
+      ],
+      "intent_hits": [],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Schema-markup on the author's page - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Schema-markup on the author's page - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
+    "sent_at": null
+  },
+  {
     "item_id": "2e44f77164fff97b",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -228,7 +219,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1tp3se7/google_merchant_center_product_page_unavailable/",
     "summary": "/u/Healthy-Inspection20",
     "published_at": "2026-05-27T12:15:39+00:00",
-    "discovered_at": "2026-05-28T11:50:36+00:00",
+    "discovered_at": "2026-05-28T18:43:17+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -293,7 +284,7 @@
     "source_item_url": "https://www.reddit.com/r/woocommerce/comments/1tlddt0/doubts_about_multilingual_woocommerce_setup/",
     "summary": "Hi, I’m about to build my first multilingual WooCommerce store. For translations, I usually rely on WPML or Bogo. Both create linked copies of posts for each language. Since WooCommerce stores product data like stock in post meta, I'm wondering how this is usually handled. For the same physical product/SKU, should stock be shared or synced across languages? I'd expect the stock quantity to stay current regardless of which language the customer buys from. What setup do you recommend for multilingual WooCommerce? /u/Admirable_Reality281",
     "published_at": "2026-05-23T11:01:00+00:00",
-    "discovered_at": "2026-05-28T11:50:36+00:00",
+    "discovered_at": "2026-05-28T18:43:17+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -364,7 +355,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1tpfthb/site_name_issue_in_google_search/",
     "summary": "Here’s a Reddit-safe version that sounds genuine and should get useful replies. Title Options Option 1: Google Search is showing my domain name instead of brand name, even though OG tags and schema are correct Option 2: Site name issue in Google Search: showing “gemius.co” instead of “Gemius” Option 3: Why is Google showing my domain as site name despite correct Rank Math, OG tags, and WebSite schema? Reddit Post Message Hi everyone, I am facing an issue with the site name shown in Google Search results. My website is: https://gemius.co/ In Google Search, the site name is showing as gemius.co , but I want it to show only Gemius . I have already checked and updated the following: og:site_name is set to Gemius og:title is set to Gemius Twitter title is also GemiusThe Rank Math website name is set to Gemius Rank Math person/organisation name is set to Gemius Organisation type is selected Website schema is present on the homepage Website schema includes: \"@type\": \"WebSite\" \"url\": \"https://gemius.co\" \"name\": \"Gemius\" I also checked the schema using Schema.org Validator, and it looks correct from my side. Still, Google Search is displaying the site name as gemius.co instead of Gemius . Has anyone faced this issue before? Is this just a waiting/crawling issue, or is there any other signal I should check, like homepage headings, logo alt text, organisation schema, Search Console settings, or canonical/domain settings? Any practical suggestions would be really helpful. Thanks in advance. /u/brijeshseo",
     "published_at": "2026-05-27T19:24:16+00:00",
-    "discovered_at": "2026-05-28T11:50:36+00:00",
+    "discovered_at": "2026-05-28T18:43:17+00:00",
     "stage": "hot",
     "score": 14,
     "score_breakdown": {
@@ -423,16 +414,78 @@
     "sent_at": null
   },
   {
-    "item_id": "4558770449d110f6",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
+    "item_id": "63bd05776c720a4e",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "How we’re approaching AEO/GEO for SaaS in 2026, curious what others are doing",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1tpz9n8/how_were_approaching_aeogeo_for_saas_in_2026/",
-    "summary": "Not just “how do we rank on Google,” but how brands actually show up inside ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews when buyers ask category-level or comparison-style questions. The tricky part is that a lot of teams are still treating this like normal SEO. Publish more blogs. Add schema. Track mentions. Hope AI picks it up. That feels incomplete. At RevvGrowth, the way we’ve been thinking about AEO/GEO is more like this: 1. AI visibility audit First, we check how AI tools currently understand the brand. Not just whether the company gets mentioned, but: what category AI puts it in which competitors it compares it with what use cases it associates with the product whether the positioning is accurate whether outdated or wrong sources are shaping the answer This part is underrated. If AI misunderstands the company, publishing more content just reinforces the wrong narrative. 2. Prompt and intent mapping Then we map the prompts buyers are likely asking. Things like: “best tools for X” “alternatives to Y” “X vs Y” “how to solve [problem]” “best SaaS for [industry/use case]” “what should I use for [workflow]” This usually exposes gaps between what the company wants to be known for and what AI engines are actually citing. 3. Source influence mapping We look at where AI answers seem to be pulling from. Usually it’s not just the brand’s website. It’s review sites, listicles, Reddit threads, comparison pages, partner pages, YouTube, LinkedIn, docs, and third-party mentions. This is where AEO/GEO starts looking less like classic SEO and more like reputation + distribution + entity building. 4. Content fixes After that, we clean up the source material. That can mean rewriting: homepage positioning product pages comparison pages integration pages use case pages FAQs docs “best X” style pages glossary/category pages The goal is to make the brand easier for AI systems to understand, summarize, and cite. 5. Third-party visibility This is the part a lot of teams skip. If all your proof only exists on your own website, AI engines may not trust it enough. So we also look at external mentions: review platforms, relevant directories, founder interviews, community discussions, partner content, guest insights, Reddit/Quora conversations, and niche publications. Not spammy link-building. More like making sure the brand exists in the places AI systems already seem to reference. 6. Measurement For tools, we’ve tested/used a mix of things depending on the client stage: Profound / Peec / Otterly-style tools for AI mention tracking Semrush and Ahrefs for traditional SEO + brand visibility GSC and GA4 for traffic and conversion impact manual prompt testing across ChatGPT, Perplexity, Gemini, Claude spreadsheets for prompt clusters and citation tracking Reddit, G2, Capterra, YouTube, LinkedIn, and niche SERPs for source research The main KPIs we care about are: brand mentions in AI answers accuracy of AI-generated descriptions inclusion in category/comparison prompts cited sources referral traffic from AI/search surfaces organic demos/trials/signups branded search lift pipeline influenced by organic/AI visibility My current take: AEO/GEO is not just “SEO with AI keywords.” It’s closer to making sure AI systems understand your company correctly, trust the right sources, and repeatedly associate you with the right category/use case. Curious how others are approaching this. Are you using dedicated AEO tools yet, or mostly doing manual prompt testing + SEO workflows? And has anyone seen AI visibility actually turn into demos/trials, not just mentions? /u/SecureSky7415",
-    "published_at": "2026-05-28T10:10:58+00:00",
-    "discovered_at": "2026-05-28T11:50:36+00:00",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Organization schema not detected - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/organization-schema-not-detected/",
+    "summary": "You can validate your schema using the Schema .org validator (the body responsible for the Schema data standard) I've checked your site in the Schema Markup Validator, and it's generating the necessary schema \"WebPage\" type and \"Organization\" schema .",
+    "published_at": null,
+    "discovered_at": "2026-05-28T18:43:17+00:00",
+    "stage": "hot",
+    "score": 13,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Organization schema not detected - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Organization schema not detected - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/organization-schema-not-detected/",
+    "sent_at": null
+  },
+  {
+    "item_id": "f2afd123629cd96f",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Law Firm Schema",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1tq2oke/law_firm_schema/",
+    "summary": "Hi folks. I am going to implement schemas for these pages like this. How do you like this approach? Please tell me if you see any mistakes or issues and how you would do it. Homepage - LegalService , WebSite , WebPage Areas We Serve (index page) - LegalService , WebPage , BreadcrumbList Individual Location Pages - LegalService , WebPage , BreadcrumbList Service Pages (Personal Injury, Sexual Abuse, etc.) - Service , WebPage , BreadcrumbList Attorney / Personal Profile Pages - Person , WebPage , BreadcrumbList Contact Page - LegalService , WebPage /u/ZurabBatoni",
+    "published_at": "2026-05-28T12:51:08+00:00",
+    "discovered_at": "2026-05-28T18:43:17+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -441,8 +494,8 @@
         "schema"
       ],
       "intent_hits": [
-        "fix",
-        "problem"
+        "implement",
+        "issue"
       ],
       "platform_hits": [],
       "issue_hits": [],
@@ -460,27 +513,27 @@
     "platforms": [],
     "issue_types": [],
     "intent_flags": [
-      "fix",
-      "problem"
+      "implement",
+      "issue"
     ],
     "business_name": null,
     "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
     "audit": {
       "business_site": null,
       "schema_present": null,
       "notes": ""
     },
     "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: How we’re approaching AEO/GEO for SaaS in 2026, curious what others ar",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on 'How we’re approaching AEO/GEO for SaaS in 2026, curious what others are doing': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: Law Firm Schema",
+    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'Law Firm Schema': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1tpz9n8/how_were_approaching_aeogeo_for_saas_in_2026/",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1tq2oke/law_firm_schema/",
     "sent_at": null
   },
   {
@@ -493,7 +546,7 @@
     "source_item_url": "https://www.reddit.com/r/shopify/comments/1tpsi7p/google_just_deprecated_faqpage_schema/",
     "summary": "Google just deprecated FAQPage schema - https://developers.google.com/.../structured-data/faqpage Adding FAQ's is probably still important but If any SEO experts tell you adding schema will help you rank on AI search engines -- it's not true! /u/focusedmonksj",
     "published_at": "2026-05-28T04:04:03+00:00",
-    "discovered_at": "2026-05-28T11:50:36+00:00",
+    "discovered_at": "2026-05-28T18:43:17+00:00",
     "stage": "warm",
     "score": 8,
     "score_breakdown": {
