@@ -1,37 +1,39 @@
 {
-  "generated_at": "2026-05-27T18:35:02+00:00",
-  "total": 7,
+  "generated_at": "2026-05-28T04:40:53+00:00",
+  "total": 12,
   "by_stage": {
-    "hot": 6,
-    "warm": 1
+    "hot": 10,
+    "warm": 2
   },
   "by_offer": {
-    "Done-for-you / service": 4,
-    "AI Generator": 2,
-    "AI Visibility Kit": 1
+    "Done-for-you / service": 9,
+    "AI Generator": 1,
+    "AI Visibility Kit": 2
   },
   "by_source": {
-    "Search WordPress Support": 3,
-    "Reddit r/TechSEO": 2,
+    "Search WordPress Support": 7,
+    "Reddit r/TechSEO": 1,
     "Reddit r/woocommerce": 1,
-    "Reddit r/Wordpress": 1
+    "Reddit r/SEO": 1,
+    "Reddit r/Wordpress": 1,
+    "Reddit r/shopify": 1
   },
   "by_status": {
-    "ready": 7
+    "ready": 12
   },
   "diagnostics": {
     "source_raw_count": 133,
     "search_raw_count": 10,
-    "source_scored_count": 4,
-    "search_scored_count": 3,
-    "stale_search_dropped_count": 7,
-    "final_lead_count": 7,
+    "source_scored_count": 5,
+    "search_scored_count": 7,
+    "stale_search_dropped_count": 3,
+    "final_lead_count": 12,
     "search_queries": [
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic faq schema problem",
-        "result_count": 5,
-        "error": ""
+        "result_count": 0,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
       },
       {
         "group": "wordpress",
@@ -42,7 +44,7 @@
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic structured data error",
-        "result_count": 0,
+        "result_count": 5,
         "error": ""
       },
       {
