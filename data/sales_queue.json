@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-06-09T18:21:15+00:00",
+    "discovered_at": "2026-06-10T04:49:08+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-06-09T18:21:15+00:00",
+    "discovered_at": "2026-06-10T04:49:08+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -152,7 +152,7 @@
     "source_item_url": "https://www.reddit.com/r/shopify/comments/1u12bnk/why_doesnt_shopify_sync_with_gmc_properly/",
     "summary": "* Note\\ Please don’t fill my dm with your offers I am not looking to hire anyone* I’ve spent a huge amount of time writing detailed product descriptions and adding all the required information to my product pages, yet Shopify often doesn’t sync everything properly with Google Merchant Center. Every few days, new issues appear because product descriptions, product details, or images either haven’t synced at all or have only synced partially. At this point, I find myself manually updating and correcting data in Google Merchant Center over and over again. As my store continues to grow and I add more products, this is becoming increasingly difficult to manage. It feels like every time I fix one issue, a new error appears. Why does this happen, and is there a way to stop Shopify and Google Merchant Center from constantly falling out of sync? /u/Confusedmind75",
     "published_at": "2026-06-09T11:30:13+00:00",
-    "discovered_at": "2026-06-09T18:21:15+00:00",
+    "discovered_at": "2026-06-10T04:49:08+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -229,7 +229,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-06-09T18:21:15+00:00",
+    "discovered_at": "2026-06-10T04:49:08+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -296,31 +296,33 @@
     "sent_at": null
   },
   {
-    "item_id": "12ea8cef9dd6f248",
+    "item_id": "25eabd8743cb4af9",
     "source": "Reddit r/SEO",
     "source_id": "reddit-seo",
     "source_type": "forum",
     "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "Website using 'AggregateRating' schema to display review count from external review site",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1u0t3sq/website_using_aggregaterating_schema_to_display/",
-    "summary": "Hi r/seo , I found this on a few comparison/alternative landing pages on a site I'm looking at. They're using SoftwareApplication schema with an aggregateRating block (ratingValue around 96, bestRating 100, ratingCount 417), and the sameAs points at the product's profile on an external review platform. The score and count are clearly that platform's numbers. There are no actual reviews on the page itself, just testimonials and badge images. Does this break Google’s guidelines? I looked it up and pretty sure it does, but wanted to check. Google’s guidelines say: \"don't aggregate reviews or ratings from other websites\" and \"if you use AggregateRating, users should be able to see that aggregate rating on the page.\" It is only on three pages, not site-wide. Stars are currently showing in the SERP. If it has been live a while with no problem, is there any downside to just removing the aggregateRating block now? Mainly want to confirm removing it cannot cause a ranking drop. /u/Lonely_Possession353",
-    "published_at": "2026-06-09T03:02:25+00:00",
-    "discovered_at": "2026-06-09T18:21:15+00:00",
+    "title": "Question about AI visibility for local psychotherapy business",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1u1h69l/question_about_ai_visibility_for_local/",
+    "summary": "Hi, everyone, I’m an SEO newbie, and I have a few questions regarding AI visibility. For context, I am a psychotherapist with one business location. An “AI visibility consultant” cold emailed me today. I realize he is just looking for business and may not be truthful – that’s why I’m here (insert Kenobi gif). He told me that: About 1,475 people are searching for \"EMDR Therapy Broomfield CO” every month through ChatGPT, Gemini, etc. A competing therapist comes up about 71% of the time, while I only show up 6%. That it’s easy to influence AI answers now as it’s still early in the game. My questions: Somehow, I highly doubt that 1,475 people are searching for EMDR therapy through AI every month in my town (especially since KWFinder shows 0 monthly searches on Google). Is there a way to check that number? Is there a way for me to verify/check the percentage of AI searches my business is capturing without paying a ton? This competitor’s website is not the best in terms of design, but it’s very focused on one thing (EMDR therapy in Broomfield, CO) and seems well-optimized SEO-wise for that keyword. Mine offers EMDR as one of 6 specialties, and I think that’s why it’s not showing up in AI – I don’t look like I have authority on that specific topic? Is this in the ballpark of being correct? I thought my website was well-optimized for SEO and AEO (as much as can be done now), for example, I have LocalBusiness schema, product schema on my specialty pages, FAQs on the home and specialty pages, Google maps embedded, etc. I only added all that within the last few months – is it still too early to tell if it’s having an effect? Should I just wait and be patient? Is this consultant correct about AI answers being easy to influence? It seems like I have done a ton of work around AI visibility while the competitor has not, yet he shows up more than me (if this consultant is to be believed). I'll be happy to provide mine and his website if that's allowed. Really grateful for any advice – you guys are the best, and I learn a ton from this community! /u/nomnombacon",
+    "published_at": "2026-06-09T20:41:03+00:00",
+    "discovered_at": "2026-06-10T04:49:08+00:00",
     "stage": "hot",
-    "score": 14,
+    "score": 18,
     "score_breakdown": {
       "schema_hits": [
-        "aggregate rating"
+        "product schema"
       ],
       "strict_schema_hits": [
-        "aggregate rating",
+        "product schema",
         "schema"
       ],
       "intent_hits": [
-        "problem"
+        "not showing"
       ],
       "platform_hits": [],
-      "issue_hits": [],
+      "issue_hits": [
+        "product schema"
+      ],
       "visibility_hits": [],
       "ecom_search_hits": [],
       "negative_hits": [],
@@ -333,9 +335,11 @@
       "ecom_platform_source": false
     },
     "platforms": [],
-    "issue_types": [],
+    "issue_types": [
+      "product schema"
+    ],
     "intent_flags": [
-      "problem"
+      "not showing"
     ],
     "business_name": null,
     "business_site": null,
@@ -349,12 +353,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Website using 'AggregateRating' schema to display review count from ex",
+    "subject_draft": "Direct schema help for: Question about AI visibility for local psychotherapy business",
     "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Website using 'AggregateRating' schema to display review count from external review site': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "follow_up_draft": "Quick follow-up on 'Question about AI visibility for local psychotherapy business': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1u0t3sq/website_using_aggregaterating_schema_to_display/",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1u1h69l/question_about_ai_visibility_for_local/",
     "sent_at": null
   },
   {
@@ -367,7 +371,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1tz78jt/need_help_please_gsc_shows_indexed_but_not/",
     "summary": "I noticed no clicks and views for the last few days and thought maybe it was just a bug or something. My website kaizendubai.com has been online for years and was ranking fine, not really amazing, but steady. I was hoping it to be just an info website and lately updated the whole thing. That is when I noticed someone had injected a bunch of spam adult content pages into my domain (the /video/ directory). I had no idea until I spotted weird URLs in Search Console. I cleaned everything up, removed the files, blocked the URLs, set them to 410 Gone, fixed the schema, resubmitted the sitemap. Google has not flagged me for a manual action or security issue. Everything shows green in GSC. But now I am basically invisible. My own company name does not pull up my website on page 1. LinkedIn, Indeed, some random directories, they all rank above me for \"kaizen star technologies.\" I had to go 5 pages deep just to confirm I am not even there. So I am sitting here with a clean site, no penalties, sitemap submitted, schema fixed and still nothing. Has anyone been through something similar after a hack? How long did recovery actually take? I also found a duplicate Google Business Profile under a different account, same company name but an India address, flagged as Duplicate and unverified. Could that be making things worse for brand rankings? I am not an expert in this area, just someone learning along the way. Any insight from people who have dealt with this before would really help. https://preview.redd.it/97h5gln2vt5h1.png?width=1220&format=png&auto=webp&s=12509a36313593fc8d5b9bbbc6b069cfdd0e6668 https://preview.redd.it/tu7nzz73vt5h1.png?width=1515&format=png&auto=webp&s=24b7f39da8b4d96ff7acde02f80d9ba06f702cf3 /u/johanthetechie",
     "published_at": "2026-06-07T09:13:42+00:00",
-    "discovered_at": "2026-06-09T18:21:15+00:00",
+    "discovered_at": "2026-06-10T04:49:08+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
