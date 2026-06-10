@@ -1,60 +1,56 @@
 [
   {
-    "item_id": "814c2a24cc6e8d24",
-    "source": "Reddit r/shopify",
-    "source_id": "reddit-shopify",
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/shopify/.rss",
-    "title": "Why doesn’t shopify sync with GMC properly?",
-    "source_item_url": "https://www.reddit.com/r/shopify/comments/1u12bnk/why_doesnt_shopify_sync_with_gmc_properly/",
-    "summary": "* Note\\ Please don’t fill my dm with your offers I am not looking to hire anyone* I’ve spent a huge amount of time writing detailed product descriptions and adding all the required information to my product pages, yet Shopify often doesn’t sync everything properly with Google Merchant Center. Every few days, new issues appear because product descriptions, product details, or images either haven’t synced at all or have only synced partially. At this point, I find myself manually updating and correcting data in Google Merchant Center over and over again. As my store continues to grow and I add more products, this is becoming increasingly difficult to manage. It feels like every time I fix one issue, a new error appears. Why does this happen, and is there a way to stop Shopify and Google Merchant Center from constantly falling out of sync? /u/Confusedmind75",
-    "published_at": "2026-06-09T11:30:13+00:00",
-    "discovered_at": "2026-06-10T11:47:56+00:00",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
+    "published_at": null,
+    "discovered_at": "2026-06-10T18:42:18+00:00",
     "stage": "hot",
-    "score": 26,
+    "score": 30,
     "score_breakdown": {
-      "schema_hits": [],
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
       "strict_schema_hits": [
-        "google merchant center",
-        "merchant center"
+        "faq schema",
+        "json-ld",
+        "schema"
       ],
       "intent_hits": [
-        "error",
-        "fix",
-        "issue"
+        "issue",
+        "problem"
       ],
-      "platform_hits": [
-        "shopify"
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
       ],
-      "issue_hits": [],
-      "visibility_hits": [
-        "google merchant center",
-        "merchant center"
-      ],
-      "ecom_search_hits": [
-        "google merchant center",
-        "merchant center"
-      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
       "general_reddit_source": false,
-      "ecom_platform_source": true
+      "ecom_platform_source": false
     },
-    "platforms": [
-      "shopify"
-    ],
+    "platforms": [],
     "issue_types": [
-      "google merchant center",
-      "merchant center"
+      "faq schema"
     ],
     "intent_flags": [
-      "error",
-      "fix",
-      "issue"
+      "issue",
+      "problem"
     ],
     "business_name": null,
     "business_site": null,
@@ -68,12 +64,227 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Why doesn’t shopify sync with GMC properly?",
-    "message_draft": "This looks more like a feed-sync / product-data mismatch than a basic store setup issue.\n\nI’d check these first:\n- Confirm the feed source Google/Pinterest is reading is the same one the store is publishing.\n- Check for stale IDs, deleted variants, draft products, or cached feed data.\n- Compare the feed values against one live product URL end-to-end.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Why doesn’t shopify sync with GMC properly?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/shopify/comments/1u12bnk/why_doesnt_shopify_sync_with_gmc_properly/",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
+    "item_id": "f9d88b5c66a6d90b",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Structured Data Issue: Price Range in Schema Markup Not Accepted by ...",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
+    "published_at": null,
+    "discovered_at": "2026-06-10T18:42:18+00:00",
+    "stage": "hot",
+    "score": 26,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup",
+        "structured data"
+      ],
+      "intent_hits": [
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "schema markup",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Issue: Price Range in Schema Markup Not Accepted by ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "sent_at": null
+  },
+  {
+    "item_id": "ed1458b922432690",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Elementor FAQPage Schema Bug - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
+    "published_at": null,
+    "discovered_at": "2026-06-10T18:42:18+00:00",
+    "stage": "hot",
+    "score": 25,
+    "score_breakdown": {
+      "schema_hits": [
+        "json-ld",
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "json-ld",
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "missing",
+        "search console",
+        "support"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "missing",
+      "search console",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Elementor FAQPage Schema Bug - WordPress.org",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Elementor FAQPage Schema Bug - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "sent_at": null
+  },
+  {
+    "item_id": "d214198645e6c277",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
+    "published_at": null,
+    "discovered_at": "2026-06-10T18:42:18+00:00",
+    "stage": "hot",
+    "score": 22,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'LD Json Schema syntax Error causing issues on website': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "sent_at": null
   },
   {
@@ -86,7 +297,7 @@
     "source_item_url": "https://www.reddit.com/r/SEO/comments/1u1h69l/question_about_ai_visibility_for_local/",
     "summary": "Hi, everyone, I’m an SEO newbie, and I have a few questions regarding AI visibility. For context, I am a psychotherapist with one business location. An “AI visibility consultant” cold emailed me today. I realize he is just looking for business and may not be truthful – that’s why I’m here (insert Kenobi gif). He told me that: About 1,475 people are searching for \"EMDR Therapy Broomfield CO” every month through ChatGPT, Gemini, etc. A competing therapist comes up about 71% of the time, while I only show up 6%. That it’s easy to influence AI answers now as it’s still early in the game. My questions: Somehow, I highly doubt that 1,475 people are searching for EMDR therapy through AI every month in my town (especially since KWFinder shows 0 monthly searches on Google). Is there a way to check that number? Is there a way for me to verify/check the percentage of AI searches my business is capturing without paying a ton? This competitor’s website is not the best in terms of design, but it’s very focused on one thing (EMDR therapy in Broomfield, CO) and seems well-optimized SEO-wise for that keyword. Mine offers EMDR as one of 6 specialties, and I think that’s why it’s not showing up in AI – I don’t look like I have authority on that specific topic? Is this in the ballpark of being correct? I thought my website was well-optimized for SEO and AEO (as much as can be done now), for example, I have LocalBusiness schema, product schema on my specialty pages, FAQs on the home and specialty pages, Google maps embedded, etc. I only added all that within the last few months – is it still too early to tell if it’s having an effect? Should I just wait and be patient? Is this consultant correct about AI answers being easy to influence? It seems like I have done a ton of work around AI visibility while the competitor has not, yet he shows up more than me (if this consultant is to be believed). I'll be happy to provide mine and his website if that's allowed. Really grateful for any advice – you guys are the best, and I learn a ton from this community! /u/nomnombacon",
     "published_at": "2026-06-09T20:41:03+00:00",
-    "discovered_at": "2026-06-10T11:47:56+00:00",
+    "discovered_at": "2026-06-10T18:42:18+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -143,6 +354,70 @@
     "sent_at": null
   },
   {
+    "item_id": "1b83130048cdefcb",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "After the May 2026 Core Update + AI Mode, which structured data types are actually still worth implementing?",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u26vk0/after_the_may_2026_core_update_ai_mode_which/",
+    "summary": "/u/AshishSinghK2",
+    "published_at": "2026-06-10T16:18:30+00:00",
+    "discovered_at": "2026-06-10T18:42:18+00:00",
+    "stage": "hot",
+    "score": 15,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "implement"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "implement",
+        "structured data"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "implement"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: After the May 2026 Core Update + AI Mode, which structured data types ",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'After the May 2026 Core Update + AI Mode, which structured data types are actually still worth implementing?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1u26vk0/after_the_may_2026_core_update_ai_mode_which/",
+    "sent_at": null
+  },
+  {
     "item_id": "4eba0c3ea433bd68",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -152,7 +427,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u1tufs/6_months_into_ecommerce_seo_for_niche/",
     "summary": "I've been working on an e-commerce site selling niche, culturally specific products for about 6 months. The categories have low competition but I still can't get visibility on Google or in LLM-driven results. Here's what's already in place: Product, ProductListingPage, WebPage, FAQ, and BreadcrumbList schema on all relevant pages Category page titles, descriptions, and meta details are all optimized What I can't figure out is whether the problem is authority (young-ish domain, thin backlink profile), demand (these keywords might just have very low search volume globally), or something structural I'm overlooking. For those who've done SEO on genuinely niche or culturally specific product categories, what actually moved the needle for you? Is this a content/topical authority problem, a link problem, or just a patience problem? /u/Numerous_Evening_255",
     "published_at": "2026-06-10T06:11:58+00:00",
-    "discovered_at": "2026-06-10T11:47:56+00:00",
+    "discovered_at": "2026-06-10T18:42:18+00:00",
     "stage": "hot",
     "score": 13,
     "score_breakdown": {
@@ -215,7 +490,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1tz78jt/need_help_please_gsc_shows_indexed_but_not/",
     "summary": "I noticed no clicks and views for the last few days and thought maybe it was just a bug or something. My website kaizendubai.com has been online for years and was ranking fine, not really amazing, but steady. I was hoping it to be just an info website and lately updated the whole thing. That is when I noticed someone had injected a bunch of spam adult content pages into my domain (the /video/ directory). I had no idea until I spotted weird URLs in Search Console. I cleaned everything up, removed the files, blocked the URLs, set them to 410 Gone, fixed the schema, resubmitted the sitemap. Google has not flagged me for a manual action or security issue. Everything shows green in GSC. But now I am basically invisible. My own company name does not pull up my website on page 1. LinkedIn, Indeed, some random directories, they all rank above me for \"kaizen star technologies.\" I had to go 5 pages deep just to confirm I am not even there. So I am sitting here with a clean site, no penalties, sitemap submitted, schema fixed and still nothing. Has anyone been through something similar after a hack? How long did recovery actually take? I also found a duplicate Google Business Profile under a different account, same company name but an India address, flagged as Duplicate and unverified. Could that be making things worse for brand rankings? I am not an expert in this area, just someone learning along the way. Any insight from people who have dealt with this before would really help. https://preview.redd.it/97h5gln2vt5h1.png?width=1220&format=png&auto=webp&s=12509a36313593fc8d5b9bbbc6b069cfdd0e6668 https://preview.redd.it/tu7nzz73vt5h1.png?width=1515&format=png&auto=webp&s=24b7f39da8b4d96ff7acde02f80d9ba06f702cf3 /u/johanthetechie",
     "published_at": "2026-06-07T09:13:42+00:00",
-    "discovered_at": "2026-06-10T11:47:56+00:00",
+    "discovered_at": "2026-06-10T18:42:18+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -272,6 +547,74 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://www.reddit.com/r/TechSEO/comments/1tz78jt/need_help_please_gsc_shows_indexed_but_not/",
+    "sent_at": null
+  },
+  {
+    "item_id": "0c2d33578a804f9e",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Two pages stuck as \"Unknown to Google\" / \"Discovered - not indexed\" for 6+ weeks while all other pages indexed fine (Next.js / Vercel)",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u28s69/two_pages_stuck_as_unknown_to_google_discovered/",
+    "summary": "Two specific landing pages on my site refuse to get indexed. All other pages with identical structure, same internal linking, same sitemap config indexed normally within 2-3 weeks. Site context: Next.js on Vercel. Domain registered years ago but repurposed as a product site ~2 months ago. Content started going live mid-April. Low DA. Timeline: Apr 12: Homepage deployed Apr 12 - Apr 26: All landing pages deployed within 2 weeks, including /explainer-video and /url-to-video — same period as all other pages Within 2-3 weeks: /kinetic-typography, /logo-animation, /after-effects-alternative, /church-motion-graphics, /graphical-abstract all indexed. /explainer-video and /url-to-video never indexed despite going live in the same window Late May: Added 4 language variants (es, fr, jp, pt) per page Now: /jp/explainer-video got indexed, but EN version still not Current GSC status (URL Inspection API): Indexed normally: /kinetic-typography — indexed, crawled May 26 /logo-animation — indexed, crawled May 29 /after-effects-alternative — indexed, crawled Jun 3 /church-motion-graphics — indexed, crawled May 8 /graphical-abstract — indexed, crawled May 29 Problem page 1 — /explainer-video: /explainer-video (EN) — \"URL is unknown to Google\", never crawled /jp/explainer-video — indexed (!) /es, /fr — \"Discovered - not indexed\", never crawled /pt — \"URL is unknown to Google\" Problem page 2 — /url-to-video: ALL 5 language variants — \"Discovered - not indexed\", never crawled What I've verified (all correct on both problem pages): HTTP 200, no redirects No noindex, no robots.txt block Correct self-referencing canonical In sitemap.xml Has hreflang link tags in HTML head (en, es, ja, fr, pt, x-default) Internal links from homepage and multiple other indexed pages Full server-rendered HTML (H1, meta description, paragraphs, structured data, OG tags) Content is unique — not similar to any other page on the site Request Indexing submitted many times over 6+ weeks, no effect Note: GSC status for these pages fluctuates between \"URL is unknown to Google\" and \"Discovered - currently not indexed\" across different checks. Same URL shows different statuses when re-inspected days apart. Neither status has ever progressed to \"Crawled\" or \"Indexed.\" Additional info: Bing indexed both pages immediately, no issues GSC shows no manual actions, no security issues All pages share the same Next.js layout, same component structure, same deployment pipeline What could cause Google to selectively refuse to crawl 2 specific pages while indexing all others on the same site with identical technical setup? /u/zcding",
+    "published_at": "2026-06-10T17:25:00+00:00",
+    "discovered_at": "2026-06-10T18:42:18+00:00",
+    "stage": "warm",
+    "score": 10,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "issue",
+        "problem",
+        "setup"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [
+        "canonical",
+        "sitemap"
+      ],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "problem",
+      "setup"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: Two pages stuck as \"Unknown to Google\" / \"Discovered - not indexed\" fo",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'Two pages stuck as \"Unknown to Google\" / \"Discovered - not indexed\" for 6+ weeks while all other pages indexed fine (Next.js / Vercel)': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1u28s69/two_pages_stuck_as_unknown_to_google_discovered/",
     "sent_at": null
   }
 ]
