@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-06-20T04:40:52+00:00",
+    "discovered_at": "2026-06-20T10:40:56+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-06-20T04:40:52+00:00",
+    "discovered_at": "2026-06-20T10:40:56+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -152,7 +152,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-06-20T04:40:52+00:00",
+    "discovered_at": "2026-06-20T10:40:56+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -228,7 +228,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
     "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
     "published_at": null,
-    "discovered_at": "2026-06-20T04:40:52+00:00",
+    "discovered_at": "2026-06-20T10:40:56+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -292,7 +292,7 @@
     "source_item_url": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-06-20T04:40:52+00:00",
+    "discovered_at": "2026-06-20T10:40:56+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -356,7 +356,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u8nthp/cant_figure_out_how_to_change_site_name_in_google/",
     "summary": "I've been trying to figure out how to change my site name in google search results from just the domain name ( uniscope.ca ), to Uniscope. My website is made with NextJS and is hosted on Vercel but I'm not sure if that is relevant. Based on the results from Schema.org it looks like it should be displaying correctly. https://preview.redd.it/5v6lfu5bzw7h1.png?width=1354&format=png&auto=webp&s=cb3c1587dab505f8b552536d64f95bac53457870 I can't seem to figure out what isn't working. If anyone has any trouble shooting tips please let me know. /u/BreadBeginning4086",
     "published_at": "2026-06-17T21:51:54+00:00",
-    "discovered_at": "2026-06-20T04:40:52+00:00",
+    "discovered_at": "2026-06-20T10:40:56+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -414,7 +414,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u83p4a/googles_new_open_knowledge_format_okf_is_built/",
     "summary": "Google Cloud published OKF (Open Knowledge Format) v0.1 in June. Worth being clear about what it actually is, because the SEO crowd is already reframing it. What Google shipped: an open, vendor-neutral spec for packaging knowledge as a folder of markdown files with YAML frontmatter, so AI agents can consume it. Their examples are internal/enterprise stuff: database schemas, metric definitions, API docs, runbooks. It ships inside Google Cloud's Knowledge Catalog. The pitch is the \"context-assembly\" problem for agents, not search rankings. The structure itself is generic: One markdown file per \"thing\" (for a site, one per page) Frontmatter on each file: type, title, description, a resource URL, tags An index.md listing every file so an agent sees what is there and how it connects Because it is just markdown + frontmatter + an index, people have started applying it to public websites: one file per page, hosted at yoursite.com/okf/ , so public AI agents can read your content without scraping. That part is community interpretation, not Google's stated use case. I'm thinking: using an enterprise knowledge format for public-site AEO is speculative. It is v0.1, adoption is early, and I have seen no evidence it moves AI visibility yet. It is cheap to add and it is plain markdown with no lock-in, so I am treating it as an early experiment, not a ranking play. Feels a lot like the llms.txt debate. Disclosure: I work on an AI chatbot tool and we put up a free generator that builds the website-style bundle from a URL. I will drop the link in a comment if useful, but you do not need it. Genuine question for this sub: does it make sense to repurpose an org-knowledge format for your public site, or is this llms.txt hype round two? /u/kizum",
     "published_at": "2026-06-17T07:48:21+00:00",
-    "discovered_at": "2026-06-20T04:40:52+00:00",
+    "discovered_at": "2026-06-20T10:40:56+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
