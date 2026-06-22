@@ -1,78 +1,5 @@
 [
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-06-22T13:44:05+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -82,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-06-22T13:44:05+00:00",
+    "discovered_at": "2026-06-22T19:47:07+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -152,7 +79,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-06-22T13:44:05+00:00",
+    "discovered_at": "2026-06-22T19:47:07+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -228,7 +155,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1uccw6q/faq_schema_is_officially_removed_from_google/",
     "summary": "Today I saw nothing related to FAQs schema in GSC enhancements which means its officially removed Now my Question Should i Keep it for llms or remove it? /u/Numerous_Evening_255",
     "published_at": "2026-06-22T06:31:25+00:00",
-    "discovered_at": "2026-06-22T13:44:05+00:00",
+    "discovered_at": "2026-06-22T19:47:07+00:00",
     "stage": "hot",
     "score": 21,
     "score_breakdown": {
@@ -297,7 +224,7 @@
     "source_item_url": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-06-22T13:44:05+00:00",
+    "discovered_at": "2026-06-22T19:47:07+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -361,7 +288,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u8nthp/cant_figure_out_how_to_change_site_name_in_google/",
     "summary": "I've been trying to figure out how to change my site name in google search results from just the domain name ( uniscope.ca ), to Uniscope. My website is made with NextJS and is hosted on Vercel but I'm not sure if that is relevant. Based on the results from Schema.org it looks like it should be displaying correctly. https://preview.redd.it/5v6lfu5bzw7h1.png?width=1354&format=png&auto=webp&s=cb3c1587dab505f8b552536d64f95bac53457870 I can't seem to figure out what isn't working. If anyone has any trouble shooting tips please let me know. /u/BreadBeginning4086",
     "published_at": "2026-06-17T21:51:54+00:00",
-    "discovered_at": "2026-06-22T13:44:05+00:00",
+    "discovered_at": "2026-06-22T19:47:07+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -410,6 +337,70 @@
     "sent_at": null
   },
   {
+    "item_id": "64f926424ceb6785",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Google Italy ranking factors 2026: what actually correlates with SERP position",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1uclbpr/google_italy_ranking_factors_2026_what_actually/",
+    "summary": "A correlational study of 6,824 pages across 57 signals, built on real Italian SERPs. Here's what actually associates with ranking position on google.it, and what doesn't. Methodology The dataset was built from opportunity keywords pulled via Google Search Console across five real sites in different niches: herbalism, 3D printing, cybersecurity, pet e-commerce, and web agency. After expanding with Autocomplete variants, the final set reached 841 verified Italian keywords. For each keyword, the top 10 organic results were scraped from google.it (it-IT locale, Playwright/Chromium, 8-15s random delay), producing 7,404 URLs, of which 6,824 were unique and crawlable. Each URL was processed with a custom crawler: real browser load, Lighthouse for Core Web Vitals, extraction of 57 technical and on-page signals. Spearman correlation was then computed against SERP position (1-10), with a significance threshold of p < 0.05. Statistically Significant Factors Out of 57 factors tested, 10 reached statistical significance. Sorted by |r|: Factor r p Keyword in title -0.087 <0.001 Keyword in URL -0.071 <0.001 Keyword in H1 -0.056 <0.001 Keyword in meta description -0.055 <0.001 Number of H2 tags -0.039 <0.001 External links -0.039 0.003 Keyword in H2 -0.036 0.002 Number of H1 tags -0.033 0.004 .it TLD -0.031 0.007 Text/HTML ratio +0.045 <0.001 Negative r = correlated with better positions. Text/HTML ratio is the only factor where a higher value correlates with worse rankings. What Didn't Show Up Factor r p LCP -0.011 0.358 FCP -0.007 0.574 CLS -0.002 0.840 Lighthouse performance score +0.009 0.445 Word count -0.007 0.603 Schema markup -0.019 0.100 HTTPS +0.010 0.368 Title tag length +0.002 0.897 URL depth +0.003 0.772 Core Web Vitals are consistently non-significant. The most plausible explanation: within the top 10 for competitive Italian queries, sites are already fast enough that performance stops being a differentiator. The variance isn't large enough to produce a signal. Notable Findings Keyword placement in on-page elements The keyword-in-title effect is real and consistent. Pages in positions 1-3 had the target keyword in the title 11.4% of the time; positions 7-10 had it 5.7% of the time. The same pattern holds across URL, H1, meta description, and H2. This isn't stuffing; it's basic topical signal. Text/HTML ratio Pages with a high ratio (lots of visible text, minimal HTML structure) tend to rank worse. This is separate from word count, which showed no significant correlation. The likely explanation is structural: a well-organized page with navigation, sidebars, and components has proportionally less text relative to total HTML than a bare wall of text with minimal markup. The .it TLD In an earlier version of the study (n=601) this factor appeared non-significant with a positive correlation. At 6,824 pages it flips to r=-0.031, p=0.007. 65% of positions 1-3 are on .it domains versus 61% at positions 7-10. Small effect, but it holds up, and it makes sense for a locale-specific SERP. H2 count vs. word count More H2 tags correlates with better positions. Word count doesn't. Structure matters; length doesn't. Caveats This is a correlational study across five specific niches. Correlation is not causation. Off-page signals (backlinks, domain authority) are not in the dataset. Results may differ for e-commerce or transactional queries. Citation Manetti, G. (2026). Google Italy Ranking Factors 2026: A Correlational Analysis of 6,824 SERP Pages Across 57 Technical and On-Page Signals (3.0). PerseoDesign. https://doi.org/10.5281/zenodo.20797976 /u/Joman1102",
+    "published_at": "2026-06-22T13:58:09+00:00",
+    "discovered_at": "2026-06-22T19:47:07+00:00",
+    "stage": "warm",
+    "score": 10,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "search console"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [
+        "backlinks"
+      ],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": "https://doi.org/10.5281/zenodo.20797976",
+    "offer_fit": "AI Generator",
+    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "audit": {
+      "business_site": "https://doi.org/10.5281/zenodo.20797976",
+      "schema_present": true,
+      "notes": "Business site detected"
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Open the AI Generator",
+    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
+    "subject_draft": "AI Generator could help with: Google Italy ranking factors 2026: what actually correlates with SERP ",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "follow_up_draft": "Quick follow-up on 'Google Italy ranking factors 2026: what actually correlates with SERP position': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1uclbpr/google_italy_ranking_factors_2026_what_actually/",
+    "sent_at": null
+  },
+  {
     "item_id": "b24a224dc5d2e3ed",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -419,7 +410,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u83p4a/googles_new_open_knowledge_format_okf_is_built/",
     "summary": "Google Cloud published OKF (Open Knowledge Format) v0.1 in June. Worth being clear about what it actually is, because the SEO crowd is already reframing it. What Google shipped: an open, vendor-neutral spec for packaging knowledge as a folder of markdown files with YAML frontmatter, so AI agents can consume it. Their examples are internal/enterprise stuff: database schemas, metric definitions, API docs, runbooks. It ships inside Google Cloud's Knowledge Catalog. The pitch is the \"context-assembly\" problem for agents, not search rankings. The structure itself is generic: One markdown file per \"thing\" (for a site, one per page) Frontmatter on each file: type, title, description, a resource URL, tags An index.md listing every file so an agent sees what is there and how it connects Because it is just markdown + frontmatter + an index, people have started applying it to public websites: one file per page, hosted at yoursite.com/okf/ , so public AI agents can read your content without scraping. That part is community interpretation, not Google's stated use case. I'm thinking: using an enterprise knowledge format for public-site AEO is speculative. It is v0.1, adoption is early, and I have seen no evidence it moves AI visibility yet. It is cheap to add and it is plain markdown with no lock-in, so I am treating it as an early experiment, not a ranking play. Feels a lot like the llms.txt debate. Disclosure: I work on an AI chatbot tool and we put up a free generator that builds the website-style bundle from a URL. I will drop the link in a comment if useful, but you do not need it. Genuine question for this sub: does it make sense to repurpose an org-knowledge format for your public site, or is this llms.txt hype round two? /u/kizum",
     "published_at": "2026-06-17T07:48:21+00:00",
-    "discovered_at": "2026-06-22T13:44:05+00:00",
+    "discovered_at": "2026-06-22T19:47:07+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
