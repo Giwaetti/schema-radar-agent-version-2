@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/help-fixing-breadcrumb-issues/",
     "summary": "Validate Your Fix: Use the Rich Results Test tool provided by Google to validate your corrected structured data . This tool will help you check if Google can now correctly parse your breadcrumbs. Update Your Pages: Once the structured data is corrected, update your pages and resubmit them through Google Search Console for indexing.",
     "published_at": null,
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "hot",
     "score": 37,
     "score_breakdown": {
@@ -85,6 +85,79 @@
     "sent_at": null
   },
   {
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
+    "published_at": null,
+    "discovered_at": "2026-06-22T05:31:10+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -94,7 +167,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,6 +228,82 @@
     "sent_at": null
   },
   {
+    "item_id": "ed1458b922432690",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Elementor FAQPage Schema Bug - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
+    "published_at": null,
+    "discovered_at": "2026-06-22T05:31:10+00:00",
+    "stage": "hot",
+    "score": 25,
+    "score_breakdown": {
+      "schema_hits": [
+        "json-ld",
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "json-ld",
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "missing",
+        "search console",
+        "support"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "missing",
+      "search console",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Elementor FAQPage Schema Bug - WordPress.org",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Elementor FAQPage Schema Bug - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "sent_at": null
+  },
+  {
     "item_id": "f89cd28b9bfa83af",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -164,7 +313,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-has-schema-org-validation-error/",
     "summary": "The topic 'Structured data has schema.org validation error' is closed to new replies.",
     "published_at": null,
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "hot",
     "score": 24,
     "score_breakdown": {
@@ -232,7 +381,7 @@
     "source_item_url": "https://wordpress.org/support/topic/google-structured-data-error-6/",
     "summary": "Hey, we are getting some mail from google regarding structured data . base salary field, street address and employment type. We have a salary field, in the job form, which is optional. the employment type and the address field are mandatory fields. But we get critical errors for this. What are we doing wrong? Any ideas how to fix this?",
     "published_at": null,
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "hot",
     "score": 17,
     "score_breakdown": {
@@ -302,7 +451,7 @@
     "source_item_url": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -366,7 +515,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-linter-error/",
     "summary": "[This thread is closed.] I saw the message \"Run Structured Data Linter to validate structured data \" in PageSpeed Insights. When I try my…",
     "published_at": null,
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -434,7 +583,7 @@
     "source_item_url": "https://wordpress.org/support/topic/unparsable-structured-data-error-showing-on-our-gsc-for-glossary-items/",
     "summary": "The topic 'Unparsable structured data error showing on our GSC for glossary items' is closed to new replies.",
     "published_at": null,
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "hot",
     "score": 14,
     "score_breakdown": {
@@ -498,7 +647,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u8nthp/cant_figure_out_how_to_change_site_name_in_google/",
     "summary": "I've been trying to figure out how to change my site name in google search results from just the domain name ( uniscope.ca ), to Uniscope. My website is made with NextJS and is hosted on Vercel but I'm not sure if that is relevant. Based on the results from Schema.org it looks like it should be displaying correctly. https://preview.redd.it/5v6lfu5bzw7h1.png?width=1354&format=png&auto=webp&s=cb3c1587dab505f8b552536d64f95bac53457870 I can't seem to figure out what isn't working. If anyone has any trouble shooting tips please let me know. /u/BreadBeginning4086",
     "published_at": "2026-06-17T21:51:54+00:00",
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
@@ -556,7 +705,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1u83p4a/googles_new_open_knowledge_format_okf_is_built/",
     "summary": "Google Cloud published OKF (Open Knowledge Format) v0.1 in June. Worth being clear about what it actually is, because the SEO crowd is already reframing it. What Google shipped: an open, vendor-neutral spec for packaging knowledge as a folder of markdown files with YAML frontmatter, so AI agents can consume it. Their examples are internal/enterprise stuff: database schemas, metric definitions, API docs, runbooks. It ships inside Google Cloud's Knowledge Catalog. The pitch is the \"context-assembly\" problem for agents, not search rankings. The structure itself is generic: One markdown file per \"thing\" (for a site, one per page) Frontmatter on each file: type, title, description, a resource URL, tags An index.md listing every file so an agent sees what is there and how it connects Because it is just markdown + frontmatter + an index, people have started applying it to public websites: one file per page, hosted at yoursite.com/okf/ , so public AI agents can read your content without scraping. That part is community interpretation, not Google's stated use case. I'm thinking: using an enterprise knowledge format for public-site AEO is speculative. It is v0.1, adoption is early, and I have seen no evidence it moves AI visibility yet. It is cheap to add and it is plain markdown with no lock-in, so I am treating it as an early experiment, not a ranking play. Feels a lot like the llms.txt debate. Disclosure: I work on an AI chatbot tool and we put up a free generator that builds the website-style bundle from a URL. I will drop the link in a comment if useful, but you do not need it. Genuine question for this sub: does it make sense to repurpose an org-knowledge format for your public site, or is this llms.txt hype round two? /u/kizum",
     "published_at": "2026-06-17T07:48:21+00:00",
-    "discovered_at": "2026-06-21T17:52:29+00:00",
+    "discovered_at": "2026-06-22T05:31:10+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
