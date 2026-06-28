@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-06-28T10:35:17+00:00",
+    "discovered_at": "2026-06-28T17:35:40+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -79,7 +79,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-06-28T10:35:17+00:00",
+    "discovered_at": "2026-06-28T17:35:40+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-06-28T10:35:17+00:00",
+    "discovered_at": "2026-06-28T17:35:40+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
