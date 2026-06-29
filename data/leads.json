@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-06-28T17:35:40+00:00",
+    "discovered_at": "2026-06-29T04:59:55+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -79,7 +79,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-06-28T17:35:40+00:00",
+    "discovered_at": "2026-06-29T04:59:55+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -146,6 +146,139 @@
     "sent_at": null
   },
   {
+    "item_id": "d214198645e6c277",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
+    "published_at": null,
+    "discovered_at": "2026-06-29T04:59:55+00:00",
+    "stage": "hot",
+    "score": 22,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'LD Json Schema syntax Error causing issues on website': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "sent_at": null
+  },
+  {
+    "item_id": "6e22c594274787bf",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "PHP Warnings and Deprecated Notices in Schema Module",
+    "source_item_url": "https://wordpress.org/support/topic/php-warnings-and-deprecated-notices-in-schema-module/",
+    "summary": "The PHP warnings that you mention only appear if you have a type of Schema being processed on the website without a defined type. Given that the plugin will always add the type to all the Schema markup when using the templates built into the plugin this happens only when there's custom Schema markup defined on the website.",
+    "published_at": null,
+    "discovered_at": "2026-06-29T04:59:55+00:00",
+    "stage": "hot",
+    "score": 16,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "warning"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "warning"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "warning"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: PHP Warnings and Deprecated Notices in Schema Module",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'PHP Warnings and Deprecated Notices in Schema Module': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/php-warnings-and-deprecated-notices-in-schema-module/",
+    "sent_at": null
+  },
+  {
     "item_id": "852145217043fa40",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -155,7 +288,7 @@
     "source_item_url": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-06-28T17:35:40+00:00",
+    "discovered_at": "2026-06-29T04:59:55+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
