@@ -1,29 +1,27 @@
 {
-  "generated_at": "2026-06-30T04:34:21+00:00",
-  "total": 3,
+  "generated_at": "2026-06-30T11:21:31+00:00",
+  "total": 4,
   "by_stage": {
-    "hot": 2,
-    "watch": 1
+    "hot": 4
   },
   "by_offer": {
-    "Done-for-you / service": 1,
-    "AI Visibility Kit": 2
+    "Done-for-you / service": 3,
+    "AI Visibility Kit": 1
   },
   "by_source": {
-    "Search WordPress Support": 1,
-    "WordPress Support - Schema & Structured Data for WP & AMP": 1,
-    "WordPress Support - Rank Math SEO": 1
+    "Search WordPress Support": 3,
+    "WordPress Support - Schema & Structured Data for WP & AMP": 1
   },
   "by_status": {
-    "ready": 3
+    "ready": 4
   },
   "diagnostics": {
-    "source_raw_count": 32,
-    "search_raw_count": 5,
-    "source_scored_count": 2,
-    "search_scored_count": 1,
-    "stale_search_dropped_count": 4,
-    "final_lead_count": 3,
+    "source_raw_count": 31,
+    "search_raw_count": 10,
+    "source_scored_count": 1,
+    "search_scored_count": 3,
+    "stale_search_dropped_count": 7,
+    "final_lead_count": 4,
     "search_queries": [
       {
         "group": "wordpress",
@@ -34,7 +32,7 @@
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic schema markup issue",
-        "result_count": 0,
+        "result_count": 5,
         "error": ""
       },
       {
