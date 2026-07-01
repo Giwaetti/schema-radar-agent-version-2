@@ -1,5 +1,292 @@
 [
   {
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
+    "published_at": null,
+    "discovered_at": "2026-07-01T11:32:58+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
+    "item_id": "f9d88b5c66a6d90b",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Structured Data Issue: Price Range in Schema Markup Not Accepted by ...",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
+    "published_at": null,
+    "discovered_at": "2026-07-01T11:32:58+00:00",
+    "stage": "hot",
+    "score": 26,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup",
+        "structured data"
+      ],
+      "intent_hits": [
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "schema markup",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Issue: Price Range in Schema Markup Not Accepted by ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "sent_at": null
+  },
+  {
+    "item_id": "ed1458b922432690",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Elementor FAQPage Schema Bug - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
+    "published_at": null,
+    "discovered_at": "2026-07-01T11:32:58+00:00",
+    "stage": "hot",
+    "score": 25,
+    "score_breakdown": {
+      "schema_hits": [
+        "json-ld",
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "json-ld",
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "missing",
+        "search console",
+        "support"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "missing",
+      "search console",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Elementor FAQPage Schema Bug - WordPress.org",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Elementor FAQPage Schema Bug - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "sent_at": null
+  },
+  {
+    "item_id": "fca4e028f781e20f",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "We Dropped to Bottom Page 5",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1ujirr3/we_dropped_to_bottom_page_5/",
+    "summary": "About a year ago (11 months 16 days ago), I created the website Fit Savanna (Kenya) to help fitness enthusiasts find useful, ad-free content and upcoming events. The most popular page is our marathons directory, where users easily find running events to participate in. However, on Sunday 28th, I discovered that the directory dropped from page 1 (usually alternated between mid-page 1 to top page 2) to page 5 and has yet to recover. I wonder what I did that actually made Google search/slop bots punish us this hard. Could a lack of nofollow on outbound links classify the page as spam? Do I just delete JSONLD and let Google make its own decisions? Because the top spot for \"upcoming marathons...\" in our country is usually occupied by a website with zero rich results. Doesn't make sense /u/itsdesmond",
+    "published_at": "2026-06-30T07:52:32+00:00",
+    "discovered_at": "2026-07-01T11:32:58+00:00",
+    "stage": "hot",
+    "score": 22,
+    "score_breakdown": {
+      "schema_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "strict_schema_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "ecom_search_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "rich result",
+      "rich results"
+    ],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: We Dropped to Bottom Page 5",
+    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'We Dropped to Bottom Page 5': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1ujirr3/we_dropped_to_bottom_page_5/",
+    "sent_at": null
+  },
+  {
     "item_id": "852145217043fa40",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -9,7 +296,7 @@
     "source_item_url": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-01T04:54:15+00:00",
+    "discovered_at": "2026-07-01T11:32:58+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
