@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-07-01T18:16:38+00:00",
+    "discovered_at": "2026-07-02T04:31:07+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-01T18:16:38+00:00",
+    "discovered_at": "2026-07-02T04:31:07+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -152,7 +152,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-01T18:16:38+00:00",
+    "discovered_at": "2026-07-02T04:31:07+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -228,7 +228,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-07-01T18:16:38+00:00",
+    "discovered_at": "2026-07-02T04:31:07+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -297,7 +297,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warnings-and-deprecated-notices-in-schema-module/",
     "summary": "The PHP warnings that you mention only appear if you have a type of Schema being processed on the website without a defined type. Given that the plugin will always add the type to all the Schema markup when using the templates built into the plugin this happens only when there's custom Schema markup defined on the website.",
     "published_at": null,
-    "discovered_at": "2026-07-01T18:16:38+00:00",
+    "discovered_at": "2026-07-02T04:31:07+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -361,7 +361,7 @@
     "source_item_url": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-01T18:16:38+00:00",
+    "discovered_at": "2026-07-02T04:31:07+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
