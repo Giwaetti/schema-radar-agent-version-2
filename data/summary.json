@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-07-02T18:02:22+00:00",
-  "total": 8,
+  "generated_at": "2026-07-03T04:09:08+00:00",
+  "total": 4,
   "by_stage": {
-    "hot": 8
+    "hot": 4
   },
   "by_offer": {
-    "Done-for-you / service": 7,
+    "Done-for-you / service": 3,
     "AI Visibility Kit": 1
   },
   "by_source": {
-    "Search WordPress Support": 7,
+    "Search WordPress Support": 3,
     "WordPress Support - Schema & Structured Data for WP & AMP": 1
   },
   "by_status": {
-    "ready": 8
+    "ready": 4
   },
   "diagnostics": {
-    "source_raw_count": 32,
+    "source_raw_count": 33,
     "search_raw_count": 10,
     "source_scored_count": 1,
-    "search_scored_count": 7,
-    "stale_search_dropped_count": 3,
-    "final_lead_count": 8,
+    "search_scored_count": 3,
+    "stale_search_dropped_count": 7,
+    "final_lead_count": 4,
     "search_queries": [
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic faq schema problem",
-        "result_count": 0,
+        "result_count": 5,
         "error": ""
       },
       {
@@ -38,7 +38,7 @@
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic structured data error",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
