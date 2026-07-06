@@ -1,5 +1,90 @@
 [
   {
+    "item_id": "b7ff60a45ff70d7f",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Help fixing breadcrumb issues - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/help-fixing-breadcrumb-issues/",
+    "summary": "Validate Your Fix: Use the Rich Results Test tool provided by Google to validate your corrected structured data . This tool will help you check if Google can now correctly parse your breadcrumbs. Update Your Pages: Once the structured data is corrected, update your pages and resubmit them through Google Search Console for indexing.",
+    "published_at": null,
+    "discovered_at": "2026-07-06T04:39:12+00:00",
+    "stage": "hot",
+    "score": 37,
+    "score_breakdown": {
+      "schema_hits": [
+        "rich result",
+        "rich results",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "rich result",
+        "rich results",
+        "structured data"
+      ],
+      "intent_hits": [
+        "fix",
+        "issue",
+        "search console"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "ecom_search_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "fix",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [
+      "rich result",
+      "rich results"
+    ],
+    "intent_flags": [
+      "fix",
+      "issue",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Help fixing breadcrumb issues - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Help fixing breadcrumb issues - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/help-fixing-breadcrumb-issues/",
+    "sent_at": null
+  },
+  {
     "item_id": "2a90b33f13d72c90",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -9,7 +94,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-05T17:31:52+00:00",
+    "discovered_at": "2026-07-06T04:39:12+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +169,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1um8khg/does_structured_data_on_thin_location_pages_help/",
     "summary": "Working on a local service business site with lots of pages and county location pages. Most of these pages are relatively thin service description, area-specific content, NAP and FAQ schema. Each page has LocalBusiness and FAQ structured data implemented via RankMath. The question I keep coming back to: does adding structured data to thin pages actually help Googlebot prioritize crawling them, or does it add render weight that slows crawl efficiency on pages that are already borderline in terms of content depth? /u/Flat-Ad-1089",
     "published_at": "2026-07-03T08:22:04+00:00",
-    "discovered_at": "2026-07-05T17:31:52+00:00",
+    "discovered_at": "2026-07-06T04:39:12+00:00",
     "stage": "hot",
     "score": 27,
     "score_breakdown": {
@@ -154,7 +239,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-05T17:31:52+00:00",
+    "discovered_at": "2026-07-06T04:39:12+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +310,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-05T17:31:52+00:00",
+    "discovered_at": "2026-07-06T04:39:12+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -295,7 +380,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-05T17:31:52+00:00",
+    "discovered_at": "2026-07-06T04:39:12+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -362,6 +447,217 @@
     "sent_at": null
   },
   {
+    "item_id": "605d78ce3276426f",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Critic error: datePublished' Structured Data is missing",
+    "source_item_url": "https://wordpress.org/support/topic/datepublished-structured-data-is-missing/",
+    "summary": "It seems there is an issue with how structured data is being generated and presented on the website. Search Console is showing me three new errors related to structured data .",
+    "published_at": null,
+    "discovered_at": "2026-07-06T04:39:12+00:00",
+    "stage": "hot",
+    "score": 18,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "missing",
+        "search console"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "missing",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "missing",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Critic error: datePublished' Structured Data is missing",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Critic error: datePublished' Structured Data is missing': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/datepublished-structured-data-is-missing/",
+    "sent_at": null
+  },
+  {
+    "item_id": "9dc3b83bfea7bd82",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Google Structured Data error - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/google-structured-data-error-6/",
+    "summary": "Hey, we are getting some mail from google regarding structured data . base salary field, street address and employment type. We have a salary field, in the job form, which is optional. the employment type and the address field are mandatory fields. But we get critical errors for this. What are we doing wrong? Any ideas how to fix this?",
+    "published_at": null,
+    "discovered_at": "2026-07-06T04:39:12+00:00",
+    "stage": "hot",
+    "score": 17,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error",
+        "fix"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "fix"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Google Structured Data error - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Google Structured Data error - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/google-structured-data-error-6/",
+    "sent_at": null
+  },
+  {
+    "item_id": "9bb08c78073a5386",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Breadcrumbs structured data issues detected - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/breadcrumbs-structured-data-issues-detected/",
+    "summary": "Breadcrumbs structured data issues detected Search Console has identified that your site is affected by 2 Breadcrumbs structured data issue (s). The following issues were found on your site . Top critical issues* Either \"name\" or \"item.name\" should be specified (in \"itemListElement\") * Critical issues prevent your page or feature from appearing in Search results. Top non-critical ...",
+    "published_at": null,
+    "discovered_at": "2026-07-06T04:39:12+00:00",
+    "stage": "hot",
+    "score": 15,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "issue",
+        "search console"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Breadcrumbs structured data issues detected - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Breadcrumbs structured data issues detected - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/breadcrumbs-structured-data-issues-detected/",
+    "sent_at": null
+  },
+  {
     "item_id": "852145217043fa40",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -371,7 +667,7 @@
     "source_item_url": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-05T17:31:52+00:00",
+    "discovered_at": "2026-07-06T04:39:12+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
@@ -423,6 +719,70 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://wordpress.org/support/topic/since-start-of-june-many-missing-field-thumbnailurl/",
+    "sent_at": null
+  },
+  {
+    "item_id": "4518852b7e885eef",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Unparsable structured data error showing on our GSC for glossary items",
+    "source_item_url": "https://wordpress.org/support/topic/unparsable-structured-data-error-showing-on-our-gsc-for-glossary-items/",
+    "summary": "The topic 'Unparsable structured data error showing on our GSC for glossary items' is closed to new replies.",
+    "published_at": null,
+    "discovered_at": "2026-07-06T04:39:12+00:00",
+    "stage": "hot",
+    "score": 14,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Unparsable structured data error showing on our GSC for glossary items",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Unparsable structured data error showing on our GSC for glossary items': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/unparsable-structured-data-error-showing-on-our-gsc-for-glossary-items/",
     "sent_at": null
   }
 ]
