@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-08T03:44:37+00:00",
+    "discovered_at": "2026-07-08T10:30:37+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1um8khg/does_structured_data_on_thin_location_pages_help/",
     "summary": "Working on a local service business site with lots of pages and county location pages. Most of these pages are relatively thin service description, area-specific content, NAP and FAQ schema. Each page has LocalBusiness and FAQ structured data implemented via RankMath. The question I keep coming back to: does adding structured data to thin pages actually help Googlebot prioritize crawling them, or does it add render weight that slows crawl efficiency on pages that are already borderline in terms of content depth? /u/Flat-Ad-1089",
     "published_at": "2026-07-03T08:22:04+00:00",
-    "discovered_at": "2026-07-08T03:44:37+00:00",
+    "discovered_at": "2026-07-08T10:30:37+00:00",
     "stage": "hot",
     "score": 27,
     "score_breakdown": {
@@ -154,7 +154,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-08T03:44:37+00:00",
+    "discovered_at": "2026-07-08T10:30:37+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-08T03:44:37+00:00",
+    "discovered_at": "2026-07-08T10:30:37+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -295,7 +295,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-08T03:44:37+00:00",
+    "discovered_at": "2026-07-08T10:30:37+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -371,7 +371,7 @@
     "source_item_url": "https://wordpress.org/support/topic/organization-schema-questions-about-postaladdress-and-contactpoint-implementati/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-08T03:44:37+00:00",
+    "discovered_at": "2026-07-08T10:30:37+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -432,7 +432,7 @@
     "source_item_url": "https://wordpress.org/support/topic/person-schema-questions-regarding-semantic-implementation/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-08T03:44:37+00:00",
+    "discovered_at": "2026-07-08T10:30:37+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -493,7 +493,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-08T03:44:37+00:00",
+    "discovered_at": "2026-07-08T10:30:37+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
