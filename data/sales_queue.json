@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -292,6 +292,75 @@
     "sent_at": null
   },
   {
+    "item_id": "d214198645e6c277",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
+    "published_at": null,
+    "discovered_at": "2026-07-12T10:02:49+00:00",
+    "stage": "hot",
+    "score": 22,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'LD Json Schema syntax Error causing issues on website': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "sent_at": null
+  },
+  {
     "item_id": "ed338a48e6ba4917",
     "source": "WordPress Support - Rank Math SEO",
     "source_id": "wordpress-rankmath-support",
@@ -301,7 +370,7 @@
     "source_item_url": "https://wordpress.org/support/topic/does-rank-math-detect-manually-added-json-ld-schema-header-code/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -361,7 +430,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1utgjxe/i_mapped_out_a_complete_8module_framework_for_aeo/",
     "summary": "Hey guys, I’ve been spending a ton of time lately learning how LLMs (ChatGPT, Gemini, Perplexity, etc.) are actually scraping and digesting site data. The shift from traditional search bots to RAG pipelines changes a lot of things under the hood. I noticed there's a lot of high-level fluff out there about AEO, but very little hands-on, technical stuff. So, I decided to map out a complete engineering framework split into 8 core areas. I just put it all live as a completely free text playbook. No opt-ins or email walls needed to read it. It covers things like: AI Crawler Access: Configuring robots.txt for Applebot-Extended / Google-Extended and handling firewall/WAF false positives. DOM Hierarchy: Preventing \"Lost in the Middle\" context drops inside transformer models using clean HTML5 landmarks. Entity Optimization: Consolidating schemas into clean JSON-LD graph arrays to achieve actual brand disambiguation. Information Formatting: Content chunking patterns, heavy tables, and optimizing for metrics like the Non-Commodity and Entity Density scores. I also built a 30-minute, 20-question practical assessment at the end of the modules for anyone who wants to test their knowledge. If you clear it (needs 80% or higher), it issues a public digital certificate / verification URL. The exam token is normally $10 to offset the platform running costs, but I set up a promo code STUDENT100 that makes it 100% free for the first 20 people who want to try it out. I’d love to get some feedback from this community on the technical layout and the questions. If you find any edge cases I missed in the playbook modules, let me know! /u/SmartContractKid",
     "published_at": "2026-07-11T10:33:00+00:00",
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "hot",
     "score": 14,
     "score_breakdown": {
@@ -423,7 +492,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1utad7u/you_know_your_a_nerd_when/",
     "summary": "Schema.org lol /u/webbroi",
     "published_at": "2026-07-11T04:42:20+00:00",
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "hot",
     "score": 13,
     "score_breakdown": {
@@ -481,7 +550,7 @@
     "source_item_url": "https://wordpress.org/support/topic/person-schema-questions-regarding-semantic-implementation/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -542,7 +611,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1urno95/tech_seo_is_underrated_got_my_client_their_best/",
     "summary": "Update: Its £45000 guys ($60K). I got the symbol wrong in the title. I am so happy today, so thought to share here. When I started my SEO career I thought on-page SEO and the content stuff is what really gets you moving. But after diving deep into this beautiful organic marketing industry, I got to know one thing. If your technical bones are not solid, your off-page and on-page don't stand a chance. This client had massive bleeding. 31000+ HTTP URLs, 273 pages had missing or broken canonical tags. On top of that: - Security headers graded B on securityheaders.com - robots.txt blocking 223 PDF datasheets from being crawled - 54 product categories with zero indexable URLs - 458 duplicate title tags from a rogue SEO plugin nobody had deactivated - 404 errors on 41 URLs that used to exist and had real backlinks pointing at them The project was spanned over 5 milestones that included: - Fixed all 31,000+ HTTP links via database operations - Rebuilt robots.txt from scratch, freed the PDF datasheets - Added 273 canonical tags across all product and category pages - Eliminated 458 duplicate titles by deactivating the problem plugin - Implemented full schema across 199 products including aggregateRating via live API - Fixed Core Web Vitals: GTmetrix C to A, page size 8.41MB to 2.74MB, mobile PageSpeed 43 to 75, TBT 660ms to 10ms - Built 12 custom GA4 conversion events via GTM so the client could finally see what was actually driving revenue The result? June 2025: £18,000 in revenue. June 2026: £45,000 in revenue. And here is the context that makes this even more significant. June 2023 was £43,000. June, 2024 was £31,000. June 2025 was £18,000. Three years of decline in a row. Now the technical debt is all clean, will be starting the SEO for them Wish be good luck guys. /u/Baku_Writes_3116",
     "published_at": "2026-07-09T11:35:02+00:00",
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -616,7 +685,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-12T03:57:40+00:00",
+    "discovered_at": "2026-07-12T10:02:49+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
