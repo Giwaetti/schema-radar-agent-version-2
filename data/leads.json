@@ -1,78 +1,5 @@
 [
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-07-14T17:34:17+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "2a90b33f13d72c90",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -82,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-14T17:34:17+00:00",
+    "discovered_at": "2026-07-15T03:35:17+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -157,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-14T17:34:17+00:00",
+    "discovered_at": "2026-07-15T03:35:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -228,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-14T17:34:17+00:00",
+    "discovered_at": "2026-07-15T03:35:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -298,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-14T17:34:17+00:00",
+    "discovered_at": "2026-07-15T03:35:17+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -374,7 +301,7 @@
     "source_item_url": "https://wordpress.org/support/topic/person-schema-questions-regarding-semantic-implementation/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-14T17:34:17+00:00",
+    "discovered_at": "2026-07-15T03:35:17+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -435,7 +362,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1urno95/tech_seo_is_underrated_got_my_client_their_best/",
     "summary": "Update: Its £45000 guys ($60K). I got the symbol wrong in the title. I am so happy today, so thought to share here. When I started my SEO career I thought on-page SEO and the content stuff is what really gets you moving. But after diving deep into this beautiful organic marketing industry, I got to know one thing. If your technical bones are not solid, your off-page and on-page don't stand a chance. This client had massive bleeding. 31000+ HTTP URLs, 273 pages had missing or broken canonical tags. On top of that: - Security headers graded B on securityheaders.com - robots.txt blocking 223 PDF datasheets from being crawled - 54 product categories with zero indexable URLs - 458 duplicate title tags from a rogue SEO plugin nobody had deactivated - 404 errors on 41 URLs that used to exist and had real backlinks pointing at them The project was spanned over 5 milestones that included: - Fixed all 31,000+ HTTP links via database operations - Rebuilt robots.txt from scratch, freed the PDF datasheets - Added 273 canonical tags across all product and category pages - Eliminated 458 duplicate titles by deactivating the problem plugin - Implemented full schema across 199 products including aggregateRating via live API - Fixed Core Web Vitals: GTmetrix C to A, page size 8.41MB to 2.74MB, mobile PageSpeed 43 to 75, TBT 660ms to 10ms - Built 12 custom GA4 conversion events via GTM so the client could finally see what was actually driving revenue The result? June 2025: £18,000 in revenue. June 2026: £45,000 in revenue. And here is the context that makes this even more significant. June 2023 was £43,000. June, 2024 was £31,000. June 2025 was £18,000. Three years of decline in a row. Now the technical debt is all clean, will be starting the SEO for them Wish be good luck guys. /u/Baku_Writes_3116",
     "published_at": "2026-07-09T11:35:02+00:00",
-    "discovered_at": "2026-07-14T17:34:17+00:00",
+    "discovered_at": "2026-07-15T03:35:17+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -509,7 +436,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1uva3ug/ranked_a_fully_clientside_webgl_game_1_in_2_days/",
     "summary": "New domain, Three.js/WebGL game. The visible page is one plus a JS bundle, so almost nothing traditionally crawlable. My assumption: never trust the render pass for anything that needs to rank. Put it all in the static shell. Shipped at launch: Static edge-served HTML with real descriptive copy + one semantic H1 (game mounts into it, not into an empty root div) JSON-LD VideoGame, canonical, OG/Twitter sitemap + robots, submitted, URL manually queued Sub-second LCP from Cloudflare edge, no CMP, nothing render-blocking Result: indexed fast, #1 for its primary term in ~2 days, page one for a couple of variants. Two things I want the nerds on: Render-trust in 2026. Is \"put everything rankable in the static HTML and treat the WebGL app as content Google ignores\" still the correct default, or are you letting the render pass carry more now? Anyone actually get canvas-derived or post-hydration content indexed without a pre-rendered equivalent? Indexation latency. Manual submit obviously drove the speed. But new-URL indexation feels compressed over the last few months vs the 2023-24 crawl-budget era. Matching your logs or noise? Confounds up front: exact-match term, low competition, n=1. Not a method, just an observation. Happy to paste the shell markup + schema if useful. /u/vidiclol",
     "published_at": "2026-07-13T12:25:45+00:00",
-    "discovered_at": "2026-07-14T17:34:17+00:00",
+    "discovered_at": "2026-07-15T03:35:17+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
@@ -570,7 +497,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-14T17:34:17+00:00",
+    "discovered_at": "2026-07-15T03:35:17+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
