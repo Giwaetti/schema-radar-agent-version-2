@@ -1,78 +1,5 @@
 [
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "2a90b33f13d72c90",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -82,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -157,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -228,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -298,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -365,6 +292,75 @@
     "sent_at": null
   },
   {
+    "item_id": "d214198645e6c277",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "LD Json Schema syntax Error causing issues on website",
+    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
+    "published_at": null,
+    "discovered_at": "2026-07-19T10:01:50+00:00",
+    "stage": "hot",
+    "score": 22,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'LD Json Schema syntax Error causing issues on website': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
+    "sent_at": null
+  },
+  {
     "item_id": "25885f2289422242",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -374,7 +370,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -435,7 +431,7 @@
     "source_item_url": "https://wordpress.org/support/topic/article-schema-translation-of-schema-id-field-needed/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "warm",
     "score": 8,
     "score_breakdown": {
@@ -490,7 +486,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1uyglfv/built_a_roofing_directory_with_6000_indexed_pages/",
     "summary": "I’ve been working on a roofing directory and feel like I’ve already done quite a bit more than the usual “publish a bunch of programmatic pages and hope Google likes them.” So far I’ve: Added a few thousand real roofing companies with individual profile pages. Even added quite a bit to each so they don’t feel like thin, low quality pages. Built city, suburb, state and storm-related pages Set up internal linking, schema, canonicals and localized content Added claim-your-profile and quote-request flows so that I can capture leads both on the consumer & b2b side. Fixed a bunch of indexing issues and have been watching everything closely in GSC Started adding more editorial pages like “best roofers in…” instead of relying entirely on templates Google has indexed more than 6,000 pages, but traffic and backlinks are still moving painfully slowly. I know SEO takes time, especially with a new domain, but I’m curious what actually worked for people who have grown directories or local marketplaces. Contractor outreach? Free tools or data? Digital PR? Local partnerships? Paid traffic to get things moving? Not linking the site because of the rules. Just looking for some honest feedback from people who have been through this stage. /u/ecc10394",
     "published_at": "2026-07-16T21:53:34+00:00",
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -554,7 +550,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -609,7 +605,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-hasmap-url-obsolete/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-19T03:54:50+00:00",
+    "discovered_at": "2026-07-19T10:01:50+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
