@@ -1,5 +1,78 @@
 [
   {
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
+    "published_at": null,
+    "discovered_at": "2026-07-20T04:05:14+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
     "item_id": "2a90b33f13d72c90",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -9,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-19T17:15:58+00:00",
+    "discovered_at": "2026-07-20T04:05:14+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +157,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-19T17:15:58+00:00",
+    "discovered_at": "2026-07-20T04:05:14+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,7 +228,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-19T17:15:58+00:00",
+    "discovered_at": "2026-07-20T04:05:14+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +298,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-19T17:15:58+00:00",
+    "discovered_at": "2026-07-20T04:05:14+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -301,7 +374,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-19T17:15:58+00:00",
+    "discovered_at": "2026-07-20T04:05:14+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -353,61 +426,6 @@
     "sent_at": null
   },
   {
-    "item_id": "9c2f0de5b03cb5a4",
-    "source": "WordPress Support - Rank Math SEO",
-    "source_id": "wordpress-rankmath-support",
-    "source_type": "forum",
-    "source_url": "https://wordpress.org/support/plugin/seo-by-rank-math/",
-    "title": "Article schema translation of schema ID field needed?",
-    "source_item_url": "https://wordpress.org/support/topic/article-schema-translation-of-schema-id-field-needed/",
-    "summary": "",
-    "published_at": null,
-    "discovered_at": "2026-07-19T17:15:58+00:00",
-    "stage": "warm",
-    "score": 8,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": true,
-      "native_action_source": true,
-      "general_reddit_source": false,
-      "ecom_platform_source": true
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Article schema translation of schema ID field needed?",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'Article schema translation of schema ID field needed?': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/article-schema-translation-of-schema-id-field-needed/",
-    "sent_at": null
-  },
-  {
     "item_id": "4559fb1a6db04ba3",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -417,7 +435,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v0r9lf/hiring_a_founding_engineer_programmatic_seo_full/",
     "summary": "I'm looking for a founding engineer to help build a vehicle auction search platform similar to BidFax. We already have access to a third-party API that provides the auction data. This is NOT a scraping project. The biggest challenge is building a scalable platform that can rank organically in Google through programmatic SEO. What you'll be working on Integrating a vehicle auction API Building lightning-fast VIN and lot number search Creating millions of SEO-friendly vehicle pages Designing a scalable database architecture Implementing technical SEO best practices Building automated sitemaps, internal linking, structured data, and indexing strategies Optimizing Core Web Vitals and site performance Helping shape the product and technical direction from day one What I'm looking for Strong experience with Next.js, React, Node.js, and PostgreSQL (or similar stack) Experience building large-scale websites Real programmatic SEO experience (this is the most important qualification) Strong understanding of Google indexing, crawl budget, duplicate content, canonicalization, and technical SEO Experience working with APIs Someone who enjoys solving scaling and search problems Huge plus if you've built Programmatic SEO websites Automotive, marketplace, or search platforms Data-heavy products with millions of pages Websites generating significant organic traffic When you apply, send: Links to websites you've built Examples of projects with strong organic traffic Your role on those projects The tech stack you used Why you're interested This is a founding role with significant ownership. I'm looking for someone who wants to build a category-leading product, not just complete tickets. /u/smokedX",
     "published_at": "2026-07-19T13:56:52+00:00",
-    "discovered_at": "2026-07-19T17:15:58+00:00",
+    "discovered_at": "2026-07-20T04:05:14+00:00",
     "stage": "warm",
     "score": 8,
     "score_breakdown": {
@@ -483,7 +501,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1uyglfv/built_a_roofing_directory_with_6000_indexed_pages/",
     "summary": "I’ve been working on a roofing directory and feel like I’ve already done quite a bit more than the usual “publish a bunch of programmatic pages and hope Google likes them.” So far I’ve: Added a few thousand real roofing companies with individual profile pages. Even added quite a bit to each so they don’t feel like thin, low quality pages. Built city, suburb, state and storm-related pages Set up internal linking, schema, canonicals and localized content Added claim-your-profile and quote-request flows so that I can capture leads both on the consumer & b2b side. Fixed a bunch of indexing issues and have been watching everything closely in GSC Started adding more editorial pages like “best roofers in…” instead of relying entirely on templates Google has indexed more than 6,000 pages, but traffic and backlinks are still moving painfully slowly. I know SEO takes time, especially with a new domain, but I’m curious what actually worked for people who have grown directories or local marketplaces. Contractor outreach? Free tools or data? Digital PR? Local partnerships? Paid traffic to get things moving? Not linking the site because of the rules. Just looking for some honest feedback from people who have been through this stage. /u/ecc10394",
     "published_at": "2026-07-16T21:53:34+00:00",
-    "discovered_at": "2026-07-19T17:15:58+00:00",
+    "discovered_at": "2026-07-20T04:05:14+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -547,7 +565,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-19T17:15:58+00:00",
+    "discovered_at": "2026-07-20T04:05:14+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -590,61 +608,6 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
-    "sent_at": null
-  },
-  {
-    "item_id": "e3dda0e4d0ea498a",
-    "source": "WordPress Support - Rank Math SEO",
-    "source_id": "wordpress-rankmath-support",
-    "source_type": "forum",
-    "source_url": "https://wordpress.org/support/plugin/seo-by-rank-math/",
-    "title": "Schema hasMap URL obsolete",
-    "source_item_url": "https://wordpress.org/support/topic/schema-hasmap-url-obsolete/",
-    "summary": "",
-    "published_at": null,
-    "discovered_at": "2026-07-19T17:15:58+00:00",
-    "stage": "watch",
-    "score": 7,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": true,
-      "native_action_source": true,
-      "general_reddit_source": false,
-      "ecom_platform_source": true
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Schema hasMap URL obsolete",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'Schema hasMap URL obsolete': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-hasmap-url-obsolete/",
     "sent_at": null
   }
 ]
