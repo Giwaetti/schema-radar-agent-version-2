@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-22T03:47:04+00:00",
+    "discovered_at": "2026-07-22T10:34:11+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-22T03:47:04+00:00",
+    "discovered_at": "2026-07-22T10:34:11+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-22T03:47:04+00:00",
+    "discovered_at": "2026-07-22T10:34:11+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-22T03:47:04+00:00",
+    "discovered_at": "2026-07-22T10:34:11+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -301,7 +301,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-07-22T03:47:04+00:00",
+    "discovered_at": "2026-07-22T10:34:11+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -361,6 +361,78 @@
     "sent_at": null
   },
   {
+    "item_id": "4bb07f98043552e9",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Schema.org returning \"The URL is unreachable. Ensure robots.txt is accessible and the server is responding with a 200 status code.\" for Shopify store URLs.",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v38piz/schemaorg_returning_the_url_is_unreachable_ensure/",
+    "summary": "I was checking in Google Search Console and troubleshooting why half my Shopify store pages had not been indexed, just in case there was an issue. The site was newly launched just a month ago, and I know these things take time, but I began checking a few URLs in schema.org , after finding a recommendation to do so online - which returned this result for the few URLs I checked: \"The URL is unreachable. Ensure robots.txt is accessible and the server is responding with a 200 status code.\" AFAIK, the robots.txt file in Shopify is built in and auto-generated and accessible from the get-go. The vast majority of the pages not indexed are actual product pages, but some of the product pages have been indexed and are being served (I checked with a \"site:.....\" search on Google) The URLs in question are loading fine; it's not like they're blocked. I checked the robots.txt file, and products haven't been blocked either. If it was an issue with hosting, I'd assume that the other few products that had been indexed wouldn't have been. Is this a common issue with Shopify or otherwise? Any thoughts? Many thanks. /u/SkWd15",
+    "published_at": "2026-07-22T07:12:56+00:00",
+    "discovered_at": "2026-07-22T10:34:11+00:00",
+    "stage": "hot",
+    "score": 19,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema.org"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema.org"
+      ],
+      "intent_hits": [
+        "issue",
+        "search console",
+        "troubleshooting"
+      ],
+      "platform_hits": [
+        "shopify"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "schema.org"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "shopify"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "search console",
+      "troubleshooting"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Schema.org returning \"The URL is unreachable. Ensure robots.txt is acc",
+    "message_draft": "I’d separate the indexing side from the markup side first, because coverage issues and structured-data issues often get mixed together.\n\nI’d check these first:\n- Separate indexing/crawling symptoms from markup symptoms first.\n- Test one representative URL end-to-end before changing the whole site.\n- Confirm the canonical page is the same page that actually contains the live markup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Schema.org returning \"The URL is unreachable. Ensure robots.txt is accessible and the server is responding with a 200 status code.\" for Shopify store URLs.': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1v38piz/schemaorg_returning_the_url_is_unreachable_ensure/",
+    "sent_at": null
+  },
+  {
     "item_id": "25885f2289422242",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -370,7 +442,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-22T03:47:04+00:00",
+    "discovered_at": "2026-07-22T10:34:11+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -431,7 +503,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-22T03:47:04+00:00",
+    "discovered_at": "2026-07-22T10:34:11+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {

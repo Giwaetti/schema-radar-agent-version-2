@@ -1,29 +1,30 @@
 {
-  "generated_at": "2026-07-22T03:47:04+00:00",
-  "total": 7,
+  "generated_at": "2026-07-22T10:34:11+00:00",
+  "total": 8,
   "by_stage": {
-    "hot": 5,
+    "hot": 6,
     "warm": 1,
     "watch": 1
   },
   "by_offer": {
-    "Done-for-you / service": 5,
+    "Done-for-you / service": 6,
     "AI Visibility Kit": 2
   },
   "by_source": {
     "Search WordPress Support": 5,
+    "Reddit r/TechSEO": 1,
     "WordPress Support - Schema & Structured Data for WP & AMP": 2
   },
   "by_status": {
-    "ready": 7
+    "ready": 8
   },
   "diagnostics": {
     "source_raw_count": 33,
     "search_raw_count": 10,
-    "source_scored_count": 2,
+    "source_scored_count": 3,
     "search_scored_count": 5,
     "stale_search_dropped_count": 5,
-    "final_lead_count": 7,
+    "final_lead_count": 8,
     "search_queries": [
       {
         "group": "wordpress",
