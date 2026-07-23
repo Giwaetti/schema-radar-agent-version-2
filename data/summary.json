@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T10:34:59+00:00",
+  "generated_at": "2026-07-23T17:45:52+00:00",
   "total": 10,
   "by_stage": {
     "hot": 7,
@@ -19,7 +19,7 @@
     "ready": 10
   },
   "diagnostics": {
-    "source_raw_count": 53,
+    "source_raw_count": 33,
     "search_raw_count": 10,
     "source_scored_count": 5,
     "search_scored_count": 5,
