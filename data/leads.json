@@ -1,78 +1,5 @@
 [
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-07-26T17:16:01+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "2a90b33f13d72c90",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -82,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -157,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -228,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -298,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -374,7 +301,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -443,7 +370,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v38piz/schemaorg_returning_the_url_is_unreachable_ensure/",
     "summary": "I was checking in Google Search Console and troubleshooting why half my Shopify store pages had not been indexed, just in case there was an issue. The site was newly launched just a month ago, and I know these things take time, but I began checking a few URLs in schema.org , after finding a recommendation to do so online - which returned this result for the few URLs I checked: \"The URL is unreachable. Ensure robots.txt is accessible and the server is responding with a 200 status code.\" AFAIK, the robots.txt file in Shopify is built in and auto-generated and accessible from the get-go. The vast majority of the pages not indexed are actual product pages, but some of the product pages have been indexed and are being served (I checked with a \"site:.....\" search on Google) The URLs in question are loading fine; it's not like they're blocked. I checked the robots.txt file, and products haven't been blocked either. If it was an issue with hosting, I'd assume that the other few products that had been indexed wouldn't have been. Is this a common issue with Shopify or otherwise? Any thoughts? Many thanks. /u/SkWd15",
     "published_at": "2026-07-22T07:12:56+00:00",
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -515,7 +442,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v3hf1c/anyone_actually_running_edge_seo_proxyinjected/",
     "summary": "I've been mapping out the edge SEO space (SearchPilot/Distilled ODN, RankScience, EdgeComet, Sloth) - reverse proxy sits in front of your site, injects/rewrites title tags, meta descriptions, JSON-LD, canonicals etc at the CDN level so changes ship without a dev deploy. Trying to get a realistic picture from people who've actually dealt with the dev-dependency problem, not just vendor pages: How long does a routine SEO fix (title tag, canonical, schema addition) actually take to ship at your org, from ticket to live If you've used a proxy/edge tool for this, what actually broke or underperformed vs the pitch: reliability, cloaking concerns, cache staleness, something else If you haven't adopted one, is it because you haven't needed it, tried it and bailed, or a trust issue with putting a third party in front of your whole site Not selling anything, just trying to separate real friction from vendor marketing before I sink more time into this space. /u/Which-Breadfruit-926",
     "published_at": "2026-07-22T14:15:22+00:00",
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "hot",
     "score": 17,
     "score_breakdown": {
@@ -583,7 +510,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -644,7 +571,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v3effv/help_with_the_google_indexing_api/",
     "summary": "I am trying to use the official Google Indexing API to index some job postings. I can successfully make the indexing requests and the API returns a 200 status code, but when I check the URLs in Google Search Console, their status never changes. I read in the documentation that a form needs to be filled out to increase the API usage quota; is that form also required just to use the API normally? All my job pages use SSR; I’ve tested them all on PageSpeed Insights and they all scored 100%. I’ve also verified that Google recognizes them as job pages—which it does—and the JSON-LD shows no issues. /u/danielalveshm",
     "published_at": "2026-07-22T12:15:30+00:00",
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
@@ -707,7 +634,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-26T17:16:01+00:00",
+    "discovered_at": "2026-07-27T04:02:38+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
