@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v8a7f9/blog_schema/",
     "summary": "Hi I’m writing to see how much structured data is to much for a blog? So besides the typical Yoast SEO markup, if we have an opportunity to include very precise and unique markup that could be viewed as helpful. Is it really going to make much of a difference for blogs? I know it isn’t applicable to rich results anymore this is strictly for LLM readability. Anyways, would love to hear some thoughts about this. Thanks! /u/binkrocket",
     "published_at": "2026-07-27T19:16:57+00:00",
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "hot",
     "score": 28,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -226,7 +226,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -296,7 +296,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -372,7 +372,7 @@
     "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
     "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
     "published_at": null,
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -432,78 +432,6 @@
     "sent_at": null
   },
   {
-    "item_id": "4bb07f98043552e9",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Schema.org returning \"The URL is unreachable. Ensure robots.txt is accessible and the server is responding with a 200 status code.\" for Shopify store URLs.",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v38piz/schemaorg_returning_the_url_is_unreachable_ensure/",
-    "summary": "I was checking in Google Search Console and troubleshooting why half my Shopify store pages had not been indexed, just in case there was an issue. The site was newly launched just a month ago, and I know these things take time, but I began checking a few URLs in schema.org , after finding a recommendation to do so online - which returned this result for the few URLs I checked: \"The URL is unreachable. Ensure robots.txt is accessible and the server is responding with a 200 status code.\" AFAIK, the robots.txt file in Shopify is built in and auto-generated and accessible from the get-go. The vast majority of the pages not indexed are actual product pages, but some of the product pages have been indexed and are being served (I checked with a \"site:.....\" search on Google) The URLs in question are loading fine; it's not like they're blocked. I checked the robots.txt file, and products haven't been blocked either. If it was an issue with hosting, I'd assume that the other few products that had been indexed wouldn't have been. Is this a common issue with Shopify or otherwise? Any thoughts? Many thanks. /u/SkWd15",
-    "published_at": "2026-07-22T07:12:56+00:00",
-    "discovered_at": "2026-07-28T03:36:16+00:00",
-    "stage": "hot",
-    "score": 19,
-    "score_breakdown": {
-      "schema_hits": [
-        "schema.org"
-      ],
-      "strict_schema_hits": [
-        "schema",
-        "schema.org"
-      ],
-      "intent_hits": [
-        "issue",
-        "search console",
-        "troubleshooting"
-      ],
-      "platform_hits": [
-        "shopify"
-      ],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "schema.org"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [
-      "shopify"
-    ],
-    "issue_types": [],
-    "intent_flags": [
-      "issue",
-      "search console",
-      "troubleshooting"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema.org returning \"The URL is unreachable. Ensure robots.txt is acc",
-    "message_draft": "I’d separate the indexing side from the markup side first, because coverage issues and structured-data issues often get mixed together.\n\nI’d check these first:\n- Separate indexing/crawling symptoms from markup symptoms first.\n- Test one representative URL end-to-end before changing the whole site.\n- Confirm the canonical page is the same page that actually contains the live markup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema.org returning \"The URL is unreachable. Ensure robots.txt is accessible and the server is responding with a 200 status code.\" for Shopify store URLs.': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1v38piz/schemaorg_returning_the_url_is_unreachable_ensure/",
-    "sent_at": null
-  },
-  {
     "item_id": "10860c78418ee03e",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -513,7 +441,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v3hf1c/anyone_actually_running_edge_seo_proxyinjected/",
     "summary": "I've been mapping out the edge SEO space (SearchPilot/Distilled ODN, RankScience, EdgeComet, Sloth) - reverse proxy sits in front of your site, injects/rewrites title tags, meta descriptions, JSON-LD, canonicals etc at the CDN level so changes ship without a dev deploy. Trying to get a realistic picture from people who've actually dealt with the dev-dependency problem, not just vendor pages: How long does a routine SEO fix (title tag, canonical, schema addition) actually take to ship at your org, from ticket to live If you've used a proxy/edge tool for this, what actually broke or underperformed vs the pitch: reliability, cloaking concerns, cache staleness, something else If you haven't adopted one, is it because you haven't needed it, tried it and bailed, or a trust issue with putting a third party in front of your whole site Not selling anything, just trying to separate real friction from vendor marketing before I sink more time into this space. /u/Which-Breadfruit-926",
     "published_at": "2026-07-22T14:15:22+00:00",
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "hot",
     "score": 17,
     "score_breakdown": {
@@ -572,6 +500,66 @@
     "sent_at": null
   },
   {
+    "item_id": "f794cd6f932b9716",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1v8fi7n/does_schema_markup_impact_serp_rank_moz_case/",
+    "summary": "Schema markup has long been debated in the SEO community as an essential component of any SEO strategy. On one side, there are the people who take what Google says at face value, in that it only impacts search appearance via rich snippets and contextual understanding. On the other side of the fence, a belief is held that if Google recommends structured markup through schema, then there must be some direct ranking influence. Throughout the years, we’ve seen LinkedIn influencers, anecdotal “evidence”, and correlational studies that seem to give credit to each side. Anecdotal experience isn’t verifiable and typically lacks an appropriate sample size. Correlative studies show correlation, not causation, and don’t account for independent variables between subjects. Thanks to u/jakehundley /u/WebLinkr",
+    "published_at": "2026-07-27T22:31:19+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
+    "stage": "hot",
+    "score": 15,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "schema markup"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1v8fi7n/does_schema_markup_impact_serp_rank_moz_case/",
+    "sent_at": null
+  },
+  {
     "item_id": "3e94faf8854bb2e7",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -581,7 +569,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v87b58/our_findings_around_aeo_some_anecdotes_and/",
     "summary": "Hey folks. Sharing our view on AEO, because clients keep asking for llms.txt and citation schema, and we wanted data before recommending any of it. We also log every AI crawler hit on our own site. Anecdotes below. Rendering first. Vercel logged 569M GPTBot and 370M Claude fetches in late 2024. Neither ran a line of JavaScript. This matches pretty much exactly what we found in mid-2026: GPTBot, ClaudeBot and PerplexityBot pull the document and just leaves. Similar to what we've read before, it aligns with what we found: llms.txt. Google says it won't use the file for rankings. We literally had less than 0.1% hit it from our total amount JSON-LD, in our case feels as though it made a difference, more so for AI traffic than SEO. We're still looking into this. Markdown for bots. This we know got hammered, but we're still in the process of quantifying it. Curious what your logs say. Has anyone caught an AI crawler executing JS? How many of you are passing markdown, or do you think it's unecessary work? /u/Forward_Ant_5048",
     "published_at": "2026-07-27T17:37:48+00:00",
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "hot",
     "score": 13,
     "score_breakdown": {
@@ -639,7 +627,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -691,69 +679,6 @@
     "sent_at": null
   },
   {
-    "item_id": "b2ff1acd4abc5749",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Help with the Google Indexing API",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1v3effv/help_with_the_google_indexing_api/",
-    "summary": "I am trying to use the official Google Indexing API to index some job postings. I can successfully make the indexing requests and the API returns a 200 status code, but when I check the URLs in Google Search Console, their status never changes. I read in the documentation that a form needs to be filled out to increase the API usage quota; is that form also required just to use the API normally? All my job pages use SSR; I’ve tested them all on PageSpeed Insights and they all scored 100%. I’ve also verified that Google recognizes them as job pages—which it does—and the JSON-LD shows no issues. /u/danielalveshm",
-    "published_at": "2026-07-22T12:15:30+00:00",
-    "discovered_at": "2026-07-28T03:36:16+00:00",
-    "stage": "warm",
-    "score": 10,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "json-ld"
-      ],
-      "intent_hits": [
-        "issue",
-        "search console"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "issue",
-      "search console"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Help with the Google Indexing API",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'Help with the Google Indexing API': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1v3effv/help_with_the_google_indexing_api/",
-    "sent_at": null
-  },
-  {
     "item_id": "8fec33bcb0c93f1d",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -763,7 +688,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-28T03:36:16+00:00",
+    "discovered_at": "2026-07-28T10:44:59+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
