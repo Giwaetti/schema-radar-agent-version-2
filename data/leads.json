@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-31T03:50:49+00:00",
+    "discovered_at": "2026-07-31T10:58:59+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-31T03:50:49+00:00",
+    "discovered_at": "2026-07-31T10:58:59+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-31T03:50:49+00:00",
+    "discovered_at": "2026-07-31T10:58:59+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-31T03:50:49+00:00",
+    "discovered_at": "2026-07-31T10:58:59+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -292,18 +292,18 @@
     "sent_at": null
   },
   {
-    "item_id": "d214198645e6c277",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
+    "item_id": "f794cd6f932b9716",
+    "source": "Reddit r/SEO",
+    "source_id": "reddit-seo",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "LD Json Schema syntax Error causing issues on website",
-    "source_item_url": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
-    "summary": "It appears that another plugin or perhaps your theme might be adding this conflicting schema markup , which is leading to the errors you're seeing. To resolve this, you will need to identify the source of this additional schema and reach out to that particular plugin or theme's support team for further assistance.",
-    "published_at": null,
-    "discovered_at": "2026-07-31T03:50:49+00:00",
+    "source_url": "https://www.reddit.com/r/SEO/.rss",
+    "title": "Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis",
+    "source_item_url": "https://www.reddit.com/r/SEO/comments/1v8fi7n/does_schema_markup_impact_serp_rank_moz_case/",
+    "summary": "Schema markup has long been debated in the SEO community as an essential component of any SEO strategy. On one side, there are the people who take what Google says at face value, in that it only impacts search appearance via rich snippets and contextual understanding. On the other side of the fence, a belief is held that if Google recommends structured markup through schema, then there must be some direct ranking influence. Throughout the years, we’ve seen LinkedIn influencers, anecdotal “evidence”, and correlational studies that seem to give credit to each side. Anecdotal experience isn’t verifiable and typically lacks an appropriate sample size. Correlative studies show correlation, not causation, and don’t account for independent variables between subjects. Thanks to u/jakehundley /u/WebLinkr",
+    "published_at": "2026-07-27T22:31:19+00:00",
+    "discovered_at": "2026-07-31T10:58:59+00:00",
     "stage": "hot",
-    "score": 22,
+    "score": 15,
     "score_breakdown": {
       "schema_hits": [
         "schema markup"
@@ -312,11 +312,7 @@
         "schema",
         "schema markup"
       ],
-      "intent_hits": [
-        "error",
-        "issue",
-        "support"
-      ],
+      "intent_hits": [],
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
@@ -325,21 +321,16 @@
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
       "title_signal_hits": [
-        "error",
-        "issue"
+        "schema markup"
       ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
       "ecom_platform_source": false
     },
     "platforms": [],
     "issue_types": [],
-    "intent_flags": [
-      "error",
-      "issue",
-      "support"
-    ],
+    "intent_flags": [],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -352,77 +343,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: LD Json Schema syntax Error causing issues on website",
+    "subject_draft": "Direct schema help for: Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis",
     "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'LD Json Schema syntax Error causing issues on website': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "follow_up_draft": "Quick follow-up on 'Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/ld-json-schema-syntax-error-causing-issues-on-website/",
-    "sent_at": null
-  },
-  {
-    "item_id": "0009f86135aebd37",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
-    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
-    "published_at": null,
-    "discovered_at": "2026-07-31T03:50:49+00:00",
-    "stage": "hot",
-    "score": 18,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "missing"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "json-ld",
-        "missing"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "missing"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "contact_target": "https://www.reddit.com/r/SEO/comments/1v8fi7n/does_schema_markup_impact_serp_rank_moz_case/",
     "sent_at": null
   },
   {
@@ -435,7 +361,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-31T03:50:49+00:00",
+    "discovered_at": "2026-07-31T10:58:59+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -487,6 +413,74 @@
     "sent_at": null
   },
   {
+    "item_id": "c97e8b761cc81b46",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "What post-migration audits would you recommend after moving a Wix blog to Ghost?",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vbllft/what_postmigration_audits_would_you_recommend/",
+    "summary": "I've migrated my Wix blog to a Ghost staging site and want to make sure the migration is solid before going live. Beyond checking redirects, broken links, metadata, structured data, canonicals, sitemap, and page speed, what else would you audit? Any lessons from your own migrations? /u/tonypaul009",
+    "published_at": "2026-07-31T09:03:33+00:00",
+    "discovered_at": "2026-07-31T10:58:59+00:00",
+    "stage": "warm",
+    "score": 8,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "broken"
+      ],
+      "platform_hits": [
+        "wix"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [
+        "canonical",
+        "sitemap"
+      ],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wix"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "broken"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: What post-migration audits would you recommend after moving a Wix blog",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'What post-migration audits would you recommend after moving a Wix blog to Ghost?': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1vbllft/what_postmigration_audits_would_you_recommend/",
+    "sent_at": null
+  },
+  {
     "item_id": "8fec33bcb0c93f1d",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -496,7 +490,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-31T03:50:49+00:00",
+    "discovered_at": "2026-07-31T10:58:59+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
