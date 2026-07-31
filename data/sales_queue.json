@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-07-31T10:58:59+00:00",
+    "discovered_at": "2026-07-31T17:52:27+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-07-31T10:58:59+00:00",
+    "discovered_at": "2026-07-31T17:52:27+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-07-31T10:58:59+00:00",
+    "discovered_at": "2026-07-31T17:52:27+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-07-31T10:58:59+00:00",
+    "discovered_at": "2026-07-31T17:52:27+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -292,66 +292,6 @@
     "sent_at": null
   },
   {
-    "item_id": "f794cd6f932b9716",
-    "source": "Reddit r/SEO",
-    "source_id": "reddit-seo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/SEO/.rss",
-    "title": "Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis",
-    "source_item_url": "https://www.reddit.com/r/SEO/comments/1v8fi7n/does_schema_markup_impact_serp_rank_moz_case/",
-    "summary": "Schema markup has long been debated in the SEO community as an essential component of any SEO strategy. On one side, there are the people who take what Google says at face value, in that it only impacts search appearance via rich snippets and contextual understanding. On the other side of the fence, a belief is held that if Google recommends structured markup through schema, then there must be some direct ranking influence. Throughout the years, we’ve seen LinkedIn influencers, anecdotal “evidence”, and correlational studies that seem to give credit to each side. Anecdotal experience isn’t verifiable and typically lacks an appropriate sample size. Correlative studies show correlation, not causation, and don’t account for independent variables between subjects. Thanks to u/jakehundley /u/WebLinkr",
-    "published_at": "2026-07-27T22:31:19+00:00",
-    "discovered_at": "2026-07-31T10:58:59+00:00",
-    "stage": "hot",
-    "score": 15,
-    "score_breakdown": {
-      "schema_hits": [
-        "schema markup"
-      ],
-      "strict_schema_hits": [
-        "schema",
-        "schema markup"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "schema markup"
-      ],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Does Schema Markup Impact SERP Rank? - Moz Case Study & Analysis': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/SEO/comments/1v8fi7n/does_schema_markup_impact_serp_rank_moz_case/",
-    "sent_at": null
-  },
-  {
     "item_id": "25885f2289422242",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -361,7 +301,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-31T10:58:59+00:00",
+    "discovered_at": "2026-07-31T17:52:27+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -422,7 +362,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vbllft/what_postmigration_audits_would_you_recommend/",
     "summary": "I've migrated my Wix blog to a Ghost staging site and want to make sure the migration is solid before going live. Beyond checking redirects, broken links, metadata, structured data, canonicals, sitemap, and page speed, what else would you audit? Any lessons from your own migrations? /u/tonypaul009",
     "published_at": "2026-07-31T09:03:33+00:00",
-    "discovered_at": "2026-07-31T10:58:59+00:00",
+    "discovered_at": "2026-07-31T17:52:27+00:00",
     "stage": "warm",
     "score": 8,
     "score_breakdown": {
@@ -490,7 +430,7 @@
     "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-07-31T10:58:59+00:00",
+    "discovered_at": "2026-07-31T17:52:27+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
