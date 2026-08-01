@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-08-01T10:10:25+00:00",
+    "discovered_at": "2026-08-01T17:15:01+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-08-01T10:10:25+00:00",
+    "discovered_at": "2026-08-01T17:15:01+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-08-01T10:10:25+00:00",
+    "discovered_at": "2026-08-01T17:15:01+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-08-01T10:10:25+00:00",
+    "discovered_at": "2026-08-01T17:15:01+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -301,7 +301,7 @@
     "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-08-01T10:10:25+00:00",
+    "discovered_at": "2026-08-01T17:15:01+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -366,7 +366,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-01T10:10:25+00:00",
+    "discovered_at": "2026-08-01T17:15:01+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -427,7 +427,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vbllft/what_postmigration_audits_would_you_recommend/",
     "summary": "I've migrated my Wix blog to a Ghost staging site and want to make sure the migration is solid before going live. Beyond checking redirects, broken links, metadata, structured data, canonicals, sitemap, and page speed, what else would you audit? Any lessons from your own migrations? /u/tonypaul009",
     "published_at": "2026-07-31T09:03:33+00:00",
-    "discovered_at": "2026-08-01T10:10:25+00:00",
+    "discovered_at": "2026-08-01T17:15:01+00:00",
     "stage": "warm",
     "score": 8,
     "score_breakdown": {
@@ -483,61 +483,6 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://www.reddit.com/r/TechSEO/comments/1vbllft/what_postmigration_audits_would_you_recommend/",
-    "sent_at": null
-  },
-  {
-    "item_id": "8fec33bcb0c93f1d",
-    "source": "WordPress Support - Schema & Structured Data for WP & AMP",
-    "source_id": "wordpress-schema-support",
-    "source_type": "forum",
-    "source_url": "https://wordpress.org/support/plugin/schema-and-structured-data-for-wp/",
-    "title": "CreativeWork schema: author handling and entity references",
-    "source_item_url": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
-    "summary": "",
-    "published_at": null,
-    "discovered_at": "2026-08-01T10:10:25+00:00",
-    "stage": "watch",
-    "score": 7,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": true,
-      "native_action_source": true,
-      "general_reddit_source": false,
-      "ecom_platform_source": true
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: CreativeWork schema: author handling and entity references",
-    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'CreativeWork schema: author handling and entity references': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/creativework-schema-author-handling-and-entity-references/",
     "sent_at": null
   }
 ]
