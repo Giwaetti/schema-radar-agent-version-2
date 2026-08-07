@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-08-06T10:48:48+00:00",
+    "discovered_at": "2026-08-07T03:15:05+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-schema-markup-not-rendering-properly-in-search-results/",
     "summary": "I've recently added schema markup (using JSON-LD via a plugin) for organization info, local business, and product (for daily gold prices), but Google Search Console shows that structured data is detected but not rendering properly in actual search snippets. Issue Details: Using Rank Math for SEO and schema Site theme is fully schema -compatible",
     "published_at": null,
-    "discovered_at": "2026-08-06T10:48:48+00:00",
+    "discovered_at": "2026-08-07T03:15:05+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-08-06T10:48:48+00:00",
+    "discovered_at": "2026-08-07T03:15:05+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-08-06T10:48:48+00:00",
+    "discovered_at": "2026-08-07T03:15:05+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -292,6 +292,67 @@
     "sent_at": null
   },
   {
+    "item_id": "b47a12e227be77a9",
+    "source": "WordPress Support - Yoast SEO",
+    "source_id": "wordpress-yoast-support",
+    "source_type": "forum",
+    "source_url": "https://wordpress.org/support/plugin/wordpress-seo/",
+    "title": "How do I setup schema values for specific pages?",
+    "source_item_url": "https://wordpress.org/support/topic/how-do-i-setup-schema-values-for-specific-pages/",
+    "summary": "",
+    "published_at": null,
+    "discovered_at": "2026-08-07T03:15:05+00:00",
+    "stage": "hot",
+    "score": 12,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "schema"
+      ],
+      "intent_hits": [
+        "setup"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "setup"
+      ],
+      "schema_source": true,
+      "native_action_source": true,
+      "general_reddit_source": false,
+      "ecom_platform_source": true
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "setup"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: How do I setup schema values for specific pages?",
+    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'How do I setup schema values for specific pages?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/how-do-i-setup-schema-values-for-specific-pages/",
+    "sent_at": null
+  },
+  {
     "item_id": "25885f2289422242",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -301,7 +362,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-06T10:48:48+00:00",
+    "discovered_at": "2026-08-07T03:15:05+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -362,7 +423,7 @@
     "source_item_url": "https://wordpress.org/support/topic/articlebody-cannot-be-modified-for-techarticle-schema-type/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-06T10:48:48+00:00",
+    "discovered_at": "2026-08-07T03:15:05+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
