@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-11T02:27:47+00:00",
-  "total": 10,
+  "generated_at": "2026-08-11T09:14:01+00:00",
+  "total": 7,
   "by_stage": {
-    "hot": 8,
+    "hot": 5,
     "warm": 1,
     "watch": 1
   },
   "by_offer": {
-    "Done-for-you / service": 8,
+    "Done-for-you / service": 5,
     "AI Visibility Kit": 2
   },
   "by_source": {
-    "Search WordPress Support": 7,
+    "Search WordPress Support": 4,
     "WordPress Support - Yoast SEO": 1,
     "WordPress Support - Schema & Structured Data for WP & AMP": 2
   },
   "by_status": {
-    "ready": 10
+    "ready": 7
   },
   "diagnostics": {
     "source_raw_count": 33,
     "search_raw_count": 10,
     "source_scored_count": 3,
-    "search_scored_count": 7,
-    "stale_search_dropped_count": 3,
-    "final_lead_count": 10,
+    "search_scored_count": 4,
+    "stale_search_dropped_count": 6,
+    "final_lead_count": 7,
     "search_queries": [
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic faq schema problem",
-        "result_count": 0,
-        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+        "result_count": 5,
+        "error": ""
       },
       {
         "group": "wordpress",
@@ -41,7 +41,7 @@
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic structured data error",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
