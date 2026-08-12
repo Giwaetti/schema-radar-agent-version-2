@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-08-12T09:31:35+00:00",
+    "discovered_at": "2026-08-12T17:12:54+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-08-12T09:31:35+00:00",
+    "discovered_at": "2026-08-12T17:12:54+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -154,7 +154,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-08-12T09:31:35+00:00",
+    "discovered_at": "2026-08-12T17:12:54+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -230,7 +230,7 @@
     "source_item_url": "https://wordpress.org/support/topic/yoast-woo-product-schema-uses-short-description-instead-of-full-description/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-12T09:31:35+00:00",
+    "discovered_at": "2026-08-12T17:12:54+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -294,7 +294,7 @@
     "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-08-12T09:31:35+00:00",
+    "discovered_at": "2026-08-12T17:12:54+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -350,68 +350,6 @@
     "sent_at": null
   },
   {
-    "item_id": "63bd05776c720a4e",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Organization schema not detected - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/organization-schema-not-detected/",
-    "summary": "You can validate your schema using the Schema .org validator (the body responsible for the Schema data standard) I've checked your site in the Schema Markup Validator, and it's generating the necessary schema \"WebPage\" type and \"Organization\" schema .",
-    "published_at": null,
-    "discovered_at": "2026-08-12T09:31:35+00:00",
-    "stage": "hot",
-    "score": 13,
-    "score_breakdown": {
-      "schema_hits": [
-        "schema markup"
-      ],
-      "strict_schema_hits": [
-        "schema",
-        "schema markup"
-      ],
-      "intent_hits": [],
-      "platform_hits": [
-        "wordpress"
-      ],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [
-      "wordpress"
-    ],
-    "issue_types": [],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Organization schema not detected - WordPress.org",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Organization schema not detected - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/organization-schema-not-detected/",
-    "sent_at": null
-  },
-  {
     "item_id": "25885f2289422242",
     "source": "WordPress Support - Schema & Structured Data for WP & AMP",
     "source_id": "wordpress-schema-support",
@@ -421,7 +359,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-12T09:31:35+00:00",
+    "discovered_at": "2026-08-12T17:12:54+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -482,7 +420,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vm2tba/are_there_any_specific_type_schema_influences/",
     "summary": "We all know the purpose of using schema in our website and it helps google to understand better context about your website pages. Recently , I was in interviewed for the SEO specialist role and the interviewer raised me a question like Which type of schema can add more value to google search engine? Based on my understanding, I don't use specific schema that can help google to priortize our result in SERP. I do Implement schema type based on the content relevancy. I shared the same answers to him. Is my understanding to this process was right? if not,Then please help with your explanation /u/sundar-007",
     "published_at": "2026-08-12T03:27:31+00:00",
-    "discovered_at": "2026-08-12T09:31:35+00:00",
+    "discovered_at": "2026-08-12T17:12:54+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
@@ -541,7 +479,7 @@
     "source_item_url": "https://wordpress.org/support/topic/articlebody-cannot-be-modified-for-techarticle-schema-type/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-12T09:31:35+00:00",
+    "discovered_at": "2026-08-12T17:12:54+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
