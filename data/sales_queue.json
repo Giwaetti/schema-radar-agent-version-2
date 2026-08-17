@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-08-17T09:01:09+00:00",
+    "discovered_at": "2026-08-17T16:45:47+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -75,6 +75,77 @@
     "sent_at": null
   },
   {
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot).",
+    "published_at": null,
+    "discovered_at": "2026-08-17T16:45:47+00:00",
+    "stage": "hot",
+    "score": 28,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "issue"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "issue"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -84,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-08-17T09:01:09+00:00",
+    "discovered_at": "2026-08-17T16:45:47+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -154,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-08-17T09:01:09+00:00",
+    "discovered_at": "2026-08-17T16:45:47+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -230,7 +301,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vpwfqd/i_mechanically_checked_18_wellknown_seocontent/",
     "summary": "Wrote a small script to run a mechanical check (DOM parsing, no AI judgment involved) against one article each from 18 well-known SEO/content marketing sites, plus my own. Wanted to share the pattern, not pitch anything — no tool name, no link, just the method and the numbers. Happy to describe the script in comments if anyone's curious. What I checked , one article per domain, one snapshot in time: Does the site serve /llms.txt ? Is there a question-style H2/H3 (ends in \"?\")? Is there a short (≤300 char) answer paragraph immediately under that heading — the kind of thing an AI engine could lift and quote directly, as opposed to a long intro before the real answer? Does the heading hierarchy nest without skipping a level (H2 → H3 → H4, not H2 → H4)? Is author/publish-date visible in the actual HTML, or only inside a JSON-LD block a human would never see? Targets: Ahrefs, Semrush, Moz, Backlinko, HubSpot, Search Engine Journal, Search Engine Land, Yoast, Kinsta, WP Engine, WPBeginner, SurferSEO, Content Marketing Institute, Animalz, Siege Media, Foundation Inc, Omniscient Digital, and my own site. 18 of 20 targets resolved; 2 didn't (environment issue on my end, not excluded for any other reason). Results, out of 18: 9/18 serve llms.txt 10/18 have a question heading somewhere 8/18 pair that heading with an immediate short answer 9/18 have a valid heading hierarchy (the other 9 skip a level or start below H2) 12/18 mark up author/date only in JSON-LD, not visibly in the page My own site came out with an invalid heading hierarchy too — the FAQ is correctly marked up in schema but isn't built from real H2/H3s in the HTML, so it fails the exact same check. Fixing that next. Not claiming this predicts who gets cited more in ChatGPT/Perplexity — that's a different, harder measurement over time. This is just: even among sites whose whole business is search/content strategy, basic machine-extractable structure is inconsistent, and a lot of the \"structured data\" people cite as a GEO win is invisible to anything except a schema parser. Happy to share the raw JSON if anyone wants to poke at the methodology or thinks a check is measuring the wrong thing. /u/Gullible_Brother_141",
     "published_at": "2026-08-16T12:59:28+00:00",
-    "discovered_at": "2026-08-17T09:01:09+00:00",
+    "discovered_at": "2026-08-17T16:45:47+00:00",
     "stage": "hot",
     "score": 22,
     "score_breakdown": {
@@ -296,7 +367,7 @@
     "source_item_url": "https://wordpress.org/support/topic/yoast-woo-product-schema-uses-short-description-instead-of-full-description/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-17T09:01:09+00:00",
+    "discovered_at": "2026-08-17T16:45:47+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -360,7 +431,7 @@
     "source_item_url": "https://wordpress.org/support/topic/php-warning-in-class-saswp-output-service-php-on-bbpress-qapage-schema/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-17T09:01:09+00:00",
+    "discovered_at": "2026-08-17T16:45:47+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -421,7 +492,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vm2tba/are_there_any_specific_type_schema_influences/",
     "summary": "We all know the purpose of using schema in our website and it helps google to understand better context about your website pages. Recently , I was in interviewed for the SEO specialist role and the interviewer raised me a question like Which type of schema can add more value to google search engine? Based on my understanding, I don't use specific schema that can help google to priortize our result in SERP. I do Implement schema type based on the content relevancy. I shared the same answers to him. Is my understanding to this process was right? if not,Then please help with your explanation /u/sundar-007",
     "published_at": "2026-08-12T03:27:31+00:00",
-    "discovered_at": "2026-08-17T09:01:09+00:00",
+    "discovered_at": "2026-08-17T16:45:47+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
@@ -480,7 +551,7 @@
     "source_item_url": "https://wordpress.org/support/topic/articlebody-cannot-be-modified-for-techarticle-schema-type/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-17T09:01:09+00:00",
+    "discovered_at": "2026-08-17T16:45:47+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
