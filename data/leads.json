@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-08-23T16:43:28+00:00",
+    "discovered_at": "2026-08-24T01:57:34+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-08-23T16:43:28+00:00",
+    "discovered_at": "2026-08-24T01:57:34+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -154,7 +154,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-08-23T16:43:28+00:00",
+    "discovered_at": "2026-08-24T01:57:34+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -230,7 +230,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
     "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
     "published_at": null,
-    "discovered_at": "2026-08-23T16:43:28+00:00",
+    "discovered_at": "2026-08-24T01:57:34+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -294,7 +294,7 @@
     "source_item_url": "https://wordpress.org/support/topic/yoast-woo-product-schema-uses-short-description-instead-of-full-description/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-23T16:43:28+00:00",
+    "discovered_at": "2026-08-24T01:57:34+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -358,7 +358,7 @@
     "source_item_url": "https://wordpress.org/support/topic/articlebody-cannot-be-modified-for-techarticle-schema-type/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-23T16:43:28+00:00",
+    "discovered_at": "2026-08-24T01:57:34+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -413,7 +413,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-and-structured-data-for-wp-file_exists-receives-url-path/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-23T16:43:28+00:00",
+    "discovered_at": "2026-08-24T01:57:34+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
