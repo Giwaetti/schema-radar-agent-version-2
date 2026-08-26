@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-08-26T09:02:53+00:00",
+    "discovered_at": "2026-08-26T16:59:38+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot).",
     "published_at": null,
-    "discovered_at": "2026-08-26T09:02:53+00:00",
+    "discovered_at": "2026-08-26T16:59:38+00:00",
     "stage": "hot",
     "score": 28,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-08-26T09:02:53+00:00",
+    "discovered_at": "2026-08-26T16:59:38+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-08-26T09:02:53+00:00",
+    "discovered_at": "2026-08-26T16:59:38+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -292,6 +292,74 @@
     "sent_at": null
   },
   {
+    "item_id": "b0193752226ce7b6",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Option to Disable Schema Markup for Events - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/option-to-disable-schema-markup-for-events/",
+    "summary": "Currently, the schema is being added programmatically, and while I understand its SEO value, in some cases (like when using custom SEO schema ), it creates conflicts or duplicate markup issues . Having a toggle or filter hook to disable or control when schema is added (e.g., based on page conditions or layout types) would be a great addition.",
+    "published_at": null,
+    "discovered_at": "2026-08-26T16:59:38+00:00",
+    "stage": "hot",
+    "score": 17,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "issue"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "schema markup"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Option to Disable Schema Markup for Events - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Option to Disable Schema Markup for Events - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/option-to-disable-schema-markup-for-events/",
+    "sent_at": null
+  },
+  {
     "item_id": "8c013a8976b87cf4",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -301,7 +369,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vyoftn/crawl_budget_how_to_save_your_website_from_bad/",
     "summary": "https://preview.redd.it/p0doxny1snlh1.jpg?width=554&format=pjpg&auto=webp&s=39326198507632d1d3f439af5c9a9eb3cd293a0c Recently, I commented in one of the post of Suresh Kumar Gondi , where he asked about the issue with these multiple URLs crawling. I feel that what he's expecting here as answer is crawl budget. To all my SEO network, who would like to understand how crawl budget actually hampers the Google SEO ranking. Let's understand the same with simple maths. Assuming that an eCommerce store has: / 1000 products listed on website. / 1000 product URLs / ~ 50 category URLs / 3 types of filter (size, price, color) = 3000 filter URLs / ~ 2000 parameter/sort/pagination/search string URLs -------------------- - Assuming that Google bot is allowed to crawl 500 URLs per day - Then for this 6050 URLs, it will approximately take - 12.5 days. - Where the actual URLs to be crawled were only 1000 product URLs, which could have been crawled in 2 days. Note: Ignored the CSS, JS files URLs in the crawl --------------------- What does this mean: ⮑ More URLs ⮑ More Crawling ⮑ More Rendering ⮑ More Server load ⮑ Less Server Response Time ⮑ Slower Discovery or Refresh of Important Pages --------------------- Ultimately, SEO is more about saving Google time in analysing your website. That's perfect SEO. That's the reason why people ask to use multiple types of schema, because Google identify the page content through it. Help Google to discover your website easily. Hope this analogy helps everyone. /u/ActuatorDelicious427",
     "published_at": "2026-08-26T05:54:43+00:00",
-    "discovered_at": "2026-08-26T09:02:53+00:00",
+    "discovered_at": "2026-08-26T16:59:38+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
@@ -360,7 +428,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-and-structured-data-for-wp-file_exists-receives-url-path/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-26T09:02:53+00:00",
+    "discovered_at": "2026-08-26T16:59:38+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
