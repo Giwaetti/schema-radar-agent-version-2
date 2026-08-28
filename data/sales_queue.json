@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-08-27T09:50:33+00:00",
+    "discovered_at": "2026-08-28T00:56:56+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-08-27T09:50:33+00:00",
+    "discovered_at": "2026-08-28T00:56:56+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -154,7 +154,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-08-27T09:50:33+00:00",
+    "discovered_at": "2026-08-28T00:56:56+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -221,60 +221,52 @@
     "sent_at": null
   },
   {
-    "item_id": "78fcd6cfb62088b1",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
+    "item_id": "8bb5a6be42c90dae",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Bug: FAQ Schema in Accordion Widget - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/bug-faq-schema-in-accordion-widget/",
-    "summary": "Hi there, Thanks for contacting us and reporting this. I've gone through the details you provided and was able to see and understand the issue. Unfortunately, this is a known bug affecting the Accordion widget and the FAQ scheme feature. Our developers are aware and are already working to fix it as soon as possible. You can try to turn off Element Caching in the Accordion widget's Advanced ...",
-    "published_at": null,
-    "discovered_at": "2026-08-27T09:50:33+00:00",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Structured data / schema for AI citations: real lever or overrated? What have you actually seen move?",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1w03hhw/structured_data_schema_for_ai_citations_real/",
+    "summary": "I keep going back and forth on this one. I spend a lot of time auditing pages for AI-answer readiness, and schema is always the thing people reach for first — Article, FAQ, Author, Organization, the usual suspects. It's cheap to add, it's not going to hurt anything, so \"just add it\" feels like safe advice. But I genuinely don't know how much it actually moves the needle versus just being table stakes that every serious site already has, so it's not the thing differentiating who gets cited and who doesn't. Has anyone here actually isolated schema as a variable — added it (or fixed broken/missing schema) on a page and watched something change in AI citations or AI-referred traffic, separate from everything else you were doing at the same time? Or is it more of a \"can't hurt, can't really prove it helps either\" situation in your experience? /u/Gullible_Brother_141",
+    "published_at": "2026-08-27T19:16:18+00:00",
+    "discovered_at": "2026-08-28T00:56:56+00:00",
     "stage": "hot",
-    "score": 23,
+    "score": 21,
     "score_breakdown": {
       "schema_hits": [
-        "faq schema"
+        "structured data"
       ],
       "strict_schema_hits": [
-        "faq schema",
-        "schema"
+        "schema",
+        "structured data"
       ],
       "intent_hits": [
-        "developer",
+        "broken",
         "fix",
-        "issue"
+        "missing"
       ],
-      "platform_hits": [
-        "wordpress"
-      ],
-      "issue_hits": [
-        "faq schema"
-      ],
+      "platform_hits": [],
+      "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
       "title_signal_hits": [
-        "faq schema"
+        "structured data"
       ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
       "ecom_platform_source": false
     },
-    "platforms": [
-      "wordpress"
-    ],
-    "issue_types": [
-      "faq schema"
-    ],
+    "platforms": [],
+    "issue_types": [],
     "intent_flags": [
-      "developer",
+      "broken",
       "fix",
-      "issue"
+      "missing"
     ],
     "business_name": null,
     "business_site": null,
@@ -288,38 +280,103 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Bug: FAQ Schema in Accordion Widget - WordPress.org",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Bug: FAQ Schema in Accordion Widget - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: Structured data / schema for AI citations: real lever or overrated? Wh",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured data / schema for AI citations: real lever or overrated? What have you actually seen move?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/bug-faq-schema-in-accordion-widget/",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1w03hhw/structured_data_schema_for_ai_citations_real/",
     "sent_at": null
   },
   {
-    "item_id": "26bf84d31606e75d",
+    "item_id": "0009f86135aebd37",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema-markup on the author's page - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
-    "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-08-27T09:50:33+00:00",
+    "discovered_at": "2026-08-28T00:56:56+00:00",
     "stage": "hot",
-    "score": 19,
+    "score": 18,
     "score_breakdown": {
       "schema_hits": [
-        "schema markup",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "missing"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "json-ld",
+        "missing"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "missing"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "sent_at": null
+  },
+  {
+    "item_id": "9dc3b83bfea7bd82",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Google Structured Data error - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/google-structured-data-error-6/",
+    "summary": "Hey, we are getting some mail from google regarding structured data . base salary field, street address and employment type. We have a salary field, in the job form, which is optional. the employment type and the address field are mandatory fields. But we get critical errors for this. What are we doing wrong? Any ideas how to fix this?",
+    "published_at": null,
+    "discovered_at": "2026-08-28T00:56:56+00:00",
+    "stage": "hot",
+    "score": 17,
+    "score_breakdown": {
+      "schema_hits": [
         "structured data"
       ],
       "strict_schema_hits": [
-        "schema",
-        "schema markup",
         "structured data"
       ],
-      "intent_hits": [],
+      "intent_hits": [
+        "error",
+        "fix"
+      ],
       "platform_hits": [
         "wordpress"
       ],
@@ -329,7 +386,10 @@
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
+      "title_signal_hits": [
+        "error",
+        "structured data"
+      ],
       "schema_source": true,
       "native_action_source": false,
       "general_reddit_source": false,
@@ -339,7 +399,10 @@
       "wordpress"
     ],
     "issue_types": [],
-    "intent_flags": [],
+    "intent_flags": [
+      "error",
+      "fix"
+    ],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -352,12 +415,281 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema-markup on the author's page - WordPress.org",
+    "subject_draft": "Direct schema help for: Google Structured Data error - WordPress.org",
     "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema-markup on the author's page - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "follow_up_draft": "Quick follow-up on 'Google Structured Data error - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
+    "contact_target": "https://wordpress.org/support/topic/google-structured-data-error-6/",
+    "sent_at": null
+  },
+  {
+    "item_id": "30bc12018547ce3e",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "Hundreds of findings found in the audit. How to prioritize the technical SEO issues?",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1w0411n/hundreds_of_findings_found_in_the_audit_how_to/",
+    "summary": "Large technical SEO audits often produce hundreds or even thousands of findings but treating every issue as equally important doesn't look practical. For example, I might have crawlability issues, indexation inconsistencies, duplicate URLs, internal linking problems and various HTML or structured data warnings in the same audit. I am curious to see how veteran SEOs rank these when they can’t fix all at once. Do you generally rank issues by estimated organic impact, number of affected URLs, crawl frequency, implementation effort, or something else? I've found that the hardest part isn't identifying technical issues it's deciding which ones are actually worth engineering time. /u/posticycom",
+    "published_at": "2026-08-27T19:36:02+00:00",
+    "discovered_at": "2026-08-28T00:56:56+00:00",
+    "stage": "hot",
+    "score": 17,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "fix",
+        "implement",
+        "issue",
+        "problem",
+        "warning"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "fix",
+      "implement",
+      "issue",
+      "problem",
+      "warning"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Hundreds of findings found in the audit. How to prioritize the technic",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Hundreds of findings found in the audit. How to prioritize the technical SEO issues?': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1w0411n/hundreds_of_findings_found_in_the_audit_how_to/",
+    "sent_at": null
+  },
+  {
+    "item_id": "4e2d3bdd28d9338b",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Structured Data Parsing Error for Long Event Descriptions",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-parsing-error-for-long-event-descriptions/",
+    "summary": "When entering a long description for the event, the structured data presents the following error : Parsing error : Missing ',' or '}'.",
+    "published_at": null,
+    "discovered_at": "2026-08-28T00:56:56+00:00",
+    "stage": "hot",
+    "score": 16,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error",
+        "missing"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "missing"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Structured Data Parsing Error for Long Event Descriptions",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Parsing Error for Long Event Descriptions': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-parsing-error-for-long-event-descriptions/",
+    "sent_at": null
+  },
+  {
+    "item_id": "dc0c798088ac124e",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Structured Data Linter error | WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-linter-error/",
+    "summary": "I saw the message \"Run Structured Data Linter to validate structured data \" in PageSpeed Insights.",
+    "published_at": null,
+    "discovered_at": "2026-08-28T00:56:56+00:00",
+    "stage": "hot",
+    "score": 15,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Structured Data Linter error | WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Linter error | WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-linter-error/",
+    "sent_at": null
+  },
+  {
+    "item_id": "988c204bc5808d63",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Unparsable structured data error showing on our GSC for glossary items ...",
+    "source_item_url": "https://wordpress.org/support/topic/unparsable-structured-data-error-showing-on-our-gsc-for-glossary-items/",
+    "summary": "The topic 'Unparsable structured data error showing on our GSC for glossary items' is closed to new replies.",
+    "published_at": null,
+    "discovered_at": "2026-08-28T00:56:56+00:00",
+    "stage": "hot",
+    "score": 14,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Unparsable structured data error showing on our GSC for glossary items",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Unparsable structured data error showing on our GSC for glossary items ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/unparsable-structured-data-error-showing-on-our-gsc-for-glossary-items/",
     "sent_at": null
   },
   {
@@ -370,7 +702,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vyoftn/crawl_budget_how_to_save_your_website_from_bad/",
     "summary": "https://preview.redd.it/p0doxny1snlh1.jpg?width=554&format=pjpg&auto=webp&s=39326198507632d1d3f439af5c9a9eb3cd293a0c Recently, I commented in one of the post of Suresh Kumar Gondi , where he asked about the issue with these multiple URLs crawling. I feel that what he's expecting here as answer is crawl budget. To all my SEO network, who would like to understand how crawl budget actually hampers the Google SEO ranking. Let's understand the same with simple maths. Assuming that an eCommerce store has: / 1000 products listed on website. / 1000 product URLs / ~ 50 category URLs / 3 types of filter (size, price, color) = 3000 filter URLs / ~ 2000 parameter/sort/pagination/search string URLs -------------------- - Assuming that Google bot is allowed to crawl 500 URLs per day - Then for this 6050 URLs, it will approximately take - 12.5 days. - Where the actual URLs to be crawled were only 1000 product URLs, which could have been crawled in 2 days. Note: Ignored the CSS, JS files URLs in the crawl --------------------- What does this mean: ⮑ More URLs ⮑ More Crawling ⮑ More Rendering ⮑ More Server load ⮑ Less Server Response Time ⮑ Slower Discovery or Refresh of Important Pages --------------------- Ultimately, SEO is more about saving Google time in analysing your website. That's perfect SEO. That's the reason why people ask to use multiple types of schema, because Google identify the page content through it. Help Google to discover your website easily. Hope this analogy helps everyone. /u/ActuatorDelicious427",
     "published_at": "2026-08-26T05:54:43+00:00",
-    "discovered_at": "2026-08-27T09:50:33+00:00",
+    "discovered_at": "2026-08-28T00:56:56+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
@@ -420,46 +752,40 @@
     "sent_at": null
   },
   {
-    "item_id": "9ee3b941d12e5823",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
+    "item_id": "74b9ada979fe9369",
+    "source": "WordPress Support - Schema & Structured Data for WP & AMP",
+    "source_id": "wordpress-schema-support",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Lost ~90% of traffic on June 07. Cleaned up thin content, improved schema, August Spam update had a neutral effect. Should I just wait for the next core update?",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1vzke7i/lost_90_of_traffic_on_june_07_cleaned_up_thin/",
-    "summary": "I run a small site that does punjabi song lyrics translations with meanings, vocabulary and english translations. Launched in April and it was growing well through May. Was getting around 12-15k impressions a day and up to ~1200 clicks a day at peak in early June. On June 07, the impressions and clicks dropped by ~90%. No manual actions, no security issues. It lined up with the tail of the May 2026 core update. I attributed it to the ~3000 word pages (audio, dictionary meaning and songs the word was used in) that I generated and pushed in a matter of a couple days for ~80 actual song pages. Actions Taken: - no-index on all word pages - exposed the actual meaning content into the server rendered html - built a proper about page - deindexing the leftover ~350 word pages with a words only sitemap to force a recrawl - consistently pushing songs with improved schema (upto 220 from 80 back in June) Where it stands now: - ~40-50 clicks a day, ~140 impressions. slowly declining further - about 10 pages carry 80% of the traffic. only long tail exact match queries are working - new pages get indexed fine but pull basically 0 impressions - August spam update had no noticeable effect, positive or negative Questions: - does this read like a thin content/site quality core update hit to you? - has anyone actually recovered from a demotion like this after cleaning up thin pages? how long did it take? - anything else worth doing here or should i just wait for the next core update and hope the re-evaluation goes my way? Appreciate the help. Thanks in advance. /u/ki-kehnde",
-    "published_at": "2026-08-27T04:54:42+00:00",
-    "discovered_at": "2026-08-27T09:50:33+00:00",
-    "stage": "watch",
-    "score": 7,
+    "source_url": "https://wordpress.org/support/plugin/schema-and-structured-data-for-wp/",
+    "title": "Is there a way to suppress post author details in schema output?",
+    "source_item_url": "https://wordpress.org/support/topic/is-there-a-way-to-suppress-post-author-details-in-schema-output/",
+    "summary": "",
+    "published_at": null,
+    "discovered_at": "2026-08-28T00:56:56+00:00",
+    "stage": "warm",
+    "score": 8,
     "score_breakdown": {
       "schema_hits": [],
       "strict_schema_hits": [
         "schema"
       ],
-      "intent_hits": [
-        "issue"
-      ],
+      "intent_hits": [],
       "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
-      "negative_hits": [
-        "sitemap"
-      ],
+      "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
       "title_signal_hits": [],
-      "schema_source": false,
+      "schema_source": true,
       "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
+      "general_reddit_source": false,
+      "ecom_platform_source": true
     },
     "platforms": [],
     "issue_types": [],
-    "intent_flags": [
-      "issue"
-    ],
+    "intent_flags": [],
     "business_name": null,
     "business_site": null,
     "offer_fit": "AI Visibility Kit",
@@ -472,12 +798,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Get the AI Visibility Kit",
     "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Lost ~90% of traffic on June 07. Cleaned up thin content, improved sch",
+    "subject_draft": "AI Visibility Kit could help with: Is there a way to suppress post author details in schema output?",
     "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'Lost ~90% of traffic on June 07. Cleaned up thin content, improved schema, August Spam update had a neutral effect. Should I just wait for the next core update?': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
+    "follow_up_draft": "Quick follow-up on 'Is there a way to suppress post author details in schema output?': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1vzke7i/lost_90_of_traffic_on_june_07_cleaned_up_thin/",
+    "contact_target": "https://wordpress.org/support/topic/is-there-a-way-to-suppress-post-author-details-in-schema-output/",
     "sent_at": null
   },
   {
@@ -490,7 +816,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-and-structured-data-for-wp-file_exists-receives-url-path/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-08-27T09:50:33+00:00",
+    "discovered_at": "2026-08-28T00:56:56+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
