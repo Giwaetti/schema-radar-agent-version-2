@@ -1,81 +1,5 @@
 [
   {
-    "item_id": "ed1458b922432690",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Elementor FAQPage Schema Bug - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
-    "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
-    "published_at": null,
-    "discovered_at": "2026-09-11T04:42:06+00:00",
-    "stage": "hot",
-    "score": 25,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld",
-        "schema markup"
-      ],
-      "strict_schema_hits": [
-        "json-ld",
-        "schema",
-        "schema markup"
-      ],
-      "intent_hits": [
-        "error",
-        "issue",
-        "missing",
-        "search console",
-        "support"
-      ],
-      "platform_hits": [
-        "wordpress"
-      ],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [
-      "wordpress"
-    ],
-    "issue_types": [],
-    "intent_flags": [
-      "error",
-      "issue",
-      "missing",
-      "search console",
-      "support"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Elementor FAQPage Schema Bug - WordPress.org",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Elementor FAQPage Schema Bug - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
-    "sent_at": null
-  },
-  {
     "item_id": "26f19b2d0ea5933d",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -85,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1wcmimx/brandentity_disambiguation_issue/",
     "summary": "Hi everyone, I’m dealing with a brand/entity disambiguation issue in Google Search and AI Overviews, and I’d really appreciate advice from people experienced with entity SEO, Knowledge Graph, local SEO, and AI search optimization. We operate a legitimate publishing company with a distinct brand name. However, Google’s AI Overview is sometimes associating our brand with another publisher that has a very similar name. The issue is becoming more concerning because an AI Overview is currently displaying wording along the lines of: “Reviews for [our brand] (also referred to as [another publisher])…” The problem is that these are completely separate businesses, and there is no affiliation, ownership, or relationship between them. We have already taken steps to strengthen our entity signals, including: Consistent business name across our website and profiles Consistent NAP information Google Business Profile Organization/LocalBusiness structured data WebSite and WebPage schema Official social profiles in sameAs Third-party business/review profiles Clear company/about information on our website Explicit clarification on our website that we are not affiliated with similarly named publishers Despite this, Google’s AI Overview is still occasionally conflating the two entities. My questions for the experts: What is the best long-term strategy for correcting this type of entity/brand disambiguation problem in Google’s Knowledge Graph and AI Overviews? Is explicitly stating “not affiliated with similarly named businesses” on the website a useful entity-disambiguation signal, or can repeatedly mentioning the other entity actually reinforce the association? Would you recommend adding the disambiguation statement to Organization/LocalBusiness schema, or keeping it strictly in visible website content? Should we avoid mentioning the similarly named business entirely and instead focus on strengthening our own entity signals? Has anyone successfully resolved a similar AI Overview entity conflation issue? If so, what changes actually made a measurable difference? I’m specifically looking for an SEO/entity-level solution rather than simply changing the wording of the website, because the main concern is getting Google to consistently understand that these are two distinct entities. Any expert guidance or real-world case studies would be greatly appreciated. /u/PropertyNo1030",
     "published_at": "2026-09-10T15:32:02+00:00",
-    "discovered_at": "2026-09-11T04:42:06+00:00",
+    "discovered_at": "2026-09-11T12:49:40+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -151,7 +75,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1w6rjrh/site_title_in_search_results/",
     "summary": "My site's title is my URL instead of my site name. It has been like this for a long time and I can't seem to change it even with WebSite in JSON-LD. Any ideas how to get this fixed? Site is hosted on Wix if that matters. /u/bucky494",
     "published_at": "2026-09-04T02:20:34+00:00",
-    "discovered_at": "2026-09-11T04:42:06+00:00",
+    "discovered_at": "2026-09-11T12:49:40+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -204,73 +128,6 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://www.reddit.com/r/TechSEO/comments/1w6rjrh/site_title_in_search_results/",
-    "sent_at": null
-  },
-  {
-    "item_id": "c065815fbeed3c1c",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Turning last week's thread into an actual check sequence — what to verify, in what order, before deciding a traffic drop means anything",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1w6i9x1/turning_last_weeks_thread_into_an_actual_check/",
-    "summary": "Last week's thread here went somewhere more useful than I expected, so I wrote up what it converged on. Credit where it's due — most of this isn't mine. The starting point was my own mistake: I'd been scoring pages on structure without checking whether anything had fetched them. u/Dry_Steak30 pointed out he'd run the same kind of audit, then checked 30 days of access logs and found zero GPTBot fetches, zero OAI-SearchBot, zero ChatGPT-User — while Search Console showed the page indexed and healthy the whole time. So he'd been grading heading hierarchy on a page no retrieval crawler had ever seen. u/Upstairs_Control_611 then split what I'd been treating as one step into two, which fixed the thing I couldn't articulate: access and extractability are different gates, and a page can pass the first and fail the second. And u/SEONCLIC added the check I'd been missing entirely — paragraph autonomy. Take the short answer out from under its heading and see if it stands alone. A lot of sub-300-character answers open with \"it depends on several factors\" or refer back to the previous paragraph. They pass a length check and are still useless to a model. Put together, the order looks like this: 1. Retrieval evidence. Grep your access logs for GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot. Free, and if it comes back zero, everything below is premature. 2. Access gate. Status codes, redirects, 403/404/5xx, response byte count. Did the crawler get a usable response. 3. Content gate. Is the main content actually in the HTML — not injected by JS after load, not stripped, not behind an interstitial. 4. Structural extractability. Question-style heading with a short answer directly under it. Heading hierarchy that nests without skipping. Author and date visible in the page, not only in JSON-LD. 5. Paragraph autonomy. The answer stands alone when lifted out of context. Only after all five does it make sense to ask the interpretive question — whether a traffic drop is AI cannibalization, content decay, or the brand being hard to identify and cite confidently. Those three look identical on a clicks chart and need completely different responses, which is where most of the budget gets wasted. What this sequence still can't answer, and nobody in that thread could either: does fixing structure displace a stale source in an answer, or just join it alongside. u/Dry_Steak30 raised it and I don't have a clean before/after that controls for page age. If anyone does, that's the measurement I'd most want to see. Anyway — posting this back because the thread did the work, not me. If it's useful, take it. I keep a longer written version of this as a triage worksheet — happy to send it to anyone who wants it, just say so. /u/Gullible_Brother_141",
-    "published_at": "2026-09-03T19:57:40+00:00",
-    "discovered_at": "2026-09-11T04:42:06+00:00",
-    "stage": "warm",
-    "score": 10,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "json-ld"
-      ],
-      "intent_hits": [
-        "fix",
-        "missing",
-        "search console"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [
-        "traffic drop"
-      ],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "fix",
-      "missing",
-      "search console"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Turning last week's thread into an actual check sequence — what to ver",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'Turning last week's thread into an actual check sequence — what to verify, in what order, before deciding a traffic drop means anything': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1w6i9x1/turning_last_weeks_thread_into_an_actual_check/",
     "sent_at": null
   }
 ]
