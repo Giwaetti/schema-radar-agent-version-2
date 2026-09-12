@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-09-11T19:09:45+00:00",
+    "discovered_at": "2026-09-12T04:36:28+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -79,7 +79,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-09-11T19:09:45+00:00",
+    "discovered_at": "2026-09-12T04:36:28+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
     "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
     "published_at": null,
-    "discovered_at": "2026-09-11T19:09:45+00:00",
+    "discovered_at": "2026-09-12T04:36:28+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -219,7 +219,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1wcmimx/brandentity_disambiguation_issue/",
     "summary": "Hi everyone, I’m dealing with a brand/entity disambiguation issue in Google Search and AI Overviews, and I’d really appreciate advice from people experienced with entity SEO, Knowledge Graph, local SEO, and AI search optimization. We operate a legitimate publishing company with a distinct brand name. However, Google’s AI Overview is sometimes associating our brand with another publisher that has a very similar name. The issue is becoming more concerning because an AI Overview is currently displaying wording along the lines of: “Reviews for [our brand] (also referred to as [another publisher])…” The problem is that these are completely separate businesses, and there is no affiliation, ownership, or relationship between them. We have already taken steps to strengthen our entity signals, including: Consistent business name across our website and profiles Consistent NAP information Google Business Profile Organization/LocalBusiness structured data WebSite and WebPage schema Official social profiles in sameAs Third-party business/review profiles Clear company/about information on our website Explicit clarification on our website that we are not affiliated with similarly named publishers Despite this, Google’s AI Overview is still occasionally conflating the two entities. My questions for the experts: What is the best long-term strategy for correcting this type of entity/brand disambiguation problem in Google’s Knowledge Graph and AI Overviews? Is explicitly stating “not affiliated with similarly named businesses” on the website a useful entity-disambiguation signal, or can repeatedly mentioning the other entity actually reinforce the association? Would you recommend adding the disambiguation statement to Organization/LocalBusiness schema, or keeping it strictly in visible website content? Should we avoid mentioning the similarly named business entirely and instead focus on strengthening our own entity signals? Has anyone successfully resolved a similar AI Overview entity conflation issue? If so, what changes actually made a measurable difference? I’m specifically looking for an SEO/entity-level solution rather than simply changing the wording of the website, because the main concern is getting Google to consistently understand that these are two distinct entities. Any expert guidance or real-world case studies would be greatly appreciated. /u/PropertyNo1030",
     "published_at": "2026-09-10T15:32:02+00:00",
-    "discovered_at": "2026-09-11T19:09:45+00:00",
+    "discovered_at": "2026-09-12T04:36:28+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -273,71 +273,6 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://www.reddit.com/r/TechSEO/comments/1wcmimx/brandentity_disambiguation_issue/",
-    "sent_at": null
-  },
-  {
-    "item_id": "5801a4301daad16c",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Site title in search results",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1w6rjrh/site_title_in_search_results/",
-    "summary": "My site's title is my URL instead of my site name. It has been like this for a long time and I can't seem to change it even with WebSite in JSON-LD. Any ideas how to get this fixed? Site is hosted on Wix if that matters. /u/bucky494",
-    "published_at": "2026-09-04T02:20:34+00:00",
-    "discovered_at": "2026-09-11T19:09:45+00:00",
-    "stage": "warm",
-    "score": 11,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "json-ld"
-      ],
-      "intent_hits": [
-        "fix"
-      ],
-      "platform_hits": [
-        "wix"
-      ],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [
-      "wix"
-    ],
-    "issue_types": [],
-    "intent_flags": [
-      "fix"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "AI Visibility Kit",
-    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Get the AI Visibility Kit",
-    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
-    "subject_draft": "AI Visibility Kit could help with: Site title in search results",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
-    "follow_up_draft": "Quick follow-up on 'Site title in search results': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1w6rjrh/site_title_in_search_results/",
     "sent_at": null
   }
 ]
