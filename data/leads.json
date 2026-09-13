@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-09-13T04:49:28+00:00",
+    "discovered_at": "2026-09-13T13:19:21+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-09-13T04:49:28+00:00",
+    "discovered_at": "2026-09-13T13:19:21+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -160,7 +160,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
     "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
     "published_at": null,
-    "discovered_at": "2026-09-13T04:49:28+00:00",
+    "discovered_at": "2026-09-13T13:19:21+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -224,7 +224,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1wcmimx/brandentity_disambiguation_issue/",
     "summary": "Hi everyone, I’m dealing with a brand/entity disambiguation issue in Google Search and AI Overviews, and I’d really appreciate advice from people experienced with entity SEO, Knowledge Graph, local SEO, and AI search optimization. We operate a legitimate publishing company with a distinct brand name. However, Google’s AI Overview is sometimes associating our brand with another publisher that has a very similar name. The issue is becoming more concerning because an AI Overview is currently displaying wording along the lines of: “Reviews for [our brand] (also referred to as [another publisher])…” The problem is that these are completely separate businesses, and there is no affiliation, ownership, or relationship between them. We have already taken steps to strengthen our entity signals, including: Consistent business name across our website and profiles Consistent NAP information Google Business Profile Organization/LocalBusiness structured data WebSite and WebPage schema Official social profiles in sameAs Third-party business/review profiles Clear company/about information on our website Explicit clarification on our website that we are not affiliated with similarly named publishers Despite this, Google’s AI Overview is still occasionally conflating the two entities. My questions for the experts: What is the best long-term strategy for correcting this type of entity/brand disambiguation problem in Google’s Knowledge Graph and AI Overviews? Is explicitly stating “not affiliated with similarly named businesses” on the website a useful entity-disambiguation signal, or can repeatedly mentioning the other entity actually reinforce the association? Would you recommend adding the disambiguation statement to Organization/LocalBusiness schema, or keeping it strictly in visible website content? Should we avoid mentioning the similarly named business entirely and instead focus on strengthening our own entity signals? Has anyone successfully resolved a similar AI Overview entity conflation issue? If so, what changes actually made a measurable difference? I’m specifically looking for an SEO/entity-level solution rather than simply changing the wording of the website, because the main concern is getting Google to consistently understand that these are two distinct entities. Any expert guidance or real-world case studies would be greatly appreciated. /u/PropertyNo1030",
     "published_at": "2026-09-10T15:32:02+00:00",
-    "discovered_at": "2026-09-13T04:49:28+00:00",
+    "discovered_at": "2026-09-13T13:19:21+00:00",
     "stage": "hot",
     "score": 18,
     "score_breakdown": {
@@ -281,6 +281,76 @@
     "sent_at": null
   },
   {
+    "item_id": "9dc3b83bfea7bd82",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Google Structured Data error - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/google-structured-data-error-6/",
+    "summary": "Hey, we are getting some mail from google regarding structured data . base salary field, street address and employment type. We have a salary field, in the job form, which is optional. the employment type and the address field are mandatory fields. But we get critical errors for this. What are we doing wrong? Any ideas how to fix this?",
+    "published_at": null,
+    "discovered_at": "2026-09-13T13:19:21+00:00",
+    "stage": "hot",
+    "score": 17,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error",
+        "fix"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "fix"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Google Structured Data error - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Google Structured Data error - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/google-structured-data-error-6/",
+    "sent_at": null
+  },
+  {
     "item_id": "9fae52f644cafdee",
     "source": "WordPress Support - Yoast SEO",
     "source_id": "wordpress-yoast-support",
@@ -290,7 +360,7 @@
     "source_item_url": "https://wordpress.org/support/topic/how-to-fix-missing-field-itemreviewed-error-on-google-search-console-2/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-09-13T04:49:28+00:00",
+    "discovered_at": "2026-09-13T13:19:21+00:00",
     "stage": "hot",
     "score": 17,
     "score_breakdown": {
@@ -351,6 +421,215 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://wordpress.org/support/topic/how-to-fix-missing-field-itemreviewed-error-on-google-search-console-2/",
+    "sent_at": null
+  },
+  {
+    "item_id": "f05bb3ef98af8cfb",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Google search console error in structured data - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/google-search-console-error-in-structured-data/",
+    "summary": "The topic 'Google search console error in structured data' is closed to new replies.",
+    "published_at": null,
+    "discovered_at": "2026-09-13T13:19:21+00:00",
+    "stage": "hot",
+    "score": 15,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error",
+        "search console"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "search console",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Google search console error in structured data - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Google search console error in structured data - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/google-search-console-error-in-structured-data/",
+    "sent_at": null
+  },
+  {
+    "item_id": "ec7fc787f91e450d",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "issue with structured data - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-structured-data-2/",
+    "summary": "issue with structured data vincekurz (@vincekurz) 13 minutes ago Hi, using site reviews on my website. Imported a csv file from another site of us. In my Google search console some reviews are now …",
+    "published_at": null,
+    "discovered_at": "2026-09-13T13:19:21+00:00",
+    "stage": "hot",
+    "score": 15,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "issue",
+        "search console"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: issue with structured data - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'issue with structured data - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-structured-data-2/",
+    "sent_at": null
+  },
+  {
+    "item_id": "dc0c798088ac124e",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic structured data error",
+    "title": "Structured Data Linter error | WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-linter-error/",
+    "summary": "I saw the message \"Run Structured Data Linter to validate structured data \" in PageSpeed Insights.",
+    "published_at": null,
+    "discovered_at": "2026-09-13T13:19:21+00:00",
+    "stage": "hot",
+    "score": 15,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "error"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "error",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "error"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Structured Data Linter error | WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Linter error | WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-linter-error/",
     "sent_at": null
   }
 ]
