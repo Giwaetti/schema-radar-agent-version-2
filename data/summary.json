@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-13T18:48:01+00:00",
-  "total": 15,
+  "generated_at": "2026-09-14T04:58:32+00:00",
+  "total": 5,
   "by_stage": {
-    "hot": 15
+    "hot": 5
   },
   "by_offer": {
-    "Done-for-you / service": 11,
-    "AI Visibility Kit": 2,
-    "AI Generator": 2
+    "Done-for-you / service": 3,
+    "AI Generator": 1,
+    "AI Visibility Kit": 1
   },
   "by_source": {
-    "Search WordPress Support": 13,
+    "Search WordPress Support": 3,
     "Reddit r/TechSEO": 1,
     "WordPress Support - Yoast SEO": 1
   },
   "by_status": {
-    "ready": 15
+    "ready": 5
   },
   "diagnostics": {
     "source_raw_count": 32,
-    "search_raw_count": 30,
+    "search_raw_count": 10,
     "source_scored_count": 3,
-    "search_scored_count": 13,
-    "stale_search_dropped_count": 17,
-    "final_lead_count": 15,
+    "search_scored_count": 3,
+    "stale_search_dropped_count": 7,
+    "final_lead_count": 5,
     "search_queries": [
       {
         "group": "wordpress",
@@ -40,25 +40,25 @@
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic structured data error",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic rich results invalid",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic product schema",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic review schema",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       }
     ]
