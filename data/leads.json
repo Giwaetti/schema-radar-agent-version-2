@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-09-17T13:28:55+00:00",
+    "discovered_at": "2026-09-17T19:43:43+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -75,76 +75,6 @@
     "sent_at": null
   },
   {
-    "item_id": "f9d88b5c66a6d90b",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Structured Data Issue: Price Range in Schema Markup Not Accepted by ...",
-    "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
-    "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
-    "published_at": null,
-    "discovered_at": "2026-09-17T13:28:55+00:00",
-    "stage": "hot",
-    "score": 26,
-    "score_breakdown": {
-      "schema_hits": [
-        "schema markup",
-        "structured data"
-      ],
-      "strict_schema_hits": [
-        "schema",
-        "schema markup",
-        "structured data"
-      ],
-      "intent_hits": [
-        "issue",
-        "support"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "issue",
-        "schema markup",
-        "structured data"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "issue",
-      "support"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Structured Data Issue: Price Range in Schema Markup Not Accepted by ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
-    "sent_at": null
-  },
-  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -154,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-09-17T13:28:55+00:00",
+    "discovered_at": "2026-09-17T19:43:43+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -230,7 +160,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
     "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
     "published_at": null,
-    "discovered_at": "2026-09-17T13:28:55+00:00",
+    "discovered_at": "2026-09-17T19:43:43+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -285,40 +215,33 @@
     "sent_at": null
   },
   {
-    "item_id": "16d217b2cbb95161",
+    "item_id": "f5bd158569c7a827",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
     "source_type": "forum",
     "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "New website to first ChatGPT lead in 3 days",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1widya1/new_website_to_first_chatgpt_lead_in_3_days/",
-    "summary": "I've been building websites for friends and family for years. Primarily small businesses - think photographers, carpenters, restaurants, lawyers, etc. They used to all be Wordpress based and I ran a 3-server wordpress mu setup for over 10 years. Since the release of claude code i've been steadily migrating sites to either tanstack start or astro and shut down the last wordpress server earlier this year. I've refined this process over the past 18 months or so (I started using claude code the week it was released) and recently hit a solid mark on a friends new site - we went from no site to first chatgpt-source phone call lead in 3 days. This is in a super competitive local niche you're probably all familiar with - think $5-10 CPC and ~$50 per day budget for a trickle. The new site 3 weeks in is at ~20 leads - primarily chatgpt and google long tail. All of this costs tens of dollars to setup plus your time. 3 days after the site was live a phone call mentioned they had found them via ChatGPT. Here's how I got there. Keyword research - using dataforseo mcp or scraping the google keywords tool for a long structure of keywords to target - save this as a txt file for claude / codex to work from in setting up content pages. have a plans/ folder in your website project where you store all this and all lessons learned Domain - find an expired domain in the same industry with existing wayback history and a bit of pagerank / DA / trust flow. even better if the business name is already in the training data (you can probe chatgpt) because it was previously on GMB or yellowpages or similar. You either build on this domain or 301 it to the new site. In this case I found a domain that had been expired for 18 months in the local TLD Tech stack - either tanstack start or astro with content in MDX files structured as ./content/{news,pages}/{slug}.mdx with frontmatter. Terms and privacy pages. NAP, sameAs schemas for social media, entity map and reviewing all titles for CTR. You can AB test with your coding agent - setup posthog and measure absolutely everything - hook it up with MCP. deploy with git to vercel or cloudflare ($5 per month for tons of traffic) and hook these up via their clis or MCPs so the agent can work with them directly (both the github cli and the cloudflare clis). Design, the human part - Standard agent website design output gets very tired after you've seen 3-4 examples (much like the writing) but it doesn't take much effort to dump screenshots of designs you like and to have the agent first setup the ui skeleton on a page at /ui where you can review the color theme, fonts, ui components etc. on one page. just have the agent do 4-5 iterations and pick one! claude design also works really well, as does paper.design (both again via MCP) Agent experience basics - nothing silly like blocking ai crawlers (both training and user intent), having markdown negotiation and .md extensions on every url, an llms.txt that is a machine-guided index for the site, light pages that aren't DOM heavy, JSON-LD, FAQ sections and pages. audit repeatably with the squirrelscan cli ** Fresh and unique media - the web is filled with stock images and bad AI art. just dump a bunch of original photos and videos with the correct schema since it'll also all get indexed. most site owners don't want a wordpress or squarespace login - they'll never upadate anything. it's easier to just syndicate their facebook or IG content to the website and they can use their regular apps to post updates when it suits them Content - the standard 'write a blog post' prompts are zero effort and pure slop and Google will simply refuse to index a lot of it while Bing and Brave won't be as kind to it. Spend some time to have a content writing process, review manually, develop a site voice and attribute content to an author (with social bios - especially linkedin - all marked up in schema too). i've developed a content writing pipeline that involves a multi-step agent using multiple models (research -> draft -> polish and then accept in separate agents). write short and punchy sentences. Index - GSC, sitemap submit, IndexNow, Bing Webmaster tools and manually submit to brave. Hook up GSC and Bing via MCP along with posthog so you can review analytics. After a moment start prompting chatgpt, the claude models, perplexity, exa et al on what they know about the business. Write a script for this using API tokens (most 'geo visibility' tools are nonsense - you can replace them with a script claude writes and a few dollars on tokens) and ask it to find gaps. You'll eventually 'wake up' the indexes. Refine. A weekly process composed in a skill. Check GSC and find keywords ranking 6+ and refine those terms with new pages, new content sections. Refine the funnel in posthog (your agent will review session replays too) and refine conversions once they land. Poll the model search providers to see where you're at in their results and refine from there as well. You can set this to a schedule in both chatgpt / claude and have it run with no intervention - just have it email you the latest stats and update (and CC the site owner - they'll be blown away). all hands off! In terms of cost - dataforseo $50 minumum (there are alternatives). Domain for a few dollars. Top up some credits on openrouter and exa for GEO visibility scripts. Claude and ChatGPT can be prohibitive in terms of cost for some (20x plans are $200) but there is the $10 per month OpenCode plan which will get you 95% of their output. New world out there with plenty of opportunity - agencies in a box that don't require much of your own hands on effort other than how to piece it all together (you could probably get pretty far by just pasting this post into a coding agent) ** disclaimer: my product. free and open source. there are other options but this one is mine :) /u/nikc9",
-    "published_at": "2026-09-16T23:55:09+00:00",
-    "discovered_at": "2026-09-17T13:28:55+00:00",
-    "stage": "hot",
-    "score": 12,
+    "title": "How to improve the \"Click potential\" on Merchant Center?",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1wj15wf/how_to_improve_the_click_potential_on_merchant/",
+    "summary": "/u/ahmadmonu777",
+    "published_at": "2026-09-17T17:54:33+00:00",
+    "discovered_at": "2026-09-17T19:43:43+00:00",
+    "stage": "warm",
+    "score": 11,
     "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
+      "schema_hits": [],
       "strict_schema_hits": [
-        "json-ld",
-        "schema"
+        "merchant center"
       ],
-      "intent_hits": [
-        "setup"
-      ],
-      "platform_hits": [
-        "squarespace",
-        "wordpress"
-      ],
+      "intent_hits": [],
+      "platform_hits": [],
       "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [
-        "keyword research",
-        "sitemap"
+      "visibility_hits": [
+        "merchant center"
       ],
+      "ecom_search_hits": [
+        "merchant center"
+      ],
+      "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
       "title_signal_hits": [],
@@ -327,32 +250,29 @@
       "general_reddit_source": true,
       "ecom_platform_source": false
     },
-    "platforms": [
-      "squarespace",
-      "wordpress"
+    "platforms": [],
+    "issue_types": [
+      "merchant center"
     ],
-    "issue_types": [],
-    "intent_flags": [
-      "setup"
-    ],
+    "intent_flags": [],
     "business_name": null,
     "business_site": null,
-    "offer_fit": "AI Generator",
-    "offer_reason": "Position it as faster schema output for recurring implementation work.",
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
     "audit": {
       "business_site": null,
       "schema_present": null,
       "notes": ""
     },
     "sales_route": "forum_reply",
-    "cta_label": "Open the AI Generator",
-    "cta_destination": "https://schemaagent.gumroad.com/l/wikuuu",
-    "subject_draft": "AI Generator could help with: New website to first ChatGPT lead in 3 days",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you need a faster repeatable workflow for this type of markup, the better fit is here: https://schemaagent.gumroad.com/l/wikuuu",
-    "follow_up_draft": "Quick follow-up on 'New website to first ChatGPT lead in 3 days': if you’re still fixing this, the stronger fit for repeated schema work is here: https://schemaagent.gumroad.com/l/wikuuu",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: How to improve the \"Click potential\" on Merchant Center?",
+    "message_draft": "This looks more like a feed-sync / product-data mismatch than a basic store setup issue.\n\nI’d check these first:\n- Confirm the feed source Google/Pinterest is reading is the same one the store is publishing.\n- Check for stale IDs, deleted variants, draft products, or cached feed data.\n- Compare the feed values against one live product URL end-to-end.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'How to improve the \"Click potential\" on Merchant Center?': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1widya1/new_website_to_first_chatgpt_lead_in_3_days/",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1wj15wf/how_to_improve_the_click_potential_on_merchant/",
     "sent_at": null
   },
   {
@@ -365,7 +285,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1whus3o/programmatic_seo_postmortem_74876_urls_to_9311/",
     "summary": "Disclosure: I work on Swivl. There is no product link here. I’m sharing the technical teardown because the failure was more useful than the traffic graph ever was. The event Our Google Search Console performance dropped roughly 95% as the August spam update began rolling out: • Aug 17: 207 clicks / 65,355 impressions • Aug 18: 13 clicks / 4,595 impressions • Aug 19: 17 clicks / 3,091 impressions GSC showed no manual action. The timing aligned with the update, but the graph alone does not prove causation. What it did was force us to audit a scaled-content problem we should have addressed earlier. The footprint before the drop The sitemap contained 74,876 URLs. Roughly 62,000 were in three programmatic sections: cost guides, customer-specific cost guides, and contractor profile pages. Before the collapse, those sections generated about 97% of organic clicks and 78% of impressions, but the combined CTR was only 0.3% and average position was about 18. Brand queries produced only around 33 clicks in the same period. The templates were crawlable and technically clean. Canonicals, redirects, meta robots, and robots.txt were not the issue. The weakness was the content model: • Large numbers of templated city-and-trade combinations • Search intent aimed mainly at homeowners, not our field-service-software ICP • Contractor profiles with too little unique value, especially unclaimed records • Page count growing faster than genuinely differentiated information The cleanup We reduced the sitemap from 74,876 URLs to 9,311: • Removed the customer-specific cost-guide directory entirely • Reduced cost guides to 120 national pages • Kept 8,492 contractor profiles for now, although unclaimed profiles remain the largest unresolved surface • Returned 410 for removed pages where appropriate • Applied noindex to another large group • Used selected 301s only where a genuine replacement existed What has happened since This has not produced an instant recovery. Google is still digesting the removals, and the domain remains suppressed. The latest index-coverage check showed tens of thousands of URLs moving into excluded-by-noindex and not-found buckets while many old URLs were still counted as indexed. We are leaving the site alone while that processing continues rather than making weekly changes and destroying the ability to read the result. The decisions I’m still thinking through For the contractor directory, would you index only claimed/verified profiles, or retain unclaimed profiles that have real structured data but limited unique copy? After a scaled-content cleanup, which leading signal have you found most useful: crawl volume, indexed-page count, query-level impressions, or waiting for the next broad/spam re-evaluation? Would you isolate any future data-backed programmatic project on a separate domain, or is that unnecessary if the pages are built from proprietary job/pricing data rather than templated copy? The main lesson for us is that clean technical plumbing cannot rescue a weak page-generation thesis. Automation multiplied the content model exactly as designed. The mistake was assuming scale itself was validation. https://preview.redd.it/5g8m3v5bdvph1.png?width=2938&format=png&auto=webp&s=a02c8a008012915b48cbbee00ff6d1ebfe35ca39 /u/Purple_Memory4052",
     "published_at": "2026-09-16T11:39:42+00:00",
-    "discovered_at": "2026-09-17T13:28:55+00:00",
+    "discovered_at": "2026-09-17T19:43:43+00:00",
     "stage": "warm",
     "score": 8,
     "score_breakdown": {
