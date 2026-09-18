@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-09-17T19:43:43+00:00",
+    "discovered_at": "2026-09-18T04:45:06+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -84,7 +84,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-09-17T19:43:43+00:00",
+    "discovered_at": "2026-09-18T04:45:06+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -160,7 +160,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
     "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
     "published_at": null,
-    "discovered_at": "2026-09-17T19:43:43+00:00",
+    "discovered_at": "2026-09-18T04:45:06+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -224,7 +224,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1wj15wf/how_to_improve_the_click_potential_on_merchant/",
     "summary": "/u/ahmadmonu777",
     "published_at": "2026-09-17T17:54:33+00:00",
-    "discovered_at": "2026-09-17T19:43:43+00:00",
+    "discovered_at": "2026-09-18T04:45:06+00:00",
     "stage": "warm",
     "score": 11,
     "score_breakdown": {
@@ -285,7 +285,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1whus3o/programmatic_seo_postmortem_74876_urls_to_9311/",
     "summary": "Disclosure: I work on Swivl. There is no product link here. I’m sharing the technical teardown because the failure was more useful than the traffic graph ever was. The event Our Google Search Console performance dropped roughly 95% as the August spam update began rolling out: • Aug 17: 207 clicks / 65,355 impressions • Aug 18: 13 clicks / 4,595 impressions • Aug 19: 17 clicks / 3,091 impressions GSC showed no manual action. The timing aligned with the update, but the graph alone does not prove causation. What it did was force us to audit a scaled-content problem we should have addressed earlier. The footprint before the drop The sitemap contained 74,876 URLs. Roughly 62,000 were in three programmatic sections: cost guides, customer-specific cost guides, and contractor profile pages. Before the collapse, those sections generated about 97% of organic clicks and 78% of impressions, but the combined CTR was only 0.3% and average position was about 18. Brand queries produced only around 33 clicks in the same period. The templates were crawlable and technically clean. Canonicals, redirects, meta robots, and robots.txt were not the issue. The weakness was the content model: • Large numbers of templated city-and-trade combinations • Search intent aimed mainly at homeowners, not our field-service-software ICP • Contractor profiles with too little unique value, especially unclaimed records • Page count growing faster than genuinely differentiated information The cleanup We reduced the sitemap from 74,876 URLs to 9,311: • Removed the customer-specific cost-guide directory entirely • Reduced cost guides to 120 national pages • Kept 8,492 contractor profiles for now, although unclaimed profiles remain the largest unresolved surface • Returned 410 for removed pages where appropriate • Applied noindex to another large group • Used selected 301s only where a genuine replacement existed What has happened since This has not produced an instant recovery. Google is still digesting the removals, and the domain remains suppressed. The latest index-coverage check showed tens of thousands of URLs moving into excluded-by-noindex and not-found buckets while many old URLs were still counted as indexed. We are leaving the site alone while that processing continues rather than making weekly changes and destroying the ability to read the result. The decisions I’m still thinking through For the contractor directory, would you index only claimed/verified profiles, or retain unclaimed profiles that have real structured data but limited unique copy? After a scaled-content cleanup, which leading signal have you found most useful: crawl volume, indexed-page count, query-level impressions, or waiting for the next broad/spam re-evaluation? Would you isolate any future data-backed programmatic project on a separate domain, or is that unnecessary if the pages are built from proprietary job/pricing data rather than templated copy? The main lesson for us is that clean technical plumbing cannot rescue a weak page-generation thesis. Automation multiplied the content model exactly as designed. The mistake was assuming scale itself was validation. https://preview.redd.it/5g8m3v5bdvph1.png?width=2938&format=png&auto=webp&s=a02c8a008012915b48cbbee00ff6d1ebfe35ca39 /u/Purple_Memory4052",
     "published_at": "2026-09-16T11:39:42+00:00",
-    "discovered_at": "2026-09-17T19:43:43+00:00",
+    "discovered_at": "2026-09-18T04:45:06+00:00",
     "stage": "warm",
     "score": 8,
     "score_breakdown": {
