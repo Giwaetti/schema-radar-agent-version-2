@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-27T19:46:09+00:00",
-  "total": 4,
+  "generated_at": "2026-09-28T05:25:31+00:00",
+  "total": 8,
   "by_stage": {
-    "hot": 4
+    "hot": 8
   },
   "by_offer": {
-    "Done-for-you / service": 3,
+    "Done-for-you / service": 7,
     "AI Generator": 1
   },
   "by_source": {
-    "Search WordPress Support": 1,
+    "Search WordPress Support": 5,
     "Reddit r/TechSEO": 3
   },
   "by_status": {
-    "ready": 4
+    "ready": 8
   },
   "diagnostics": {
     "source_raw_count": 32,
     "search_raw_count": 10,
     "source_scored_count": 3,
-    "search_scored_count": 1,
-    "stale_search_dropped_count": 9,
-    "final_lead_count": 4,
+    "search_scored_count": 5,
+    "stale_search_dropped_count": 5,
+    "final_lead_count": 8,
     "search_queries": [
       {
         "group": "wordpress",
