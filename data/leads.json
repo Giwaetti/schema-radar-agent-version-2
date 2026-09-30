@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-09-29T20:48:08+00:00",
+    "discovered_at": "2026-09-30T05:33:44+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-09-29T20:48:08+00:00",
+    "discovered_at": "2026-09-30T05:33:44+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -157,7 +157,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-09-29T20:48:08+00:00",
+    "discovered_at": "2026-09-30T05:33:44+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -233,7 +233,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1wrf6m6/a_site_can_be_technically_healthy_for_google_and/",
     "summary": "I've been testing ecommerce sites across Googlebot and AI crawlers, and a few issues keep appearing: Googlebot gets 200 → AI crawler gets 403 Price exists in rendered DOM → missing from raw HTML Product schema validates → variant/offer relationships are ambiguous CDN serves fresh content to users → stale content to bots 301 chain eventually resolves → but the crawler has to follow 4–5 hops The interesting part isn't really \"AI SEO.\" It's information loss between crawl → extraction → retrieval → answer. Traditional technical SEO already solves a lot of this. But we're now dealing with more crawlers, different rendering behavior, and different retrieval systems. Has anyone here compared their server logs for Googlebot vs AI crawlers? What differences are you seeing? /u/Creepy-Opening1465",
     "published_at": "2026-09-27T08:49:36+00:00",
-    "discovered_at": "2026-09-29T20:48:08+00:00",
+    "discovered_at": "2026-09-30T05:33:44+00:00",
     "stage": "hot",
     "score": 20,
     "score_breakdown": {
@@ -301,7 +301,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
     "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
     "published_at": null,
-    "discovered_at": "2026-09-29T20:48:08+00:00",
+    "discovered_at": "2026-09-30T05:33:44+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -365,7 +365,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1ws7wy2/google_can_see_your_product_an_ai_crawler_might/",
     "summary": "I found this interesting while auditing ecommerce sites. The page looked completely normal in Chrome. Google could crawl it. Schema was valid. But when looking at the machine-readable response, some important product information was missing: → Price was injected with JavaScript → Variant information wasn't clearly exposed → Availability wasn't present in the HTML → Some AI crawlers were receiving different responses → The CDN was serving stale content in certain cases So from an SEO dashboard: Everything looked fine. From a machine's perspective: The product was incomplete. That's making me rethink how we audit technical SEO. We're used to asking: Can Google crawl this page? Maybe we also need to ask: What exactly does each crawler receive? And then: What information can actually be reconstructed from that response? Because there's a big difference between: Page exists → Page is crawlable → Page is understandable → Page is retrievable → Page gets recommended. Those aren't the same thing. Curious what the BigSEO crowd thinks: Are we dealing with a genuinely new technical SEO problem here, or just applying technical SEO principles to a new generation of crawlers? /u/Creepy-Opening1465",
     "published_at": "2026-09-28T07:19:52+00:00",
-    "discovered_at": "2026-09-29T20:48:08+00:00",
+    "discovered_at": "2026-09-30T05:33:44+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
