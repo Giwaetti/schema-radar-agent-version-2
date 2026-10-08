@@ -1,153 +1,5 @@
 [
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-10-08T06:06:20+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
-    "item_id": "2a90b33f13d72c90",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema Markup not Working with Plugin Integration",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
-    "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
-    "published_at": null,
-    "discovered_at": "2026-10-08T06:06:20+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "rich result",
-        "rich results",
-        "schema markup",
-        "structured data"
-      ],
-      "strict_schema_hits": [
-        "rich result",
-        "rich results",
-        "schema",
-        "schema markup",
-        "structured data"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "ecom_search_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "schema markup"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "rich result",
-      "rich results"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema Markup not Working with Plugin Integration",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema Markup not Working with Plugin Integration': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
-    "sent_at": null
-  },
-  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -157,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-10-08T06:06:20+00:00",
+    "discovered_at": "2026-10-08T15:37:53+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -224,49 +76,50 @@
     "sent_at": null
   },
   {
-    "item_id": "26bf84d31606e75d",
+    "item_id": "0009f86135aebd37",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema-markup on the author's page - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
-    "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
     "published_at": null,
-    "discovered_at": "2026-10-08T06:06:20+00:00",
+    "discovered_at": "2026-10-08T15:37:53+00:00",
     "stage": "hot",
-    "score": 19,
+    "score": 18,
     "score_breakdown": {
       "schema_hits": [
-        "schema markup",
-        "structured data"
+        "json-ld"
       ],
       "strict_schema_hits": [
-        "schema",
-        "schema markup",
-        "structured data"
+        "json-ld",
+        "schema"
       ],
-      "intent_hits": [],
-      "platform_hits": [
-        "wordpress"
+      "intent_hits": [
+        "missing"
       ],
+      "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
+      "title_signal_hits": [
+        "json-ld",
+        "missing"
+      ],
       "schema_source": true,
       "native_action_source": false,
       "general_reddit_source": false,
       "ecom_platform_source": false
     },
-    "platforms": [
-      "wordpress"
-    ],
+    "platforms": [],
     "issue_types": [],
-    "intent_flags": [],
+    "intent_flags": [
+      "missing"
+    ],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -279,12 +132,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema-markup on the author's page - WordPress.org",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema-markup on the author's page - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
+    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
     "sent_at": null
   },
   {
@@ -297,7 +150,7 @@
     "source_item_url": "https://wordpress.org/support/topic/yoast-schema-markup/",
     "summary": "Yoast schema markup vikktoriya (@vikktoriya) 7 minutes ago Hi.I've run into an issue with the Yoast schema markup.1. On the site's homepage, the \"Organization\" and \"Person&#…",
     "published_at": null,
-    "discovered_at": "2026-10-08T06:06:20+00:00",
+    "discovered_at": "2026-10-08T15:37:53+00:00",
     "stage": "hot",
     "score": 17,
     "score_breakdown": {
@@ -365,7 +218,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1x0045s/google_drops_review_snippets_for_healthcare/",
     "summary": "/u/WebLinkr",
     "published_at": "2026-10-07T15:51:38+00:00",
-    "discovered_at": "2026-10-08T06:06:20+00:00",
+    "discovered_at": "2026-10-08T15:37:53+00:00",
     "stage": "hot",
     "score": 14,
     "score_breakdown": {
@@ -427,7 +280,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1wyqjt7/url_restructuring_via_cpts_to_products_subsitemap/",
     "summary": "Hey everyone, We are planning to restructure a set of high-value landing pages on our WordPress site that currently live at the root level (e.g., [domain.com/landing-page-a/]( https://domain.com/landing-page-a/) ). We want to migrate them into a Custom Post Type so they sit under a clean parent folder ([domain.com/products/landing-page-a/]( https://domain.com/products/landing-page-a/) ). Primary Objectives: Indexation Isolation: Generating a dedicated product-sitemap.xml file to monitor indexation rates and crawl diagnostics specifically for these pages in GSC, rather than lumping them into page-sitemap.xml. Crawl Efficiency: Updating internal inlinks (via Screaming Frog) and updating backlink sources on owned domains to reduce 301 redirect hops. Execution Plan: Setup CPT (products) with has_archive = true so the /products/ index page generates naturally. Convert pages via Post Type Switcher and update slug paths. Set up 301 redirects from old root URLs to the new subfolder structure. Resubmit the isolated sub-sitemap in GSC and add relevant schema (Product/Service JSON-LD). Questions for TechSEOs: Sitemap Isolation: For those who have split core landing pages into their own CPT sitemap, did you notice clearer diagnostic feedback or faster re-indexation in GSC compared to a single monolithic page sitemap? 301 Ranking Wobble: Since we are altering the actual directory path (adding /products/), what is your typical experience with traffic recovery timelines for established pages after 301-redirecting them? Crawl Equity: Beyond updating internal inlinks and owned external links, are there any edge cases with WP rewrite rules or trailing slash handling that could cause unnecessary redirect loops? Thanks for any feedback! /u/Forsaken-Eagle551",
     "published_at": "2026-10-06T01:52:06+00:00",
-    "discovered_at": "2026-10-08T06:06:20+00:00",
+    "discovered_at": "2026-10-08T15:37:53+00:00",
     "stage": "hot",
     "score": 13,
     "score_breakdown": {
