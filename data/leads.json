@@ -1,78 +1,5 @@
 [
   {
-    "item_id": "29105cc213c3e9e9",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
-    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
-    "published_at": null,
-    "discovered_at": "2026-10-09T20:55:14+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "faq schema",
-        "json-ld"
-      ],
-      "strict_schema_hits": [
-        "faq schema",
-        "json-ld",
-        "schema"
-      ],
-      "intent_hits": [
-        "issue",
-        "problem"
-      ],
-      "platform_hits": [],
-      "issue_hits": [
-        "faq schema"
-      ],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "faq schema",
-        "issue"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "faq schema"
-    ],
-    "intent_flags": [
-      "issue",
-      "problem"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
-    "sent_at": null
-  },
-  {
     "item_id": "2a90b33f13d72c90",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -82,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-10-09T20:55:14+00:00",
+    "discovered_at": "2026-10-10T05:54:02+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -155,9 +82,9 @@
     "source_url": "search:site:wordpress.org/support/topic faq schema problem",
     "title": "Elementor FAQPage Schema Bug - WordPress.org",
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
-    "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
+    "summary": "After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console.",
     "published_at": null,
-    "discovered_at": "2026-10-09T20:55:14+00:00",
+    "discovered_at": "2026-10-10T05:54:02+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -174,8 +101,7 @@
         "error",
         "issue",
         "missing",
-        "search console",
-        "support"
+        "search console"
       ],
       "platform_hits": [
         "wordpress"
@@ -200,8 +126,7 @@
       "error",
       "issue",
       "missing",
-      "search console",
-      "support"
+      "search console"
     ],
     "business_name": null,
     "business_site": null,
@@ -224,39 +149,44 @@
     "sent_at": null
   },
   {
-    "item_id": "26bf84d31606e75d",
+    "item_id": "78fcd6cfb62088b1",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema-markup on the author's page - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
-    "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Bug: FAQ Schema in Accordion Widget - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/bug-faq-schema-in-accordion-widget/",
+    "summary": "Unfortunately, this is a known bug affecting the Accordion widget and the FAQ scheme feature. Our developers are aware and are already working to fix it as soon as possible.",
     "published_at": null,
-    "discovered_at": "2026-10-09T20:55:14+00:00",
+    "discovered_at": "2026-10-10T05:54:02+00:00",
     "stage": "hot",
-    "score": 19,
+    "score": 23,
     "score_breakdown": {
       "schema_hits": [
-        "schema markup",
-        "structured data"
+        "faq schema"
       ],
       "strict_schema_hits": [
-        "schema",
-        "schema markup",
-        "structured data"
+        "faq schema",
+        "schema"
       ],
-      "intent_hits": [],
+      "intent_hits": [
+        "developer",
+        "fix"
+      ],
       "platform_hits": [
         "wordpress"
       ],
-      "issue_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
       "visibility_hits": [],
       "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
+      "title_signal_hits": [
+        "faq schema"
+      ],
       "schema_source": true,
       "native_action_source": false,
       "general_reddit_source": false,
@@ -265,8 +195,13 @@
     "platforms": [
       "wordpress"
     ],
-    "issue_types": [],
-    "intent_flags": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "developer",
+      "fix"
+    ],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -279,12 +214,84 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema-markup on the author's page - WordPress.org",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema-markup on the author's page - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: Bug: FAQ Schema in Accordion Widget - WordPress.org",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Bug: FAQ Schema in Accordion Widget - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
+    "contact_target": "https://wordpress.org/support/topic/bug-faq-schema-in-accordion-widget/",
+    "sent_at": null
+  },
+  {
+    "item_id": "88c912bd884b2ae9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "FAQ Schema not working on Accordion - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/faq-schema-not-working-on-accordion/",
+    "summary": "I'm seeing this problem across many different sites , the link above is one example. I have already made sure WP core is up to date, using Hello theme, and the ONLY plugin active is Elementor.",
+    "published_at": null,
+    "discovered_at": "2026-10-10T05:54:02+00:00",
+    "stage": "hot",
+    "score": 21,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "schema"
+      ],
+      "intent_hits": [
+        "problem"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: FAQ Schema not working on Accordion - WordPress.org",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'FAQ Schema not working on Accordion - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/faq-schema-not-working-on-accordion/",
     "sent_at": null
   },
   {
@@ -297,7 +304,7 @@
     "source_item_url": "https://wordpress.org/support/topic/yoast-schema-markup/",
     "summary": "Yoast schema markup vikktoriya (@vikktoriya) 7 minutes ago Hi.I've run into an issue with the Yoast schema markup.1. On the site's homepage, the \"Organization\" and \"Person&#…",
     "published_at": null,
-    "discovered_at": "2026-10-09T20:55:14+00:00",
+    "discovered_at": "2026-10-10T05:54:02+00:00",
     "stage": "hot",
     "score": 17,
     "score_breakdown": {
@@ -356,65 +363,137 @@
     "sent_at": null
   },
   {
-    "item_id": "390acb45db7a5ca0",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
+    "item_id": "1e644d11701affe7",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Google Drops Review Snippets For Healthcare [Schema, SEO]",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1x0045s/google_drops_review_snippets_for_healthcare/",
-    "summary": "/u/WebLinkr",
-    "published_at": "2026-10-07T15:51:38+00:00",
-    "discovered_at": "2026-10-09T20:55:14+00:00",
-    "stage": "hot",
-    "score": 14,
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Facing issue in Faqs Schema - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/facing-issue-in-faqs-schema/",
+    "summary": "However, after publishing the article and checking through Search Console testing, it's unable to display, even though the schema code is present. Initially, everything was fine, but I've encountered this issue in the last 5 to 6 posts.",
+    "published_at": null,
+    "discovered_at": "2026-10-10T05:54:02+00:00",
+    "stage": "warm",
+    "score": 11,
     "score_breakdown": {
       "schema_hits": [],
       "strict_schema_hits": [
-        "review snippets",
         "schema"
       ],
-      "intent_hits": [],
-      "platform_hits": [],
+      "intent_hits": [
+        "issue",
+        "search console"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
       "issue_hits": [],
-      "visibility_hits": [
-        "review snippets"
-      ],
-      "ecom_search_hits": [
-        "review snippets"
-      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
+      "title_signal_hits": [
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
       "ecom_platform_source": false
     },
-    "platforms": [],
-    "issue_types": [
-      "review snippets"
+    "platforms": [
+      "wordpress"
     ],
-    "intent_flags": [],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "search console"
+    ],
     "business_name": null,
     "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
     "audit": {
       "business_site": null,
       "schema_present": null,
       "notes": ""
     },
     "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Google Drops Review Snippets For Healthcare [Schema, SEO]",
-    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Google Drops Review Snippets For Healthcare [Schema, SEO]': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: Facing issue in Faqs Schema - WordPress.org",
+    "message_draft": "I’d separate the indexing side from the markup side first, because coverage issues and structured-data issues often get mixed together.\n\nI’d check these first:\n- Separate indexing/crawling symptoms from markup symptoms first.\n- Test one representative URL end-to-end before changing the whole site.\n- Confirm the canonical page is the same page that actually contains the live markup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'Facing issue in Faqs Schema - WordPress.org': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1x0045s/google_drops_review_snippets_for_healthcare/",
+    "contact_target": "https://wordpress.org/support/topic/facing-issue-in-faqs-schema/",
+    "sent_at": null
+  },
+  {
+    "item_id": "5bc72dcfc95ec64e",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "issue in Faqs Schema - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/issue-in-faqs-schema/",
+    "summary": "However, after publishing the article and checking through Search Console testing, it's unable to display, even though the schema code is present. Initially, everything was fine, but I've encountered this issue in the last 5 to 6 posts.",
+    "published_at": null,
+    "discovered_at": "2026-10-10T05:54:02+00:00",
+    "stage": "warm",
+    "score": 11,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "schema"
+      ],
+      "intent_hits": [
+        "issue",
+        "search console"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "search console"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "AI Visibility Kit",
+    "offer_reason": "Lead with the DIY schema kit as the simplest next step.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Get the AI Visibility Kit",
+    "cta_destination": "https://schemaagent.gumroad.com/l/rfces",
+    "subject_draft": "AI Visibility Kit could help with: issue in Faqs Schema - WordPress.org",
+    "message_draft": "I’d separate the indexing side from the markup side first, because coverage issues and structured-data issues often get mixed together.\n\nI’d check these first:\n- Separate indexing/crawling symptoms from markup symptoms first.\n- Test one representative URL end-to-end before changing the whole site.\n- Confirm the canonical page is the same page that actually contains the live markup.\n\nIf you want the faster DIY route after checking that, the closest fit is here: https://schemaagent.gumroad.com/l/rfces",
+    "follow_up_draft": "Quick follow-up on 'issue in Faqs Schema - WordPress.org': if you want the faster DIY route, the closest fit is here: https://schemaagent.gumroad.com/l/rfces. Questions: schemaagent@gmail.com.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-in-faqs-schema/",
     "sent_at": null
   },
   {
@@ -427,7 +506,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1x1hnw3/what_does_it_really_take_to_rank_on_page_1/",
     "summary": "I built a Wordpress website for my niche mortgage business and used Claude to help me with SEO and AEO. I started building and indexing pages with the help of ChatGPT about 7 months ago and then about 3 months ago I connected Claude Code to my webpage and it's been managing my site since then. Mostly just making sure all the plugins are updated and making site wide changes I ask it to. Here are some stats for the last 12 months and seems to be getting worse. Month Impressions Clicks CTR Avg Pos Nov 2025 139 9 6.47% 11.6 Dec 2025 462 3 0.65% 5.4 Jan 2026 376 10 2.66% 7.0 Feb 2026 2,333 14 0.60% 25.0 Mar 2026 5,911 22 0.37% 31.6 Apr 2026 4,951 15 0.30% 32.1 May 2026 3,453 8 0.23% 43.0 Jun 2026 4,218 15 0.36% 44.2 Jul 2026 11,859 19 0.16% 51.0 Aug 2026 11,138 9 0.08% 59.7 Sep 2026 3,488 6 0.17% 49.6 February/March is when I added 31 pages and ran FB ads. June is when I connected Claude Code and got rid of some low performing pages. Here's just the high level stuff Claude has done or helped me do. Full technical audit + cleanup — fixed canonicals, broken links, sitemap, redirects Merged thin/duplicate pages into stronger hub pages (301 + noindex) Rewrote every title/meta; made each location page unique (no templated content) Added server-side schema (FAQ, LocalBusiness, Org/Person, reviews) so Google and AI can actually read it AEO work: entity + E-E-A-T signals, structured FAQs, llms.txt for AI answer engines Local SEO: optimized Google Business Profile, fixed citations/NAP across directories Off-site push: directories, reviews, and digital PR for backlinks Weekly GSC/GA4 tracking, plus monitoring AI-assistant referral traffic I've been getting a solid amount of leads from LLMs which is awesome but I feel like my business would explode if I could start ranking on page 1. So what does it take to rank on page 1? /u/ActionWins",
     "published_at": "2026-10-09T10:18:39+00:00",
-    "discovered_at": "2026-10-09T20:55:14+00:00",
+    "discovered_at": "2026-10-10T05:54:02+00:00",
     "stage": "watch",
     "score": 6,
     "score_breakdown": {
