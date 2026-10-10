@@ -1,42 +1,45 @@
 {
-  "generated_at": "2026-10-10T14:28:23+00:00",
-  "total": 1,
+  "generated_at": "2026-10-10T20:04:30+00:00",
+  "total": 10,
   "by_stage": {
+    "hot": 9,
     "watch": 1
   },
   "by_offer": {
+    "Done-for-you / service": 9,
     "AI Visibility Kit": 1
   },
   "by_source": {
+    "Search WordPress Support": 9,
     "Reddit r/TechSEO": 1
   },
   "by_status": {
-    "ready": 1
+    "ready": 10
   },
   "diagnostics": {
-    "source_raw_count": 32,
-    "search_raw_count": 0,
+    "source_raw_count": 31,
+    "search_raw_count": 15,
     "source_scored_count": 1,
-    "search_scored_count": 0,
-    "stale_search_dropped_count": 0,
-    "final_lead_count": 1,
+    "search_scored_count": 9,
+    "stale_search_dropped_count": 6,
+    "final_lead_count": 10,
     "search_queries": [
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic faq schema problem",
-        "result_count": 0,
+        "result_count": 5,
         "error": ""
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic schema markup issue",
-        "result_count": 0,
+        "result_count": 5,
         "error": ""
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic structured data error",
-        "result_count": 0,
+        "result_count": 5,
         "error": ""
       },
       {
