@@ -1,33 +1,120 @@
 [
   {
-    "item_id": "2a90b33f13d72c90",
+    "item_id": "02444d14cfb7cfbc",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
     "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema Markup not Working with Plugin Integration",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
-    "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
+    "title": "Issue with Book Schema Markup - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-book-schema-markup/",
+    "summary": "We can see the Book Schema is properly included on your homepage. Please check this screenshot for your reference: https://i.rankmath.com/i/xyG8v4 However, please note that the Book Schema is not eligible for rich results with Google's Rich Results test tool.",
     "published_at": null,
-    "discovered_at": "2026-10-12T17:56:22+00:00",
+    "discovered_at": "2026-10-13T06:47:56+00:00",
     "stage": "hot",
-    "score": 30,
+    "score": 39,
     "score_breakdown": {
       "schema_hits": [
         "rich result",
         "rich results",
-        "schema markup",
-        "structured data"
+        "schema markup"
       ],
       "strict_schema_hits": [
         "rich result",
         "rich results",
         "schema",
-        "schema markup",
-        "structured data"
+        "schema markup"
       ],
-      "intent_hits": [],
-      "platform_hits": [],
+      "intent_hits": [
+        "issue"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
+      "issue_hits": [
+        "not eligible for rich results"
+      ],
+      "visibility_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "ecom_search_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "schema markup"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [
+      "wordpress"
+    ],
+    "issue_types": [
+      "not eligible for rich results",
+      "rich result",
+      "rich results"
+    ],
+    "intent_flags": [
+      "issue"
+    ],
+    "business_name": null,
+    "business_site": "https://i.rankmath.com/i/xyG8v4",
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": "https://i.rankmath.com/i/xyG8v4",
+      "schema_present": false,
+      "notes": "Business site detected"
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with Book Schema Markup - WordPress.org",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with Book Schema Markup - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-book-schema-markup/",
+    "sent_at": null
+  },
+  {
+    "item_id": "e4c63ed0673bd24e",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Yoast schema markup - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/yoast-schema-markup/",
+    "summary": "And a second, more important issue : Google's Rich Results tool isn't displaying the full schema - it only detects the breadcrumbs, even though other schema is present.",
+    "published_at": null,
+    "discovered_at": "2026-10-13T06:47:56+00:00",
+    "stage": "hot",
+    "score": 33,
+    "score_breakdown": {
+      "schema_hits": [
+        "rich result",
+        "rich results",
+        "schema markup"
+      ],
+      "strict_schema_hits": [
+        "rich result",
+        "rich results",
+        "schema",
+        "schema markup"
+      ],
+      "intent_hits": [
+        "issue"
+      ],
+      "platform_hits": [
+        "wordpress"
+      ],
       "issue_hits": [],
       "visibility_hits": [
         "rich result",
@@ -48,12 +135,16 @@
       "general_reddit_source": false,
       "ecom_platform_source": false
     },
-    "platforms": [],
+    "platforms": [
+      "wordpress"
+    ],
     "issue_types": [
       "rich result",
       "rich results"
     ],
-    "intent_flags": [],
+    "intent_flags": [
+      "issue"
+    ],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -66,12 +157,85 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema Markup not Working with Plugin Integration",
+    "subject_draft": "Direct schema help for: Yoast schema markup - WordPress.org",
     "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema Markup not Working with Plugin Integration': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "follow_up_draft": "Quick follow-up on 'Yoast schema markup - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
+    "contact_target": "https://wordpress.org/support/topic/yoast-schema-markup/",
+    "sent_at": null
+  },
+  {
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
+    "published_at": null,
+    "discovered_at": "2026-10-13T06:47:56+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "sent_at": null
   },
   {
@@ -84,7 +248,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-10-12T17:56:22+00:00",
+    "discovered_at": "2026-10-13T06:47:56+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -151,32 +315,30 @@
     "sent_at": null
   },
   {
-    "item_id": "e4c63ed0673bd24e",
+    "item_id": "2a90b33f13d72c90",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
     "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Yoast schema markup - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/yoast-schema-markup/",
-    "summary": "Yoast schema markup vikktoriya (@vikktoriya) 7 minutes ago Hi.I've run into an issue with the Yoast schema markup.1. On the site's homepage, the \"Organization\" and \"Person&#…",
+    "title": "Schema Markup not Working with Plugin Integration",
+    "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
+    "summary": "Can you please check why Schema is not applied for the reviews. Are you modifying the \" Schema & Structured Data for WP & AMP\" schema output in any way with a code snippet?",
     "published_at": null,
-    "discovered_at": "2026-10-12T17:56:22+00:00",
+    "discovered_at": "2026-10-13T06:47:56+00:00",
     "stage": "hot",
-    "score": 17,
+    "score": 20,
     "score_breakdown": {
       "schema_hits": [
-        "schema markup"
+        "schema markup",
+        "structured data"
       ],
       "strict_schema_hits": [
         "schema",
-        "schema markup"
+        "schema markup",
+        "structured data"
       ],
-      "intent_hits": [
-        "issue"
-      ],
-      "platform_hits": [
-        "wordpress"
-      ],
+      "intent_hits": [],
+      "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
@@ -191,13 +353,9 @@
       "general_reddit_source": false,
       "ecom_platform_source": false
     },
-    "platforms": [
-      "wordpress"
-    ],
+    "platforms": [],
     "issue_types": [],
-    "intent_flags": [
-      "issue"
-    ],
+    "intent_flags": [],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -210,12 +368,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Yoast schema markup - WordPress.org",
+    "subject_draft": "Direct schema help for: Schema Markup not Working with Plugin Integration",
     "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Yoast schema markup - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "follow_up_draft": "Quick follow-up on 'Schema Markup not Working with Plugin Integration': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/yoast-schema-markup/",
+    "contact_target": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "sent_at": null
   },
   {
@@ -228,7 +386,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1x0045s/google_drops_review_snippets_for_healthcare/",
     "summary": "/u/WebLinkr",
     "published_at": "2026-10-07T15:51:38+00:00",
-    "discovered_at": "2026-10-12T17:56:22+00:00",
+    "discovered_at": "2026-10-13T06:47:56+00:00",
     "stage": "hot",
     "score": 14,
     "score_breakdown": {
