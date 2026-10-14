@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-10-13T21:15:28+00:00",
+    "discovered_at": "2026-10-14T04:55:17+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-10-13T21:15:28+00:00",
+    "discovered_at": "2026-10-14T04:55:17+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -157,7 +157,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-10-13T21:15:28+00:00",
+    "discovered_at": "2026-10-14T04:55:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -227,7 +227,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-10-13T21:15:28+00:00",
+    "discovered_at": "2026-10-14T04:55:17+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -303,7 +303,7 @@
     "source_item_url": "https://wordpress.org/support/topic/yoast-schema-markup/",
     "summary": "Yoast schema markup vikktoriya (@vikktoriya) 7 minutes ago Hi.I've run into an issue with the Yoast schema markup.1. On the site's homepage, the \"Organization\" and \"Person&#…",
     "published_at": null,
-    "discovered_at": "2026-10-13T21:15:28+00:00",
+    "discovered_at": "2026-10-14T04:55:17+00:00",
     "stage": "hot",
     "score": 17,
     "score_breakdown": {
@@ -359,68 +359,6 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://wordpress.org/support/topic/yoast-schema-markup/",
-    "sent_at": null
-  },
-  {
-    "item_id": "390acb45db7a5ca0",
-    "source": "Reddit r/TechSEO",
-    "source_id": "reddit-techseo",
-    "source_type": "forum",
-    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
-    "title": "Google Drops Review Snippets For Healthcare [Schema, SEO]",
-    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1x0045s/google_drops_review_snippets_for_healthcare/",
-    "summary": "/u/WebLinkr",
-    "published_at": "2026-10-07T15:51:38+00:00",
-    "discovered_at": "2026-10-13T21:15:28+00:00",
-    "stage": "hot",
-    "score": 14,
-    "score_breakdown": {
-      "schema_hits": [],
-      "strict_schema_hits": [
-        "review snippets",
-        "schema"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "review snippets"
-      ],
-      "ecom_search_hits": [
-        "review snippets"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
-      "schema_source": false,
-      "native_action_source": true,
-      "general_reddit_source": true,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "review snippets"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Google Drops Review Snippets For Healthcare [Schema, SEO]",
-    "message_draft": "This looks like a rich-results eligibility/output issue rather than a plain ranking problem.\n\nI’d check these first:\n- Validate the live page against the canonical URL Google is actually using.\n- Check that required properties are present consistently across that page type.\n- Remember valid markup only gives eligibility — Google can still suppress the feature.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Google Drops Review Snippets For Healthcare [Schema, SEO]': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1x0045s/google_drops_review_snippets_for_healthcare/",
     "sent_at": null
   }
 ]
