@@ -1,25 +1,17 @@
 {
-  "generated_at": "2026-10-18T12:36:55+00:00",
-  "total": 2,
-  "by_stage": {
-    "hot": 2
-  },
-  "by_offer": {
-    "Done-for-you / service": 2
-  },
-  "by_source": {
-    "Search WordPress Support": 2
-  },
-  "by_status": {
-    "ready": 2
-  },
+  "generated_at": "2026-10-18T18:38:32+00:00",
+  "total": 0,
+  "by_stage": {},
+  "by_offer": {},
+  "by_source": {},
+  "by_status": {},
   "diagnostics": {
-    "source_raw_count": 32,
+    "source_raw_count": 33,
     "search_raw_count": 10,
     "source_scored_count": 0,
-    "search_scored_count": 2,
-    "stale_search_dropped_count": 6,
-    "final_lead_count": 2,
+    "search_scored_count": 0,
+    "stale_search_dropped_count": 10,
+    "final_lead_count": 0,
     "search_queries": [
       {
         "group": "wordpress",
