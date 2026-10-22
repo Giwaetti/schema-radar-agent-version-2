@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-10-21T20:10:18+00:00",
+    "discovered_at": "2026-10-22T04:48:45+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -73,81 +73,6 @@
     "sent_at": null
   },
   {
-    "item_id": "2a90b33f13d72c90",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema Markup not Working with Plugin Integration",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
-    "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
-    "published_at": null,
-    "discovered_at": "2026-10-21T20:10:18+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "rich result",
-        "rich results",
-        "schema markup",
-        "structured data"
-      ],
-      "strict_schema_hits": [
-        "rich result",
-        "rich results",
-        "schema",
-        "schema markup",
-        "structured data"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "ecom_search_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "schema markup"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "rich result",
-      "rich results"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema Markup not Working with Plugin Integration",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema Markup not Working with Plugin Integration': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
-    "sent_at": null
-  },
-  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -157,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-10-21T20:10:18+00:00",
+    "discovered_at": "2026-10-22T04:48:45+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -227,7 +152,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-10-21T20:10:18+00:00",
+    "discovered_at": "2026-10-22T04:48:45+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -294,6 +219,71 @@
     "sent_at": null
   },
   {
+    "item_id": "8aa1290ee7c45bd1",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Too Many Notices, Poor Support Attitude - [WPSSO Core - Complete Schema ...",
+    "source_item_url": "https://wordpress.org/support/topic/too-many-notices-poor-support-attitude/",
+    "summary": "The issue is not that WPSSO reports Schema or image-related errors. I understand the value of complete markup and proper image dimensions. What's frustrating is how those notices are handled in the admin interface. The notices are intrusive, repetitive, and impossible to dismiss.",
+    "published_at": null,
+    "discovered_at": "2026-10-22T04:48:45+00:00",
+    "stage": "hot",
+    "score": 14,
+    "score_breakdown": {
+      "schema_hits": [],
+      "strict_schema_hits": [
+        "schema"
+      ],
+      "intent_hits": [
+        "error",
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "support"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "error",
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Too Many Notices, Poor Support Attitude - [WPSSO Core - Complete Schem",
+    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Too Many Notices, Poor Support Attitude - [WPSSO Core - Complete Schema ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/too-many-notices-poor-support-attitude/",
+    "sent_at": null
+  },
+  {
     "item_id": "d3be3301f39c2cf3",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -303,7 +293,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xahfcg/i_spent_a_semrush_trial_week_on_a_630page/",
     "summary": "I build BIShare on my own: a free, open-source app for sending files between iPhone, Android, Windows, Mac and Linux, plus a browser version. The website has guides in 13 languages, about 630 URLs, and an Authority Score of 15. The tools I compete with sit between 41 and 57. First, so nobody reads the wrong lesson: the growth happened before the trial. In mid-September I rebuilt about 260 landing pages, and Google clicks went from 25–45 a day to 80–130 a day. App Store first downloads were 533 in the last 30 days against 81 in the 30 days before, much of it after a store listing rewrite I posted about separately. I took the Semrush trial (Pro, 7 days) to decide what to do next, not to explain the past. Here is what I found, in the order it changed what I did. 1. My translated titles were translations, not searches. I had translated the English titles carefully. Wrong goal. Country data showed what people actually type: Japan: \"ipad usbメモリ\" (iPad USB stick) gets 2,900 searches a month; the phrase I had, \"iPad ファイル 転送\", gets 260. Indonesia: people say \"dari HP ke laptop\" (phone to laptop). My title said \"PC\". 3,600 a month against 20. Germany, France, Spain, Russia: the phone-to-computer search is about photos first, files second. I retitled nine localized pages that had almost no clicks. I left alone every title that was already earning clicks. 2. Site Audit: 174 errors down to 15, and the 15 are on purpose. Two causes made almost all of it. A list markup (ItemList) whose entries had no URL, and SoftwareApplication markup sitting in the site layout, so every crawled page reported \"aggregateRating missing\". I moved the app markup to the home and download pages only. The 15 that remain are that same rule on those pages. I have no real ratings to put there and I'm not inventing them. 3. Every backlink I have points at the homepage. Semrush's page-level backlink report: the homepage has 20 referring domains. Every guide page has zero. That explains the pattern I kept seeing, guides stalling between positions 11 and 30. The same week I looked at who beats us for \"airdrop for windows\" (2,400 a month in the US). One result in 6th–8th place is a small site with an Authority Score of 10, lower than mine, and no links to that page either. The difference: their \"10 alternatives, tested\" list was published seven months earlier and matches what the results page rewards. Our page is a product-style guide rebuilt three weeks ago. So for that query it's format and age, not authority. 4. The \"toxic backlinks\" list was spam aimed at SEO tools, not at Google. Semrush flagged 83 toxic URLs. Before disavowing anything I fetched a sample with different user agents. As SemrushBot or AhrefsBot, the pages contain a link to my site. As Googlebot or bingbot, the same URLs show a sales page for an \"SEO visibility\" service with no link at all. The pages also link to bishare.com and bishare.io, which aren't mine. They target the name, and they exist to show up in your backlink tool so you go looking. I didn't disavow. 5. My LCP was being stolen by my own cookie notice. Cloudflare's real-user data had LCP at about 68% good, below the 75% Google wants. Lighthouse showed why. The hero entrance animation started at opacity 0. An element at opacity 0 isn't an LCP candidate, so the headline never counted, and LCP fell to the cookie notice I had deliberately delayed until the browser was idle. On nine other templates the H1 sat inside a JavaScript reveal that stays invisible until hydration. Fix: the entrance now only moves (no fade, no blur), the H1 blocks use a CSS-only wrapper, and one font is preloaded instead of four. I also tried Next.js's experimental inlineCss: the HTML doubled and LCP got worse, so it's off. Before shipping, I snapshotted all 631 URLs (title, meta, headings, visible text, links, structured data) and diffed them: zero changes. 6. New pages from question data, only where the results page had a gap. \"How to transfer files to ipad\" (2,400 a month) and \"transfer files from iphone to pc\" (1,600) had no page from us. I read the top 10 first: forum threads, Apple's own guide, and vendor blogs, none of which explains where a file actually lands on an iPad (Files app vs an app's own folder vs Photos). That became the angle. Both pages are new, so no results yet. 7. Bing dropped me to zero and I still don't know why. Bing had been sending 56 impressions a day with a 6% CTR. On 14 September, the week of the big rewrite, it went to zero and has stayed there. It's not a block: everything returns 200, robots.txt is open, IndexNow submissions are accepted. If you've seen Bing drop a small site completely after rewriting most of it, I'd like to hear what brought it back. Things that turned out to be noise Semrush's estimated traffic for my US domain went 303, then 6, then 20 in three weeks, driven by one or two keywords each time. Not visits. My India \"traffic\" showed 471, while the keyword rows behind it add up to about 1. \"Low text-to-HTML ratio\" on 79 pages: Next.js puts page data in script tags. \"Low word count\" on Japanese and Chinese pages: the checker counts words by spaces. What's next. Links to the guide pages instead of the homepage (outreach to pages that still link to the dead Firefox Send is my first batch), and reading Search Console on the 11th, 17th and 31st before I touch anything else. Happy to share the scripts I use to check structured data and locale parity if they're useful to anyone. I'm the developer of the app, so weigh my reading of my own data accordingly. /u/Glittering_Device653",
     "published_at": "2026-10-20T03:22:42+00:00",
-    "discovered_at": "2026-10-21T20:10:18+00:00",
+    "discovered_at": "2026-10-22T04:48:45+00:00",
     "stage": "hot",
     "score": 12,
     "score_breakdown": {
