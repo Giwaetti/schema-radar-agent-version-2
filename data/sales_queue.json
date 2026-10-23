@@ -9,7 +9,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xcaq8z/anyone_else_experiencing_massive_gsc_indexing/",
     "summary": "I'm wondering if anyone else is experiencing serious issues with Google Search Console around October 12–13, 2026. I manage a bilingual (German/French) website with roughly 300 URLs. Until October 11, the site was gaining visibility in Google Search, and several important pages were ranking and receiving organic clicks. Then, almost overnight, things changed dramatically. Here's what I'm seeing: Massive impression drop: Google Search Console reported 286 impressions on October 11, 125 on October 12, and only 9 on October 13. By October 15, impressions had dropped to zero. Breadcrumb rich results disappearing: The number of valid breadcrumb items in GSC dropped from approximately 27 to just 4, despite the structured data still being present and valid. Previously visible pages no longer indexed: Important product reviews, category hubs, and informational pages are now marked as \"Crawled – currently not indexed.\" No obvious technical problems: Googlebot successfully crawls these pages, receives HTTP 200 responses, indexing is allowed, and Google recognizes the correct canonical URLs. Live URL tests pass: The live inspection confirms that pages can be indexed. Google renders the content correctly and recognizes valid breadcrumb structured data. Outdated indexing reports: As of October 20, my Page Indexing report was still showing October 12 as its last update. Sitemap inconsistencies: URL Inspection sometimes displays \"Temporary processing error\" or \"No referring sitemaps detected,\" even though the URLs are included in submitted sitemaps. Broken date picker: When selecting a custom date range, GSC displayed bizarre validation messages referring to January 1, 1970, and June 20, 2025. Interestingly, Google Analytics 4 doesn't show a traffic decline anywhere near as severe as the impression drop reported by GSC. However, GA4 sessions and GSC clicks are different metrics, so I don't want to draw conclusions from that discrepancy alone. Both language homepages remain indexed, while multiple important internal pages in both languages are currently excluded. I've checked robots directives, canonicals, hreflang, XML sitemaps, server responses, rendering, and structured data. I haven't found a sitewide technical issue that explains such a sudden change. There are also no manual actions or security issues reported in Search Console. I'm attaching screenshots showing the impression collapse, breadcrumb decline, indexing status, and GSC reporting problems. My questions: Has anyone experienced a similar sudden drop in impressions or indexed pages around October 12–13? Are your Page Indexing and Breadcrumb reports updating normally? Has anyone encountered the same broken date picker or temporary sitemap processing errors? Could this be related to a Google indexing/reporting issue, or have you seen similar behavior following a major algorithm update? I'm not claiming this is definitely a Google bug. I'm trying to determine whether this is an isolated website issue or whether other site owners are seeing the same pattern. Any experiences or insights would be greatly appreciated. Michael /u/Silberzwiebel",
     "published_at": "2026-10-22T06:09:00+00:00",
-    "discovered_at": "2026-10-23T04:51:16+00:00",
+    "discovered_at": "2026-10-23T13:27:55+00:00",
     "stage": "hot",
     "score": 31,
     "score_breakdown": {
@@ -85,48 +85,44 @@
     "sent_at": null
   },
   {
-    "item_id": "2a90b33f13d72c90",
+    "item_id": "29105cc213c3e9e9",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema Markup not Working with Plugin Integration",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
-    "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-10-23T04:51:16+00:00",
+    "discovered_at": "2026-10-23T13:27:55+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
       "schema_hits": [
-        "rich result",
-        "rich results",
-        "schema markup",
-        "structured data"
+        "faq schema",
+        "json-ld"
       ],
       "strict_schema_hits": [
-        "rich result",
-        "rich results",
-        "schema",
-        "schema markup",
-        "structured data"
+        "faq schema",
+        "json-ld",
+        "schema"
       ],
-      "intent_hits": [],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
       "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "rich result",
-        "rich results"
+      "issue_hits": [
+        "faq schema"
       ],
-      "ecom_search_hits": [
-        "rich result",
-        "rich results"
-      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
       "title_signal_hits": [
-        "schema markup"
+        "faq schema",
+        "issue"
       ],
       "schema_source": true,
       "native_action_source": false,
@@ -135,10 +131,12 @@
     },
     "platforms": [],
     "issue_types": [
-      "rich result",
-      "rich results"
+      "faq schema"
     ],
-    "intent_flags": [],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -151,12 +149,82 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema Markup not Working with Plugin Integration",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema Markup not Working with Plugin Integration': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
+    "item_id": "f9d88b5c66a6d90b",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Structured Data Issue: Price Range in Schema Markup Not Accepted by ...",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
+    "published_at": null,
+    "discovered_at": "2026-10-23T13:27:55+00:00",
+    "stage": "hot",
+    "score": 26,
+    "score_breakdown": {
+      "schema_hits": [
+        "schema markup",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "schema",
+        "schema markup",
+        "structured data"
+      ],
+      "intent_hits": [
+        "issue",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "schema markup",
+        "structured data"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "issue",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Issue: Price Range in Schema Markup Not Accepted by ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "sent_at": null
   },
   {
@@ -169,7 +237,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-10-23T04:51:16+00:00",
+    "discovered_at": "2026-10-23T13:27:55+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -236,28 +304,27 @@
     "sent_at": null
   },
   {
-    "item_id": "0009f86135aebd37",
+    "item_id": "8aa1290ee7c45bd1",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "source_item_url": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
-    "summary": "When using the Accordion or FAQ (Frequently Asked Questions) widget in Elementor, the generated JSON-LD code for the FAQPage schema does not include the content of the answers in the \"text\" field within \"acceptedAnswer.\" This prevents Google from correctly interpreting the responses, causing them not to appear in rich search results.",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Too Many Notices, Poor Support Attitude - [WPSSO Core - Complete Schema ...",
+    "source_item_url": "https://wordpress.org/support/topic/too-many-notices-poor-support-attitude/",
+    "summary": "The issue is not that WPSSO reports Schema or image-related errors. I understand the value of complete markup and proper image dimensions. What's frustrating is how those notices are handled in the admin interface. The notices are intrusive, repetitive, and impossible to dismiss.",
     "published_at": null,
-    "discovered_at": "2026-10-23T04:51:16+00:00",
+    "discovered_at": "2026-10-23T13:27:55+00:00",
     "stage": "hot",
-    "score": 18,
+    "score": 14,
     "score_breakdown": {
-      "schema_hits": [
-        "json-ld"
-      ],
+      "schema_hits": [],
       "strict_schema_hits": [
-        "json-ld",
         "schema"
       ],
       "intent_hits": [
-        "missing"
+        "error",
+        "issue",
+        "support"
       ],
       "platform_hits": [],
       "issue_hits": [],
@@ -267,8 +334,7 @@
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
       "title_signal_hits": [
-        "json-ld",
-        "missing"
+        "support"
       ],
       "schema_source": true,
       "native_action_source": false,
@@ -278,7 +344,9 @@
     "platforms": [],
     "issue_types": [],
     "intent_flags": [
-      "missing"
+      "error",
+      "issue",
+      "support"
     ],
     "business_name": null,
     "business_site": null,
@@ -292,12 +360,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Bug in Elementor's JSON-LD Schema: Missing \"text\" Field in ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: Too Many Notices, Poor Support Attitude - [WPSSO Core - Complete Schem",
+    "message_draft": "This looks like a real structured-data / search-visibility implementation issue.\n\nI’d check these first:\n- Check the final rendered HTML/JSON-LD on the live URL.\n- Look for duplicate output from theme + plugin combinations.\n- Test one clean representative page first before changing the whole setup.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Too Many Notices, Poor Support Attitude - [WPSSO Core - Complete Schema ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/bug-in-elementors-json-ld-schema-missing-text-field-in-acceptedanswer/",
+    "contact_target": "https://wordpress.org/support/topic/too-many-notices-poor-support-attitude/",
     "sent_at": null
   },
   {
@@ -310,7 +378,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xcbtzb/pov_your_competitor_gets_recommended_by_chatgpt/",
     "summary": "Your SEO report looks healthy. Your pages rank. Your content gets clicks. Your technical issues are under control. But when a buyer asks an AI assistant to compare products, your competitor keeps appearing in the recommendations. Now what? Do you optimize more pages, build more backlinks, improve product data, or investigate the sources AI is using? In an appliance-category audit, we found that the brand's own domain accounted for under 3% of sources across the category queries we tested. Reddit appeared at more than 3× that rate. One brand. One test set. It made us question whether traditional SEO reports show enough of the buying journey. If your competitor keeps getting recommended by AI, what's the FIRST thing you'd investigate? /u/Creepy-Opening1465",
     "published_at": "2026-10-22T07:16:35+00:00",
-    "discovered_at": "2026-10-23T04:51:16+00:00",
+    "discovered_at": "2026-10-23T13:27:55+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
