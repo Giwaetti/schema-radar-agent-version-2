@@ -1,39 +1,38 @@
 {
-  "generated_at": "2026-10-23T19:57:20+00:00",
-  "total": 6,
+  "generated_at": "2026-10-24T04:38:13+00:00",
+  "total": 3,
   "by_stage": {
-    "hot": 6
+    "hot": 3
   },
   "by_offer": {
-    "Done-for-you / service": 5,
+    "Done-for-you / service": 2,
     "AI Generator": 1
   },
   "by_source": {
     "Reddit r/TechSEO": 2,
-    "Search WordPress Support": 3,
     "WordPress Support - Yoast SEO": 1
   },
   "by_status": {
-    "ready": 6
+    "ready": 3
   },
   "diagnostics": {
     "source_raw_count": 33,
-    "search_raw_count": 10,
+    "search_raw_count": 0,
     "source_scored_count": 3,
-    "search_scored_count": 4,
-    "stale_search_dropped_count": 6,
-    "final_lead_count": 6,
+    "search_scored_count": 0,
+    "stale_search_dropped_count": 0,
+    "final_lead_count": 3,
     "search_queries": [
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic faq schema problem",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic schema markup issue",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
