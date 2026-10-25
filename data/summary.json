@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-25T04:42:48+00:00",
-  "total": 9,
+  "generated_at": "2026-10-25T13:11:38+00:00",
+  "total": 5,
   "by_stage": {
-    "hot": 9
+    "hot": 5
   },
   "by_offer": {
-    "Done-for-you / service": 8,
+    "Done-for-you / service": 4,
     "AI Generator": 1
   },
   "by_source": {
     "Reddit r/TechSEO": 2,
-    "Search WordPress Support": 6,
+    "Search WordPress Support": 2,
     "WordPress Support - Yoast SEO": 1
   },
   "by_status": {
-    "ready": 9
+    "ready": 5
   },
   "diagnostics": {
-    "source_raw_count": 33,
-    "search_raw_count": 15,
+    "source_raw_count": 31,
+    "search_raw_count": 10,
     "source_scored_count": 3,
-    "search_scored_count": 7,
-    "stale_search_dropped_count": 8,
-    "final_lead_count": 9,
+    "search_scored_count": 3,
+    "stale_search_dropped_count": 6,
+    "final_lead_count": 5,
     "search_queries": [
       {
         "group": "wordpress",
@@ -39,7 +39,7 @@
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic structured data error",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
