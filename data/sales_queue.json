@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-10-28T15:06:30+00:00",
+    "discovered_at": "2026-10-28T21:06:08+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -73,6 +73,81 @@
     "sent_at": null
   },
   {
+    "item_id": "2a90b33f13d72c90",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Schema Markup not Working with Plugin Integration",
+    "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
+    "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
+    "published_at": null,
+    "discovered_at": "2026-10-28T21:06:08+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "rich result",
+        "rich results",
+        "schema markup",
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "rich result",
+        "rich results",
+        "schema",
+        "schema markup",
+        "structured data"
+      ],
+      "intent_hits": [],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "ecom_search_hits": [
+        "rich result",
+        "rich results"
+      ],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "schema markup"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "rich result",
+      "rich results"
+    ],
+    "intent_flags": [],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Schema Markup not Working with Plugin Integration",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Schema Markup not Working with Plugin Integration': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
+    "sent_at": null
+  },
+  {
     "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -82,7 +157,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-10-28T15:06:30+00:00",
+    "discovered_at": "2026-10-28T21:06:08+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -143,75 +218,6 @@
     "sent_at": null
   },
   {
-    "item_id": "9691af01aa84acd1",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Yoast JSON-LD missing from frontend HTML but present in REST API",
-    "source_item_url": "https://wordpress.org/support/topic/yoast-json-ld-missing-from-frontend-html-but-present-in-rest-api/",
-    "summary": "We're using Yoast SEO 28.7, and the Schema Framework is enabled. The issue : The JSON-LD schema graph (yoast- schema -graph) appears to be missing from the publicly rendered HTML, both on our homepage and on other pages. The Schema Markup Validator only detects two elements: hentry and WebPage. No Organization or WebSite entities are detected.",
-    "published_at": null,
-    "discovered_at": "2026-10-28T15:06:30+00:00",
-    "stage": "hot",
-    "score": 26,
-    "score_breakdown": {
-      "schema_hits": [
-        "json-ld",
-        "schema markup"
-      ],
-      "strict_schema_hits": [
-        "json-ld",
-        "schema",
-        "schema markup"
-      ],
-      "intent_hits": [
-        "issue",
-        "missing"
-      ],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "json-ld",
-        "missing"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "issue",
-      "missing"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Yoast JSON-LD missing from frontend HTML but present in REST API",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Yoast JSON-LD missing from frontend HTML but present in REST API': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/yoast-json-ld-missing-from-frontend-html-but-present-in-rest-api/",
-    "sent_at": null
-  },
-  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -221,7 +227,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-10-28T15:06:30+00:00",
+    "discovered_at": "2026-10-28T21:06:08+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -285,6 +291,73 @@
     "status": "ready",
     "contact_method": "forum_reply",
     "contact_target": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "sent_at": null
+  },
+  {
+    "item_id": "4fdc1e3deec296d6",
+    "source": "Reddit r/TechSEO",
+    "source_id": "reddit-techseo",
+    "source_type": "forum",
+    "source_url": "https://www.reddit.com/r/TechSEO/.rss",
+    "title": "AI visibility is going to expose a problem most companies already have: nobody owns the complete customer-facing truth.",
+    "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xhshoq/ai_visibility_is_going_to_expose_a_problem_most/",
+    "summary": "SEO owns rankings. Ecommerce owns product pages. Engineering owns structured data and rendering. PR owns reputation. Customer support owns warranty and service questions. Product marketing owns positioning. But an AI assistant doesn't care how your company is organized. It may combine product details, reviews, forum discussions, comparison pages, and other available sources into one answer. When those sources disagree, who is responsible for fixing the problem? I don't think this belongs entirely to SEO or entirely to engineering. It needs a shared process with clear ownership. If your company had to assign one person ultimate responsibility for AI visibility, which team should that person come from? /u/Creepy-Opening1465",
+    "published_at": "2026-10-28T16:14:03+00:00",
+    "discovered_at": "2026-10-28T21:06:08+00:00",
+    "stage": "hot",
+    "score": 16,
+    "score_breakdown": {
+      "schema_hits": [
+        "structured data"
+      ],
+      "strict_schema_hits": [
+        "structured data"
+      ],
+      "intent_hits": [
+        "fix",
+        "problem",
+        "support"
+      ],
+      "platform_hits": [],
+      "issue_hits": [],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "problem"
+      ],
+      "schema_source": false,
+      "native_action_source": true,
+      "general_reddit_source": true,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [],
+    "intent_flags": [
+      "fix",
+      "problem",
+      "support"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: AI visibility is going to expose a problem most companies already have",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'AI visibility is going to expose a problem most companies already have: nobody owns the complete customer-facing truth.': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://www.reddit.com/r/TechSEO/comments/1xhshoq/ai_visibility_is_going_to_expose_a_problem_most/",
     "sent_at": null
   }
 ]
