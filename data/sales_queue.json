@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-10-30T05:50:44+00:00",
+    "discovered_at": "2026-10-30T15:03:02+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -73,81 +73,6 @@
     "sent_at": null
   },
   {
-    "item_id": "2a90b33f13d72c90",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
-    "title": "Schema Markup not Working with Plugin Integration",
-    "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
-    "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
-    "published_at": null,
-    "discovered_at": "2026-10-30T05:50:44+00:00",
-    "stage": "hot",
-    "score": 30,
-    "score_breakdown": {
-      "schema_hits": [
-        "rich result",
-        "rich results",
-        "schema markup",
-        "structured data"
-      ],
-      "strict_schema_hits": [
-        "rich result",
-        "rich results",
-        "schema",
-        "schema markup",
-        "structured data"
-      ],
-      "intent_hits": [],
-      "platform_hits": [],
-      "issue_hits": [],
-      "visibility_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "ecom_search_hits": [
-        "rich result",
-        "rich results"
-      ],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "schema markup"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [],
-    "issue_types": [
-      "rich result",
-      "rich results"
-    ],
-    "intent_flags": [],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Schema Markup not Working with Plugin Integration",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Schema Markup not Working with Plugin Integration': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
-    "sent_at": null
-  },
-  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -157,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-10-30T05:50:44+00:00",
+    "discovered_at": "2026-10-30T15:03:02+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -224,56 +149,49 @@
     "sent_at": null
   },
   {
-    "item_id": "605d78ce3276426f",
+    "item_id": "26bf84d31606e75d",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic structured data error",
-    "title": "Critic error: datePublished' Structured Data is missing",
-    "source_item_url": "https://wordpress.org/support/topic/datepublished-structured-data-is-missing/",
-    "summary": "It seems there is an issue with how structured data is being generated and presented on the website. Search Console is showing me three new errors related to structured data .",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Schema-markup on the author's page - WordPress.org",
+    "source_item_url": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
+    "summary": "Hello! Why is the CollectionPage schema markup type present on the author's page, although it would be appropriate to add ProfilePage instead? Yoast, Rank Math and All in One SEO use the ProfilePage schema type on the author page. Google's article guidelines say this: \"If the URL is an internal profile page, we recommend marking up that author using profile page structured data.\" This ...",
     "published_at": null,
-    "discovered_at": "2026-10-30T05:50:44+00:00",
+    "discovered_at": "2026-10-30T15:03:02+00:00",
     "stage": "hot",
-    "score": 18,
+    "score": 19,
     "score_breakdown": {
       "schema_hits": [
+        "schema markup",
         "structured data"
       ],
       "strict_schema_hits": [
+        "schema",
+        "schema markup",
         "structured data"
       ],
-      "intent_hits": [
-        "error",
-        "issue",
-        "missing",
-        "search console"
+      "intent_hits": [],
+      "platform_hits": [
+        "wordpress"
       ],
-      "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "error",
-        "missing",
-        "structured data"
-      ],
+      "title_signal_hits": [],
       "schema_source": true,
       "native_action_source": false,
       "general_reddit_source": false,
       "ecom_platform_source": false
     },
-    "platforms": [],
-    "issue_types": [],
-    "intent_flags": [
-      "error",
-      "issue",
-      "missing",
-      "search console"
+    "platforms": [
+      "wordpress"
     ],
+    "issue_types": [],
+    "intent_flags": [],
     "business_name": null,
     "business_site": null,
     "offer_fit": "Done-for-you / service",
@@ -286,12 +204,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Critic error: datePublished' Structured Data is missing",
+    "subject_draft": "Direct schema help for: Schema-markup on the author's page - WordPress.org",
     "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Critic error: datePublished' Structured Data is missing': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "follow_up_draft": "Quick follow-up on 'Schema-markup on the author's page - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/datepublished-structured-data-is-missing/",
+    "contact_target": "https://wordpress.org/support/topic/schema-markup-on-the-authors-page/",
     "sent_at": null
   },
   {
@@ -304,7 +222,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xhshoq/ai_visibility_is_going_to_expose_a_problem_most/",
     "summary": "SEO owns rankings. Ecommerce owns product pages. Engineering owns structured data and rendering. PR owns reputation. Customer support owns warranty and service questions. Product marketing owns positioning. But an AI assistant doesn't care how your company is organized. It may combine product details, reviews, forum discussions, comparison pages, and other available sources into one answer. When those sources disagree, who is responsible for fixing the problem? I don't think this belongs entirely to SEO or entirely to engineering. It needs a shared process with clear ownership. If your company had to assign one person ultimate responsibility for AI visibility, which team should that person come from? /u/Creepy-Opening1465",
     "published_at": "2026-10-28T16:14:03+00:00",
-    "discovered_at": "2026-10-30T05:50:44+00:00",
+    "discovered_at": "2026-10-30T15:03:02+00:00",
     "stage": "hot",
     "score": 16,
     "score_breakdown": {
@@ -362,77 +280,6 @@
     "sent_at": null
   },
   {
-    "item_id": "f05bb3ef98af8cfb",
-    "source": "Search WordPress Support",
-    "source_id": "search-wordpress",
-    "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic structured data error",
-    "title": "Google search console error in structured data - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/google-search-console-error-in-structured-data/",
-    "summary": "The topic 'Google search console error in structured data' is closed to new replies.",
-    "published_at": null,
-    "discovered_at": "2026-10-30T05:50:44+00:00",
-    "stage": "hot",
-    "score": 15,
-    "score_breakdown": {
-      "schema_hits": [
-        "structured data"
-      ],
-      "strict_schema_hits": [
-        "structured data"
-      ],
-      "intent_hits": [
-        "error",
-        "search console"
-      ],
-      "platform_hits": [
-        "wordpress"
-      ],
-      "issue_hits": [],
-      "visibility_hits": [],
-      "ecom_search_hits": [],
-      "negative_hits": [],
-      "hard_reject_hits": [],
-      "general_reddit_reject_hits": [],
-      "title_signal_hits": [
-        "error",
-        "search console",
-        "structured data"
-      ],
-      "schema_source": true,
-      "native_action_source": false,
-      "general_reddit_source": false,
-      "ecom_platform_source": false
-    },
-    "platforms": [
-      "wordpress"
-    ],
-    "issue_types": [],
-    "intent_flags": [
-      "error",
-      "search console"
-    ],
-    "business_name": null,
-    "business_site": null,
-    "offer_fit": "Done-for-you / service",
-    "offer_reason": "Treat this as a direct service lead first.",
-    "audit": {
-      "business_site": null,
-      "schema_present": null,
-      "notes": ""
-    },
-    "sales_route": "forum_reply",
-    "cta_label": "Email for direct help",
-    "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Google search console error in structured data - WordPress.org",
-    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Google search console error in structured data - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
-    "status": "ready",
-    "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/google-search-console-error-in-structured-data/",
-    "sent_at": null
-  },
-  {
     "item_id": "5a019736c1e1e8ae",
     "source": "Reddit r/TechSEO",
     "source_id": "reddit-techseo",
@@ -442,7 +289,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xifk7s/nonbrand_google_traffic_dropped_98_in_one_hour_on/",
     "summary": "I run a small eSIM store (young site, mostly organic). On October 26 around 10-11am Pacific, Google impressions went from roughly 400/hour to under 10/hour, within a single hour. I'm trying to figure out what happened. What the data shows: - Every non-brand query disappeared at once: all 26 languages, all countries, Google Images too. - Pages with at least one impression: ~2,000/day on Oct 20-25, 131/day on Oct 27-28. - Our brand query still ranks #1-2. - Clicks went from 30-40/day to about 2. - Bing, DuckDuckGo and direct traffic haven't moved. Merchant Center free listing impressions are stable too. What I've ruled out: - Manual actions, Removals and Security issues are all empty. - URL Inspection still says \"Submitted and indexed\" on the pages I checked. Robots and canonical are fine, and Googlebot gets 200s. - Crawl stats look normal (volume and response time). - No deploy right before the drop, no DNS changes, no Cloudflare rule blocking verified bots, no mirror domain picking up the traffic. The timing lines up with the unconfirmed update Search Engine Roundtable reported starting the evening of Oct 26. My questions: Did anyone else see a cliff like this on Oct 26 (instant, sitewide, brand untouched, pages still indexed)? Does this pattern point to a sitewide algorithmic classification (SpamBrain, helpful content, something else)? What would you check next that I haven't listed? If you've recovered from something like this, how long did it take, and what actually helped? Happy to share the URL and GSC screenshots in the comments if that's allowed here. /u/Acostatlogic",
     "published_at": "2026-10-29T09:49:22+00:00",
-    "discovered_at": "2026-10-30T05:50:44+00:00",
+    "discovered_at": "2026-10-30T15:03:02+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
