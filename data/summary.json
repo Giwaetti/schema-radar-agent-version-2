@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:07:23+00:00",
+  "generated_at": "2026-11-01T15:10:43+00:00",
   "total": 5,
   "by_stage": {
     "hot": 4,
@@ -10,8 +10,8 @@
     "AI Visibility Kit": 1
   },
   "by_source": {
-    "Search WordPress Support": 3,
-    "Reddit r/TechSEO": 2
+    "Search WordPress Support": 4,
+    "Reddit r/TechSEO": 1
   },
   "by_status": {
     "ready": 5
@@ -19,9 +19,9 @@
   "diagnostics": {
     "source_raw_count": 32,
     "search_raw_count": 10,
-    "source_scored_count": 2,
-    "search_scored_count": 3,
-    "stale_search_dropped_count": 7,
+    "source_scored_count": 1,
+    "search_scored_count": 4,
+    "stale_search_dropped_count": 6,
     "final_lead_count": 5,
     "search_queries": [
       {
