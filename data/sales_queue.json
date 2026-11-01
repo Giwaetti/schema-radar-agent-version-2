@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-11-01T15:10:43+00:00",
+    "discovered_at": "2026-11-01T20:30:18+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-11-01T15:10:43+00:00",
+    "discovered_at": "2026-11-01T20:30:18+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -157,7 +157,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-11-01T15:10:43+00:00",
+    "discovered_at": "2026-11-01T20:30:18+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -227,7 +227,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-11-01T15:10:43+00:00",
+    "discovered_at": "2026-11-01T20:30:18+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -303,7 +303,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xifk7s/nonbrand_google_traffic_dropped_98_in_one_hour_on/",
     "summary": "I run a small eSIM store (young site, mostly organic). On October 26 around 10-11am Pacific, Google impressions went from roughly 400/hour to under 10/hour, within a single hour. I'm trying to figure out what happened. What the data shows: - Every non-brand query disappeared at once: all 26 languages, all countries, Google Images too. - Pages with at least one impression: ~2,000/day on Oct 20-25, 131/day on Oct 27-28. - Our brand query still ranks #1-2. - Clicks went from 30-40/day to about 2. - Bing, DuckDuckGo and direct traffic haven't moved. Merchant Center free listing impressions are stable too. What I've ruled out: - Manual actions, Removals and Security issues are all empty. - URL Inspection still says \"Submitted and indexed\" on the pages I checked. Robots and canonical are fine, and Googlebot gets 200s. - Crawl stats look normal (volume and response time). - No deploy right before the drop, no DNS changes, no Cloudflare rule blocking verified bots, no mirror domain picking up the traffic. The timing lines up with the unconfirmed update Search Engine Roundtable reported starting the evening of Oct 26. My questions: Did anyone else see a cliff like this on Oct 26 (instant, sitewide, brand untouched, pages still indexed)? Does this pattern point to a sitewide algorithmic classification (SpamBrain, helpful content, something else)? What would you check next that I haven't listed? If you've recovered from something like this, how long did it take, and what actually helped? Happy to share the URL and GSC screenshots in the comments if that's allowed here. /u/Acostatlogic",
     "published_at": "2026-10-29T09:49:22+00:00",
-    "discovered_at": "2026-11-01T15:10:43+00:00",
+    "discovered_at": "2026-11-01T20:30:18+00:00",
     "stage": "warm",
     "score": 9,
     "score_breakdown": {
