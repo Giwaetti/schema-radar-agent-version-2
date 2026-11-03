@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T06:49:35+00:00",
+  "generated_at": "2026-11-03T16:15:24+00:00",
   "total": 3,
   "by_stage": {
     "hot": 3
@@ -14,7 +14,7 @@
     "ready": 3
   },
   "diagnostics": {
-    "source_raw_count": 32,
+    "source_raw_count": 31,
     "search_raw_count": 10,
     "source_scored_count": 0,
     "search_scored_count": 3,
