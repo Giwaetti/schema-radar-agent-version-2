@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-11-05T06:48:35+00:00",
+    "discovered_at": "2026-11-05T16:29:01+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/schema-markup-not-working-with-plugin-integration/",
     "summary": "Step 2: Enabled integration with Schema & Structured Data for WP & AMP Step 3: Added schema=\"true\" in shortcode. (for [site_reviews schema=\"true\"] ) Step 4: Cache cleared and done testing with Google Rich results test and schema validator. We are not able to see the markup for reviews from Site -reviews plugin.",
     "published_at": null,
-    "discovered_at": "2026-11-05T06:48:35+00:00",
+    "discovered_at": "2026-11-05T16:29:01+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -157,7 +157,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xn5bpq/i_went_through_30_studies_on_getting_cited_by_ai/",
     "summary": "I wanted to know which \"get cited by ChatGPT / AI Overviews\" tactics actually have evidence behind them, so I went through about 30 experiments that are well documented from the last two years: research papers, the bigger Ahrefs datasets, and Google's own docs. I only counted results that controlled for something (same-site comparisons, matched control pages, re-tests), not \"sites that do X get cited more\". Short version: getting picked up [retreived] is most of the game. Page polish barely matters. First, how ChatGPT picks what to cite When you ask something that needs current info, it doesn't answer from memory. It runs a web search, reads a handful of the results, and writes the answer from those. That search step is called retrieval. If your page isn't in that handful, it can't be cited, no matter how it's formatted. And the search it runs leans heavily on normal search rankings, so regular SEO is most of GEO. What I checked and what came out Found vs polished. A 90-day study tracked ChatGPT citations on the same sites. Whether a page showed up in that search explained about 32% of which pages got cited. Every on-page feature combined (length, formatting, schema, FAQ blocks) explained 2.8%. Overflowing the article with stats and quotes. This advice comes from a 2024 study that reported \"up to 40% more visibility.\" The researchers handed GPT-3.5 the top 5 Google results for 10,000 questions, rewrote those pages different ways, and measured which version it quoted more. Pages with added stats, quotes and citations got quoted more. But the AI was given the pages directly, so it never tested whether a page gets found, and the gains mostly came from stealing credit from the other 4 pages. A later re-test across ~1,900 queries and 4 models got 3 wins out of 54, and adding stats made things worse in 19 of 24. Schema. 1,885 pages that added JSON-LD vs similar pages that didn't: AI Overview citations fell 4.6%, ChatGPT and AI Mode barely moved. llms.txt. Server logs on ~38,000 files: 97% never got a single visit from any bot. Formatting and length. FAQ blocks, tables and word count look good across sites, but the effect disappears when you compare pages on the same site. What to actually do Rank in regular search first. That's where the AI search gets its results. Make the title match the question people type (about +14% citations on the same site). Answer in the first paragraph (about +15%). Add facts nobody else has: your prices, numbers, results, real dates. Get mentioned on other sites. Brand mentions track AI visibility about 3x more closely than backlinks (75k brands). Check \"View source\". GPTBot, ClaudeBot and PerplexityBot don't run JavaScript, so if your text isn't in the raw HTML, they don't see it. Also check robots.txt and your firewall aren't blocking them. What to skip Stuffing pages with stats and quotes Schema as a way to get cited (keep it for rich results) llms.txt Padding pages longer, or chopping them into \"bite-sized chunks\" Checking ChatGPT once. Fewer than 1% of repeated runs return the same list of brands, so test many times Curious whether anyone's own before/after tests disagree, especially on the same-site formatting result. btw here's the full mini-study I made, with every source: [ How NOT to Get Cited by LLMs: 10 Well-Known GEO Tactics Debunked ] /u/maverica15",
     "published_at": "2026-11-03T21:11:25+00:00",
-    "discovered_at": "2026-11-05T06:48:35+00:00",
+    "discovered_at": "2026-11-05T16:29:01+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -221,59 +221,53 @@
     "sent_at": null
   },
   {
-    "item_id": "ed1458b922432690",
+    "item_id": "f9d88b5c66a6d90b",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
     "source_type": "forum",
-    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
-    "title": "Elementor FAQPage Schema Bug - WordPress.org",
-    "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
-    "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
+    "source_url": "search:site:wordpress.org/support/topic schema markup issue",
+    "title": "Structured Data Issue: Price Range in Schema Markup Not Accepted by ...",
+    "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
+    "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-11-05T06:48:35+00:00",
+    "discovered_at": "2026-11-05T16:29:01+00:00",
     "stage": "hot",
-    "score": 25,
+    "score": 26,
     "score_breakdown": {
       "schema_hits": [
-        "json-ld",
-        "schema markup"
+        "schema markup",
+        "structured data"
       ],
       "strict_schema_hits": [
-        "json-ld",
         "schema",
-        "schema markup"
+        "schema markup",
+        "structured data"
       ],
       "intent_hits": [
-        "error",
         "issue",
-        "missing",
-        "search console",
         "support"
       ],
-      "platform_hits": [
-        "wordpress"
-      ],
+      "platform_hits": [],
       "issue_hits": [],
       "visibility_hits": [],
       "ecom_search_hits": [],
       "negative_hits": [],
       "hard_reject_hits": [],
       "general_reddit_reject_hits": [],
-      "title_signal_hits": [],
+      "title_signal_hits": [
+        "issue",
+        "schema markup",
+        "structured data"
+      ],
       "schema_source": true,
       "native_action_source": false,
       "general_reddit_source": false,
       "ecom_platform_source": false
     },
-    "platforms": [
-      "wordpress"
-    ],
+    "platforms": [],
     "issue_types": [],
     "intent_flags": [
-      "error",
       "issue",
-      "missing",
-      "search console",
       "support"
     ],
     "business_name": null,
@@ -288,12 +282,12 @@
     "sales_route": "forum_reply",
     "cta_label": "Email for direct help",
     "cta_destination": "mailto:schemaagent@gmail.com",
-    "subject_draft": "Direct schema help for: Elementor FAQPage Schema Bug - WordPress.org",
-    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
-    "follow_up_draft": "Quick follow-up on 'Elementor FAQPage Schema Bug - WordPress.org': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "subject_draft": "Direct schema help for: Structured Data Issue: Price Range in Schema Markup Not Accepted by ..",
+    "message_draft": "This looks more like a markup-generation or duplicate-output problem than a generic SEO issue.\n\nI’d check these first:\n- Validate the final live JSON-LD, not just the plugin UI output.\n- Check for duplicate/conflicting schema from theme + plugin combinations.\n- Make sure the entity type and required properties match the actual page intent.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Structured Data Issue: Price Range in Schema Markup Not Accepted by ...': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
     "status": "ready",
     "contact_method": "forum_reply",
-    "contact_target": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
+    "contact_target": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "sent_at": null
   },
   {
@@ -306,7 +300,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xnebt4/i_built_a_chrome_side_panel_for_technical_seo/",
     "summary": "Processing img g0vvslghrizh1... I’m the developer of SEO Panel, a free Chrome extension for inspecting a page’s SEO in a persistent side panel. It keeps the page and its audit visible together. You can check canonical and robots meta tags, inspect JSON-LD, review hreflang annotations and check link responses without jumping between separate tools for each detail. A few implementation details that might be useful to this community: Link checks cover up to 50 URLs per operation and can be cancelled. Requests used for link checks omit cookies and authentication credentials. If the background checker is unavailable, the fallback only checks same-origin links. Cross-origin results are marked as unknown rather than assumed to be working. The robots.txt check shows the matching rule for the audited URL. It’s browser-side evidence, not confirmation that Googlebot can fetch the page or that Google has indexed it. It also covers titles, headings, images and social metadata. No account or API key is required. SEO Panel on the Chrome Web Store For page-level debugging, what information would make a browser extension’s findings easier for you to trust or act on? /u/sonnivasquez",
     "published_at": "2026-11-04T03:58:14+00:00",
-    "discovered_at": "2026-11-05T06:48:35+00:00",
+    "discovered_at": "2026-11-05T16:29:01+00:00",
     "stage": "warm",
     "score": 10,
     "score_breakdown": {
