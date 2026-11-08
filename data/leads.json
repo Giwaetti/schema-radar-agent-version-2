@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
     "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
     "published_at": null,
-    "discovered_at": "2026-11-08T15:13:39+00:00",
+    "discovered_at": "2026-11-08T20:29:17+00:00",
     "stage": "hot",
     "score": 30,
     "score_breakdown": {
@@ -82,7 +82,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xn5bpq/i_went_through_30_studies_on_getting_cited_by_ai/",
     "summary": "I wanted to know which \"get cited by ChatGPT / AI Overviews\" tactics actually have evidence behind them, so I went through about 30 experiments that are well documented from the last two years: research papers, the bigger Ahrefs datasets, and Google's own docs. I only counted results that controlled for something (same-site comparisons, matched control pages, re-tests), not \"sites that do X get cited more\". Short version: getting picked up [retreived] is most of the game. Page polish barely matters. First, how ChatGPT picks what to cite When you ask something that needs current info, it doesn't answer from memory. It runs a web search, reads a handful of the results, and writes the answer from those. That search step is called retrieval. If your page isn't in that handful, it can't be cited, no matter how it's formatted. And the search it runs leans heavily on normal search rankings, so regular SEO is most of GEO. What I checked and what came out Found vs polished. A 90-day study tracked ChatGPT citations on the same sites. Whether a page showed up in that search explained about 32% of which pages got cited. Every on-page feature combined (length, formatting, schema, FAQ blocks) explained 2.8%. Overflowing the article with stats and quotes. This advice comes from a 2024 study that reported \"up to 40% more visibility.\" The researchers handed GPT-3.5 the top 5 Google results for 10,000 questions, rewrote those pages different ways, and measured which version it quoted more. Pages with added stats, quotes and citations got quoted more. But the AI was given the pages directly, so it never tested whether a page gets found, and the gains mostly came from stealing credit from the other 4 pages. A later re-test across ~1,900 queries and 4 models got 3 wins out of 54, and adding stats made things worse in 19 of 24. Schema. 1,885 pages that added JSON-LD vs similar pages that didn't: AI Overview citations fell 4.6%, ChatGPT and AI Mode barely moved. llms.txt. Server logs on ~38,000 files: 97% never got a single visit from any bot. Formatting and length. FAQ blocks, tables and word count look good across sites, but the effect disappears when you compare pages on the same site. What to actually do Rank in regular search first. That's where the AI search gets its results. Make the title match the question people type (about +14% citations on the same site). Answer in the first paragraph (about +15%). Add facts nobody else has: your prices, numbers, results, real dates. Get mentioned on other sites. Brand mentions track AI visibility about 3x more closely than backlinks (75k brands). Check \"View source\". GPTBot, ClaudeBot and PerplexityBot don't run JavaScript, so if your text isn't in the raw HTML, they don't see it. Also check robots.txt and your firewall aren't blocking them. What to skip Stuffing pages with stats and quotes Schema as a way to get cited (keep it for rich results) llms.txt Padding pages longer, or chopping them into \"bite-sized chunks\" Checking ChatGPT once. Fewer than 1% of repeated runs return the same list of brands, so test many times Curious whether anyone's own before/after tests disagree, especially on the same-site formatting result. btw here's the full mini-study I made, with every source: [ How NOT to Get Cited by LLMs: 10 Well-Known GEO Tactics Debunked ] /u/maverica15",
     "published_at": "2026-11-03T21:11:25+00:00",
-    "discovered_at": "2026-11-08T15:13:39+00:00",
+    "discovered_at": "2026-11-08T20:29:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -155,7 +155,7 @@
     "source_item_url": "https://wordpress.org/support/topic/structured-data-issue-price-range-in-schema-markup-not-accepted-by-google/",
     "summary": "Currently, the schema for tickets that has a price range is not supported. However, you're not alone in requesting this—other users have also submitted a feature request, which you can view here: Proper Price Range Representation in Event Rich Data. If this is an important feature for you, we encourage you to upvote the request.",
     "published_at": null,
-    "discovered_at": "2026-11-08T15:13:39+00:00",
+    "discovered_at": "2026-11-08T20:29:17+00:00",
     "stage": "hot",
     "score": 26,
     "score_breakdown": {
@@ -225,7 +225,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-11-08T15:13:39+00:00",
+    "discovered_at": "2026-11-08T20:29:17+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -301,7 +301,7 @@
     "source_item_url": "https://wordpress.org/support/topic/rank_math_old_schema_data/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-11-08T15:13:39+00:00",
+    "discovered_at": "2026-11-08T20:29:17+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
