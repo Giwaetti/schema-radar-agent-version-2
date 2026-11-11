@@ -1,5 +1,78 @@
 [
   {
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
+    "published_at": null,
+    "discovered_at": "2026-11-11T22:42:15+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -9,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-11-11T16:11:12+00:00",
+    "discovered_at": "2026-11-11T22:42:15+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -85,7 +158,7 @@
     "source_item_url": "https://wordpress.org/support/topic/product-schema-category-contains-html-entity-instead-of/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-11-11T16:11:12+00:00",
+    "discovered_at": "2026-11-11T22:42:15+00:00",
     "stage": "hot",
     "score": 19,
     "score_breakdown": {
@@ -149,7 +222,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xrlke4/how_do_you_recover_seo_traffic_after_a_hubspot/",
     "summary": "I worked on an SEO recovery project for a B2B SaaS company after a website rebrand and migration to HubSpot caused a sharp loss of organic traffic. The new website was already live when the recovery work started. The company had changed its name, but the migration hadn’t properly connected the previous website to the replacement site. Earlier attempts to resolve the traffic loss hadn’t restored performance. The business operated in the SAP software space. I’m keeping its identity out of this post and focusing on the recovery work, the longer-term results, and what those results can reasonably tell us. The main lesson was that this involved two connected problems: repairing a damaged migration and improving the site’s ability to compete afterward. Why had organic traffic dropped after the migration? The project records identified three main issues: Missing 301 redirects from old URLs. The new website wasn’t receiving the full benefit of the previous site’s existing links and visibility. Existing content lacked a clear keyword strategy. The first two were migration problems. The third was a broader SEO problem that would still matter after the migration repairs. That distinction affected the order of work. Publishing more content could help expand the site’s coverage, but it wouldn’t reconnect an old URL to its replacement. Equally, restoring redirects wouldn’t automatically make every destination page relevant to the searches the business wanted to compete for. The company needed both migration recovery and a clearer content strategy. What did the post-migration SEO audit cover? The work started with a post-migration audit to identify remaining technical issues. The documented recovery activities included: Organising old URLs and their destinations on the new website. Adding missing 301 redirects. Updating schema markup. Creating a new sitemap. These activities addressed different parts of the migration. The redirects connected old addresses to their replacements. The sitemap reflected the new site’s URLs. Schema updates addressed structured information on the replacement website. I wouldn’t assign the same importance to every task or claim that they contributed equally. The available project material doesn’t isolate their individual effects. There also isn’t a verified URL count or redirect coverage percentage in this write-up. I can explain the work that was documented, but I can’t supply a page-by-page implementation log. How did we approach the missing 301 redirects? The missing redirects were a central migration issue. The old website had established URLs, external references, and search visibility. After the rebrand, the new website needed a reliable connection to those previous addresses. The recovery work included organising the old URLs and redirecting them to the new site. One practical point is that “the domain redirects” and “the migration redirects are complete” are different statements. A working homepage redirect alone doesn’t demonstrate that the previous site’s important pages have appropriate destinations. For anyone diagnosing a similar migration, I would inspect individual old URLs and their destinations rather than assume the entire move is correct because the homepage works. That is a diagnostic recommendation, rather than a claim that every migration failure has the same cause. What role did the sitemap and schema updates play? The new sitemap was part of bringing the replacement site’s technical setup into line with the migration. It belonged alongside the redirect work. It didn’t replace it. The same applies to schema markup. Updating structured information was one part of the post-migration cleanup, but this case doesn’t demonstrate that schema changes alone restored the lost traffic. That matters when discussing website migration recovery because several tasks often happen close together. Seeing performance improve after a group of changes doesn’t establish that one particular task caused the improvement. In this project, the evidence supports describing a combined recovery effort. Why did we optimise existing content before relying on new pages? The existing site also needed better keyword focus. The company already had content about its software and market. However, having relevant subject matter on a website isn’t the same as having pages clearly aligned with the searches potential buyers use. The work included pairing suitable keywords with existing content and improving those pages. That gave the content strategy a starting point beyond simply increasing publishing volume. We could work with material the business already had while planning additional coverage around its niche. A content calendar supported that expansion. Its purpose was to improve topical relevance around the company’s software market, alongside the technical recovery. I don’t have a verified publishing breakdown here, so I can’t state how many pages were updated versus newly created, or which individual page produced the largest improvement. What needed attention outside the website after the rebrand? Changing a company name leaves references to the previous identity outside the main website. The project included claiming, branding, and optimising social accounts and directory listings. It also addressed links associated with the previous brand and their connection to the new website. That work is easy to overlook when a rebrand is discussed only as a design or CMS project. The new site can be live while older profiles, listings, and external references still point people toward the previous identity. For a future rebrand, I would give those references their own workstream, with someone responsible for checking and updating them. The website migration and external brand cleanup overlap, but completing one doesn’t automatically complete the other. How was the recovery measured? Tracking and reporting were part of the work. The marketing team also received guidance on accessing the data it needed for internal reporting. There were two outcomes to distinguish: Recovering from the loss associated with the migration. Building additional organic visibility over the following period. Those outcomes are connected, but they aren’t interchangeable. A website returning toward its previous performance is different from a website exceeding that baseline through ongoing content and authority work. That distinction is particularly important when presenting a recovery project as a case study. A large improvement from a damaged starting point needs context. What results were reported? The project records describe a reversal of the downward traffic trend after the migration issues were addressed, followed by continued growth. Over a little more than two years, the reported outcomes included: 85 page-one rankings. More than 400,000 average monthly organic impressions. Organic cost per lead reported as 45% lower than paid. These are longer-term outcomes from the overall project. I wouldn’t describe them as the result of redirects alone. Content improvements, additional content, and backlink work continued alongside the migration recovery. The cost-per-lead comparison also describes this project’s reported performance. It isn’t a universal benchmark for B2B SaaS marketing. How long does SEO recovery take after a migration? This case doesn’t provide a reliable universal recovery timeline. The longer-term results cover more than two years. That doesn’t mean the initial technical recovery took two years, and it doesn’t establish that another website should expect the same progression. The project material describes an initial reversal of the decline, followed by continued growth. It doesn’t provide enough detail here to assign a precise recovery date to every affected page. I would therefore separate the timing of technical fixes from the timing of traffic recovery and subsequent growth. Otherwise, the final reporting period can easily become a misleading answer to “How long did the migration take to recover?” What would I check on another site with a post-migration traffic drop? My starting questions would be: Which pages and queries lost visibility? What changed in the URLs, domain, content, and platform? Do important old URLs reach appropriate new destinations? Is the replacement content accessible and suitable for indexing? Does the sitemap reflect the current URLs? Are we measuring both the old and new properties appropriately? Those are investigation questions, not a claim that every issue on that list occurred in this project. The aim is to identify what actually broke before deciding that the solution is more content, more links, or a different platform. What this project taught me A rebrand and CMS migration can look complete from a design perspective while still being incomplete from an SEO perspective. In this case, the recovery work addressed missing connections between the old and new websites, improved existing content, cleaned up external brand references, and established reporting for the longer-term work. The clearest lesson was to give migration repair and ongoing SEO growth their own objectives. Repairing the move creates a foundation; the work that follows determines what the site can build on it. For others who have handled a failed website migration: what evidence helped you distinguish normal post-migration fluctuations from an implementation problem that required intervention? /u/Danica_rowley",
     "published_at": "2026-11-09T07:37:14+00:00",
-    "discovered_at": "2026-11-11T16:11:12+00:00",
+    "discovered_at": "2026-11-11T22:42:15+00:00",
     "stage": "hot",
     "score": 15,
     "score_breakdown": {
