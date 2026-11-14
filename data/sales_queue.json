@@ -9,7 +9,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-11-14T15:05:48+00:00",
+    "discovered_at": "2026-11-14T20:43:33+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -85,7 +85,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xvb9sx/24_technical_seo_and_site_bugs_as_an_advent/",
     "summary": "I put together a calendar of 24 snippets, one a day from 1 December. The first week is mostly crawl and index problems: robots.txt with Disallow: /, a stray noindex (and the same instruction arriving in X-Robots-Tag), a canonical pointing at the homepage, a sitemap full of redirects, 404s and noindex URLs, a three-hop redirect chain. Later doors cover structured data, Core Web Vitals, tracking and a few non-SEO bugs. I wrote it from what I keep finding in audits, so it’s biased toward my own client work. Which bugs would you swap in? The calendar (I built it): https://iurii.rogulia.fi/advent /u/Total-Reasonable",
     "published_at": "2026-11-13T15:46:39+00:00",
-    "discovered_at": "2026-11-14T15:05:48+00:00",
+    "discovered_at": "2026-11-14T20:43:33+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -149,7 +149,7 @@
     "source_item_url": "https://wordpress.org/support/topic/video-schema-reappears-after-updating-page-specific-schema-settings/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-11-14T15:05:48+00:00",
+    "discovered_at": "2026-11-14T20:43:33+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
