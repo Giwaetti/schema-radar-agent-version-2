@@ -1,5 +1,78 @@
 [
   {
+    "item_id": "29105cc213c3e9e9",
+    "source": "Search WordPress Support",
+    "source_id": "search-wordpress",
+    "source_type": "forum",
+    "source_url": "search:site:wordpress.org/support/topic faq schema problem",
+    "title": "Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish",
+    "source_item_url": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "summary": "I'm currently facing an issue with the FAQ module in Schema Pro. While editing, everything appears normal, but once I preview or publish the page, the FAQ section renders incorrectly. Instead of displaying the expected layout, it shows JSON-LD code and duplicates the question and answer sections (as shown in the attached screenshot). Has anyone else encountered this problem ? If so, do you ...",
+    "published_at": null,
+    "discovered_at": "2026-11-14T06:24:52+00:00",
+    "stage": "hot",
+    "score": 30,
+    "score_breakdown": {
+      "schema_hits": [
+        "faq schema",
+        "json-ld"
+      ],
+      "strict_schema_hits": [
+        "faq schema",
+        "json-ld",
+        "schema"
+      ],
+      "intent_hits": [
+        "issue",
+        "problem"
+      ],
+      "platform_hits": [],
+      "issue_hits": [
+        "faq schema"
+      ],
+      "visibility_hits": [],
+      "ecom_search_hits": [],
+      "negative_hits": [],
+      "hard_reject_hits": [],
+      "general_reddit_reject_hits": [],
+      "title_signal_hits": [
+        "faq schema",
+        "issue"
+      ],
+      "schema_source": true,
+      "native_action_source": false,
+      "general_reddit_source": false,
+      "ecom_platform_source": false
+    },
+    "platforms": [],
+    "issue_types": [
+      "faq schema"
+    ],
+    "intent_flags": [
+      "issue",
+      "problem"
+    ],
+    "business_name": null,
+    "business_site": null,
+    "offer_fit": "Done-for-you / service",
+    "offer_reason": "Treat this as a direct service lead first.",
+    "audit": {
+      "business_site": null,
+      "schema_present": null,
+      "notes": ""
+    },
+    "sales_route": "forum_reply",
+    "cta_label": "Email for direct help",
+    "cta_destination": "mailto:schemaagent@gmail.com",
+    "subject_draft": "Direct schema help for: Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publis",
+    "message_draft": "This looks like the FAQPage JSON-LD is being output in the wrong shape, or a required field is missing in the final live markup.\n\nI’d check these first:\n- Check the final live JSON-LD and confirm mainEntity exists at page level.\n- Make sure each Question has acceptedAnswer.text in the final output.\n- Check for duplicate schema coming from another plugin or theme.\n\nIf you want, send the live URL and current markup/feed source to schemaagent@gmail.com and I’ll tell you where I’d look first.",
+    "follow_up_draft": "Quick follow-up on 'Issue with FAQ Schema Pro Displaying Incorrectly in Preview and Publish': if you still want hands-on help, send the live URL and the current markup/feed source to schemaagent@gmail.com and I’ll point you to the first layer I’d test.",
+    "status": "ready",
+    "contact_method": "forum_reply",
+    "contact_target": "https://wordpress.org/support/topic/issue-with-faq-schema-pro-displaying-incorrectly-in-preview-and-publish/",
+    "sent_at": null
+  },
+  {
     "item_id": "ed1458b922432690",
     "source": "Search WordPress Support",
     "source_id": "search-wordpress",
@@ -9,7 +82,7 @@
     "source_item_url": "https://wordpress.org/support/topic/elementor-faqpage-schema-bug/",
     "summary": "Hi Elementor Support Team, After the latest Elementor update, I've encountered a critical issue with the FAQPage schema markup. Although the content displays correctly on the frontend, the generated JSON-LD is missing the \"text\" field within the acceptedAnswer object, causing errors in Google Search Console. This issue directly affects SEO, as Google is unable to properly validate the FAQ ...",
     "published_at": null,
-    "discovered_at": "2026-11-13T16:25:39+00:00",
+    "discovered_at": "2026-11-14T06:24:52+00:00",
     "stage": "hot",
     "score": 25,
     "score_breakdown": {
@@ -85,7 +158,7 @@
     "source_item_url": "https://www.reddit.com/r/TechSEO/comments/1xvb9sx/24_technical_seo_and_site_bugs_as_an_advent/",
     "summary": "I put together a calendar of 24 snippets, one a day from 1 December. The first week is mostly crawl and index problems: robots.txt with Disallow: /, a stray noindex (and the same instruction arriving in X-Robots-Tag), a canonical pointing at the homepage, a sitemap full of redirects, 404s and noindex URLs, a three-hop redirect chain. Later doors cover structured data, Core Web Vitals, tracking and a few non-SEO bugs. I wrote it from what I keep finding in audits, so it’s biased toward my own client work. Which bugs would you swap in? The calendar (I built it): https://iurii.rogulia.fi/advent /u/Total-Reasonable",
     "published_at": "2026-11-13T15:46:39+00:00",
-    "discovered_at": "2026-11-13T16:25:39+00:00",
+    "discovered_at": "2026-11-14T06:24:52+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
@@ -149,7 +222,7 @@
     "source_item_url": "https://wordpress.org/support/topic/video-schema-reappears-after-updating-page-specific-schema-settings/",
     "summary": "",
     "published_at": null,
-    "discovered_at": "2026-11-13T16:25:39+00:00",
+    "discovered_at": "2026-11-14T06:24:52+00:00",
     "stage": "watch",
     "score": 7,
     "score_breakdown": {
