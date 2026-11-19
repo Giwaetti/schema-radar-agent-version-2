@@ -1,64 +1,61 @@
 {
-  "generated_at": "2026-11-18T17:16:07+00:00",
-  "total": 3,
+  "generated_at": "2026-11-19T07:27:21+00:00",
+  "total": 1,
   "by_stage": {
-    "hot": 2,
     "watch": 1
   },
   "by_offer": {
-    "Done-for-you / service": 2,
     "AI Visibility Kit": 1
   },
   "by_source": {
-    "Search WordPress Support": 2,
     "WordPress Support - Rank Math SEO": 1
   },
   "by_status": {
-    "ready": 3
+    "ready": 1
   },
   "diagnostics": {
     "source_raw_count": 13,
-    "search_raw_count": 5,
+    "search_raw_count": 0,
     "source_scored_count": 1,
-    "search_scored_count": 2,
-    "stale_search_dropped_count": 3,
-    "final_lead_count": 3,
+    "search_scored_count": 0,
+    "stale_search_dropped_count": 0,
+    "final_lead_count": 1,
     "search_queries": [
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic faq schema problem",
-        "result_count": 5,
-        "error": ""
+        "result_count": 0,
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7d931b087a90>, 'Connection to html.duckduckgo.com timed out. (connect timeout=25)'))"
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic schema markup issue",
         "result_count": 0,
-        "error": ""
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7d931b094a10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=25)'))"
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic structured data error",
         "result_count": 0,
-        "error": ""
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7d931b095b10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=25)'))"
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic rich results invalid",
         "result_count": 0,
-        "error": ""
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7d931b096c10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=25)'))"
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic product schema",
         "result_count": 0,
-        "error": ""
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7d931b097d10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=25)'))"
       },
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic review schema",
         "result_count": 0,
-        "error": ""
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7d931b09ce90>, 'Connection to html.duckduckgo.com timed out. (connect timeout=25)'))"
       }
     ]
   }
