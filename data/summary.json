@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-11-23T20:15:03+00:00",
-  "total": 0,
-  "by_stage": {},
-  "by_offer": {},
-  "by_source": {},
-  "by_status": {},
+  "generated_at": "2026-11-24T09:55:23+00:00",
+  "total": 2,
+  "by_stage": {
+    "hot": 2
+  },
+  "by_offer": {
+    "Done-for-you / service": 2
+  },
+  "by_source": {
+    "Search WordPress Support": 2
+  },
+  "by_status": {
+    "ready": 2
+  },
   "diagnostics": {
     "source_raw_count": 12,
-    "search_raw_count": 0,
+    "search_raw_count": 5,
     "source_scored_count": 0,
-    "search_scored_count": 0,
-    "stale_search_dropped_count": 0,
-    "final_lead_count": 0,
+    "search_scored_count": 2,
+    "stale_search_dropped_count": 3,
+    "final_lead_count": 2,
     "search_queries": [
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic faq schema problem",
-        "result_count": 0,
+        "result_count": 5,
         "error": ""
       },
       {
