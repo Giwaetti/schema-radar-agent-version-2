@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-25T18:39:15+00:00",
-  "total": 4,
+  "generated_at": "2026-11-26T08:19:56+00:00",
+  "total": 2,
   "by_stage": {
-    "hot": 4
+    "hot": 2
   },
   "by_offer": {
-    "Done-for-you / service": 4
+    "Done-for-you / service": 2
   },
   "by_source": {
-    "Search WordPress Support": 4
+    "Search WordPress Support": 2
   },
   "by_status": {
-    "ready": 4
+    "ready": 2
   },
   "diagnostics": {
     "source_raw_count": 13,
-    "search_raw_count": 10,
+    "search_raw_count": 5,
     "source_scored_count": 0,
-    "search_scored_count": 4,
-    "stale_search_dropped_count": 6,
-    "final_lead_count": 4,
+    "search_scored_count": 2,
+    "stale_search_dropped_count": 3,
+    "final_lead_count": 2,
     "search_queries": [
       {
         "group": "wordpress",
@@ -30,7 +30,7 @@
       {
         "group": "wordpress",
         "query": "site:wordpress.org/support/topic schema markup issue",
-        "result_count": 5,
+        "result_count": 0,
         "error": ""
       },
       {
